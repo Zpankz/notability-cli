@@ -61,6 +61,47 @@ pub fn specs() -> Vec<Spec> {
             rec_status,
         )
         .local_device(),
+        Spec::new(
+            "audio live start",
+            Effect::Aiw,
+            "Live transcription: stream the mic (or a file) and get the transcript and smart notes",
+            live_start,
+        )
+        .local_device()
+        .arg(note_arg())
+        .opt(text(
+            "input_file",
+            "Stream this audio file instead of a device.",
+        ))
+        .opt(text(
+            "device",
+            "ffmpeg FORMAT:INPUT (default pulse:default on Linux, avfoundation::0 on macOS).",
+        ))
+        .opt(num(
+            "seconds",
+            "Stop after this many seconds (required for a device).",
+        ))
+        .opt(text_def("language", "en-US", "Spoken language (BCP 47)."))
+        .opt(flag(
+            "realtime",
+            "Pace a file at real-time speed, like a live recording.",
+        ))
+        .opt(flag(
+            "attach",
+            "Also attach the streamed audio to the note as a recording.",
+        ))
+        .opt(flag_on(
+            "finalize",
+            "Close the session when the audio ends (--no-finalize to keep it open).",
+        )),
+        Spec::new(
+            "audio live finalize",
+            Effect::Ai,
+            "Close a live-transcription session left open with --no-finalize",
+            live_finalize,
+        )
+        .arg(req("session_id", "Session id from `audio live start`."))
+        .opt(text_def("language", "en-US", "Spoken language (BCP 47).")),
         Spec::new("audio delete", Effect::D, "Delete a recording", delete)
             .arg(note_arg())
             .arg(req(
@@ -116,3 +157,91 @@ handler!(rec_stop, |c| {
 });
 
 handler!(rec_status, |_c| { Ok(nb_domain::recorder::status()) });
+
+handler!(live_start, |c| {
+    use nb_domain::live::{LiveOptions, LiveSource, default_device};
+    let cl = c.client()?;
+    let n = cl.resolve_note(&c.s("note")?).await?;
+    let src = match (c.os("input_file"), c.os("device")) {
+        (Some(_), Some(_)) => {
+            return Err(nb_api::NbError::usage(
+                "pass --input-file or --device, not both",
+            ));
+        }
+        (Some(f), None) => LiveSource::File {
+            path: f.into(),
+            realtime: c.b("realtime"),
+        },
+        (None, d) => LiveSource::Device(d.unwrap_or_else(default_device)),
+    };
+    let attach = c.b("attach");
+    let stamp = std::time::SystemTime::now()
+        .duration_since(std::time::UNIX_EPOCH)
+        .map(|d| d.as_millis())
+        .unwrap_or(0);
+    let tmp = std::env::temp_dir().join(format!("notability-live-{}-{stamp}", std::process::id()));
+    if attach {
+        std::fs::create_dir_all(&tmp)
+            .map_err(|e| nb_api::NbError::generic(format!("temp dir: {e}")))?;
+    }
+    let opts = LiveOptions {
+        language: c.os("language").unwrap_or_else(|| "en-US".into()),
+        seconds: c.of("seconds"),
+        chunks_per_put: 2,
+        save: attach.then(|| tmp.join("live.mp4")),
+        session: None,
+        finalize: c.b("finalize"),
+    };
+    let res = cl
+        .live_transcribe(&n.id, src, opts, |t| {
+            if !t.is_empty() {
+                eprintln!("{t}");
+            }
+        })
+        .await;
+    if res.is_err() && attach {
+        let _ = std::fs::remove_dir_all(&tmp);
+    }
+    let mut out = res?;
+    out["title"] = json!(n.title);
+    if attach {
+        let raw = tmp.join("live.mp4");
+        let m4a = tmp.join("Live transcription.m4a");
+        let ok = std::process::Command::new("ffmpeg")
+            .args(["-nostdin", "-loglevel", "error", "-y", "-i"])
+            .arg(&raw)
+            .args(["-c", "copy", "-movflags", "+faststart"])
+            .arg(&m4a)
+            .status()
+            .is_ok_and(|s| s.success());
+        if !ok {
+            let _ = std::fs::remove_dir_all(&tmp);
+            return Err(nb_api::NbError::generic(
+                "could not remux the streamed audio for --attach",
+            ));
+        }
+        let audio = nb_domain::media::prepare_audio(&m4a.display().to_string());
+        let _ = std::fs::remove_dir_all(&tmp);
+        let rec = nb_domain::media::add_recording(
+            &cl,
+            &n.id,
+            audio?,
+            None,
+            Some("Live transcription"),
+            false,
+            false,
+        )
+        .await?;
+        out["recording"] = rec;
+        out.as_object_mut().map(|o| o.remove("saved"));
+    }
+    Ok(out)
+});
+
+handler!(live_finalize, |c| {
+    let cl = c.client()?;
+    let lang = c.os("language").unwrap_or_else(|| "en-US".into());
+    let sid = c.s("session_id")?;
+    let r = cl.http.live_finalize(&sid, &lang).await?;
+    Ok(json!({"session_id": sid, "finalized": r}))
+});

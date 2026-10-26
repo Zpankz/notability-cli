@@ -1,4 +1,4 @@
-use nb_cli::{build, envelope, mcp, prescan};
+use nb_cli::{build, envelope, mcp, prescan, skills};
 
 #[tokio::main]
 async fn main() {
@@ -10,6 +10,11 @@ async fn main() {
         }
     };
     let cli = build(&gate);
+    if gate.http.is_none()
+        && let Some(code) = skills::intercept(&cli, &argv).await
+    {
+        std::process::exit(code);
+    }
     let res = match gate.http {
         Some(addr) => mcp::serve_http(&cli, addr).await.map(|()| 0),
         None => envelope::run(&cli, argv).await,

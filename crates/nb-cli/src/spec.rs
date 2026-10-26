@@ -68,6 +68,9 @@ pub struct Spec {
     pub local_device: bool,
     /// Success data carries `image: {data, mimeType}` for an MCP image block.
     pub image_result: bool,
+    /// Needs `--yes` (MCP `confirm`) even though it is not [`Effect::D`]: it writes into a
+    /// note or the profile.
+    pub confirm: bool,
     pub args: Vec<FieldMeta>,
     pub opts: Vec<FieldMeta>,
     pub run: Run,
@@ -84,6 +87,7 @@ impl Spec {
             unverified: false,
             local_device: false,
             image_result: false,
+            confirm: effect == Effect::D,
             args: Vec::new(),
             opts: Vec::new(),
             run,
@@ -103,6 +107,10 @@ impl Spec {
     }
     pub fn image_result(mut self) -> Self {
         self.image_result = true;
+        self
+    }
+    pub fn confirm(mut self) -> Self {
+        self.confirm = true;
         self
     }
     pub fn unverified(mut self) -> Self {
@@ -137,7 +145,7 @@ impl Spec {
             .unwrap_or(self.path)
             .to_string();
         let ro = matches!(self.effect, Effect::R | Effect::Ai);
-        let destructive = self.effect == Effect::D;
+        let destructive = self.confirm;
         let description = self.description();
         let mut opts = self.opts;
         if destructive {
@@ -476,7 +484,7 @@ fn cta(description: &str, command: &str) -> CtaBlock {
 /// Asks on the terminal; `Ok(false)` when declined.
 fn prompt(path: &str) -> bool {
     use std::io::Write;
-    eprint!("{path}: this is destructive. Proceed? [y/N] ");
+    eprint!("{path}: this changes your data. Proceed? [y/N] ");
     let _ = std::io::stderr().flush();
     let mut line = String::new();
     std::io::stdin().read_line(&mut line).is_ok() && matches!(line.trim(), "y" | "Y" | "yes")
@@ -499,7 +507,7 @@ impl CommandHandler for DynHandler {
         if self.destructive && !c.b("confirm") && !c.b("dry_run") {
             if mcp {
                 let preview = json!({"dry_run": true, "command": self.path, "args": c.args,
-                    "options": c.opts, "hint": "destructive: call again with confirm=true to apply"});
+                    "options": c.opts, "hint": "not applied: call again with confirm=true to apply"});
                 return CommandResult::Ok {
                     data: preview,
                     cta: None,
@@ -512,7 +520,7 @@ impl CommandHandler for DynHandler {
                 let path = self.path;
                 return CommandResult::Error {
                     code: "CONFIRM_REQUIRED".into(),
-                    message: format!("{path} is destructive; re-run with --yes to confirm"),
+                    message: format!("{path} changes your data; re-run with --yes to confirm"),
                     retryable: false,
                     exit_code: Some(2),
                     cta: Some(cta(

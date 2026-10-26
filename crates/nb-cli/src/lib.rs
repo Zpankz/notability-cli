@@ -4,6 +4,7 @@ pub mod cmd;
 pub mod cursor;
 pub mod envelope;
 pub mod mcp;
+pub mod skills;
 pub mod spec;
 
 use std::collections::BTreeMap;

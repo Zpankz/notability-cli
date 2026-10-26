@@ -2,17 +2,22 @@
 source: crates/nb-cli/tests/cli.rs
 expression: help
 ---
-notability learn — Study tools: summaries, quizzes, flashcards, study-material generation
+notability learn — Study tools: summaries, quizzes, flashcards, TOC quizzes, finish notes, study sessions, Brain Break, syllabus
 
 Usage: notability learn <command>
 
 Commands:
   cards      Flashcards: due, rate, import
+  discuss    Brain Break: an AI discussion about the note, turn by turn
   explain    Explain a quiz question
+  finish     Finish my notes: AI write-up from the note's text and transcripts, added to the note
   generate   Generate summary/quizzes/flashcards (spends quota)
   materials  Study-material status and contents
   quiz       Quiz sessions: list, start, answer, finish
+  session    Guided study session: memorize, practice and test stages, graded answers
   summary    AI summary already generated for a note
+  syllabus   Import a syllabus PDF: AI reads the course and dates; creates a course folder with the PDF
+  toc        Quizzes from chosen sections of a PDF's table of contents
   wait       Wait for generation to finish (--timeout)
 
 Global Options:

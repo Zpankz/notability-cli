@@ -9,6 +9,7 @@ Usage: notability audio <command>
 Commands:
   delete      Delete a recording
   list        Recordings on a note
+  live        Live transcription: stream audio and get the transcript and smart notes
   record      Record audio on this machine with ffmpeg and attach it to a note
   transcript  Transcript text (--timestamps)
   upload      Attach an audio file to a note as a recording

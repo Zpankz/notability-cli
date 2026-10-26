@@ -105,6 +105,50 @@ pub fn specs() -> Vec<Spec> {
         .opt(folder_opt())
         .opt(wait_opt()),
         Spec::new(
+            "files import office",
+            Effect::W,
+            "Import a Word, Excel or PowerPoint file (converted to PDF with LibreOffice)",
+            office,
+        )
+        .arg(req(
+            "file",
+            "Path to a .doc/.docx/.xls/.xlsx/.ppt/.pptx (or .odt/.ods/.odp) file.",
+        ))
+        .opt(into_opt())
+        .opt(num("after_page", "With --into: insert after this page."))
+        .opt(title_opt())
+        .opt(folder_opt())
+        .opt(wait_opt()),
+        Spec::new(
+            "files import url",
+            Effect::W,
+            "Import a PDF from a web link (fetched without your Notability credentials)",
+            url_cmd,
+        )
+        .arg(req("url", "http(s) link that returns a PDF."))
+        .opt(into_opt())
+        .opt(num("after_page", "With --into: insert after this page."))
+        .opt(title_opt())
+        .opt(folder_opt())
+        .opt(wait_opt()),
+        Spec::new(
+            "files import drive",
+            Effect::W,
+            "Import a Google Drive file: PDF, Office, or Google Docs/Sheets/Slides (as PDF)",
+            drive,
+        )
+        .arg(req("file", "Drive file id or share link."))
+        .opt(text_def(
+            "token_env",
+            "GOOGLE_DRIVE_TOKEN",
+            "Environment variable holding a Google OAuth access token (drive.readonly scope).",
+        ))
+        .opt(into_opt())
+        .opt(num("after_page", "With --into: insert after this page."))
+        .opt(title_opt())
+        .opt(folder_opt())
+        .opt(wait_opt()),
+        Spec::new(
             "files import ntb",
             Effect::W,
             "Import a Notability .ntb bundle as a new note",
@@ -160,7 +204,7 @@ pub fn audio_upload_spec() -> Spec {
     .opt(wait_opt())
 }
 
-fn pdf_sizes(data: &[u8], name: &str) -> Result<Vec<(f64, f64)>> {
+pub(crate) fn pdf_sizes(data: &[u8], name: &str) -> Result<Vec<(f64, f64)>> {
     nb_render::info::page_sizes(data)
         .map_err(|e| NbError::usage(format!("{name}: not a readable PDF ({e})")))
 }
@@ -339,4 +383,44 @@ handler!(audio_upload, |c| {
         ));
     }
     import_audio(&c, &cl, &path, Some(c.s("note")?)).await
+});
+
+handler!(office, |c| {
+    let cl = c.client()?;
+    let path = c.s("file")?;
+    let (data, name) = nb_domain::remote::office_to_pdf(std::path::Path::new(&path))?;
+    let mut out = import_pdf(&c, &cl, &data, &name).await?;
+    out["converted_from"] = json!(media::ext_of(&path).trim_start_matches('.'));
+    Ok(out)
+});
+
+handler!(url_cmd, |c| {
+    let cl = c.client()?;
+    let url = c.s("url")?;
+    if !(url.starts_with("https://") || url.starts_with("http://")) {
+        return Err(NbError::usage(
+            "the link must start with http:// or https://",
+        ));
+    }
+    let (data, name) = cl.fetch_pdf_url(&url).await?;
+    let mut out = import_pdf(&c, &cl, &data, &name).await?;
+    out["source_url"] = json!(url);
+    Ok(out)
+});
+
+handler!(drive, |c| {
+    let cl = c.client()?;
+    let var = c
+        .os("token_env")
+        .unwrap_or_else(|| "GOOGLE_DRIVE_TOKEN".into());
+    let token = std::env::var(&var).unwrap_or_default();
+    if token.trim().is_empty() {
+        return Err(NbError::usage(format!(
+            "set {var} to a Google OAuth access token with the drive.readonly scope"
+        )));
+    }
+    let (data, name, meta) = cl.drive_pdf(&c.s("file")?, &token).await?;
+    let mut out = import_pdf(&c, &cl, &data, &name).await?;
+    out["drive_file"] = meta;
+    Ok(out)
 });

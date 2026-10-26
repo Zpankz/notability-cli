@@ -318,6 +318,11 @@ impl Http {
     }
 
     pub async fn fetch_external(&self, url: &str) -> Result<Resp> {
+        self.fetch_external_with(url, &[]).await
+    }
+
+    /// Cookie-less GET of a non-Notability URL with extra headers (e.g. a Drive bearer token).
+    pub async fn fetch_external_with(&self, url: &str, headers: &[(&str, String)]) -> Result<Resp> {
         let u = Url::parse(url).map_err(|e| NbError::usage(format!("bad url {url}: {e}")))?;
         if self.is_api_origin(&u) {
             return Err(NbError::usage(
@@ -325,12 +330,11 @@ impl Http {
             ));
         }
         self.gate().await;
-        let r = self
-            .external
-            .get(u)
-            .send()
-            .await
-            .map_err(|e| transport(&e, url))?;
+        let mut b = self.external.get(u);
+        for (k, v) in headers {
+            b = b.header(*k, v.as_str());
+        }
+        let r = b.send().await.map_err(|e| transport(&e, url))?;
         collect(r).await.map_err(|e| transport(&e, url))
     }
 

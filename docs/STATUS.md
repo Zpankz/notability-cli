@@ -1,7 +1,8 @@
 # Command status
 
-111 commands. 59 have been verified end to end against the live web API, 52 have not
-been run live (they are covered by unit and contract tests only).
+131 commands. 74 have been verified end to end against the live web API (for `files import drive`
+Google's side was a local mock), 57 have not been run live (they are covered by unit and contract
+tests only).
 
 "Verified" means the release binary ran the command against a real account, using disposable test
 notes and folders for anything that writes, and the result was checked in the Notability web app.
@@ -27,8 +28,13 @@ changes its backend.
 | `account status` | verified |
 | `account stickers` | verified |
 | `account survey` | verified |
+| `account survey-remove` | not run live (would remove profile answers) |
+| `account survey-set` | verified (by writing an answer's current value and reading it back) |
+| `account use-type` | verified (by writing the current value) |
 | `audio delete` | verified |
 | `audio list` | verified |
+| `audio live finalize` | not run live on its own (`audio live start` finalizes by default) |
+| `audio live start` | verified (`--input-file --realtime --attach` with a synthetic clip; microphone input not run live) |
 | `audio record start` | verified |
 | `audio record status` | verified |
 | `audio record stop` | verified |
@@ -70,10 +76,13 @@ changes its backend.
 | `content text paragraph` | not run live |
 | `content text style` | not run live |
 | `files export` | verified |
+| `files import drive` | verified against a local mock of the Drive API; not run with a real Google token |
 | `files import image` | verified |
 | `files import media` | verified |
 | `files import ntb` | verified |
+| `files import office` | verified (.docx) |
 | `files import pdf` | verified |
+| `files import url` | verified |
 | `files import youtube` | verified |
 | `files render` | verified |
 | `files toc` | verified |
@@ -92,14 +101,25 @@ changes its backend.
 | `learn cards due` | verified |
 | `learn cards import` | verified |
 | `learn cards rate` | verified |
+| `learn discuss end` | verified (local state only) |
+| `learn discuss reply` | not run live (uses AI quota) |
+| `learn discuss start` | not run live (uses AI quota) |
 | `learn explain` | not run live (uses AI quota) |
+| `learn finish` | verified |
 | `learn generate` | verified |
 | `learn materials` | verified |
 | `learn quiz answer` | verified |
 | `learn quiz finish` | verified |
 | `learn quiz list` | verified |
 | `learn quiz start` | verified |
+| `learn session answer` | verified |
+| `learn session end` | verified |
+| `learn session next` | verified |
+| `learn session start` | verified |
 | `learn summary` | verified |
+| `learn syllabus` | verified |
+| `learn toc list` | verified |
+| `learn toc quiz` | verified |
 | `learn wait` | verified |
 | `notes create` | verified |
 | `notes delete` | verified |
@@ -121,13 +141,22 @@ changes its backend.
 | `share invite` | not run live (sends an email invitation) |
 | `share link` | not run live |
 | `share revoke` | not run live |
+| `share search-users` | run live: returns `UNSUPPORTED` on accounts without a Notability business |
 | `share status` | verified |
 | `share user` | not run live |
 
-## Not implemented
+## Known limits of the newer commands
 
-* Table-of-contents quiz generation (`learn toc`, `learn generate --toc`). `files toc` reads the
-  outline, but no quiz is built from it.
-* Live transcription. Recordings can still be transcribed after upload (`audio record stop --transcribe`).
-* Office, Google Drive and PDF-URL import; invitable-user search; survey and college writes;
-  brain-break discussion; syllabus import.
+* `learn discuss start|reply` (Brain Break) follow the web app's requests but have not been run
+  live, to save AI quota.
+* `files import drive` needs a Google OAuth access token with the `drive.readonly` (or `drive.file`)
+  scope in `GOOGLE_DRIVE_TOKEN` (or the variable named by `--token-env`). Notability's own Drive
+  picker token is not available outside the web app.
+* `share search-users` only works for members of a Notability business; personal accounts get
+  `UNSUPPORTED` (exit 8).
+* `account survey-set|survey-remove|use-type` change your profile. Only same-value writes were run
+  live.
+* `audio live start` reads the microphone with ffmpeg on this machine; it is hidden over the HTTP
+  MCP transport.
+* `learn toc quiz` and `learn finish` need enough source text; very short sections fail with
+  `INPUT_TOO_SHORT`.

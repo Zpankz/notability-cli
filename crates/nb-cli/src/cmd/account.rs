@@ -72,6 +72,38 @@ pub fn specs() -> Vec<Spec> {
             survey,
         ),
         Spec::new(
+            "account survey-set",
+            Effect::W,
+            "Set onboarding survey answers (changes your profile)",
+            survey_set,
+        )
+        .confirm()
+        .arg(req_multi(
+            "field",
+            "KEY=VALUE pairs; VALUE is JSON (e.g. 42, true, [\"a\"]) or plain text.",
+        )),
+        Spec::new(
+            "account survey-remove",
+            Effect::W,
+            "Remove onboarding survey answers by key (changes your profile)",
+            survey_remove,
+        )
+        .unverified()
+        .confirm()
+        .arg(req_multi("key", "Survey keys to remove.")),
+        Spec::new(
+            "account use-type",
+            Effect::W,
+            "Set how you use Notability: student, educator, business or personal",
+            use_type,
+        )
+        .confirm()
+        .arg(req_choice(
+            "use_type",
+            &["student", "educator", "business", "personal"],
+            "The use type to store on your profile.",
+        )),
+        Spec::new(
             "account calendar",
             Effect::R,
             "Upcoming calendar events",
@@ -206,6 +238,42 @@ handler!(stickers, |c| {
 });
 
 handler!(survey, |c| { c.client()?.survey().await });
+
+/// `KEY=VALUE` with VALUE parsed as JSON when it is valid JSON, else kept as text.
+pub fn survey_field(s: &str) -> Result<(String, Value)> {
+    let (k, v) = s
+        .split_once('=')
+        .ok_or_else(|| NbError::usage(format!("expected KEY=VALUE, got {s:?}")))?;
+    let k = k.trim();
+    if k.is_empty() {
+        return Err(NbError::usage("survey key is empty"));
+    }
+    let v = serde_json::from_str(v).unwrap_or_else(|_| json!(v));
+    Ok((k.to_string(), v))
+}
+
+handler!(survey_set, |c| {
+    let fields = c
+        .list("field")
+        .iter()
+        .map(|f| survey_field(f))
+        .collect::<Result<Vec<_>>>()?;
+    c.client()?.survey_set(&fields).await
+});
+
+handler!(survey_remove, |c| {
+    c.client()?.survey_remove(&c.list("key")).await
+});
+
+handler!(use_type, |c| {
+    let cl = c.client()?;
+    let t = c.s("use_type")?;
+    let before = cl.http.me().await?["useType"].clone();
+    let mut r = cl.set_use_type(Some(&t)).await?;
+    r["before"] = before;
+    r["after"] = cl.http.me().await?["useType"].clone();
+    Ok(r)
+});
 
 handler!(calendar, |c| {
     let cl = c.client()?;

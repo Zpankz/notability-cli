@@ -8,7 +8,7 @@ Usage: notability files <command>
 
 Commands:
   export  Export notes: md, txt, json, transcript, pdf (local render), ntb, source-pdf, assets, thumbnail
-  import  Bring files into the library: PDF, images, audio, .ntb bundles, YouTube transcripts
+  import  Bring files into the library: PDF, Office, web links, Google Drive, images, audio, .ntb, YouTube
   render  Render one page of a note to PNG (local render: source PDF or paper, ink, shapes, text, images)
   toc     Table of contents: pages (with their source PDF page) and each imported PDF's outline
 

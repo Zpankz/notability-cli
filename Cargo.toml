@@ -4,7 +4,7 @@ members = ["crates/nb-protocol", "crates/nb-api", "crates/nb-domain", "crates/nb
 default-members = ["crates/nb-protocol", "crates/nb-api", "crates/nb-domain", "crates/nb-render", "crates/nb-cli"]
 
 [workspace.package]
-version = "0.2.0"
+version = "0.3.0"
 edition = "2024"
 rust-version = "1.92"
 license = "MIT"

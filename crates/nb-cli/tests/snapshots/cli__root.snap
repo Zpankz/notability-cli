@@ -2,7 +2,7 @@
 source: crates/nb-cli/tests/cli.rs
 expression: root
 ---
-notability@0.2.0 — Notability from the terminal and over MCP: notes, folders, content, files, audio, sharing, Learn, chat, account
+notability@0.3.0 — Notability from the terminal and over MCP: notes, folders, content, files, audio, sharing, Learn, chat, account
 
 Usage: notability <command>
 
@@ -13,7 +13,7 @@ Commands:
   content  Read and edit what is inside a note: text, math, code, ink, shapes, comments, pages
   files    Import and export: PDF, images, audio, .ntb, markdown, text, JSON, transcripts; page previews
   folders  Organise the library: folders, subjects and dividers
-  learn    Study tools: summaries, quizzes, flashcards, study-material generation
+  learn    Study tools: summaries, quizzes, flashcards, TOC quizzes, finish notes, study sessions, Brain Break, syllabus
   notes    Find, open and manage notes in your library (incl. trash)
   share    Who can see a note: links, collaborators, access requests
 

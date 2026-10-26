@@ -10,6 +10,7 @@ pub mod imports;
 pub mod learn;
 pub mod notes;
 pub mod share;
+pub mod study;
 
 use crate::spec::Spec;
 
@@ -33,13 +34,14 @@ pub fn all() -> Vec<Spec> {
     v.extend(audio::specs());
     v.extend(share::specs());
     v.extend(learn::specs());
+    v.extend(study::specs());
     v.extend(chat::specs());
     v.extend(account::specs());
     v
 }
 
 /// Group help text for nouns and sub-groups.
-pub const GROUPS: [(&str, &str); 23] = [
+pub const GROUPS: [(&str, &str); 27] = [
     (
         "notes",
         "Find, open and manage notes in your library (incl. trash)",
@@ -58,7 +60,7 @@ pub const GROUPS: [(&str, &str); 23] = [
     ),
     (
         "files import",
-        "Bring files into the library: PDF, images, audio, .ntb bundles, YouTube transcripts",
+        "Bring files into the library: PDF, Office, web links, Google Drive, images, audio, .ntb, YouTube",
     ),
     ("audio", "Recordings and transcripts"),
     (
@@ -71,7 +73,7 @@ pub const GROUPS: [(&str, &str); 23] = [
     ),
     (
         "learn",
-        "Study tools: summaries, quizzes, flashcards, study-material generation",
+        "Study tools: summaries, quizzes, flashcards, TOC quizzes, finish notes, study sessions, Brain Break, syllabus",
     ),
     ("chat", "Notability AI chat threads about your notes"),
     (
@@ -101,5 +103,21 @@ pub const GROUPS: [(&str, &str); 23] = [
     ("content images", "Images placed on pages"),
     ("learn quiz", "Quiz sessions: list, start, answer, finish"),
     ("learn cards", "Flashcards: due, rate, import"),
+    (
+        "learn toc",
+        "Quizzes from chosen sections of a PDF's table of contents",
+    ),
+    (
+        "learn session",
+        "Guided study session: memorize, practice and test stages, graded answers",
+    ),
+    (
+        "learn discuss",
+        "Brain Break: an AI discussion about the note, turn by turn",
+    ),
+    (
+        "audio live",
+        "Live transcription: stream audio and get the transcript and smart notes",
+    ),
     ("account settings", "Account settings and toggles"),
 ];

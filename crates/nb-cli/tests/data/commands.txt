@@ -13,8 +13,13 @@ account settings toggle
 account status
 account stickers
 account survey
+account survey-remove
+account survey-set
+account use-type
 audio delete
 audio list
+audio live finalize
+audio live start
 audio record start
 audio record status
 audio record stop
@@ -56,10 +61,13 @@ content text list
 content text paragraph
 content text style
 files export
+files import drive
 files import image
 files import media
 files import ntb
+files import office
 files import pdf
+files import url
 files import youtube
 files render
 files toc
@@ -78,14 +86,25 @@ folders reorder
 learn cards due
 learn cards import
 learn cards rate
+learn discuss end
+learn discuss reply
+learn discuss start
 learn explain
+learn finish
 learn generate
 learn materials
 learn quiz answer
 learn quiz finish
 learn quiz list
 learn quiz start
+learn session answer
+learn session end
+learn session next
+learn session start
 learn summary
+learn syllabus
+learn toc list
+learn toc quiz
 learn wait
 notes create
 notes delete
@@ -107,5 +126,6 @@ share collaborators
 share invite
 share link
 share revoke
+share search-users
 share status
 share user

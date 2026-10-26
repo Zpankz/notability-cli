@@ -83,6 +83,17 @@ const Q_STICKERS: &str = "query getMyStickers($userCustomAssetRequest: UserCusto
   me { customAssets(userCustomAssetRequest: $userCustomAssetRequest) { stickers { id name } } } }";
 const Q_SURVEY: &str =
     "query getUserSurveyResponse { getUserSurveyResponse { userId surveyFields { key value } } }";
+const M_SURVEY_SET: &str = "mutation setUserSurveyResponse($setUserSurveyResponseParams: SetUserSurveyResponseParams!) {
+  setUserSurveyResponse(setUserSurveyResponseParams: $setUserSurveyResponseParams) { userId surveyFields { key value } } }";
+const M_SURVEY_REMOVE: &str = "mutation removeUserSurveyResponseKeys($removeUserSurveyResponseKeysParams: RemoveUserSurveyResponseKeysParams!) {
+  removeUserSurveyResponseKeys(removeUserSurveyResponseKeysParams: $removeUserSurveyResponseKeysParams) { userId surveyFields { key value } } }";
+const M_COLLEGE: &str =
+    "mutation setCollegeAndMajor($setCollegeAndMajorParams: SetCollegeAndMajorParams!) {
+  setCollegeAndMajor(setCollegeAndMajorParams: $setCollegeAndMajorParams) }";
+const Q_ORG: &str = "query getMe { me { id business { id } } }";
+const Q_INVITABLE: &str = "query searchInvitableUsers($searchInvitableUsersParams: SearchInvitableUsersParams!) {
+  searchInvitableUsers(searchInvitableUsersParams: $searchInvitableUsersParams) { users { businessUserId email id name } } }";
+pub const USE_TYPES: [&str; 4] = ["STUDENT", "EDUCATOR", "BUSINESS", "PERSONAL"];
 const Q_FLAGS: &str = "query getFeatureFlags { featureFlags: getFeatureFlagsForUser }";
 const Q_SITES: &str = "query getSiteUserMappings($noteId: GqlUUID!) {
   getSiteUserMappings(siteUserMappingQueryParams: {noteId: $noteId}) { siteIds userId userName avatarUrl } }";
@@ -244,7 +255,7 @@ pub fn parse_cards(text: &str, sep: &str) -> Result<Vec<Value>> {
         .collect()
 }
 
-fn shape(note_id: &str, r: &Value) -> Value {
+pub(crate) fn shape(note_id: &str, r: &Value) -> Value {
     let act = r.get("activeQuizSession").cloned().unwrap_or(Value::Null);
     let qs = act
         .get("quizQuestions")
@@ -260,7 +271,7 @@ fn shape(note_id: &str, r: &Value) -> Value {
 }
 
 impl Client {
-    async fn gql(&self, q: &str, vars: Value, op: &str) -> Result<Value> {
+    pub(crate) async fn gql(&self, q: &str, vars: Value, op: &str) -> Result<Value> {
         self.http.graphql(q, vars, Some(op)).await
     }
 
@@ -479,6 +490,98 @@ impl Client {
         })
     }
 
+    /// Set survey answers; each value is sent as a JSON string, as the web app does.
+    pub async fn survey_set(&self, fields: &[(String, Value)]) -> Result<Value> {
+        if fields.is_empty() {
+            return Err(NbError::usage("no survey fields to set"));
+        }
+        let sf: Vec<Value> = fields
+            .iter()
+            .map(|(k, v)| json!({"key": k, "value": v.to_string()}))
+            .collect();
+        let r = self
+            .gql(
+                M_SURVEY_SET,
+                json!({"setUserSurveyResponseParams": {"surveyFields": sf}}),
+                "setUserSurveyResponse",
+            )
+            .await?;
+        Ok(r["setUserSurveyResponse"].clone())
+    }
+
+    pub async fn survey_remove(&self, keys: &[String]) -> Result<Value> {
+        if keys.is_empty() {
+            return Err(NbError::usage("no survey keys to remove"));
+        }
+        let r = self
+            .gql(
+                M_SURVEY_REMOVE,
+                json!({"removeUserSurveyResponseKeysParams": {"keys": keys}}),
+                "removeUserSurveyResponseKeys",
+            )
+            .await?;
+        Ok(r["removeUserSurveyResponseKeys"].clone())
+    }
+
+    /// `setCollegeAndMajor`: the web app sends only the use type.
+    pub async fn set_use_type(&self, use_type: Option<&str>) -> Result<Value> {
+        let v = match use_type {
+            None => Value::Null,
+            Some(t) => {
+                let u = t.to_uppercase();
+                if !USE_TYPES.contains(&u.as_str()) {
+                    return Err(NbError::usage(
+                        "use type must be student, educator, business or personal",
+                    ));
+                }
+                json!(u)
+            }
+        };
+        let r = self
+            .gql(
+                M_COLLEGE,
+                json!({"setCollegeAndMajorParams": {"useType": v}}),
+                "setCollegeAndMajor",
+            )
+            .await?;
+        Ok(json!({"use_type": v, "result": r["setCollegeAndMajor"]}))
+    }
+
+    /// People in the user's business who can be invited to a note or workspace (read-only).
+    pub async fn invitable_users(
+        &self,
+        query: &str,
+        limit: usize,
+        note: Option<&str>,
+        workspace: Option<&str>,
+    ) -> Result<Value> {
+        let org = self.gql(Q_ORG, json!({}), "getMe").await?;
+        let Some(biz) = org["me"]["business"]["id"].as_str().map(str::to_string) else {
+            return Err(NbError::unsupported(
+                "inviting by search needs a Notability business account (this account has no business)",
+            ));
+        };
+        let mut p = json!({"businessId": biz, "emailQuery": query, "limit": limit});
+        if let Some(n) = note {
+            p["noteId"] = json!(self.resolve_note(n).await?.id);
+        }
+        if let Some(w) = workspace {
+            p["workspaceId"] = json!(w);
+        }
+        let r = self
+            .gql(
+                Q_INVITABLE,
+                json!({"searchInvitableUsersParams": p}),
+                "searchInvitableUsers",
+            )
+            .await?;
+        let users = r["searchInvitableUsers"]["users"]
+            .as_array()
+            .cloned()
+            .unwrap_or_default();
+        Ok(json!({"count": users.len(), "items": users}))
+    }
+
     pub async fn feature_flags(&self) -> Result<Value> {
         Ok(self.gql(Q_FLAGS, json!({}), "getFeatureFlags").await?["featureFlags"].take())
     }
@@ -521,7 +624,7 @@ impl Client {
     }
 
     // ------------------------------------------------------------- learn
-    async fn sync_quiz(&self, params: Value) -> Result<Value> {
+    pub(crate) async fn sync_quiz(&self, params: Value) -> Result<Value> {
         Ok(self
             .gql(
                 &m_sync(),
@@ -552,21 +655,44 @@ impl Client {
                 "the note has no typed text to study; pass --text or --text-file",
             ));
         }
-        let mut p = json!({"clientNoteId": n.id, "studyMaterials": [{"content": text, "type": "NOTE_TEXT"}],
-            "asrJobSha512Hashes": [], "isServerManaged": true, "promptGroup": "USER_GUIDED",
+        let b = self
+            .learn_generate_with(
+                &n.id,
+                vec![json!({"content": text, "type": "NOTE_TEXT"})],
+                Vec::new(),
+                quizzes,
+                flashcards,
+                language,
+            )
+            .await?;
+        Ok(json!({"note_id": n.id, "title": n.title, "batch": b}))
+    }
+
+    /// `generateStudyMaterialsBatch` with explicit materials (`NOTE_TEXT`/`NOTE_PDF`) and
+    /// transcript hashes; returns the new batch. Spends one AI job.
+    pub async fn learn_generate_with(
+        &self,
+        note_id: &str,
+        materials: Vec<Value>,
+        asr_hashes: Vec<String>,
+        quizzes: bool,
+        flashcards: bool,
+        language: Option<&str>,
+    ) -> Result<Value> {
+        let mut p = json!({"clientNoteId": note_id, "studyMaterials": materials,
+            "asrJobSha512Hashes": asr_hashes, "isServerManaged": true, "promptGroup": "USER_GUIDED",
             "promptOptions": ["latex"], "includeQuizzes": quizzes, "includeFlashcards": flashcards});
         if let Some(l) = language {
             p["language"] = json!(l);
         }
-        let b = self
+        Ok(self
             .gql(
                 M_GENERATE,
                 json!({"generateStudyMaterialsBatchParams": p}),
                 "generateStudyMaterialsBatch",
             )
             .await?["generateStudyMaterialsBatch"]
-            .take();
-        Ok(json!({"note_id": n.id, "title": n.title, "batch": b}))
+            .take())
     }
 
     /// Poll the study batch until every quiz/summary job leaves PENDING/RUNNING, or time out.

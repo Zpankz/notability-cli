@@ -12,6 +12,7 @@ Commands:
   invite         Email invitations (Notability emails each invitee)
   link           Set link scope/access (widens exposure)
   revoke         Turn the share link off
+  search-users   Search people in your business who can be invited (business accounts)
   status         Link scope, access and collaborators
   user           Change or remove a collaborator's access
 

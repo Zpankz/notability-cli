@@ -4,15 +4,18 @@
 pub mod client;
 pub mod export;
 pub mod ids;
+pub mod live;
 pub mod media;
 pub mod models;
 pub mod organize;
 pub mod recorder;
 pub mod recordings;
+pub mod remote;
 pub mod search;
 pub mod services;
 pub mod session;
 pub mod state;
+pub mod study;
 
 pub use client::Client;
 pub use models::{Folder, Library, Note};

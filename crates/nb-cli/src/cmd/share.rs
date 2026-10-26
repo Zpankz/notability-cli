@@ -71,6 +71,19 @@ pub fn specs() -> Vec<Spec> {
             "Access level to grant.",
         )),
         Spec::new(
+            "share search-users",
+            Effect::R,
+            "Search people in your business who can be invited (business accounts)",
+            search_users,
+        )
+        .arg(req("query", "Email text to search for."))
+        .opt(text("note", "Only people invitable to this note."))
+        .opt(text(
+            "workspace",
+            "Only people invitable to this workspace id.",
+        ))
+        .opt(alias(num_def("limit", 10.0, "Max results."), 'n')),
+        Spec::new(
             "share invite",
             Effect::W,
             "Email invitations (Notability emails each invitee)",
@@ -149,4 +162,19 @@ handler!(invite, |c| {
         .share_invite(&c.s("note")?, &c.list("emails"), &access(&c))
         .await?;
     Ok(json!(r))
+});
+
+handler!(search_users, |c| {
+    let cl = c.client()?;
+    let q = c.s("query")?;
+    if q.trim().is_empty() {
+        return Err(NbError::usage("query is empty"));
+    }
+    cl.invitable_users(
+        q.trim(),
+        c.ou("limit")?.unwrap_or(10).clamp(1, 50),
+        c.os("note").as_deref(),
+        c.os("workspace").as_deref(),
+    )
+    .await
 });

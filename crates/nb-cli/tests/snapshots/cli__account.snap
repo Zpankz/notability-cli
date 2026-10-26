@@ -7,18 +7,21 @@ notability account — Sign-in session, profile, quotas, settings, calendar, raw
 Usage: notability account <command>
 
 Commands:
-  calendar  Upcoming calendar events
-  flags     Feature flags
-  graphql   Raw GraphQL query (queries only)
-  login     Import a session (from a browser over CDP, or a token on stdin)
-  logout    Forget the stored session
-  me        Profile of the signed-in user
-  quotas    AI / transcription quotas
-  refresh   Re-import the session cookie
-  settings  Account settings and toggles
-  status    Is the session valid? (--offline)
-  stickers  Sticker packs
-  survey    Onboarding survey answers
+  calendar       Upcoming calendar events
+  flags          Feature flags
+  graphql        Raw GraphQL query (queries only)
+  login          Import a session (from a browser over CDP, or a token on stdin)
+  logout         Forget the stored session
+  me             Profile of the signed-in user
+  quotas         AI / transcription quotas
+  refresh        Re-import the session cookie
+  settings       Account settings and toggles
+  status         Is the session valid? (--offline)
+  stickers       Sticker packs
+  survey         Onboarding survey answers
+  survey-remove  Remove onboarding survey answers by key (changes your profile) (unverified)
+  survey-set     Set onboarding survey answers (changes your profile)
+  use-type       Set how you use Notability: student, educator, business or personal
 
 Global Options:
   --filter-output <keys>              Filter output by key paths (e.g. foo,bar.baz,a[0,3])

@@ -35,20 +35,20 @@ client.
 
 ## Features
 
-111 commands under 9 nouns. [`docs/STATUS.md`](docs/STATUS.md) lists every command and whether
-it has been verified end to end against the live API (59 have).
+131 commands under 9 nouns. [`docs/STATUS.md`](docs/STATUS.md) lists every command and whether
+it has been verified end to end against the live API (74 have).
 
 | Noun | What you can do |
 |---|---|
 | `notes` | List, filter, sort and paginate notes; get one note (metadata, pages, recordings, Learn status, or Markdown); search titles and text; build a local full-text index; create, rename, duplicate, move, favourite, switch paged/pageless; trash, restore, purge |
 | `folders` | List folders as a list or tree; show display order; create, rename, edit colour/emoji/lock, move, reorder, delete (with `--recursive`); manage subjects and dividers |
 | `content` | Show a note's decoded edit log; list and edit typed text (styles, paragraphs, checklists, code blocks, text boxes), LaTeX math blocks, ink strokes (draw, erase), shapes, images (crop, flip), comments (add, reply, edit, move, delete) and pages (add, delete, reorder, paper template); move a selection |
-| `files` | Import PDFs, images, audio, `.ntb` bundles and YouTube transcripts; export to Markdown, text, JSON, transcript, `.ntb`, source PDF, assets or a locally rendered PDF; render a page to PNG; read the table of contents |
-| `audio` | List and delete recordings; read transcripts (with timestamps); upload an audio file as a recording; record from this machine's microphone with ffmpeg and attach it, optionally transcribed |
-| `share` | Show link scope and collaborators; set link access; revoke the link; send email invitations; change or remove a collaborator; answer access requests |
-| `learn` | Read AI summaries and study-material status; generate summaries, quizzes and flashcards; wait for generation; run quiz sessions; review and rate due flashcards; import flashcards from a delimited file; explain a question |
+| `files` | Import PDFs, images, audio, `.ntb` bundles, YouTube transcripts, Office documents (converted locally with LibreOffice), PDFs by URL and Google Drive files; export to Markdown, text, JSON, transcript, `.ntb`, source PDF, assets or a locally rendered PDF; render a page to PNG; read the table of contents |
+| `audio` | List and delete recordings; read transcripts (with timestamps); upload an audio file as a recording; record from this machine's microphone with ffmpeg and attach it, optionally transcribed; live transcription from the microphone or a file, streamed as you speak |
+| `share` | Show link scope and collaborators; set link access; revoke the link; send email invitations; search people you can invite (business accounts); change or remove a collaborator; answer access requests |
+| `learn` | Read AI summaries and study-material status; generate summaries, quizzes and flashcards; build quizzes from a PDF's table of contents; "Finish my notes" (an AI write-up of the note's text, PDFs and transcripts, inserted into the note); guided study sessions ("Start study session": memorize, practice, master); Brain Break discussions; syllabus import into a course folder; wait for generation; run quiz sessions; review and rate due flashcards; import flashcards from a delimited file; explain a question |
 | `chat` | Ask Notability AI (optionally about a note); list, read and delete threads; see what context the assistant gets for a note; index recent notes for chat |
-| `account` | Sign in, refresh, sign out and check the session; profile, quotas, feature flags, calendar events, settings; read-only raw GraphQL queries |
+| `account` | Sign in, refresh, sign out and check the session; profile, quotas, feature flags, calendar events, settings; onboarding survey answers and use type; read-only raw GraphQL queries |
 
 Notes can be referenced by id, an id prefix of at least 6 characters, an exact title, or
 `folder/path/title`.
@@ -150,8 +150,19 @@ eval "$(notability completions bash)"   # or zsh, fish, nushell
 
 **Agent skills and manifests.** `notability --llms` prints a compact manifest of every command
 (`--llms-full` for the full schemas), and `notability <command> --schema` prints one command's JSON
-Schema. `notability skills add` writes skill files describing the CLI for supported coding agents,
-and `notability mcp add` registers the MCP server with them.
+Schema. `notability mcp add` registers the MCP server with supported coding agents.
+
+**Skills.** The repository ships one skill per noun plus a root `notability` skill in
+[`skills/`](skills/). Each says when to use it and walks the noun's subcommands with their key
+flags and safety notes. `notability skills add` installs them (as `notability`,
+`notability-notes`, `notability-learn`, …) for supported agents, and `notability skills list`
+shows what would be installed. After changing a command or its help text, regenerate them with:
+
+```sh
+cargo run -p nb-cli -- skills generate --out skills
+```
+
+`cargo test` fails if the committed files differ from the generated output.
 
 **Environment variables:**
 
@@ -211,10 +222,10 @@ HTTP.
 
 | Flags | Reachable tools |
 |---|---|
-| (none) | 41 read-only tools |
-| `--allow-writes` | 103 (adds create, edit, move, delete, import and sharing changes) |
-| `--allow-ai` | 43 (adds AI reads that spend quota) |
-| `--allow-writes --allow-ai` | 106 |
+| (none) | 43 read-only tools |
+| `--allow-writes` | 115 (adds create, edit, move, delete, import, sharing and profile changes) |
+| `--allow-ai` | 48 (adds AI reads that spend quota) |
+| `--allow-writes --allow-ai` | 125 (adds AI actions that write, such as `learn_finish`, `learn_toc_quiz`, `learn_syllabus` and `audio_live_start`) |
 
 Local-only commands (`account login`, `logout`, `refresh`), the raw `account graphql` query and
 `share invite` (which emails people) are never exposed over MCP.
@@ -252,8 +263,13 @@ More detail on envelopes and output is in [`docs/OUTPUT.md`](docs/OUTPUT.md).
 * **Device-only features.** Tables, tags, handwriting-to-text and handwritten math recognition
   exist only in Notability's device apps; the web API has nothing to call for them. Handwriting is
   available as vector ink, not text.
-* **Not implemented:** table-of-contents quiz generation (`learn toc` / `generate --toc`), live
-  transcription, and importing Office files, Google Drive files or PDFs by URL.
+* **Google Drive import** needs your own Google OAuth access token (`drive.readonly` scope) in
+  `GOOGLE_DRIVE_TOKEN`; the web app's Drive picker token can't be reused.
+* **Office import** needs LibreOffice (`soffice`) on this machine; live transcription and
+  microphone recording need ffmpeg.
+* **Invitable-user search** (`share search-users`) only works for Notability business members.
+* **Not run live:** Brain Break (`learn discuss start|reply`) and `account survey-remove`; see
+  [`docs/STATUS.md`](docs/STATUS.md).
 * **Rendered PDF export is a local approximation.** The web app renders "Export as PDF" in the
   browser; `files export --to pdf` and `files render` draw source PDFs, paper, ink, shapes, images
   and typed text locally, with simplified text styling and pen textures.
