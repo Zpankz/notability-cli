@@ -1,0 +1,39 @@
+{
+ "table": "ReviveChars",
+ "spec": {
+  "locations": [
+   {
+    "site": 26115,
+    "timestamp": 320209606,
+    "index": 320309609
+   },
+   {
+    "site": 26508,
+    "timestamp": 320509615,
+    "index": 320609618
+   }
+  ],
+  "textField": {
+   "site": 26901,
+   "timestamp": 320809624
+  }
+ },
+ "decoded": {
+  "locations": [
+   {
+    "site": 26115,
+    "timestamp": 320209606,
+    "index": 320309609
+   },
+   {
+    "site": 26508,
+    "timestamp": 320509615,
+    "index": 320609618
+   }
+  ],
+  "textField": {
+   "site": 26901,
+   "timestamp": 320809624
+  }
+ }
+}

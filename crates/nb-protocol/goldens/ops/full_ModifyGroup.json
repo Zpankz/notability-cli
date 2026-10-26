@@ -1,0 +1,35 @@
+{
+ "table": "ModifyGroup",
+ "spec": {
+  "group": {
+   "site": 28355,
+   "timestamp": 121803654
+  },
+  "members": [
+   {
+    "site": 28617,
+    "timestamp": 122003660
+   },
+   {
+    "site": 28879,
+    "timestamp": 122203666
+   }
+  ]
+ },
+ "decoded": {
+  "group": {
+   "site": 28355,
+   "timestamp": 121803654
+  },
+  "members": [
+   {
+    "site": 28617,
+    "timestamp": 122003660
+   },
+   {
+    "site": 28879,
+    "timestamp": 122203666
+   }
+  ]
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "table": "CreateComment",
+ "spec": {
+  "anchor": {
+   "type": "EntityAnchor",
+   "value": {
+    "entities": [
+     {
+      "site": 48077,
+      "timestamp": 36801104
+     },
+     {
+      "site": 48339,
+      "timestamp": 37001110
+     }
+    ]
+   }
+  },
+  "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+ },
+ "decoded": {
+  "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "anchor": {
+   "type": "EntityAnchor",
+   "value": {
+    "entities": [
+     {
+      "site": 48077,
+      "timestamp": 36801104
+     },
+     {
+      "site": 48339,
+      "timestamp": 37001110
+     }
+    ]
+   }
+  }
+ }
+}

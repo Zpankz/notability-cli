@@ -1,0 +1,27 @@
+{
+ "table": "InsertString",
+ "spec": {
+  "location": {
+   "site": 60879,
+   "timestamp": 96602898,
+   "index": 96702901
+  },
+  "string": "Hello, wörld",
+  "textField": {
+   "site": 61403,
+   "timestamp": 97002910
+  }
+ },
+ "decoded": {
+  "location": {
+   "site": 60879,
+   "timestamp": 96602898,
+   "index": 96702901
+  },
+  "string": "Hello, wörld",
+  "textField": {
+   "site": 61403,
+   "timestamp": 97002910
+  }
+ }
+}

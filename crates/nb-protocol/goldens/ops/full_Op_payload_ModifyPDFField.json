@@ -1,0 +1,55 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 11872,
+   "timestamp": 259307779
+  },
+  "clientTime": 2594000018158,
+  "serverTime": 2595000018165,
+  "audioTime": 2596000018172,
+  "payload": {
+   "type": "ModifyPDFField",
+   "value": {
+    "assetHash": "26282a2c2e30323436383a3c3e40424446484a4c4e50525456585a5c5e60626466686a6c6e70727476787a7c7e80828486888a8c8e90929496989a9c9ea0a2a4",
+    "key": "emoji 🗒️✓",
+    "valueType": 209,
+    "valueString": "",
+    "valueBoolean": false
+   }
+  },
+  "transientInteraction": {
+   "interactionId": {
+    "site": 21566,
+    "timestamp": 266708001
+   },
+   "timeout": 266808004
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 11872,
+   "timestamp": 259307779
+  },
+  "clientTime": 2594000018158,
+  "serverTime": 2595000018165,
+  "audioTime": 2596000018172,
+  "transientInteraction": {
+   "interactionId": {
+    "site": 21566,
+    "timestamp": 266708001
+   },
+   "timeout": 266808004
+  },
+  "payload": {
+   "type": "ModifyPDFField",
+   "value": {
+    "assetHash": "26282a2c2e30323436383a3c3e40424446484a4c4e50525456585a5c5e60626466686a6c6e70727476787a7c7e80828486888a8c8e90929496989a9c9ea0a2a4",
+    "key": "emoji 🗒️✓",
+    "valueType": 209,
+    "valueString": "",
+    "valueBoolean": false
+   }
+  }
+ }
+}

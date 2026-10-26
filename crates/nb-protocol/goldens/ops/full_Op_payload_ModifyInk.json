@@ -1,0 +1,227 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 22388,
+   "timestamp": 217306519
+  },
+  "clientTime": 2174000015218,
+  "serverTime": 2175000015225,
+  "audioTime": 2176000015232,
+  "payload": {
+   "type": "ModifyInk",
+   "value": {
+    "inks": [
+     {
+      "site": 23174,
+      "timestamp": 217906537
+     },
+     {
+      "site": 23436,
+      "timestamp": 218106543
+     }
+    ],
+    "page": {
+     "site": 23698,
+     "timestamp": 218306549,
+     "index": 218406552
+    },
+    "origin": {
+     "x": 0.1,
+     "y": -3.25
+    },
+    "rotation": {
+     "value": 612.0
+    },
+    "scale": {
+     "value": {
+      "width": 0.001,
+      "height": 12345.678
+     }
+    },
+    "style": -2,
+    "color": {
+     "bitsR": 233,
+     "bitsG": 240,
+     "bitsB": 247,
+     "bitsA": 254
+    },
+    "width": 12345.678,
+    "encodedCenterPath": [
+     188,
+     192,
+     196,
+     200,
+     204
+    ],
+    "encodedCustomPath": [
+     203,
+     207,
+     211,
+     215,
+     219
+    ],
+    "encodedFillPath": [
+     218,
+     222,
+     226,
+     230,
+     234
+    ],
+    "fillColor": {
+     "value": {
+      "bitsR": 117,
+      "bitsG": 124,
+      "bitsB": 131,
+      "bitsA": 138
+     }
+    },
+    "styleMap": [
+     {
+      "backingPencilSeed": -6645,
+      "backingPencilReferencePoint": {
+       "x": -3.25,
+       "y": 612.0
+      },
+      "backingDashPhase": 0.001,
+      "backingDashPeriod": 12345.678
+     },
+     {
+      "backingPencilSeed": -6660,
+      "backingPencilReferencePoint": {
+       "x": 0.1,
+       "y": -3.25
+      },
+      "backingDashPhase": 612.0,
+      "backingDashPeriod": 0.001
+     }
+    ],
+    "zIndex": 2225000015575,
+    "nibAngle": 29462,
+    "nibFlatness": 29593,
+    "tapePattern": 1,
+    "inkEffects": 2229000015603,
+    "inkEffectsTinted": true
+   }
+  },
+  "transientInteraction": {
+   "interactionId": {
+    "site": 30117,
+    "timestamp": 223206696
+   },
+   "timeout": 223306699
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 22388,
+   "timestamp": 217306519
+  },
+  "clientTime": 2174000015218,
+  "serverTime": 2175000015225,
+  "audioTime": 2176000015232,
+  "transientInteraction": {
+   "interactionId": {
+    "site": 30117,
+    "timestamp": 223206696
+   },
+   "timeout": 223306699
+  },
+  "payload": {
+   "type": "ModifyInk",
+   "value": {
+    "inks": [
+     {
+      "site": 23174,
+      "timestamp": 217906537
+     },
+     {
+      "site": 23436,
+      "timestamp": 218106543
+     }
+    ],
+    "page": {
+     "site": 23698,
+     "timestamp": 218306549,
+     "index": 218406552
+    },
+    "origin": {
+     "x": 0.10000000149011612,
+     "y": -3.25
+    },
+    "rotation": {
+     "value": 612.0
+    },
+    "scale": {
+     "value": {
+      "width": 0.0010000000474974513,
+      "height": 12345.677734375
+     }
+    },
+    "style": -2,
+    "color": {
+     "bitsR": 233,
+     "bitsG": 240,
+     "bitsB": 247,
+     "bitsA": 254
+    },
+    "width": 12345.677734375,
+    "encodedCenterPath": [
+     188,
+     192,
+     196,
+     200,
+     204
+    ],
+    "encodedCustomPath": [
+     203,
+     207,
+     211,
+     215,
+     219
+    ],
+    "encodedFillPath": [
+     218,
+     222,
+     226,
+     230,
+     234
+    ],
+    "fillColor": {
+     "value": {
+      "bitsR": 117,
+      "bitsG": 124,
+      "bitsB": 131,
+      "bitsA": 138
+     }
+    },
+    "styleMap": [
+     {
+      "backingPencilSeed": -6645,
+      "backingPencilReferencePoint": {
+       "x": -3.25,
+       "y": 612.0
+      },
+      "backingDashPhase": 0.0010000000474974513,
+      "backingDashPeriod": 12345.677734375
+     },
+     {
+      "backingPencilSeed": -6660,
+      "backingPencilReferencePoint": {
+       "x": 0.10000000149011612,
+       "y": -3.25
+      },
+      "backingDashPhase": 612.0,
+      "backingDashPeriod": 0.0010000000474974513
+     }
+    ],
+    "zIndex": 2225000015575,
+    "nibAngle": 29462,
+    "nibFlatness": 29593,
+    "tapePattern": 1,
+    "inkEffects": 2229000015603,
+    "inkEffectsTinted": true
+   }
+  }
+ }
+}

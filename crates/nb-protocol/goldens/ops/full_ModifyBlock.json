@@ -1,0 +1,163 @@
+{
+ "table": "ModifyBlock",
+ "spec": {
+  "blocks": [
+   {
+    "site": 62844,
+    "timestamp": 98102943
+   },
+   {
+    "site": 63106,
+    "timestamp": 98302949
+   }
+  ],
+  "corner": 2,
+  "page": {
+   "site": 63499,
+   "timestamp": 98602958,
+   "index": 98702961
+  },
+  "origin": {
+   "x": 0.001,
+   "y": 12345.678
+  },
+  "rotation": {
+   "value": 0.5
+  },
+  "scale": {
+   "value": {
+    "width": 0.1,
+    "height": -3.25
+   }
+  },
+  "size": {
+   "width": 612.0,
+   "height": 0.001
+  },
+  "textWrap": -2,
+  "enableCaption": true,
+  "zIndex": 997000006979,
+  "mathLatex": {
+   "value": "Hello, wörld"
+  },
+  "mathColor": {
+   "value": {
+    "bitsR": 81,
+    "bitsG": 88,
+    "bitsB": 95,
+    "bitsA": 102
+   }
+  },
+  "cropRect": {
+   "value": {
+    "origin": {
+     "x": 0.1,
+     "y": -3.25
+    },
+    "size": {
+     "width": 612.0,
+     "height": 0.001
+    }
+   }
+  },
+  "paper": {
+   "value": {
+    "flair": 0,
+    "flairSpacing": 0.5,
+    "flairBleeds": false,
+    "flairCentered": true,
+    "backgroundColor": {
+     "bitsR": 165,
+     "bitsG": 172,
+     "bitsB": 179,
+     "bitsA": 186
+    },
+    "legacyPaperIndex": 193
+   }
+  },
+  "imageFlippedHorizontally": true,
+  "imageFlippedVertically": false,
+  "resizesWidthToFitText": true,
+  "positionLocked": false
+ },
+ "decoded": {
+  "blocks": [
+   {
+    "site": 62844,
+    "timestamp": 98102943
+   },
+   {
+    "site": 63106,
+    "timestamp": 98302949
+   }
+  ],
+  "corner": 2,
+  "page": {
+   "site": 63499,
+   "timestamp": 98602958,
+   "index": 98702961
+  },
+  "origin": {
+   "x": 0.0010000000474974513,
+   "y": 12345.677734375
+  },
+  "rotation": {
+   "value": 0.5
+  },
+  "scale": {
+   "value": {
+    "width": 0.10000000149011612,
+    "height": -3.25
+   }
+  },
+  "size": {
+   "width": 612.0,
+   "height": 0.0010000000474974513
+  },
+  "textWrap": -2,
+  "enableCaption": true,
+  "zIndex": 997000006979,
+  "mathLatex": {
+   "value": "Hello, wörld"
+  },
+  "mathColor": {
+   "value": {
+    "bitsR": 81,
+    "bitsG": 88,
+    "bitsB": 95,
+    "bitsA": 102
+   }
+  },
+  "cropRect": {
+   "value": {
+    "origin": {
+     "x": 0.10000000149011612,
+     "y": -3.25
+    },
+    "size": {
+     "width": 612.0,
+     "height": 0.0010000000474974513
+    }
+   }
+  },
+  "paper": {
+   "value": {
+    "flair": 0,
+    "flairSpacing": 0.5,
+    "flairBleeds": false,
+    "flairCentered": true,
+    "backgroundColor": {
+     "bitsR": 165,
+     "bitsG": 172,
+     "bitsB": 179,
+     "bitsA": 186
+    },
+    "legacyPaperIndex": 193
+   }
+  },
+  "imageFlippedHorizontally": true,
+  "imageFlippedVertically": false,
+  "resizesWidthToFitText": true,
+  "positionLocked": false
+ }
+}

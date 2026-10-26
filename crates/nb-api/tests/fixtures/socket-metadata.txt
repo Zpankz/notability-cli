@@ -1,0 +1,9 @@
+# Socket.IO /metadata session (sample; ids and token replaced by placeholders), one frame per line. → = client, ← = server
+← 0{"sid":"<sid>","upgrades":[],"pingInterval":25000,"pingTimeout":20000,"maxPayload":1000000}
+→ 40/metadata,{"token":"<token>","query":{"client-platform":"WEB","client-version":"26.43.7","client-git-hash":"<hash>","client-build-time":"<ms>"}}
+← 40/metadata,{"sid":"<sid>"}
+← 42/metadata,["partial-update",{"sequenceId":1234,"privateSpace":{"id":"<workspace>","folders":[{"id":"<folder>","title":"<title>","parentId":null,"siblingOrder":0}],"organizers":[],"notes":[{"id":"<note>","title":"<title>","folderId":"<folder>","createdAt":1700000000000,"updatedAt":1700000000000,"indexTimestamps":[{"type":"HANDWRITING","lastUpdated":1700000000000}]}]},"sharedSpaces":[],"sharedNotes":[],"permanentlyDeletedNotes":[]},"<cursor>"]
+→ 42/metadata,["change",{"mutations":[{"idempotencyKey":"<uuid4>","timestamp":1700000000000,"createFolder":{"id":"<new-folder>","hexColor":"#8E8E93","isLocked":false,"title":"sample","siblingOrder":-1,"workspaceId":"<workspace>","parentId":null}}]}]
+← 42/metadata,["change-ack",{"successfulMutations":["<uuid4>"],"failedMutations":[]}]
+← 2
+→ 3

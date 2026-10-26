@@ -1,0 +1,27 @@
+{
+ "table": "CreateComment",
+ "spec": {
+  "anchor": {
+   "type": "ReplyAnchor",
+   "value": {
+    "root": {
+     "site": 48863,
+     "timestamp": 37401122
+    }
+   }
+  },
+  "text": "日本語テキスト"
+ },
+ "decoded": {
+  "text": "日本語テキスト",
+  "anchor": {
+   "type": "ReplyAnchor",
+   "value": {
+    "root": {
+     "site": 48863,
+     "timestamp": 37401122
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,157 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 2,
+   "timestamp": 132
+  },
+  "clientTime": 1700000000032,
+  "payload": {
+   "type": "ModifyConnector",
+   "value": {
+    "connectors": [
+     {
+      "site": 27484,
+      "timestamp": 421312639
+     },
+     {
+      "site": 27746,
+      "timestamp": 421512645
+     }
+    ],
+    "start": {
+     "type": "FreeEndpoint",
+     "value": {
+      "page": {
+       "site": 28139,
+       "timestamp": 421812654,
+       "index": 421912657
+      },
+      "position": {
+       "x": -3.25,
+       "y": 612.0
+      }
+     }
+    },
+    "end": {
+     "type": "FreeEndpoint",
+     "value": {
+      "page": {
+       "site": 28925,
+       "timestamp": 422412672,
+       "index": 422512675
+      },
+      "position": {
+       "x": -3.25,
+       "y": 612.0
+      }
+     }
+    },
+    "pathStyle": 1,
+    "bends": [
+     {
+      "pin": 2,
+      "offset": 0.5
+     },
+     {
+      "pin": -1,
+      "offset": -3.25
+     }
+    ],
+    "startCap": 1,
+    "endCap": 2,
+    "tool": -2,
+    "style": -1,
+    "color": {
+     "bitsR": 219,
+     "bitsG": 226,
+     "bitsB": 233,
+     "bitsA": 240
+    },
+    "borderWidth": 12345.678,
+    "zIndex": 4242000029694,
+    "positionLocked": false,
+    "labelPosition": {
+     "value": -3.25
+    }
+   }
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 2,
+   "timestamp": 132
+  },
+  "clientTime": 1700000000032,
+  "payload": {
+   "type": "ModifyConnector",
+   "value": {
+    "connectors": [
+     {
+      "site": 27484,
+      "timestamp": 421312639
+     },
+     {
+      "site": 27746,
+      "timestamp": 421512645
+     }
+    ],
+    "pathStyle": 1,
+    "bends": [
+     {
+      "pin": 2,
+      "offset": 0.5
+     },
+     {
+      "pin": -1,
+      "offset": -3.25
+     }
+    ],
+    "startCap": 1,
+    "endCap": 2,
+    "tool": -2,
+    "style": -1,
+    "color": {
+     "bitsR": 219,
+     "bitsG": 226,
+     "bitsB": 233,
+     "bitsA": 240
+    },
+    "borderWidth": 12345.677734375,
+    "zIndex": 4242000029694,
+    "positionLocked": false,
+    "labelPosition": {
+     "value": -3.25
+    },
+    "start": {
+     "type": "FreeEndpoint",
+     "value": {
+      "page": {
+       "site": 28139,
+       "timestamp": 421812654,
+       "index": 421912657
+      },
+      "position": {
+       "x": -3.25,
+       "y": 612.0
+      }
+     }
+    },
+    "end": {
+     "type": "FreeEndpoint",
+     "value": {
+      "page": {
+       "site": 28925,
+       "timestamp": 422412672,
+       "index": 422512675
+      },
+      "position": {
+       "x": -3.25,
+       "y": 612.0
+      }
+     }
+    }
+   }
+  }
+ }
+}

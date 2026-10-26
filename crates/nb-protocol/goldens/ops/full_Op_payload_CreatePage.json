@@ -1,0 +1,127 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 35524,
+   "timestamp": 177305319
+  },
+  "clientTime": 1774000012418,
+  "serverTime": 1775000012425,
+  "audioTime": 1776000012432,
+  "payload": {
+   "type": "CreatePage",
+   "value": {
+    "location": {
+     "site": 36310,
+     "timestamp": 177905337,
+     "index": 178005340
+    },
+    "background": {
+     "paper": {
+      "flair": -1,
+      "flairSpacing": 0.5,
+      "flairBleeds": false,
+      "flairCentered": true,
+      "backgroundColor": {
+       "bitsR": 207,
+       "bitsG": 214,
+       "bitsB": 221,
+       "bitsA": 228
+      },
+      "legacyPaperIndex": 235
+     },
+     "pdf": {
+      "metadata": {},
+      "layoutBehavior": -2,
+      "totalPageCount": 179105373,
+      "pagesConsumed": 179205376,
+      "pageOffset": 179305379,
+      "cropBoxes": []
+     },
+     "rotation": 0.5,
+     "size": {
+      "width": 0.1,
+      "height": -3.25
+     },
+     "margins": {
+      "top": 612.0,
+      "bottom": 0.001,
+      "left": 12345.678,
+      "right": 0.5
+     }
+    },
+    "pageCount": 180105403,
+    "bookmarked": 0
+   }
+  },
+  "transientInteraction": {
+   "interactionId": {
+    "site": 39585,
+    "timestamp": 180405412
+   },
+   "timeout": 180505415
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 35524,
+   "timestamp": 177305319
+  },
+  "clientTime": 1774000012418,
+  "serverTime": 1775000012425,
+  "audioTime": 1776000012432,
+  "transientInteraction": {
+   "interactionId": {
+    "site": 39585,
+    "timestamp": 180405412
+   },
+   "timeout": 180505415
+  },
+  "payload": {
+   "type": "CreatePage",
+   "value": {
+    "location": {
+     "site": 36310,
+     "timestamp": 177905337,
+     "index": 178005340
+    },
+    "background": {
+     "paper": {
+      "flair": -1,
+      "flairSpacing": 0.5,
+      "flairBleeds": false,
+      "flairCentered": true,
+      "backgroundColor": {
+       "bitsR": 207,
+       "bitsG": 214,
+       "bitsB": 221,
+       "bitsA": 228
+      },
+      "legacyPaperIndex": 235
+     },
+     "pdf": {
+      "metadata": {},
+      "layoutBehavior": -2,
+      "totalPageCount": 179105373,
+      "pagesConsumed": 179205376,
+      "pageOffset": 179305379,
+      "cropBoxes": []
+     },
+     "rotation": 0.5,
+     "size": {
+      "width": 0.10000000149011612,
+      "height": -3.25
+     },
+     "margins": {
+      "top": 612.0,
+      "bottom": 0.0010000000474974513,
+      "left": 12345.677734375,
+      "right": 0.5
+     }
+    },
+    "pageCount": 180105403,
+    "bookmarked": 0
+   }
+  }
+ }
+}

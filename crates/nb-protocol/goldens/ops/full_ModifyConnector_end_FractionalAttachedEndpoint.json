@@ -1,0 +1,135 @@
+{
+ "table": "ModifyConnector",
+ "spec": {
+  "connectors": [
+   {
+    "site": 24163,
+    "timestamp": 118603558
+   },
+   {
+    "site": 24425,
+    "timestamp": 118803564
+   }
+  ],
+  "start": {
+   "type": "FreeEndpoint",
+   "value": {
+    "page": {
+     "site": 24818,
+     "timestamp": 119103573,
+     "index": 119203576
+    },
+    "position": {
+     "x": 12345.678,
+     "y": 0.5
+    }
+   }
+  },
+  "end": {
+   "type": "FractionalAttachedEndpoint",
+   "value": {
+    "entity": {
+     "site": 25604,
+     "timestamp": 119703591
+    },
+    "fraction": {
+     "x": 0.001,
+     "y": 12345.678
+    }
+   }
+  },
+  "pathStyle": -2,
+  "bends": [
+   {
+    "pin": -1,
+    "offset": -3.25
+   },
+   {
+    "pin": 1,
+    "offset": 0.001
+   }
+  ],
+  "startCap": -2,
+  "endCap": -1,
+  "tool": 0,
+  "style": 1,
+  "color": {
+   "bitsR": 15,
+   "bitsG": 22,
+   "bitsB": 29,
+   "bitsA": 36
+  },
+  "borderWidth": 0.1,
+  "zIndex": 1214000008498,
+  "positionLocked": false,
+  "labelPosition": {
+   "value": 0.001
+  }
+ },
+ "decoded": {
+  "connectors": [
+   {
+    "site": 24163,
+    "timestamp": 118603558
+   },
+   {
+    "site": 24425,
+    "timestamp": 118803564
+   }
+  ],
+  "pathStyle": -2,
+  "bends": [
+   {
+    "pin": -1,
+    "offset": -3.25
+   },
+   {
+    "pin": 1,
+    "offset": 0.0010000000474974513
+   }
+  ],
+  "startCap": -2,
+  "endCap": -1,
+  "tool": 0,
+  "style": 1,
+  "color": {
+   "bitsR": 15,
+   "bitsG": 22,
+   "bitsB": 29,
+   "bitsA": 36
+  },
+  "borderWidth": 0.10000000149011612,
+  "zIndex": 1214000008498,
+  "positionLocked": false,
+  "labelPosition": {
+   "value": 0.0010000000474974513
+  },
+  "start": {
+   "type": "FreeEndpoint",
+   "value": {
+    "page": {
+     "site": 24818,
+     "timestamp": 119103573,
+     "index": 119203576
+    },
+    "position": {
+     "x": 12345.677734375,
+     "y": 0.5
+    }
+   }
+  },
+  "end": {
+   "type": "FractionalAttachedEndpoint",
+   "value": {
+    "entity": {
+     "site": 25604,
+     "timestamp": 119703591
+    },
+    "fraction": {
+     "x": 0.0010000000474974513,
+     "y": 12345.677734375
+    }
+   }
+  }
+ }
+}

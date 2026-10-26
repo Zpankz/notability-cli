@@ -1,0 +1,29 @@
+---
+source: crates/nb-cli/tests/cli.rs
+expression: help
+---
+notability folders — Organise the library: folders, subjects and dividers
+
+Usage: notability folders <command>
+
+Commands:
+  create      Create a folder
+  delete      Delete a folder (--recursive)
+  edit        Edit title, colour, emoji, lock
+  list        List folders (--parent, --tree)
+  move        Re-parent a folder
+  order       Children of a folder in display order
+  organizers  Legacy subjects and dividers
+  rename      Rename a folder
+  reorder     Change position among siblings
+
+Global Options:
+  --filter-output <keys>              Filter output by key paths (e.g. foo,bar.baz,a[0,3])
+  --format <toon|json|yaml|md|jsonl>  Output format
+  --full-output                       Show full output envelope
+  --help                              Show help
+  --llms, --llms-full                 Print LLM-readable manifest
+  --schema                            Show JSON Schema for command
+  --token-count                       Print token count of output (instead of output)
+  --token-limit <n>                   Limit output to n tokens
+  --token-offset <n>                  Skip first n tokens of output

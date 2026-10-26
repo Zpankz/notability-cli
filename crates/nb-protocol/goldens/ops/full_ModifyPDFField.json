@@ -1,0 +1,17 @@
+{
+ "table": "ModifyPDFField",
+ "spec": {
+  "assetHash": "fcfe00020406080a0c0e10121416181a1c1e20222426282a2c2e30323436383a3c3e40424446484a4c4e50525456585a5c5e60626466686a6c6e70727476787a",
+  "key": "Hello, wörld",
+  "valueType": 171,
+  "valueString": "emoji 🗒️✓",
+  "valueBoolean": false
+ },
+ "decoded": {
+  "assetHash": "fcfe00020406080a0c0e10121416181a1c1e20222426282a2c2e30323436383a3c3e40424446484a4c4e50525456585a5c5e60626466686a6c6e70727476787a",
+  "key": "Hello, wörld",
+  "valueType": 171,
+  "valueString": "emoji 🗒️✓",
+  "valueBoolean": false
+ }
+}

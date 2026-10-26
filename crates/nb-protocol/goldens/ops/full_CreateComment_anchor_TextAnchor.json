@@ -1,0 +1,51 @@
+{
+ "table": "CreateComment",
+ "spec": {
+  "anchor": {
+   "type": "TextAnchor",
+   "value": {
+    "textField": {
+     "site": 46767,
+     "timestamp": 35801074
+    },
+    "selection": {
+     "anchor": {
+      "site": 47029,
+      "timestamp": 36001080,
+      "index": 36101083
+     },
+     "focus": {
+      "site": 47422,
+      "timestamp": 36301089,
+      "index": 36401092
+     }
+    }
+   }
+  },
+  "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+ },
+ "decoded": {
+  "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "anchor": {
+   "type": "TextAnchor",
+   "value": {
+    "textField": {
+     "site": 46767,
+     "timestamp": 35801074
+    },
+    "selection": {
+     "anchor": {
+      "site": 47029,
+      "timestamp": 36001080,
+      "index": 36101083
+     },
+     "focus": {
+      "site": 47422,
+      "timestamp": 36301089,
+      "index": 36401092
+     }
+    }
+   }
+  }
+ }
+}

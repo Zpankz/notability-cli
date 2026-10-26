@@ -1,0 +1,131 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 1,
+   "timestamp": 131
+  },
+  "clientTime": 1700000000031,
+  "payload": {
+   "type": "CreateConnector",
+   "value": {
+    "start": {
+     "type": "FractionalAttachedEndpoint",
+     "value": {
+      "entity": {
+       "site": 23947,
+       "timestamp": 418612558
+      },
+      "fraction": {
+       "x": 12345.678,
+       "y": 0.5
+      }
+     }
+    },
+    "end": {
+     "type": "FreeEndpoint",
+     "value": {
+      "page": {
+       "site": 24602,
+       "timestamp": 419112573,
+       "index": 419212576
+      },
+      "position": {
+       "x": 12345.678,
+       "y": 0.5
+      }
+     }
+    },
+    "pathStyle": -2,
+    "bends": [
+     {
+      "pin": -1,
+      "offset": 612.0
+     },
+     {
+      "pin": 1,
+      "offset": 12345.678
+     }
+    ],
+    "startCap": -2,
+    "endCap": -1,
+    "tool": 0,
+    "style": 1,
+    "color": {
+     "bitsR": 244,
+     "bitsG": 251,
+     "bitsB": 2,
+     "bitsA": 9
+    },
+    "borderWidth": -3.25,
+    "zIndex": 4209000029463,
+    "positionLocked": true,
+    "labelPosition": 12345.678
+   }
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 1,
+   "timestamp": 131
+  },
+  "clientTime": 1700000000031,
+  "payload": {
+   "type": "CreateConnector",
+   "value": {
+    "pathStyle": -2,
+    "bends": [
+     {
+      "pin": -1,
+      "offset": 612.0
+     },
+     {
+      "pin": 1,
+      "offset": 12345.677734375
+     }
+    ],
+    "startCap": -2,
+    "endCap": -1,
+    "tool": 0,
+    "style": 1,
+    "color": {
+     "bitsR": 244,
+     "bitsG": 251,
+     "bitsB": 2,
+     "bitsA": 9
+    },
+    "borderWidth": -3.25,
+    "zIndex": 4209000029463,
+    "positionLocked": true,
+    "labelPosition": 12345.677734375,
+    "start": {
+     "type": "FractionalAttachedEndpoint",
+     "value": {
+      "entity": {
+       "site": 23947,
+       "timestamp": 418612558
+      },
+      "fraction": {
+       "x": 12345.677734375,
+       "y": 0.5
+      }
+     }
+    },
+    "end": {
+     "type": "FreeEndpoint",
+     "value": {
+      "page": {
+       "site": 24602,
+       "timestamp": 419112573,
+       "index": 419212576
+      },
+      "position": {
+       "x": 12345.677734375,
+       "y": 0.5
+      }
+     }
+    }
+   }
+  }
+ }
+}

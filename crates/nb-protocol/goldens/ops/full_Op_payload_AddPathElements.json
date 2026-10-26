@@ -1,0 +1,81 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 19637,
+   "timestamp": 215206456
+  },
+  "clientTime": 2153000015071,
+  "serverTime": 2154000015078,
+  "audioTime": 2155000015085,
+  "payload": {
+   "type": "AddPathElements",
+   "value": {
+    "ink": {
+     "site": 20423,
+     "timestamp": 215806474
+    },
+    "encodedCenterPathElements": [
+     77,
+     81,
+     85,
+     89,
+     93
+    ],
+    "encodedCenterPathEstimatedElements": [
+     92,
+     96,
+     100,
+     104,
+     108
+    ]
+   }
+  },
+  "transientInteraction": {
+   "interactionId": {
+    "site": 21995,
+    "timestamp": 217006510
+   },
+   "timeout": 217106513
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 19637,
+   "timestamp": 215206456
+  },
+  "clientTime": 2153000015071,
+  "serverTime": 2154000015078,
+  "audioTime": 2155000015085,
+  "transientInteraction": {
+   "interactionId": {
+    "site": 21995,
+    "timestamp": 217006510
+   },
+   "timeout": 217106513
+  },
+  "payload": {
+   "type": "AddPathElements",
+   "value": {
+    "ink": {
+     "site": 20423,
+     "timestamp": 215806474
+    },
+    "encodedCenterPathElements": [
+     77,
+     81,
+     85,
+     89,
+     93
+    ],
+    "encodedCenterPathEstimatedElements": [
+     92,
+     96,
+     100,
+     104,
+     108
+    ]
+   }
+  }
+ }
+}

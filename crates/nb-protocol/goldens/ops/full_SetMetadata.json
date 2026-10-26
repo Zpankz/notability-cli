@@ -1,0 +1,125 @@
+{
+ "table": "SetMetadata",
+ "spec": {
+  "title": {
+   "value": "日本語テキスト"
+  },
+  "pageBackground": {
+   "value": {
+    "paper": {
+     "flair": -2,
+     "flairSpacing": 12345.678,
+     "flairBleeds": true,
+     "flairCentered": false,
+     "backgroundColor": {
+      "bitsR": 40,
+      "bitsG": 47,
+      "bitsB": 54,
+      "bitsA": 61
+     },
+     "legacyPaperIndex": 68
+    },
+    "pdf": {
+     "metadata": {},
+     "layoutBehavior": 2,
+     "totalPageCount": 323009690,
+     "pagesConsumed": 323109693,
+     "pageOffset": 323209696,
+     "cropBoxes": []
+    },
+    "rotation": 12345.678,
+    "size": {
+     "width": 0.5,
+     "height": 0.1
+    },
+    "margins": {
+     "top": -3.25,
+     "bottom": 612.0,
+     "left": 0.001,
+     "right": 12345.678
+    }
+   }
+  },
+  "handwritingLanguage": {
+   "value": ""
+  },
+  "alignTextToLines": false,
+  "defaultFontFamily": "Hello, wörld",
+  "defaultFontSize": 612.0,
+  "layoutMode": 2,
+  "blockWrapSupport": -2,
+  "coverPageId": {
+   "value": {
+    "site": 32010,
+    "timestamp": 324709741,
+    "index": 324809744
+   }
+  },
+  "measurementScale": {
+   "scaleFactor": 612.0,
+   "unit": -2
+  },
+  "measurementsShown": false
+ },
+ "decoded": {
+  "title": {
+   "value": "日本語テキスト"
+  },
+  "pageBackground": {
+   "value": {
+    "paper": {
+     "flair": -2,
+     "flairSpacing": 12345.677734375,
+     "flairBleeds": true,
+     "flairCentered": false,
+     "backgroundColor": {
+      "bitsR": 40,
+      "bitsG": 47,
+      "bitsB": 54,
+      "bitsA": 61
+     },
+     "legacyPaperIndex": 68
+    },
+    "pdf": {
+     "metadata": {},
+     "layoutBehavior": 2,
+     "totalPageCount": 323009690,
+     "pagesConsumed": 323109693,
+     "pageOffset": 323209696,
+     "cropBoxes": []
+    },
+    "rotation": 12345.677734375,
+    "size": {
+     "width": 0.5,
+     "height": 0.10000000149011612
+    },
+    "margins": {
+     "top": -3.25,
+     "bottom": 612.0,
+     "left": 0.0010000000474974513,
+     "right": 12345.677734375
+    }
+   }
+  },
+  "handwritingLanguage": {
+   "value": ""
+  },
+  "alignTextToLines": false,
+  "defaultFontFamily": "Hello, wörld",
+  "defaultFontSize": 612.0,
+  "layoutMode": 2,
+  "blockWrapSupport": -2,
+  "coverPageId": {
+   "value": {
+    "site": 32010,
+    "timestamp": 324709741,
+    "index": 324809744
+   }
+  },
+  "measurementScale": {
+   "scaleFactor": 612.0,
+   "unit": -2
+  },
+  "measurementsShown": false
+ }
+}

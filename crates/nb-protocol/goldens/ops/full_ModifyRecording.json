@@ -1,0 +1,39 @@
+{
+ "table": "ModifyRecording",
+ "spec": {
+  "recording": {
+   "site": 55210,
+   "timestamp": 142304269
+  },
+  "name": "Hello, wörld",
+  "segmentation": [
+   {
+    "startTime": 1425000009975,
+    "endTime": 1426000009982
+   },
+   {
+    "startTime": 1427000009989,
+    "endTime": 1428000009996
+   }
+  ],
+  "zIndex": 1429000010003
+ },
+ "decoded": {
+  "recording": {
+   "site": 55210,
+   "timestamp": 142304269
+  },
+  "name": "Hello, wörld",
+  "segmentation": [
+   {
+    "startTime": 1425000009975,
+    "endTime": 1426000009982
+   },
+   {
+    "startTime": 1427000009989,
+    "endTime": 1428000009996
+   }
+  ],
+  "zIndex": 1429000010003
+ }
+}

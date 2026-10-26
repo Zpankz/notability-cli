@@ -1,0 +1,57 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 2,
+   "timestamp": 129
+  },
+  "clientTime": 1700000000029,
+  "payload": {
+   "type": "CreateComment",
+   "value": {
+    "anchor": {
+     "type": "CanvasAnchor",
+     "value": {
+      "page": {
+       "site": 21851,
+       "timestamp": 417012510,
+       "index": 417112513
+      },
+      "origin": {
+       "x": -3.25,
+       "y": 612.0
+      }
+     }
+    },
+    "text": "emoji 🗒️✓"
+   }
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 2,
+   "timestamp": 129
+  },
+  "clientTime": 1700000000029,
+  "payload": {
+   "type": "CreateComment",
+   "value": {
+    "text": "emoji 🗒️✓",
+    "anchor": {
+     "type": "CanvasAnchor",
+     "value": {
+      "page": {
+       "site": 21851,
+       "timestamp": 417012510,
+       "index": 417112513
+      },
+      "origin": {
+       "x": -3.25,
+       "y": 612.0
+      }
+     }
+    }
+   }
+  }
+ }
+}

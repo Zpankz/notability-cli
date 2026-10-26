@@ -1,0 +1,135 @@
+{
+ "table": "ModifyConnector",
+ "spec": {
+  "connectors": [
+   {
+    "site": 19971,
+    "timestamp": 115403462
+   },
+   {
+    "site": 20233,
+    "timestamp": 115603468
+   }
+  ],
+  "start": {
+   "type": "FractionalAttachedEndpoint",
+   "value": {
+    "entity": {
+     "site": 20626,
+     "timestamp": 115903477
+    },
+    "fraction": {
+     "x": -3.25,
+     "y": 612.0
+    }
+   }
+  },
+  "end": {
+   "type": "FreeEndpoint",
+   "value": {
+    "page": {
+     "site": 21281,
+     "timestamp": 116403492,
+     "index": 116503495
+    },
+    "position": {
+     "x": -3.25,
+     "y": 612.0
+    }
+   }
+  },
+  "pathStyle": 1,
+  "bends": [
+   {
+    "pin": 2,
+    "offset": 0.5
+   },
+   {
+    "pin": -1,
+    "offset": -3.25
+   }
+  ],
+  "startCap": 1,
+  "endCap": 2,
+  "tool": -2,
+  "style": -1,
+  "color": {
+   "bitsR": 47,
+   "bitsG": 54,
+   "bitsB": 61,
+   "bitsA": 68
+  },
+  "borderWidth": 12345.678,
+  "zIndex": 1182000008274,
+  "positionLocked": false,
+  "labelPosition": {
+   "value": -3.25
+  }
+ },
+ "decoded": {
+  "connectors": [
+   {
+    "site": 19971,
+    "timestamp": 115403462
+   },
+   {
+    "site": 20233,
+    "timestamp": 115603468
+   }
+  ],
+  "pathStyle": 1,
+  "bends": [
+   {
+    "pin": 2,
+    "offset": 0.5
+   },
+   {
+    "pin": -1,
+    "offset": -3.25
+   }
+  ],
+  "startCap": 1,
+  "endCap": 2,
+  "tool": -2,
+  "style": -1,
+  "color": {
+   "bitsR": 47,
+   "bitsG": 54,
+   "bitsB": 61,
+   "bitsA": 68
+  },
+  "borderWidth": 12345.677734375,
+  "zIndex": 1182000008274,
+  "positionLocked": false,
+  "labelPosition": {
+   "value": -3.25
+  },
+  "start": {
+   "type": "FractionalAttachedEndpoint",
+   "value": {
+    "entity": {
+     "site": 20626,
+     "timestamp": 115903477
+    },
+    "fraction": {
+     "x": -3.25,
+     "y": 612.0
+    }
+   }
+  },
+  "end": {
+   "type": "FreeEndpoint",
+   "value": {
+    "page": {
+     "site": 21281,
+     "timestamp": 116403492,
+     "index": 116503495
+    },
+    "position": {
+     "x": -3.25,
+     "y": 612.0
+    }
+   }
+  }
+ }
+}

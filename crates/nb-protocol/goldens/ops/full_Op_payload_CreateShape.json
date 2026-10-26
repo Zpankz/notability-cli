@@ -1,0 +1,147 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 30510,
+   "timestamp": 223506705
+  },
+  "clientTime": 2236000015652,
+  "serverTime": 2237000015659,
+  "audioTime": 2238000015666,
+  "payload": {
+   "type": "CreateShape",
+   "value": {
+    "page": {
+     "site": 31296,
+     "timestamp": 224106723,
+     "index": 224206726
+    },
+    "origin": {
+     "x": 12345.678,
+     "y": 0.5
+    },
+    "rotation": 0.1,
+    "scale": {
+     "width": -3.25,
+     "height": 612.0
+    },
+    "definition": {
+     "type": "Polygon",
+     "value": {
+      "points": [
+       {
+        "x": 12345.678,
+        "y": 0.5
+       },
+       {
+        "x": 0.1,
+        "y": -3.25
+       }
+      ]
+     }
+    },
+    "tool": 1,
+    "style": 2,
+    "tapePattern": -2,
+    "color": {
+     "bitsR": 176,
+     "bitsG": 183,
+     "bitsB": 190,
+     "bitsA": 197
+    },
+    "borderWidth": 0.001,
+    "fillColor": {
+     "bitsR": 211,
+     "bitsG": 218,
+     "bitsB": 225,
+     "bitsA": 232
+    },
+    "zIndex": 2265000015855,
+    "smartHighlight": true,
+    "force": 12345.678,
+    "positionLocked": true,
+    "inkEffects": 2269000015883,
+    "measurementUnit": -2
+   }
+  },
+  "transientInteraction": {
+   "interactionId": {
+    "site": 35357,
+    "timestamp": 227206816
+   },
+   "timeout": 227306819
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 30510,
+   "timestamp": 223506705
+  },
+  "clientTime": 2236000015652,
+  "serverTime": 2237000015659,
+  "audioTime": 2238000015666,
+  "transientInteraction": {
+   "interactionId": {
+    "site": 35357,
+    "timestamp": 227206816
+   },
+   "timeout": 227306819
+  },
+  "payload": {
+   "type": "CreateShape",
+   "value": {
+    "page": {
+     "site": 31296,
+     "timestamp": 224106723,
+     "index": 224206726
+    },
+    "origin": {
+     "x": 12345.677734375,
+     "y": 0.5
+    },
+    "rotation": 0.10000000149011612,
+    "scale": {
+     "width": -3.25,
+     "height": 612.0
+    },
+    "tool": 1,
+    "style": 2,
+    "tapePattern": -2,
+    "color": {
+     "bitsR": 176,
+     "bitsG": 183,
+     "bitsB": 190,
+     "bitsA": 197
+    },
+    "borderWidth": 0.0010000000474974513,
+    "fillColor": {
+     "bitsR": 211,
+     "bitsG": 218,
+     "bitsB": 225,
+     "bitsA": 232
+    },
+    "zIndex": 2265000015855,
+    "smartHighlight": true,
+    "force": 12345.677734375,
+    "positionLocked": true,
+    "inkEffects": 2269000015883,
+    "measurementUnit": -2,
+    "definition": {
+     "type": "Polygon",
+     "value": {
+      "points": [
+       {
+        "x": 12345.677734375,
+        "y": 0.5
+       },
+       {
+        "x": 0.10000000149011612,
+        "y": -3.25
+       }
+      ]
+     }
+    }
+   }
+  }
+ }
+}

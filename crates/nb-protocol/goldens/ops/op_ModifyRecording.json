@@ -1,0 +1,59 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 2,
+   "timestamp": 105
+  },
+  "clientTime": 1700000000005,
+  "payload": {
+   "type": "ModifyRecording",
+   "value": {
+    "recording": {
+     "site": 11931,
+     "timestamp": 359410782
+    },
+    "name": "a",
+    "segmentation": [
+     {
+      "startTime": 3596000025172,
+      "endTime": 3597000025179
+     },
+     {
+      "startTime": 3598000025186,
+      "endTime": 3599000025193
+     }
+    ],
+    "zIndex": 3600000025200
+   }
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 2,
+   "timestamp": 105
+  },
+  "clientTime": 1700000000005,
+  "payload": {
+   "type": "ModifyRecording",
+   "value": {
+    "recording": {
+     "site": 11931,
+     "timestamp": 359410782
+    },
+    "name": "a",
+    "segmentation": [
+     {
+      "startTime": 3596000025172,
+      "endTime": 3597000025179
+     },
+     {
+      "startTime": 3598000025186,
+      "endTime": 3599000025193
+     }
+    ],
+    "zIndex": 3600000025200
+   }
+  }
+ }
+}

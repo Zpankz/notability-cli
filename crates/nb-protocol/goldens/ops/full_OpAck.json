@@ -1,0 +1,79 @@
+{
+ "table": "OpAck",
+ "spec": {
+  "id": {
+   "site": 42133,
+   "timestamp": 282408472
+  },
+  "timestampedOp": {
+   "id": {
+    "site": 42395,
+    "timestamp": 282608478
+   },
+   "clientTime": 2827000019789,
+   "serverTime": 2828000019796,
+   "audioTime": 2829000019803,
+   "payload": {
+    "type": "TransientInteractionEnded",
+    "value": {
+     "interactionId": {
+      "site": 43181,
+      "timestamp": 283208496
+     },
+     "replacedByOp": {
+      "site": 43443,
+      "timestamp": 283408502
+     }
+    }
+   },
+   "transientInteraction": {
+    "interactionId": {
+     "site": 43705,
+     "timestamp": 283608508
+    },
+    "timeout": 283708511
+   }
+  },
+  "nakError": "",
+  "duplicate": false,
+  "retryable": true
+ },
+ "decoded": {
+  "id": {
+   "site": 42133,
+   "timestamp": 282408472
+  },
+  "timestampedOp": {
+   "id": {
+    "site": 42395,
+    "timestamp": 282608478
+   },
+   "clientTime": 2827000019789,
+   "serverTime": 2828000019796,
+   "audioTime": 2829000019803,
+   "transientInteraction": {
+    "interactionId": {
+     "site": 43705,
+     "timestamp": 283608508
+    },
+    "timeout": 283708511
+   },
+   "payload": {
+    "type": "TransientInteractionEnded",
+    "value": {
+     "interactionId": {
+      "site": 43181,
+      "timestamp": 283208496
+     },
+     "replacedByOp": {
+      "site": 43443,
+      "timestamp": 283408502
+     }
+    }
+   }
+  },
+  "nakError": "",
+  "duplicate": false,
+  "retryable": true
+ }
+}

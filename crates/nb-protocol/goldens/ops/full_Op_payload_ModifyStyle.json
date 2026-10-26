@@ -1,0 +1,177 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 1297,
+   "timestamp": 201206036
+  },
+  "clientTime": 2013000014091,
+  "serverTime": 2014000014098,
+  "audioTime": 2015000014105,
+  "payload": {
+   "type": "ModifyStyle",
+   "value": {
+    "start": {
+     "location": {
+      "site": 2083,
+      "timestamp": 201806054,
+      "index": 201906057
+     },
+     "type": -2
+    },
+    "end": {
+     "location": {
+      "site": 2607,
+      "timestamp": 202206066,
+      "index": 202306069
+     },
+     "type": 2
+    },
+    "textField": {
+     "site": 3131,
+     "timestamp": 202606078
+    },
+    "bold": {
+     "value": false
+    },
+    "italic": {
+     "value": true
+    },
+    "underline": {
+     "value": false
+    },
+    "highlight": {
+     "value": {
+      "bitsR": 130,
+      "bitsG": 137,
+      "bitsB": 144,
+      "bitsA": 151
+     }
+    },
+    "familyName": {
+     "value": ""
+    },
+    "size": {
+     "value": 0.1
+    },
+    "foregroundColor": {
+     "value": {
+      "bitsR": 172,
+      "bitsG": 179,
+      "bitsB": 186,
+      "bitsA": 193
+     }
+    },
+    "link": {
+     "value": ""
+    },
+    "superscript": {
+     "value": false
+    },
+    "subscript": {
+     "value": true
+    },
+    "strikethrough": {
+     "value": false
+    },
+    "code": {
+     "value": true
+    }
+   }
+  },
+  "transientInteraction": {
+   "interactionId": {
+    "site": 5751,
+    "timestamp": 204606138
+   },
+   "timeout": 204706141
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 1297,
+   "timestamp": 201206036
+  },
+  "clientTime": 2013000014091,
+  "serverTime": 2014000014098,
+  "audioTime": 2015000014105,
+  "transientInteraction": {
+   "interactionId": {
+    "site": 5751,
+    "timestamp": 204606138
+   },
+   "timeout": 204706141
+  },
+  "payload": {
+   "type": "ModifyStyle",
+   "value": {
+    "start": {
+     "location": {
+      "site": 2083,
+      "timestamp": 201806054,
+      "index": 201906057
+     },
+     "type": -2
+    },
+    "end": {
+     "location": {
+      "site": 2607,
+      "timestamp": 202206066,
+      "index": 202306069
+     },
+     "type": 2
+    },
+    "textField": {
+     "site": 3131,
+     "timestamp": 202606078
+    },
+    "bold": {
+     "value": false
+    },
+    "italic": {
+     "value": true
+    },
+    "underline": {
+     "value": false
+    },
+    "highlight": {
+     "value": {
+      "bitsR": 130,
+      "bitsG": 137,
+      "bitsB": 144,
+      "bitsA": 151
+     }
+    },
+    "familyName": {
+     "value": ""
+    },
+    "size": {
+     "value": 0.10000000149011612
+    },
+    "foregroundColor": {
+     "value": {
+      "bitsR": 172,
+      "bitsG": 179,
+      "bitsB": 186,
+      "bitsA": 193
+     }
+    },
+    "link": {
+     "value": ""
+    },
+    "superscript": {
+     "value": false
+    },
+    "subscript": {
+     "value": true
+    },
+    "strikethrough": {
+     "value": false
+    },
+    "code": {
+     "value": true
+    }
+   }
+  }
+ }
+}

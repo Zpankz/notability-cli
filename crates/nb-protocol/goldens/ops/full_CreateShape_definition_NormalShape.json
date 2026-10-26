@@ -1,0 +1,99 @@
+{
+ "table": "CreateShape",
+ "spec": {
+  "page": {
+   "site": 42932,
+   "timestamp": 82902487,
+   "index": 83002490
+  },
+  "origin": {
+   "x": 612.0,
+   "y": 0.001
+  },
+  "rotation": 12345.678,
+  "scale": {
+   "width": 0.5,
+   "height": 0.1
+  },
+  "definition": {
+   "type": "NormalShape",
+   "value": {
+    "type": 0,
+    "size": {
+     "width": 0.001,
+     "height": 12345.678
+    }
+   }
+  },
+  "tool": -2,
+  "style": -1,
+  "tapePattern": 0,
+  "color": {
+   "bitsR": 13,
+   "bitsG": 20,
+   "bitsB": 27,
+   "bitsA": 34
+  },
+  "borderWidth": 0.1,
+  "fillColor": {
+   "bitsR": 48,
+   "bitsG": 55,
+   "bitsB": 62,
+   "bitsA": 69
+  },
+  "zIndex": 852000005964,
+  "smartHighlight": false,
+  "force": -3.25,
+  "positionLocked": false,
+  "inkEffects": 856000005992,
+  "measurementUnit": 0
+ },
+ "decoded": {
+  "page": {
+   "site": 42932,
+   "timestamp": 82902487,
+   "index": 83002490
+  },
+  "origin": {
+   "x": 612.0,
+   "y": 0.0010000000474974513
+  },
+  "rotation": 12345.677734375,
+  "scale": {
+   "width": 0.5,
+   "height": 0.10000000149011612
+  },
+  "tool": -2,
+  "style": -1,
+  "tapePattern": 0,
+  "color": {
+   "bitsR": 13,
+   "bitsG": 20,
+   "bitsB": 27,
+   "bitsA": 34
+  },
+  "borderWidth": 0.10000000149011612,
+  "fillColor": {
+   "bitsR": 48,
+   "bitsG": 55,
+   "bitsB": 62,
+   "bitsA": 69
+  },
+  "zIndex": 852000005964,
+  "smartHighlight": false,
+  "force": -3.25,
+  "positionLocked": false,
+  "inkEffects": 856000005992,
+  "measurementUnit": 0,
+  "definition": {
+   "type": "NormalShape",
+   "value": {
+    "type": 0,
+    "size": {
+     "width": 0.0010000000474974513,
+     "height": 12345.677734375
+    }
+   }
+  }
+ }
+}

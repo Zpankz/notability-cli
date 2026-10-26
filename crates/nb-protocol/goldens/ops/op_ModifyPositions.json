@@ -1,0 +1,131 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 2,
+   "timestamp": 123
+  },
+  "clientTime": 1700000000023,
+  "payload": {
+   "type": "ModifyPositions",
+   "value": {
+    "modifications": [
+     {
+      "target": {
+       "site": 4166,
+       "timestamp": 403512105
+      },
+      "page": {
+       "site": 4428,
+       "timestamp": 403712111,
+       "index": 403812114
+      },
+      "origin": {
+       "x": 0.1,
+       "y": -3.25
+      },
+      "rotation": {
+       "value": 612.0
+      },
+      "scale": {
+       "value": {
+        "width": 0.001,
+        "height": 12345.678
+       }
+      },
+      "zIndex": 4044000028308
+     },
+     {
+      "target": {
+       "site": 5607,
+       "timestamp": 404612138
+      },
+      "page": {
+       "site": 5869,
+       "timestamp": 404812144,
+       "index": 404912147
+      },
+      "origin": {
+       "x": 0.5,
+       "y": 0.1
+      },
+      "rotation": {
+       "value": -3.25
+      },
+      "scale": {
+       "value": {
+        "width": 612.0,
+        "height": 0.001
+       }
+      },
+      "zIndex": 4055000028385
+     }
+    ]
+   }
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 2,
+   "timestamp": 123
+  },
+  "clientTime": 1700000000023,
+  "payload": {
+   "type": "ModifyPositions",
+   "value": {
+    "modifications": [
+     {
+      "target": {
+       "site": 4166,
+       "timestamp": 403512105
+      },
+      "page": {
+       "site": 4428,
+       "timestamp": 403712111,
+       "index": 403812114
+      },
+      "origin": {
+       "x": 0.10000000149011612,
+       "y": -3.25
+      },
+      "rotation": {
+       "value": 612.0
+      },
+      "scale": {
+       "value": {
+        "width": 0.0010000000474974513,
+        "height": 12345.677734375
+       }
+      },
+      "zIndex": 4044000028308
+     },
+     {
+      "target": {
+       "site": 5607,
+       "timestamp": 404612138
+      },
+      "page": {
+       "site": 5869,
+       "timestamp": 404812144,
+       "index": 404912147
+      },
+      "origin": {
+       "x": 0.5,
+       "y": 0.10000000149011612
+      },
+      "rotation": {
+       "value": -3.25
+      },
+      "scale": {
+       "value": {
+        "width": 612.0,
+        "height": 0.0010000000474974513
+       }
+      },
+      "zIndex": 4055000028385
+     }
+    ]
+   }
+  }
+ }
+}

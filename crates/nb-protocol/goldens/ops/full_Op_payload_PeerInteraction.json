@@ -1,0 +1,101 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 23924,
+   "timestamp": 268508055
+  },
+  "clientTime": 2686000018802,
+  "serverTime": 2687000018809,
+  "audioTime": 2688000018816,
+  "payload": {
+   "type": "PeerInteraction",
+   "value": {
+    "cursorPosition": {
+     "x": -3.25,
+     "y": 612.0
+    },
+    "selectedEntities": [
+     {
+      "site": 24972,
+      "timestamp": 269308079
+     },
+     {
+      "site": 25234,
+      "timestamp": 269508085
+     }
+    ],
+    "tool": -1,
+    "textSelection": {
+     "anchor": {
+      "site": 25627,
+      "timestamp": 269808094,
+      "index": 269908097
+     },
+     "focus": {
+      "site": 26020,
+      "timestamp": 270108103,
+      "index": 270208106
+     }
+    },
+    "recordingInProgress": false
+   }
+  },
+  "transientInteraction": {
+   "interactionId": {
+    "site": 26544,
+    "timestamp": 270508115
+   },
+   "timeout": 270608118
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 23924,
+   "timestamp": 268508055
+  },
+  "clientTime": 2686000018802,
+  "serverTime": 2687000018809,
+  "audioTime": 2688000018816,
+  "transientInteraction": {
+   "interactionId": {
+    "site": 26544,
+    "timestamp": 270508115
+   },
+   "timeout": 270608118
+  },
+  "payload": {
+   "type": "PeerInteraction",
+   "value": {
+    "cursorPosition": {
+     "x": -3.25,
+     "y": 612.0
+    },
+    "selectedEntities": [
+     {
+      "site": 24972,
+      "timestamp": 269308079
+     },
+     {
+      "site": 25234,
+      "timestamp": 269508085
+     }
+    ],
+    "tool": -1,
+    "textSelection": {
+     "anchor": {
+      "site": 25627,
+      "timestamp": 269808094,
+      "index": 269908097
+     },
+     "focus": {
+      "site": 26020,
+      "timestamp": 270108103,
+      "index": 270208106
+     }
+    },
+    "recordingInProgress": false
+   }
+  }
+ }
+}

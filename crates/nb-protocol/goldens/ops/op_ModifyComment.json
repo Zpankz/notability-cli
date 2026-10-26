@@ -1,0 +1,69 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 0,
+   "timestamp": 130
+  },
+  "clientTime": 1700000000030,
+  "payload": {
+   "type": "ModifyComment",
+   "value": {
+    "comment": {
+     "site": 22637,
+     "timestamp": 417612528
+    },
+    "anchor": {
+     "page": {
+      "site": 22899,
+      "timestamp": 417812534,
+      "index": 417912537
+     },
+     "origin": {
+      "x": 0.001,
+      "y": 12345.678
+     }
+    },
+    "text": {
+     "value": ""
+    },
+    "resolved": {
+     "value": false
+    }
+   }
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 0,
+   "timestamp": 130
+  },
+  "clientTime": 1700000000030,
+  "payload": {
+   "type": "ModifyComment",
+   "value": {
+    "comment": {
+     "site": 22637,
+     "timestamp": 417612528
+    },
+    "anchor": {
+     "page": {
+      "site": 22899,
+      "timestamp": 417812534,
+      "index": 417912537
+     },
+     "origin": {
+      "x": 0.0010000000474974513,
+      "y": 12345.677734375
+     }
+    },
+    "text": {
+     "value": ""
+    },
+    "resolved": {
+     "value": false
+    }
+   }
+  }
+ }
+}

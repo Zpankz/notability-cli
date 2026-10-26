@@ -1,0 +1,153 @@
+{
+ "table": "ModifyShape",
+ "spec": {
+  "shapes": [
+   {
+    "site": 56258,
+    "timestamp": 143104293
+   },
+   {
+    "site": 56520,
+    "timestamp": 143304299
+   }
+  ],
+  "page": {
+   "site": 56782,
+   "timestamp": 143504305,
+   "index": 143604308
+  },
+  "origin": {
+   "x": 612.0,
+   "y": 0.001
+  },
+  "rotation": {
+   "value": 12345.678
+  },
+  "scale": {
+   "value": {
+    "width": 0.5,
+    "height": 0.1
+   }
+  },
+  "definition": {
+   "type": "Line",
+   "value": {
+    "start": {
+     "x": 612.0,
+     "y": 0.001
+    },
+    "controlPoint1": {
+     "x": 12345.678,
+     "y": 0.5
+    },
+    "controlPoint2": {
+     "x": 0.1,
+     "y": -3.25
+    },
+    "end": {
+     "x": 612.0,
+     "y": 0.001
+    },
+    "arrowHead": -1
+   }
+  },
+  "tool": 0,
+  "style": 1,
+  "tapePattern": 2,
+  "color": {
+   "bitsR": 201,
+   "bitsG": 208,
+   "bitsB": 215,
+   "bitsA": 222
+  },
+  "borderWidth": 0.1,
+  "fillColor": {
+   "value": {
+    "bitsR": 236,
+    "bitsG": 243,
+    "bitsB": 250,
+    "bitsA": 1
+   }
+  },
+  "zIndex": 1464000010248,
+  "positionLocked": false,
+  "inkEffects": 1466000010262,
+  "inkEffectsTinted": false,
+  "measurementUnit": 1
+ },
+ "decoded": {
+  "shapes": [
+   {
+    "site": 56258,
+    "timestamp": 143104293
+   },
+   {
+    "site": 56520,
+    "timestamp": 143304299
+   }
+  ],
+  "page": {
+   "site": 56782,
+   "timestamp": 143504305,
+   "index": 143604308
+  },
+  "origin": {
+   "x": 612.0,
+   "y": 0.0010000000474974513
+  },
+  "rotation": {
+   "value": 12345.677734375
+  },
+  "scale": {
+   "value": {
+    "width": 0.5,
+    "height": 0.10000000149011612
+   }
+  },
+  "tool": 0,
+  "style": 1,
+  "tapePattern": 2,
+  "color": {
+   "bitsR": 201,
+   "bitsG": 208,
+   "bitsB": 215,
+   "bitsA": 222
+  },
+  "borderWidth": 0.10000000149011612,
+  "fillColor": {
+   "value": {
+    "bitsR": 236,
+    "bitsG": 243,
+    "bitsB": 250,
+    "bitsA": 1
+   }
+  },
+  "zIndex": 1464000010248,
+  "positionLocked": false,
+  "inkEffects": 1466000010262,
+  "inkEffectsTinted": false,
+  "measurementUnit": 1,
+  "definition": {
+   "type": "Line",
+   "value": {
+    "start": {
+     "x": 612.0,
+     "y": 0.0010000000474974513
+    },
+    "controlPoint1": {
+     "x": 12345.677734375,
+     "y": 0.5
+    },
+    "controlPoint2": {
+     "x": 0.10000000149011612,
+     "y": -3.25
+    },
+    "end": {
+     "x": 612.0,
+     "y": 0.0010000000474974513
+    },
+    "arrowHead": -1
+   }
+  }
+ }
+}

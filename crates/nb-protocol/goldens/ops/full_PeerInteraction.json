@@ -1,0 +1,63 @@
+{
+ "table": "PeerInteraction",
+ "spec": {
+  "cursorPosition": {
+   "x": 12345.678,
+   "y": 0.5
+  },
+  "selectedEntities": [
+   {
+    "site": 9347,
+    "timestamp": 307409222
+   },
+   {
+    "site": 9609,
+    "timestamp": 307609228
+   }
+  ],
+  "tool": 0,
+  "textSelection": {
+   "anchor": {
+    "site": 10002,
+    "timestamp": 307909237,
+    "index": 308009240
+   },
+   "focus": {
+    "site": 10395,
+    "timestamp": 308209246,
+    "index": 308309249
+   }
+  },
+  "recordingInProgress": true
+ },
+ "decoded": {
+  "cursorPosition": {
+   "x": 12345.677734375,
+   "y": 0.5
+  },
+  "selectedEntities": [
+   {
+    "site": 9347,
+    "timestamp": 307409222
+   },
+   {
+    "site": 9609,
+    "timestamp": 307609228
+   }
+  ],
+  "tool": 0,
+  "textSelection": {
+   "anchor": {
+    "site": 10002,
+    "timestamp": 307909237,
+    "index": 308009240
+   },
+   "focus": {
+    "site": 10395,
+    "timestamp": 308209246,
+    "index": 308309249
+   }
+  },
+  "recordingInProgress": true
+ }
+}

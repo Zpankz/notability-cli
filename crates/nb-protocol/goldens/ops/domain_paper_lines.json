@@ -1,0 +1,23 @@
+{
+ "table": "Paper",
+ "spec": {
+  "flair": 0,
+  "flairSpacing": 24.0,
+  "backgroundColor": {
+   "bitsR": 51,
+   "bitsG": 102,
+   "bitsB": 153,
+   "bitsA": 255
+  }
+ },
+ "decoded": {
+  "flair": 0,
+  "flairSpacing": 24.0,
+  "backgroundColor": {
+   "bitsR": 51,
+   "bitsG": 102,
+   "bitsB": 153,
+   "bitsA": 255
+  }
+ }
+}

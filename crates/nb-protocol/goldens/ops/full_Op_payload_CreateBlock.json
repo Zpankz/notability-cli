@@ -1,0 +1,197 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 45706,
+   "timestamp": 235107053
+  },
+  "clientTime": 2352000016464,
+  "serverTime": 2353000016471,
+  "audioTime": 2354000016478,
+  "payload": {
+   "type": "CreateBlock",
+   "value": {
+    "type": -1,
+    "corner": 0,
+    "page": {
+     "site": 46754,
+     "timestamp": 235907077,
+     "index": 236007080
+    },
+    "origin": {
+     "x": 612.0,
+     "y": 0.001
+    },
+    "rotation": 12345.678,
+    "scale": {
+     "width": 0.5,
+     "height": 0.1
+    },
+    "size": {
+     "width": -3.25,
+     "height": 612.0
+    },
+    "textWrap": 1,
+    "enableCaption": false,
+    "zIndex": 2370000016590,
+    "image": {
+     "metadata": {
+      "assetHash": "434547494b4d4f51535557595b5d5f61636567696b6d6f71737577797b7d7f81838587898b8d8f91939597999b9d9fa1a3a5a7a9abadafb1b3b5b7b9bbbdbfc1",
+      "fileName": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "mimeType": "",
+      "fileSize": 243707311
+     },
+     "size": {
+      "width": -3.25,
+      "height": 612.0
+     }
+    },
+    "cropRect": {
+     "origin": {
+      "x": 0.001,
+      "y": 12345.678
+     },
+     "size": {
+      "width": 0.5,
+      "height": 0.1
+     }
+    },
+    "webUrl": "Hello, wörld",
+    "mathLatex": "日本語テキスト",
+    "mathColor": {
+     "bitsR": 226,
+     "bitsG": 233,
+     "bitsB": 240,
+     "bitsA": 247
+    },
+    "paper": {
+     "flair": -2,
+     "flairSpacing": 612.0,
+     "flairBleeds": true,
+     "flairCentered": false,
+     "backgroundColor": {
+      "bitsR": 26,
+      "bitsG": 33,
+      "bitsB": 40,
+      "bitsA": 47
+     },
+     "legacyPaperIndex": 54
+    },
+    "imageFlippedHorizontally": false,
+    "imageFlippedVertically": true,
+    "resizesWidthToFitText": false,
+    "margins": {
+     "top": -3.25,
+     "bottom": 612.0,
+     "left": 0.001,
+     "right": 12345.678
+    },
+    "positionLocked": true
+   }
+  },
+  "transientInteraction": {
+   "interactionId": {
+    "site": 61033,
+    "timestamp": 246807404
+   },
+   "timeout": 246907407
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 45706,
+   "timestamp": 235107053
+  },
+  "clientTime": 2352000016464,
+  "serverTime": 2353000016471,
+  "audioTime": 2354000016478,
+  "transientInteraction": {
+   "interactionId": {
+    "site": 61033,
+    "timestamp": 246807404
+   },
+   "timeout": 246907407
+  },
+  "payload": {
+   "type": "CreateBlock",
+   "value": {
+    "type": -1,
+    "corner": 0,
+    "page": {
+     "site": 46754,
+     "timestamp": 235907077,
+     "index": 236007080
+    },
+    "origin": {
+     "x": 612.0,
+     "y": 0.0010000000474974513
+    },
+    "rotation": 12345.677734375,
+    "scale": {
+     "width": 0.5,
+     "height": 0.10000000149011612
+    },
+    "size": {
+     "width": -3.25,
+     "height": 612.0
+    },
+    "textWrap": 1,
+    "enableCaption": false,
+    "zIndex": 2370000016590,
+    "image": {
+     "metadata": {
+      "assetHash": "434547494b4d4f51535557595b5d5f61636567696b6d6f71737577797b7d7f81838587898b8d8f91939597999b9d9fa1a3a5a7a9abadafb1b3b5b7b9bbbdbfc1",
+      "fileName": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "mimeType": "",
+      "fileSize": 243707311
+     },
+     "size": {
+      "width": -3.25,
+      "height": 612.0
+     }
+    },
+    "cropRect": {
+     "origin": {
+      "x": 0.0010000000474974513,
+      "y": 12345.677734375
+     },
+     "size": {
+      "width": 0.5,
+      "height": 0.10000000149011612
+     }
+    },
+    "webUrl": "Hello, wörld",
+    "mathLatex": "日本語テキスト",
+    "mathColor": {
+     "bitsR": 226,
+     "bitsG": 233,
+     "bitsB": 240,
+     "bitsA": 247
+    },
+    "paper": {
+     "flair": -2,
+     "flairSpacing": 612.0,
+     "flairBleeds": true,
+     "flairCentered": false,
+     "backgroundColor": {
+      "bitsR": 26,
+      "bitsG": 33,
+      "bitsB": 40,
+      "bitsA": 47
+     },
+     "legacyPaperIndex": 54
+    },
+    "imageFlippedHorizontally": false,
+    "imageFlippedVertically": true,
+    "resizesWidthToFitText": false,
+    "margins": {
+     "top": -3.25,
+     "bottom": 612.0,
+     "left": 0.0010000000474974513,
+     "right": 12345.677734375
+    },
+    "positionLocked": true
+   }
+  }
+ }
+}

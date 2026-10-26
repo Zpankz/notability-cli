@@ -1,0 +1,615 @@
+{
+ "noteId": "00000000-0000-0000-0000-000000000000",
+ "editorSite": 1,
+ "editorUserId": "user-0000",
+ "createdAt": 1700000000000,
+ "creatorUserId": "user-0000",
+ "ops": [
+  {
+   "id": {
+    "site": 0,
+    "timestamp": 0
+   },
+   "clientTime": 1700000000037,
+   "serverTime": 1700000002678,
+   "payload": {
+    "type": "CreatePage",
+    "value": {
+     "pageCount": 2
+    }
+   }
+  },
+  {
+   "id": {
+    "site": 0,
+    "timestamp": 1
+   },
+   "clientTime": 1700000000037,
+   "serverTime": 1700000002678,
+   "payload": {
+    "type": "SetMetadata",
+    "value": {
+     "title": {
+      "value": "New note"
+     },
+     "pageBackground": {
+      "value": {
+       "paper": {
+        "backgroundColor": {
+         "bitsR": 255,
+         "bitsG": 255,
+         "bitsB": 255,
+         "bitsA": 255
+        }
+       },
+       "size": {
+        "width": 612.0,
+        "height": 792.0
+       },
+       "margins": {
+        "top": 36.0,
+        "bottom": 36.0,
+        "left": 36.0,
+        "right": 36.0
+       }
+      }
+     },
+     "defaultFontFamily": "Inter",
+     "defaultFontSize": 14.0,
+     "layoutMode": 1
+    }
+   }
+  },
+  {
+   "id": {
+    "site": 0,
+    "timestamp": 2
+   },
+   "clientTime": 1700000491852,
+   "serverTime": 1700000491820,
+   "payload": {
+    "type": "SetMetadata",
+    "value": {
+     "title": {
+      "value": "sample-A ui1"
+     }
+    }
+   }
+  },
+  {
+   "id": {
+    "site": 0,
+    "timestamp": 3
+   },
+   "clientTime": 1700000517566,
+   "serverTime": 1700000517505,
+   "payload": {
+    "type": "InsertString",
+    "value": {
+     "string": "Hi"
+    }
+   }
+  },
+  {
+   "id": {
+    "site": 0,
+    "timestamp": 4
+   },
+   "clientTime": 1700000525508,
+   "serverTime": 1700000525444,
+   "payload": {
+    "type": "InsertString",
+    "value": {
+     "location": {
+      "site": 0,
+      "timestamp": 3,
+      "index": 1
+     },
+     "string": " yo"
+    }
+   }
+  },
+  {
+   "id": {
+    "site": 0,
+    "timestamp": 5
+   },
+   "clientTime": 1700000558055,
+   "serverTime": 1700000558116,
+   "payload": {
+    "type": "SetMetadata",
+    "value": {
+     "layoutMode": 0
+    }
+   }
+  },
+  {
+   "id": {
+    "site": 0,
+    "timestamp": 6
+   },
+   "clientTime": 1700000582366,
+   "serverTime": 1700000582338,
+   "payload": {
+    "type": "CreateComment",
+    "value": {
+     "text": "cmt one",
+     "anchor": {
+      "type": "CanvasAnchor",
+      "value": {
+       "page": {
+        "site": 0,
+        "timestamp": 0,
+        "index": 0
+       },
+       "origin": {
+        "x": 325.20001220703125,
+        "y": 208.0
+       }
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": {
+    "site": 0,
+    "timestamp": 7
+   },
+   "clientTime": 1700000597362,
+   "serverTime": 1700000597407,
+   "payload": {
+    "type": "CreateComment",
+    "value": {
+     "text": "reply two",
+     "anchor": {
+      "type": "ReplyAnchor",
+      "value": {
+       "root": {
+        "site": 0,
+        "timestamp": 6
+       }
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": {
+    "site": 0,
+    "timestamp": 8
+   },
+   "clientTime": 1700000611683,
+   "serverTime": 1700000611629,
+   "payload": {
+    "type": "DeleteEntities",
+    "value": {
+     "entityDeletes": [
+      {
+       "site": 0,
+       "timestamp": 6
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": {
+    "site": 0,
+    "timestamp": 9
+   },
+   "clientTime": 1700000620736,
+   "serverTime": 1700000620694,
+   "payload": {
+    "type": "CreateBlock",
+    "value": {
+     "page": {
+      "site": 0,
+      "timestamp": 0,
+      "index": 0
+     },
+     "origin": {
+      "x": 160.1999969482422,
+      "y": 353.0
+     },
+     "size": {
+      "width": 79.5283203125,
+      "height": 30.0
+     },
+     "resizesWidthToFitText": true,
+     "margins": {
+      "top": 3.0,
+      "bottom": 3.0,
+      "left": 5.0,
+      "right": 5.0
+     }
+    }
+   }
+  },
+  {
+   "id": {
+    "site": 0,
+    "timestamp": 10
+   },
+   "clientTime": 1700000622059,
+   "serverTime": 1700000621992,
+   "payload": {
+    "type": "InsertString",
+    "value": {
+     "string": "box",
+     "textField": {
+      "site": 0,
+      "timestamp": 9
+     }
+    }
+   }
+  },
+  {
+   "id": {
+    "site": 1,
+    "timestamp": 11
+   },
+   "clientTime": 1700000993099,
+   "serverTime": 1700000993002,
+   "payload": {
+    "type": "SetMetadata",
+    "value": {
+     "title": {
+      "value": "sample-A cli-renamed"
+     }
+    }
+   }
+  },
+  {
+   "id": {
+    "site": 1,
+    "timestamp": 12
+   },
+   "clientTime": 1700001004603,
+   "serverTime": 1700001004479,
+   "payload": {
+    "type": "InsertString",
+    "value": {
+     "location": {
+      "site": 0,
+      "timestamp": 4,
+      "index": 2
+     },
+     "string": " from cli"
+    }
+   }
+  },
+  {
+   "id": {
+    "site": 1,
+    "timestamp": 13
+   },
+   "clientTime": 1700001005402,
+   "serverTime": 1700001005387,
+   "payload": {
+    "type": "CreateBlock",
+    "value": {
+     "page": {
+      "site": 0,
+      "timestamp": 0,
+      "index": 0
+     },
+     "origin": {
+      "x": 300.0,
+      "y": 500.0
+     },
+     "size": {
+      "width": 66.0,
+      "height": 30.0
+     },
+     "resizesWidthToFitText": true,
+     "margins": {
+      "top": 3.0,
+      "bottom": 3.0,
+      "left": 5.0,
+      "right": 5.0
+     }
+    }
+   }
+  },
+  {
+   "id": {
+    "site": 1,
+    "timestamp": 14
+   },
+   "clientTime": 1700001005402,
+   "serverTime": 1700001005387,
+   "payload": {
+    "type": "InsertString",
+    "value": {
+     "string": "cli box",
+     "textField": {
+      "site": 1,
+      "timestamp": 13
+     }
+    }
+   }
+  },
+  {
+   "id": {
+    "site": 1,
+    "timestamp": 15
+   },
+   "clientTime": 1700001008568,
+   "serverTime": 1700001008503,
+   "payload": {
+    "type": "CreateComment",
+    "value": {
+     "text": "cli comment",
+     "anchor": {
+      "type": "CanvasAnchor",
+      "value": {
+       "page": {
+        "site": 0,
+        "timestamp": 0,
+        "index": 0
+       },
+       "origin": {
+        "x": 200.0,
+        "y": 150.0
+       }
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": {
+    "site": 1,
+    "timestamp": 16
+   },
+   "clientTime": 1700001015750,
+   "serverTime": 1700001015722,
+   "payload": {
+    "type": "CreateComment",
+    "value": {
+     "text": "cli reply",
+     "anchor": {
+      "type": "ReplyAnchor",
+      "value": {
+       "root": {
+        "site": 1,
+        "timestamp": 15
+       }
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": {
+    "site": 1,
+    "timestamp": 17
+   },
+   "clientTime": 1700001016722,
+   "serverTime": 1700001016691,
+   "payload": {
+    "type": "CreateComment",
+    "value": {
+     "text": "to delete",
+     "anchor": {
+      "type": "CanvasAnchor",
+      "value": {
+       "page": {
+        "site": 0,
+        "timestamp": 0,
+        "index": 1
+       },
+       "origin": {
+        "x": 50.0,
+        "y": 60.0
+       }
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": {
+    "site": 1,
+    "timestamp": 18
+   },
+   "clientTime": 1700001023644,
+   "serverTime": 1700001023599,
+   "payload": {
+    "type": "DeleteEntities",
+    "value": {
+     "entityDeletes": [
+      {
+       "site": 1,
+       "timestamp": 17
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": {
+    "site": 1,
+    "timestamp": 19
+   },
+   "clientTime": 1700001024611,
+   "serverTime": 1700001024568,
+   "payload": {
+    "type": "CreatePage",
+    "value": {
+     "location": {
+      "site": 0,
+      "timestamp": 0,
+      "index": 1
+     },
+     "pageCount": 2
+    }
+   }
+  },
+  {
+   "id": {
+    "site": 1,
+    "timestamp": 20
+   },
+   "clientTime": 1700001025727,
+   "serverTime": 1700001025731,
+   "payload": {
+    "type": "CreatePage",
+    "value": {
+     "background": {
+      "paper": {
+       "flair": 2,
+       "flairSpacing": 20.0,
+       "backgroundColor": {
+        "bitsR": 255,
+        "bitsG": 255,
+        "bitsB": 255,
+        "bitsA": 255
+       }
+      },
+      "size": {
+       "width": 612.0,
+       "height": 792.0
+      },
+      "margins": {
+       "top": 36.0,
+       "bottom": 36.0,
+       "left": 36.0,
+       "right": 36.0
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": {
+    "site": 1,
+    "timestamp": 21
+   },
+   "clientTime": 1700001144003,
+   "serverTime": 1700001143976,
+   "payload": {
+    "type": "ModifyPage",
+    "value": {
+     "pages": [
+      {
+       "site": 1,
+       "timestamp": 19,
+       "index": 1
+      }
+     ],
+     "moveTo": {
+      "toId": {
+       "site": 1,
+       "timestamp": 20,
+       "index": 0
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": {
+    "site": 1,
+    "timestamp": 22
+   },
+   "clientTime": 1700001178072,
+   "serverTime": 1700001178036,
+   "payload": {
+    "type": "SetMetadata",
+    "value": {
+     "pageBackground": {
+      "value": {
+       "paper": {
+        "flair": 0,
+        "flairSpacing": 24.0,
+        "backgroundColor": {
+         "bitsR": 255,
+         "bitsG": 255,
+         "bitsB": 255,
+         "bitsA": 255
+        }
+       },
+       "size": {
+        "width": 612.0,
+        "height": 792.0
+       },
+       "margins": {
+        "top": 36.0,
+        "bottom": 36.0,
+        "left": 36.0,
+        "right": 36.0
+       }
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": {
+    "site": 1,
+    "timestamp": 23
+   },
+   "clientTime": 1700001179085,
+   "serverTime": 1700001179026,
+   "payload": {
+    "type": "ModifyPage",
+    "value": {
+     "pages": [
+      {
+       "site": 0,
+       "timestamp": 0,
+       "index": 0
+      }
+     ],
+     "background": {
+      "value": {
+       "paper": {
+        "flair": 1,
+        "backgroundColor": {
+         "bitsR": 255,
+         "bitsG": 248,
+         "bitsB": 231,
+         "bitsA": 255
+        }
+       },
+       "size": {
+        "width": 612.0,
+        "height": 792.0
+       },
+       "margins": {
+        "top": 36.0,
+        "bottom": 36.0,
+        "left": 36.0,
+        "right": 36.0
+       }
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": {
+    "site": 1,
+    "timestamp": 24
+   },
+   "clientTime": 1700001180062,
+   "serverTime": 1700001179972,
+   "payload": {
+    "type": "DeleteEntities",
+    "value": {
+     "entityDeletes": [],
+     "pageDeletes": [
+      {
+       "site": 1,
+       "timestamp": 19,
+       "index": 0
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "schemaVersion": 12
+}

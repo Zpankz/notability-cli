@@ -1,0 +1,161 @@
+{
+ "table": "NoteBundle",
+ "spec": {
+  "noteId": "0000061f-0000-4000-8000-00000000061f",
+  "legacyNoteId": "00000620-0000-4000-8000-000000000620",
+  "editorSite": 8931,
+  "editorUserId": "emoji 🗒️✓",
+  "createdAt": 1571000010997,
+  "creatorUserId": "",
+  "ops": [
+   {
+    "id": {
+     "site": 9455,
+     "timestamp": 157404722
+    },
+    "clientTime": 1575000011025,
+    "serverTime": 1576000011032,
+    "audioTime": 1577000011039,
+    "payload": {
+     "type": "UpdateCheckbox",
+     "value": {
+      "textField": {
+       "site": 10241,
+       "timestamp": 158004740
+      },
+      "location": {
+       "site": 10503,
+       "timestamp": 158204746,
+       "index": 158304749
+      },
+      "isChecked": true
+     }
+    },
+    "transientInteraction": {
+     "interactionId": {
+      "site": 11027,
+      "timestamp": 158604758
+     },
+     "timeout": 158704761
+    }
+   },
+   {
+    "id": {
+     "site": 11420,
+     "timestamp": 158904767
+    },
+    "clientTime": 1590000011130,
+    "serverTime": 1591000011137,
+    "audioTime": 1592000011144,
+    "payload": {
+     "type": "RemoveChars",
+     "value": {
+      "locations": [
+       {
+        "site": 12206,
+        "timestamp": 159504785,
+        "index": 159604788
+       },
+       {
+        "site": 12599,
+        "timestamp": 159804794,
+        "index": 159904797
+       }
+      ],
+      "textField": {
+       "site": 12992,
+       "timestamp": 160104803
+      }
+     }
+    },
+    "transientInteraction": {
+     "interactionId": {
+      "site": 13254,
+      "timestamp": 160304809
+     },
+     "timeout": 160404812
+    }
+   }
+  ],
+  "schemaVersion": 13647
+ },
+ "decoded": {
+  "noteId": "0000061f-0000-4000-8000-00000000061f",
+  "legacyNoteId": "00000620-0000-4000-8000-000000000620",
+  "editorSite": 8931,
+  "editorUserId": "emoji 🗒️✓",
+  "createdAt": 1571000010997,
+  "creatorUserId": "",
+  "ops": [
+   {
+    "id": {
+     "site": 9455,
+     "timestamp": 157404722
+    },
+    "clientTime": 1575000011025,
+    "serverTime": 1576000011032,
+    "audioTime": 1577000011039,
+    "transientInteraction": {
+     "interactionId": {
+      "site": 11027,
+      "timestamp": 158604758
+     },
+     "timeout": 158704761
+    },
+    "payload": {
+     "type": "UpdateCheckbox",
+     "value": {
+      "textField": {
+       "site": 10241,
+       "timestamp": 158004740
+      },
+      "location": {
+       "site": 10503,
+       "timestamp": 158204746,
+       "index": 158304749
+      },
+      "isChecked": true
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 11420,
+     "timestamp": 158904767
+    },
+    "clientTime": 1590000011130,
+    "serverTime": 1591000011137,
+    "audioTime": 1592000011144,
+    "transientInteraction": {
+     "interactionId": {
+      "site": 13254,
+      "timestamp": 160304809
+     },
+     "timeout": 160404812
+    },
+    "payload": {
+     "type": "RemoveChars",
+     "value": {
+      "locations": [
+       {
+        "site": 12206,
+        "timestamp": 159504785,
+        "index": 159604788
+       },
+       {
+        "site": 12599,
+        "timestamp": 159804794,
+        "index": 159904797
+       }
+      ],
+      "textField": {
+       "site": 12992,
+       "timestamp": 160104803
+      }
+     }
+    }
+   }
+  ],
+  "schemaVersion": 13647
+ }
+}

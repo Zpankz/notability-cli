@@ -1,0 +1,63 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 3,
+   "timestamp": 44
+  },
+  "payload": {
+   "type": "ModifyStyle",
+   "value": {
+    "start": {
+     "location": {
+      "site": 3,
+      "timestamp": 40,
+      "index": 2
+     },
+     "type": 0
+    },
+    "end": {
+     "location": {
+      "site": 3,
+      "timestamp": 40,
+      "index": 5
+     },
+     "type": 1
+    },
+    "code": {
+     "value": true
+    }
+   }
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 3,
+   "timestamp": 44
+  },
+  "payload": {
+   "type": "ModifyStyle",
+   "value": {
+    "start": {
+     "location": {
+      "site": 3,
+      "timestamp": 40,
+      "index": 2
+     },
+     "type": 0
+    },
+    "end": {
+     "location": {
+      "site": 3,
+      "timestamp": 40,
+      "index": 5
+     },
+     "type": 1
+    },
+    "code": {
+     "value": true
+    }
+   }
+  }
+ }
+}

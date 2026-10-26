@@ -1,0 +1,65 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 21959,
+   "timestamp": 267008010
+  },
+  "clientTime": 2671000018697,
+  "serverTime": 2672000018704,
+  "audioTime": 2673000018711,
+  "payload": {
+   "type": "UpdateCheckbox",
+   "value": {
+    "textField": {
+     "site": 22745,
+     "timestamp": 267608028
+    },
+    "location": {
+     "site": 23007,
+     "timestamp": 267808034,
+     "index": 267908037
+    },
+    "isChecked": true
+   }
+  },
+  "transientInteraction": {
+   "interactionId": {
+    "site": 23531,
+    "timestamp": 268208046
+   },
+   "timeout": 268308049
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 21959,
+   "timestamp": 267008010
+  },
+  "clientTime": 2671000018697,
+  "serverTime": 2672000018704,
+  "audioTime": 2673000018711,
+  "transientInteraction": {
+   "interactionId": {
+    "site": 23531,
+    "timestamp": 268208046
+   },
+   "timeout": 268308049
+  },
+  "payload": {
+   "type": "UpdateCheckbox",
+   "value": {
+    "textField": {
+     "site": 22745,
+     "timestamp": 267608028
+    },
+    "location": {
+     "site": 23007,
+     "timestamp": 267808034,
+     "index": 267908037
+    },
+    "isChecked": true
+   }
+  }
+ }
+}

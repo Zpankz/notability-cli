@@ -1,0 +1,77 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 54388,
+   "timestamp": 191705751
+  },
+  "clientTime": 1918000013426,
+  "serverTime": 1919000013433,
+  "audioTime": 1920000013440,
+  "payload": {
+   "type": "ModifyRecording",
+   "value": {
+    "recording": {
+     "site": 55174,
+     "timestamp": 192305769
+    },
+    "name": "emoji 🗒️✓",
+    "segmentation": [
+     {
+      "startTime": 1925000013475,
+      "endTime": 1926000013482
+     },
+     {
+      "startTime": 1927000013489,
+      "endTime": 1928000013496
+     }
+    ],
+    "zIndex": 1929000013503
+   }
+  },
+  "transientInteraction": {
+   "interactionId": {
+    "site": 56222,
+    "timestamp": 193105793
+   },
+   "timeout": 193205796
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 54388,
+   "timestamp": 191705751
+  },
+  "clientTime": 1918000013426,
+  "serverTime": 1919000013433,
+  "audioTime": 1920000013440,
+  "transientInteraction": {
+   "interactionId": {
+    "site": 56222,
+    "timestamp": 193105793
+   },
+   "timeout": 193205796
+  },
+  "payload": {
+   "type": "ModifyRecording",
+   "value": {
+    "recording": {
+     "site": 55174,
+     "timestamp": 192305769
+    },
+    "name": "emoji 🗒️✓",
+    "segmentation": [
+     {
+      "startTime": 1925000013475,
+      "endTime": 1926000013482
+     },
+     {
+      "startTime": 1927000013489,
+      "endTime": 1928000013496
+     }
+    ],
+    "zIndex": 1929000013503
+   }
+  }
+ }
+}

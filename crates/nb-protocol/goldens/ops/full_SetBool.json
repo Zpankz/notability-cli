@@ -1,0 +1,9 @@
+{
+ "table": "SetBool",
+ "spec": {
+  "value": true
+ },
+ "decoded": {
+  "value": true
+ }
+}

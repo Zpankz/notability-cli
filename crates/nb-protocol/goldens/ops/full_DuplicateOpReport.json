@@ -1,0 +1,43 @@
+{
+ "table": "DuplicateOpReport",
+ "spec": {
+  "duplicates": [
+   {
+    "opId": {
+     "site": 49482,
+     "timestamp": 87902637
+    },
+    "originalServerTime": 880000006160,
+    "duplicateServerTime": 881000006167
+   },
+   {
+    "opId": {
+     "site": 50006,
+     "timestamp": 88302649
+    },
+    "originalServerTime": 884000006188,
+    "duplicateServerTime": 885000006195
+   }
+  ]
+ },
+ "decoded": {
+  "duplicates": [
+   {
+    "opId": {
+     "site": 49482,
+     "timestamp": 87902637
+    },
+    "originalServerTime": 880000006160,
+    "duplicateServerTime": 881000006167
+   },
+   {
+    "opId": {
+     "site": 50006,
+     "timestamp": 88302649
+    },
+    "originalServerTime": 884000006188,
+    "duplicateServerTime": 885000006195
+   }
+  ]
+ }
+}

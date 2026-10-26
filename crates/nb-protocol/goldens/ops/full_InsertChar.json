@@ -1,0 +1,27 @@
+{
+ "table": "InsertChar",
+ "spec": {
+  "location": {
+   "site": 60093,
+   "timestamp": 96002880,
+   "index": 96102883
+  },
+  "unicodeScalar": 96202886,
+  "textField": {
+   "site": 60617,
+   "timestamp": 96402892
+  }
+ },
+ "decoded": {
+  "location": {
+   "site": 60093,
+   "timestamp": 96002880,
+   "index": 96102883
+  },
+  "unicodeScalar": 96202886,
+  "textField": {
+   "site": 60617,
+   "timestamp": 96402892
+  }
+ }
+}

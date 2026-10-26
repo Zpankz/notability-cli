@@ -1,0 +1,29 @@
+{
+ "table": "Paper",
+ "spec": {
+  "flair": 0,
+  "flairSpacing": 612.0,
+  "flairBleeds": true,
+  "flairCentered": false,
+  "backgroundColor": {
+   "bitsR": 214,
+   "bitsG": 221,
+   "bitsB": 228,
+   "bitsA": 235
+  },
+  "legacyPaperIndex": 242
+ },
+ "decoded": {
+  "flair": 0,
+  "flairSpacing": 612.0,
+  "flairBleeds": true,
+  "flairCentered": false,
+  "backgroundColor": {
+   "bitsR": 214,
+   "bitsG": 221,
+   "bitsB": 228,
+   "bitsA": 235
+  },
+  "legacyPaperIndex": 242
+ }
+}

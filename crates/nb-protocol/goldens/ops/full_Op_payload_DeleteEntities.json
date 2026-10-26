@@ -1,0 +1,133 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 6370,
+   "timestamp": 255107653
+  },
+  "clientTime": 2552000017864,
+  "serverTime": 2553000017871,
+  "audioTime": 2554000017878,
+  "payload": {
+   "type": "DeleteEntities",
+   "value": {
+    "entityDeletes": [
+     {
+      "site": 7156,
+      "timestamp": 255707671
+     },
+     {
+      "site": 7418,
+      "timestamp": 255907677
+     }
+    ],
+    "entityUndeletes": [
+     {
+      "site": 7680,
+      "timestamp": 256107683
+     },
+     {
+      "site": 7942,
+      "timestamp": 256307689
+     }
+    ],
+    "pageDeletes": [
+     {
+      "site": 8204,
+      "timestamp": 256507695,
+      "index": 256607698
+     },
+     {
+      "site": 8597,
+      "timestamp": 256807704,
+      "index": 256907707
+     }
+    ],
+    "pageUndeletes": [
+     {
+      "site": 8990,
+      "timestamp": 257107713,
+      "index": 257207716
+     },
+     {
+      "site": 9383,
+      "timestamp": 257407722,
+      "index": 257507725
+     }
+    ]
+   }
+  },
+  "transientInteraction": {
+   "interactionId": {
+    "site": 9776,
+    "timestamp": 257707731
+   },
+   "timeout": 257807734
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 6370,
+   "timestamp": 255107653
+  },
+  "clientTime": 2552000017864,
+  "serverTime": 2553000017871,
+  "audioTime": 2554000017878,
+  "transientInteraction": {
+   "interactionId": {
+    "site": 9776,
+    "timestamp": 257707731
+   },
+   "timeout": 257807734
+  },
+  "payload": {
+   "type": "DeleteEntities",
+   "value": {
+    "entityDeletes": [
+     {
+      "site": 7156,
+      "timestamp": 255707671
+     },
+     {
+      "site": 7418,
+      "timestamp": 255907677
+     }
+    ],
+    "entityUndeletes": [
+     {
+      "site": 7680,
+      "timestamp": 256107683
+     },
+     {
+      "site": 7942,
+      "timestamp": 256307689
+     }
+    ],
+    "pageDeletes": [
+     {
+      "site": 8204,
+      "timestamp": 256507695,
+      "index": 256607698
+     },
+     {
+      "site": 8597,
+      "timestamp": 256807704,
+      "index": 256907707
+     }
+    ],
+    "pageUndeletes": [
+     {
+      "site": 8990,
+      "timestamp": 257107713,
+      "index": 257207716
+     },
+     {
+      "site": 9383,
+      "timestamp": 257407722,
+      "index": 257507725
+     }
+    ]
+   }
+  }
+ }
+}

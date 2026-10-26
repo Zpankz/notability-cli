@@ -1,0 +1,31 @@
+{
+ "name": "para_range_bullets",
+ "ack": "ok",
+ "op": {
+  "id": {
+   "site": 0,
+   "timestamp": 11
+  },
+  "clientTime": 0,
+  "payload": {
+   "type": "ModifyParagraphStyle",
+   "value": {
+    "start": {
+     "site": 0,
+     "timestamp": 2,
+     "index": 6
+    },
+    "end": {
+     "site": 0,
+     "timestamp": 2,
+     "index": 17
+    },
+    "decoratorStyle": {
+     "value": 1
+    }
+   }
+  }
+ },
+ "append_ops_event_hex": "0c00000006000800040000000800000004000000010000001800000010001d0010000800000000001c0018000000000014000000000000000000000000000000000000000b000000180000000d0010002000040010000000000000001c000000120000000000000002000000060000000000000002000000110000000c00000006000500040000000800000001000000",
+ "note": "start..end range form (seen in iPad-written notes)"
+}

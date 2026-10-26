@@ -1,0 +1,125 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 22162,
+   "timestamp": 167105013
+  },
+  "clientTime": 1672000011704,
+  "serverTime": 1673000011711,
+  "audioTime": 1674000011718,
+  "payload": {
+   "type": "SetMetadata",
+   "value": {
+    "title": {
+     "value": "Hello, wörld"
+    },
+    "pageBackground": {
+     "value": {
+      "paper": {},
+      "pdf": {},
+      "rotation": 612.0,
+      "size": {
+       "width": 0.001,
+       "height": 12345.678
+      },
+      "margins": {
+       "top": 0.5,
+       "bottom": 0.1,
+       "left": -3.25,
+       "right": 612.0
+      }
+     }
+    },
+    "handwritingLanguage": {
+     "value": "emoji 🗒️✓"
+    },
+    "alignTextToLines": false,
+    "defaultFontFamily": "",
+    "defaultFontSize": 0.1,
+    "layoutMode": 1,
+    "blockWrapSupport": 2,
+    "coverPageId": {
+     "value": {
+      "site": 24782,
+      "timestamp": 169105073,
+      "index": 169205076
+     }
+    },
+    "measurementScale": {
+     "scaleFactor": 0.1,
+     "unit": 2
+    },
+    "measurementsShown": false
+   }
+  },
+  "transientInteraction": {
+   "interactionId": {
+    "site": 25568,
+    "timestamp": 169705091
+   },
+   "timeout": 169805094
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 22162,
+   "timestamp": 167105013
+  },
+  "clientTime": 1672000011704,
+  "serverTime": 1673000011711,
+  "audioTime": 1674000011718,
+  "transientInteraction": {
+   "interactionId": {
+    "site": 25568,
+    "timestamp": 169705091
+   },
+   "timeout": 169805094
+  },
+  "payload": {
+   "type": "SetMetadata",
+   "value": {
+    "title": {
+     "value": "Hello, wörld"
+    },
+    "pageBackground": {
+     "value": {
+      "paper": {},
+      "pdf": {},
+      "rotation": 612.0,
+      "size": {
+       "width": 0.0010000000474974513,
+       "height": 12345.677734375
+      },
+      "margins": {
+       "top": 0.5,
+       "bottom": 0.10000000149011612,
+       "left": -3.25,
+       "right": 612.0
+      }
+     }
+    },
+    "handwritingLanguage": {
+     "value": "emoji 🗒️✓"
+    },
+    "alignTextToLines": false,
+    "defaultFontFamily": "",
+    "defaultFontSize": 0.10000000149011612,
+    "layoutMode": 1,
+    "blockWrapSupport": 2,
+    "coverPageId": {
+     "value": {
+      "site": 24782,
+      "timestamp": 169105073,
+      "index": 169205076
+     }
+    },
+    "measurementScale": {
+     "scaleFactor": 0.10000000149011612,
+     "unit": 2
+    },
+    "measurementsShown": false
+   }
+  }
+ }
+}

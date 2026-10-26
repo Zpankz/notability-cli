@@ -1,0 +1,119 @@
+{
+ "table": "ModifyPage",
+ "spec": {
+  "pages": [
+   {
+    "site": 44992,
+    "timestamp": 134504035,
+    "index": 134604038
+   },
+   {
+    "site": 45385,
+    "timestamp": 134804044,
+    "index": 134904047
+   }
+  ],
+  "moveTo": {
+   "toId": {
+    "site": 45778,
+    "timestamp": 135104053,
+    "index": 135204056
+   }
+  },
+  "background": {
+   "value": {
+    "paper": {
+     "flair": 1,
+     "flairSpacing": 0.001,
+     "flairBleeds": false,
+     "flairCentered": true,
+     "backgroundColor": {
+      "bitsR": 27,
+      "bitsG": 34,
+      "bitsB": 41,
+      "bitsA": 48
+     },
+     "legacyPaperIndex": 55
+    },
+    "pdf": {
+     "metadata": {},
+     "layoutBehavior": 0,
+     "totalPageCount": 136304089,
+     "pagesConsumed": 136404092,
+     "pageOffset": 136504095,
+     "cropBoxes": []
+    },
+    "rotation": 0.001,
+    "size": {
+     "width": 12345.678,
+     "height": 0.5
+    },
+    "margins": {
+     "top": 0.1,
+     "bottom": -3.25,
+     "left": 612.0,
+     "right": 0.001
+    }
+   }
+  },
+  "bookmarked": 1
+ },
+ "decoded": {
+  "pages": [
+   {
+    "site": 44992,
+    "timestamp": 134504035,
+    "index": 134604038
+   },
+   {
+    "site": 45385,
+    "timestamp": 134804044,
+    "index": 134904047
+   }
+  ],
+  "moveTo": {
+   "toId": {
+    "site": 45778,
+    "timestamp": 135104053,
+    "index": 135204056
+   }
+  },
+  "background": {
+   "value": {
+    "paper": {
+     "flair": 1,
+     "flairSpacing": 0.0010000000474974513,
+     "flairBleeds": false,
+     "flairCentered": true,
+     "backgroundColor": {
+      "bitsR": 27,
+      "bitsG": 34,
+      "bitsB": 41,
+      "bitsA": 48
+     },
+     "legacyPaperIndex": 55
+    },
+    "pdf": {
+     "metadata": {},
+     "layoutBehavior": 0,
+     "totalPageCount": 136304089,
+     "pagesConsumed": 136404092,
+     "pageOffset": 136504095,
+     "cropBoxes": []
+    },
+    "rotation": 0.0010000000474974513,
+    "size": {
+     "width": 12345.677734375,
+     "height": 0.5
+    },
+    "margins": {
+     "top": 0.10000000149011612,
+     "bottom": -3.25,
+     "left": 612.0,
+     "right": 0.0010000000474974513
+    }
+   }
+  },
+  "bookmarked": 1
+ }
+}

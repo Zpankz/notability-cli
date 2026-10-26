@@ -1,0 +1,173 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 0,
+   "timestamp": 118
+  },
+  "clientTime": 1700000000018,
+  "payload": {
+   "type": "ModifyShape",
+   "value": {
+    "shapes": [
+     {
+      "site": 43502,
+      "timestamp": 383511505
+     },
+     {
+      "site": 43764,
+      "timestamp": 383711511
+     }
+    ],
+    "page": {
+     "site": 44026,
+     "timestamp": 383911517,
+     "index": 384011520
+    },
+    "origin": {
+     "x": 0.1,
+     "y": -3.25
+    },
+    "rotation": {
+     "value": 612.0
+    },
+    "scale": {
+     "value": {
+      "width": 0.001,
+      "height": 12345.678
+     }
+    },
+    "definition": {
+     "type": "Line",
+     "value": {
+      "start": {
+       "x": 0.1,
+       "y": -3.25
+      },
+      "controlPoint1": {
+       "x": 612.0,
+       "y": 0.001
+      },
+      "controlPoint2": {
+       "x": 12345.678,
+       "y": 0.5
+      },
+      "end": {
+       "x": 0.1,
+       "y": -3.25
+      },
+      "arrowHead": -2
+     }
+    },
+    "tool": -1,
+    "style": 0,
+    "tapePattern": 1,
+    "color": {
+     "bitsR": 133,
+     "bitsG": 140,
+     "bitsB": 147,
+     "bitsA": 154
+    },
+    "borderWidth": 12345.678,
+    "fillColor": {
+     "value": {
+      "bitsR": 168,
+      "bitsG": 175,
+      "bitsB": 182,
+      "bitsA": 189
+     }
+    },
+    "zIndex": 3868000027076,
+    "positionLocked": false,
+    "inkEffects": 3870000027090,
+    "inkEffectsTinted": false,
+    "measurementUnit": 0
+   }
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 0,
+   "timestamp": 118
+  },
+  "clientTime": 1700000000018,
+  "payload": {
+   "type": "ModifyShape",
+   "value": {
+    "shapes": [
+     {
+      "site": 43502,
+      "timestamp": 383511505
+     },
+     {
+      "site": 43764,
+      "timestamp": 383711511
+     }
+    ],
+    "page": {
+     "site": 44026,
+     "timestamp": 383911517,
+     "index": 384011520
+    },
+    "origin": {
+     "x": 0.10000000149011612,
+     "y": -3.25
+    },
+    "rotation": {
+     "value": 612.0
+    },
+    "scale": {
+     "value": {
+      "width": 0.0010000000474974513,
+      "height": 12345.677734375
+     }
+    },
+    "tool": -1,
+    "style": 0,
+    "tapePattern": 1,
+    "color": {
+     "bitsR": 133,
+     "bitsG": 140,
+     "bitsB": 147,
+     "bitsA": 154
+    },
+    "borderWidth": 12345.677734375,
+    "fillColor": {
+     "value": {
+      "bitsR": 168,
+      "bitsG": 175,
+      "bitsB": 182,
+      "bitsA": 189
+     }
+    },
+    "zIndex": 3868000027076,
+    "positionLocked": false,
+    "inkEffects": 3870000027090,
+    "inkEffectsTinted": false,
+    "measurementUnit": 0,
+    "definition": {
+     "type": "Line",
+     "value": {
+      "start": {
+       "x": 0.10000000149011612,
+       "y": -3.25
+      },
+      "controlPoint1": {
+       "x": 612.0,
+       "y": 0.0010000000474974513
+      },
+      "controlPoint2": {
+       "x": 12345.677734375,
+       "y": 0.5
+      },
+      "end": {
+       "x": 0.10000000149011612,
+       "y": -3.25
+      },
+      "arrowHead": -2
+     }
+    }
+   }
+  }
+ }
+}

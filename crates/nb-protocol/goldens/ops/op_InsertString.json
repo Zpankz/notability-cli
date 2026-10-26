@@ -1,0 +1,47 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 1,
+   "timestamp": 107
+  },
+  "clientTime": 1700000000007,
+  "payload": {
+   "type": "InsertString",
+   "value": {
+    "location": {
+     "site": 13765,
+     "timestamp": 360810824,
+     "index": 360910827
+    },
+    "string": "emoji 🗒️✓",
+    "textField": {
+     "site": 14289,
+     "timestamp": 361210836
+    }
+   }
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 1,
+   "timestamp": 107
+  },
+  "clientTime": 1700000000007,
+  "payload": {
+   "type": "InsertString",
+   "value": {
+    "location": {
+     "site": 13765,
+     "timestamp": 360810824,
+     "index": 360910827
+    },
+    "string": "emoji 🗒️✓",
+    "textField": {
+     "site": 14289,
+     "timestamp": 361210836
+    }
+   }
+  }
+ }
+}

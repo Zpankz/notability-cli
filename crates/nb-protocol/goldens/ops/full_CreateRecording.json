@@ -1,0 +1,51 @@
+{
+ "table": "CreateRecording",
+ "spec": {
+  "recording": {
+   "metadata": {
+    "assetHash": "aeb0b2b4b6b8babcbec0c2c4c6c8caccced0d2d4d6d8dadcdee0e2e4e6e8eaeceef0f2f4f6f8fafcfe00020406080a0c0e10121416181a1c1e20222426282a2c",
+    "fileName": "",
+    "mimeType": "a",
+    "fileSize": 75202256
+   }
+  },
+  "startTime": 753000005271,
+  "endTime": 754000005278,
+  "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "segmentation": [
+   {
+    "startTime": 756000005292,
+    "endTime": 757000005299
+   },
+   {
+    "startTime": 758000005306,
+    "endTime": 759000005313
+   }
+  ],
+  "zIndex": 760000005320
+ },
+ "decoded": {
+  "recording": {
+   "metadata": {
+    "assetHash": "aeb0b2b4b6b8babcbec0c2c4c6c8caccced0d2d4d6d8dadcdee0e2e4e6e8eaeceef0f2f4f6f8fafcfe00020406080a0c0e10121416181a1c1e20222426282a2c",
+    "fileName": "",
+    "mimeType": "a",
+    "fileSize": 75202256
+   }
+  },
+  "startTime": 753000005271,
+  "endTime": 754000005278,
+  "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "segmentation": [
+   {
+    "startTime": 756000005292,
+    "endTime": 757000005299
+   },
+   {
+    "startTime": 758000005306,
+    "endTime": 759000005313
+   }
+  ],
+  "zIndex": 760000005320
+ }
+}

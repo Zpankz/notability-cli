@@ -1,0 +1,71 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 1,
+   "timestamp": 104
+  },
+  "clientTime": 1700000000004,
+  "payload": {
+   "type": "CreateRecording",
+   "value": {
+    "recording": {
+     "metadata": {
+      "assetHash": "bec0c2c4c6c8caccced0d2d4d6d8dadcdee0e2e4e6e8eaeceef0f2f4f6f8fafcfe00020406080a0c0e10121416181a1c1e20222426282a2c2e30323436383a3c",
+      "fileName": "",
+      "mimeType": "a",
+      "fileSize": 358410752
+     }
+    },
+    "startTime": 3585000025095,
+    "endTime": 3586000025102,
+    "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "segmentation": [
+     {
+      "startTime": 3588000025116,
+      "endTime": 3589000025123
+     },
+     {
+      "startTime": 3590000025130,
+      "endTime": 3591000025137
+     }
+    ],
+    "zIndex": 3592000025144
+   }
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 1,
+   "timestamp": 104
+  },
+  "clientTime": 1700000000004,
+  "payload": {
+   "type": "CreateRecording",
+   "value": {
+    "recording": {
+     "metadata": {
+      "assetHash": "bec0c2c4c6c8caccced0d2d4d6d8dadcdee0e2e4e6e8eaeceef0f2f4f6f8fafcfe00020406080a0c0e10121416181a1c1e20222426282a2c2e30323436383a3c",
+      "fileName": "",
+      "mimeType": "a",
+      "fileSize": 358410752
+     }
+    },
+    "startTime": 3585000025095,
+    "endTime": 3586000025102,
+    "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "segmentation": [
+     {
+      "startTime": 3588000025116,
+      "endTime": 3589000025123
+     },
+     {
+      "startTime": 3590000025130,
+      "endTime": 3591000025137
+     }
+    ],
+    "zIndex": 3592000025144
+   }
+  }
+ }
+}

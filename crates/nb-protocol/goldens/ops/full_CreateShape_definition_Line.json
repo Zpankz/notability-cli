@@ -1,0 +1,123 @@
+{
+ "table": "CreateShape",
+ "spec": {
+  "page": {
+   "site": 34155,
+   "timestamp": 76202286,
+   "index": 76302289
+  },
+  "origin": {
+   "x": -3.25,
+   "y": 612.0
+  },
+  "rotation": 0.001,
+  "scale": {
+   "width": 12345.678,
+   "height": 0.5
+  },
+  "definition": {
+   "type": "Line",
+   "value": {
+    "start": {
+     "x": -3.25,
+     "y": 612.0
+    },
+    "controlPoint1": {
+     "x": 0.001,
+     "y": 12345.678
+    },
+    "controlPoint2": {
+     "x": 0.5,
+     "y": 0.1
+    },
+    "end": {
+     "x": -3.25,
+     "y": 612.0
+    },
+    "arrowHead": 1
+   }
+  },
+  "tool": 2,
+  "style": -2,
+  "tapePattern": -1,
+  "color": {
+   "bitsR": 98,
+   "bitsG": 105,
+   "bitsB": 112,
+   "bitsA": 119
+  },
+  "borderWidth": 0.5,
+  "fillColor": {
+   "bitsR": 133,
+   "bitsG": 140,
+   "bitsB": 147,
+   "bitsA": 154
+  },
+  "zIndex": 791000005537,
+  "smartHighlight": true,
+  "force": 0.1,
+  "positionLocked": true,
+  "inkEffects": 795000005565,
+  "measurementUnit": -1
+ },
+ "decoded": {
+  "page": {
+   "site": 34155,
+   "timestamp": 76202286,
+   "index": 76302289
+  },
+  "origin": {
+   "x": -3.25,
+   "y": 612.0
+  },
+  "rotation": 0.0010000000474974513,
+  "scale": {
+   "width": 12345.677734375,
+   "height": 0.5
+  },
+  "tool": 2,
+  "style": -2,
+  "tapePattern": -1,
+  "color": {
+   "bitsR": 98,
+   "bitsG": 105,
+   "bitsB": 112,
+   "bitsA": 119
+  },
+  "borderWidth": 0.5,
+  "fillColor": {
+   "bitsR": 133,
+   "bitsG": 140,
+   "bitsB": 147,
+   "bitsA": 154
+  },
+  "zIndex": 791000005537,
+  "smartHighlight": true,
+  "force": 0.10000000149011612,
+  "positionLocked": true,
+  "inkEffects": 795000005565,
+  "measurementUnit": -1,
+  "definition": {
+   "type": "Line",
+   "value": {
+    "start": {
+     "x": -3.25,
+     "y": 612.0
+    },
+    "controlPoint1": {
+     "x": 0.0010000000474974513,
+     "y": 12345.677734375
+    },
+    "controlPoint2": {
+     "x": 0.5,
+     "y": 0.10000000149011612
+    },
+    "end": {
+     "x": -3.25,
+     "y": 612.0
+    },
+    "arrowHead": 1
+   }
+  }
+ }
+}

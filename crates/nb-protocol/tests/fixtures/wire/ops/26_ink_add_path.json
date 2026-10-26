@@ -1,0 +1,25 @@
+{
+ "name": "ink_add_path",
+ "ack": "ok",
+ "op": {
+  "id": {
+   "site": 0,
+   "timestamp": 27
+  },
+  "clientTime": 0,
+  "payload": {
+   "type": "AddPathElements",
+   "value": {
+    "ink": {
+     "site": 0,
+     "timestamp": 26
+    },
+    "encodedCenterPathElements": {
+     "hex": "0001000060540045005500c5a0550000333d003cff00"
+    }
+   }
+  }
+ },
+ "append_ops_event_hex": "0c00000006000800040000000800000004000000010000001800000010001d0010000800000000001c0018000000000014000000000000000000000000000000000000001b0000001000000010000800100004000c0000000a000000000000001a00000004000000160000000001000060540045005500c5a0550000333d003cff000000",
+ "note": "streaming append used by native clients"
+}

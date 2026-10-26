@@ -1,0 +1,39 @@
+{
+ "table": "RemoveChars",
+ "spec": {
+  "locations": [
+   {
+    "site": 25067,
+    "timestamp": 319409582,
+    "index": 319509585
+   },
+   {
+    "site": 25460,
+    "timestamp": 319709591,
+    "index": 319809594
+   }
+  ],
+  "textField": {
+   "site": 25853,
+   "timestamp": 320009600
+  }
+ },
+ "decoded": {
+  "locations": [
+   {
+    "site": 25067,
+    "timestamp": 319409582,
+    "index": 319509585
+   },
+   {
+    "site": 25460,
+    "timestamp": 319709591,
+    "index": 319809594
+   }
+  ],
+  "textField": {
+   "site": 25853,
+   "timestamp": 320009600
+  }
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "table": "ClearStyle",
+ "spec": {
+  "start": {
+   "location": {
+    "site": 29737,
+    "timestamp": 22800684,
+    "index": 22900687
+   },
+   "type": -2
+  },
+  "end": {
+   "location": {
+    "site": 30261,
+    "timestamp": 23200696,
+    "index": 23300699
+   },
+   "type": 2
+  },
+  "paragraph": false,
+  "textField": {
+   "site": 30916,
+   "timestamp": 23700711
+  }
+ },
+ "decoded": {
+  "start": {
+   "location": {
+    "site": 29737,
+    "timestamp": 22800684,
+    "index": 22900687
+   },
+   "type": -2
+  },
+  "end": {
+   "location": {
+    "site": 30261,
+    "timestamp": 23200696,
+    "index": 23300699
+   },
+   "type": 2
+  },
+  "paragraph": false,
+  "textField": {
+   "site": 30916,
+   "timestamp": 23700711
+  }
+ }
+}

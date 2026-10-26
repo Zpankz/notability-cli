@@ -1,0 +1,111 @@
+account calendar
+account flags
+account graphql
+account login
+account logout
+account me
+account quotas
+account refresh
+account settings get
+account settings name
+account settings set
+account settings toggle
+account status
+account stickers
+account survey
+audio delete
+audio list
+audio record start
+audio record status
+audio record stop
+audio transcript
+audio upload
+chat ask
+chat backfill
+chat context
+chat delete
+chat read
+chat threads
+content comments add
+content comments delete
+content comments edit
+content comments list
+content comments move
+content images crop
+content images flip
+content images list
+content ink draw
+content ink erase
+content ink list
+content math add
+content math edit
+content math list
+content move
+content pages add
+content pages delete
+content pages list
+content pages reorder
+content pages template
+content pages templates
+content shapes add
+content shapes list
+content show
+content text add
+content text check
+content text list
+content text paragraph
+content text style
+files export
+files import image
+files import media
+files import ntb
+files import pdf
+files import youtube
+files render
+files toc
+folders create
+folders delete
+folders edit
+folders list
+folders move
+folders order
+folders organizers create
+folders organizers delete
+folders organizers edit
+folders organizers list
+folders rename
+folders reorder
+learn cards due
+learn cards import
+learn cards rate
+learn explain
+learn generate
+learn materials
+learn quiz answer
+learn quiz finish
+learn quiz list
+learn quiz start
+learn summary
+learn wait
+notes create
+notes delete
+notes duplicate
+notes favorite
+notes get
+notes index
+notes layout
+notes list
+notes move
+notes rename
+notes search
+notes trash empty
+notes trash list
+notes trash purge
+notes trash restore
+share answer
+share collaborators
+share invite
+share link
+share revoke
+share status
+share user

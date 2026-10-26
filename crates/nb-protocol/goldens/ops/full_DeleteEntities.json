@@ -1,0 +1,95 @@
+{
+ "table": "DeleteEntities",
+ "spec": {
+  "entityDeletes": [
+   {
+    "site": 46862,
+    "timestamp": 85902577
+   },
+   {
+    "site": 47124,
+    "timestamp": 86102583
+   }
+  ],
+  "entityUndeletes": [
+   {
+    "site": 47386,
+    "timestamp": 86302589
+   },
+   {
+    "site": 47648,
+    "timestamp": 86502595
+   }
+  ],
+  "pageDeletes": [
+   {
+    "site": 47910,
+    "timestamp": 86702601,
+    "index": 86802604
+   },
+   {
+    "site": 48303,
+    "timestamp": 87002610,
+    "index": 87102613
+   }
+  ],
+  "pageUndeletes": [
+   {
+    "site": 48696,
+    "timestamp": 87302619,
+    "index": 87402622
+   },
+   {
+    "site": 49089,
+    "timestamp": 87602628,
+    "index": 87702631
+   }
+  ]
+ },
+ "decoded": {
+  "entityDeletes": [
+   {
+    "site": 46862,
+    "timestamp": 85902577
+   },
+   {
+    "site": 47124,
+    "timestamp": 86102583
+   }
+  ],
+  "entityUndeletes": [
+   {
+    "site": 47386,
+    "timestamp": 86302589
+   },
+   {
+    "site": 47648,
+    "timestamp": 86502595
+   }
+  ],
+  "pageDeletes": [
+   {
+    "site": 47910,
+    "timestamp": 86702601,
+    "index": 86802604
+   },
+   {
+    "site": 48303,
+    "timestamp": 87002610,
+    "index": 87102613
+   }
+  ],
+  "pageUndeletes": [
+   {
+    "site": 48696,
+    "timestamp": 87302619,
+    "index": 87402622
+   },
+   {
+    "site": 49089,
+    "timestamp": 87602628,
+    "index": 87702631
+   }
+  ]
+ }
+}

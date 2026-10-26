@@ -1,0 +1,32 @@
+[package]
+name = "nb-cli"
+description = "The notability CLI and MCP server"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[[bin]]
+name = "notability"
+path = "src/main.rs"
+
+[dependencies]
+nb-api.workspace = true
+nb-domain.workspace = true
+nb-render.workspace = true
+incurs.workspace = true
+tokio.workspace = true
+serde_json.workspace = true
+base64.workspace = true
+axum.workspace = true
+async-trait = "0.1"
+futures = "0.3"
+
+[dev-dependencies]
+insta = { version = "1", features = ["json"] }
+reqwest.workspace = true
+tempfile = "3"
+
+[lints]
+workspace = true

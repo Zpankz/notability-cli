@@ -1,0 +1,27 @@
+{
+ "table": "SetRect",
+ "spec": {
+  "value": {
+   "origin": {
+    "x": 12345.678,
+    "y": 0.5
+   },
+   "size": {
+    "width": 0.1,
+    "height": -3.25
+   }
+  }
+ },
+ "decoded": {
+  "value": {
+   "origin": {
+    "x": 12345.677734375,
+    "y": 0.5
+   },
+   "size": {
+    "width": 0.10000000149011612,
+    "height": -3.25
+   }
+  }
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "table": "RemoveChar",
+ "spec": {
+  "location": {
+   "site": 24412,
+   "timestamp": 318909567,
+   "index": 319009570
+  },
+  "textField": {
+   "site": 24805,
+   "timestamp": 319209576
+  }
+ },
+ "decoded": {
+  "location": {
+   "site": 24412,
+   "timestamp": 318909567,
+   "index": 319009570
+  },
+  "textField": {
+   "site": 24805,
+   "timestamp": 319209576
+  }
+ }
+}

@@ -1,0 +1,267 @@
+{
+ "table": "NoteMutationResponse",
+ "spec": {
+  "noteId": "00000646-0000-4000-8000-000000000646",
+  "acks": [
+   {
+    "id": {
+     "site": 13909,
+     "timestamp": 160804824
+    },
+    "timestampedOp": {
+     "id": {
+      "site": 14171,
+      "timestamp": 161004830
+     },
+     "clientTime": 1611000011277,
+     "serverTime": 1612000011284,
+     "audioTime": 1613000011291,
+     "payload": {
+      "type": "ModifyComment",
+      "value": {
+       "comment": {
+        "site": 14957,
+        "timestamp": 161604848
+       },
+       "anchor": {
+        "page": {
+         "site": 15219,
+         "timestamp": 161804854,
+         "index": 161904857
+        },
+        "origin": {
+         "x": 0.5,
+         "y": 0.1
+        }
+       },
+       "text": {},
+       "resolved": {}
+      }
+     },
+     "transientInteraction": {
+      "interactionId": {
+       "site": 15874,
+       "timestamp": 162304869
+      },
+      "timeout": 162404872
+     }
+    },
+    "nakError": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "duplicate": true,
+    "retryable": false
+   },
+   {
+    "id": {
+     "site": 16660,
+     "timestamp": 162904887
+    },
+    "timestampedOp": {
+     "id": {
+      "site": 16922,
+      "timestamp": 163104893
+     },
+     "clientTime": 1632000011424,
+     "serverTime": 1633000011431,
+     "audioTime": 1634000011438,
+     "payload": {
+      "type": "ModifyShape",
+      "value": {
+       "shapes": [],
+       "page": {
+        "site": 17708,
+        "timestamp": 163704911,
+        "index": 163804914
+       },
+       "origin": {
+        "x": 0.1,
+        "y": -3.25
+       },
+       "rotation": {},
+       "scale": {},
+       "definition": {
+        "type": "Line",
+        "value": {
+         "start": {
+          "x": 0.001,
+          "y": 12345.678
+         },
+         "controlPoint1": {
+          "x": 0.5,
+          "y": 0.1
+         },
+         "controlPoint2": {
+          "x": -3.25,
+          "y": 612.0
+         },
+         "end": {
+          "x": 0.001,
+          "y": 12345.678
+         },
+         "arrowHead": -2
+        }
+       },
+       "tool": -1,
+       "style": 0,
+       "tapePattern": 1,
+       "color": {
+        "bitsR": 58,
+        "bitsG": 65,
+        "bitsB": 72,
+        "bitsA": 79
+       },
+       "borderWidth": -3.25,
+       "fillColor": {},
+       "zIndex": 1659000011613,
+       "positionLocked": true,
+       "inkEffects": 1661000011627,
+       "inkEffectsTinted": true,
+       "measurementUnit": 1
+      }
+     },
+     "transientInteraction": {
+      "interactionId": {
+       "site": 21376,
+       "timestamp": 166504995
+      },
+      "timeout": 166604998
+     }
+    },
+    "nakError": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "duplicate": true,
+    "retryable": false
+   }
+  ]
+ },
+ "decoded": {
+  "noteId": "00000646-0000-4000-8000-000000000646",
+  "acks": [
+   {
+    "id": {
+     "site": 13909,
+     "timestamp": 160804824
+    },
+    "timestampedOp": {
+     "id": {
+      "site": 14171,
+      "timestamp": 161004830
+     },
+     "clientTime": 1611000011277,
+     "serverTime": 1612000011284,
+     "audioTime": 1613000011291,
+     "transientInteraction": {
+      "interactionId": {
+       "site": 15874,
+       "timestamp": 162304869
+      },
+      "timeout": 162404872
+     },
+     "payload": {
+      "type": "ModifyComment",
+      "value": {
+       "comment": {
+        "site": 14957,
+        "timestamp": 161604848
+       },
+       "anchor": {
+        "page": {
+         "site": 15219,
+         "timestamp": 161804854,
+         "index": 161904857
+        },
+        "origin": {
+         "x": 0.5,
+         "y": 0.10000000149011612
+        }
+       },
+       "text": {},
+       "resolved": {}
+      }
+     }
+    },
+    "nakError": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "duplicate": true,
+    "retryable": false
+   },
+   {
+    "id": {
+     "site": 16660,
+     "timestamp": 162904887
+    },
+    "timestampedOp": {
+     "id": {
+      "site": 16922,
+      "timestamp": 163104893
+     },
+     "clientTime": 1632000011424,
+     "serverTime": 1633000011431,
+     "audioTime": 1634000011438,
+     "transientInteraction": {
+      "interactionId": {
+       "site": 21376,
+       "timestamp": 166504995
+      },
+      "timeout": 166604998
+     },
+     "payload": {
+      "type": "ModifyShape",
+      "value": {
+       "shapes": [],
+       "page": {
+        "site": 17708,
+        "timestamp": 163704911,
+        "index": 163804914
+       },
+       "origin": {
+        "x": 0.10000000149011612,
+        "y": -3.25
+       },
+       "rotation": {},
+       "scale": {},
+       "tool": -1,
+       "style": 0,
+       "tapePattern": 1,
+       "color": {
+        "bitsR": 58,
+        "bitsG": 65,
+        "bitsB": 72,
+        "bitsA": 79
+       },
+       "borderWidth": -3.25,
+       "fillColor": {},
+       "zIndex": 1659000011613,
+       "positionLocked": true,
+       "inkEffects": 1661000011627,
+       "inkEffectsTinted": true,
+       "measurementUnit": 1,
+       "definition": {
+        "type": "Line",
+        "value": {
+         "start": {
+          "x": 0.0010000000474974513,
+          "y": 12345.677734375
+         },
+         "controlPoint1": {
+          "x": 0.5,
+          "y": 0.10000000149011612
+         },
+         "controlPoint2": {
+          "x": -3.25,
+          "y": 612.0
+         },
+         "end": {
+          "x": 0.0010000000474974513,
+          "y": 12345.677734375
+         },
+         "arrowHead": -2
+        }
+       }
+      }
+     }
+    },
+    "nakError": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "duplicate": true,
+    "retryable": false
+   }
+  ]
+ }
+}

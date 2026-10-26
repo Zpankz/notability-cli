@@ -1,0 +1,9 @@
+{
+ "table": "SetUInt8",
+ "spec": {
+  "value": 245
+ },
+ "decoded": {
+  "value": 245
+ }
+}

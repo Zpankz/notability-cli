@@ -1,0 +1,43 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 3,
+   "timestamp": 42
+  },
+  "payload": {
+   "type": "ModifyBlock",
+   "value": {
+    "blocks": [
+     {
+      "site": 3,
+      "timestamp": 41
+     }
+    ],
+    "mathLatex": {
+     "value": "e^{i\\pi}+1=0"
+    }
+   }
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 3,
+   "timestamp": 42
+  },
+  "payload": {
+   "type": "ModifyBlock",
+   "value": {
+    "blocks": [
+     {
+      "site": 3,
+      "timestamp": 41
+     }
+    ],
+    "mathLatex": {
+     "value": "e^{i\\pi}+1=0"
+    }
+   }
+  }
+ }
+}

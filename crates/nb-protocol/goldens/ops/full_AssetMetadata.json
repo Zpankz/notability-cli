@@ -1,0 +1,15 @@
+{
+ "table": "AssetMetadata",
+ "spec": {
+  "assetHash": "a0a2a4a6a8aaacaeb0b2b4b6b8babcbec0c2c4c6c8caccced0d2d4d6d8dadcdee0e2e4e6e8eaeceef0f2f4f6f8fafcfe00020406080a0c0e10121416181a1c1e",
+  "fileName": "Hello, wörld",
+  "mimeType": "日本語テキスト",
+  "fileSize": 22600678
+ },
+ "decoded": {
+  "assetHash": "a0a2a4a6a8aaacaeb0b2b4b6b8babcbec0c2c4c6c8caccced0d2d4d6d8dadcdee0e2e4e6e8eaeceef0f2f4f6f8fafcfe00020406080a0c0e10121416181a1c1e",
+  "fileName": "Hello, wörld",
+  "mimeType": "日本語テキスト",
+  "fileSize": 22600678
+ }
+}

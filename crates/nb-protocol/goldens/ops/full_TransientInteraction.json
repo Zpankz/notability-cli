@@ -1,0 +1,17 @@
+{
+ "table": "TransientInteraction",
+ "spec": {
+  "interactionId": {
+   "site": 49433,
+   "timestamp": 338010140
+  },
+  "timeout": 338110143
+ },
+ "decoded": {
+  "interactionId": {
+   "site": 49433,
+   "timestamp": 338010140
+  },
+  "timeout": 338110143
+ }
+}

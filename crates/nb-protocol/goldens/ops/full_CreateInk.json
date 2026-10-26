@@ -1,0 +1,159 @@
+{
+ "table": "CreateInk",
+ "spec": {
+  "page": {
+   "site": 5204,
+   "timestamp": 54101623,
+   "index": 54201626
+  },
+  "origin": {
+   "x": 612.0,
+   "y": 0.001
+  },
+  "rotation": 12345.678,
+  "scale": {
+   "width": 0.5,
+   "height": 0.1
+  },
+  "tool": 1,
+  "style": 2,
+  "tapePattern": -2,
+  "color": {
+   "bitsR": 17,
+   "bitsG": 24,
+   "bitsB": 31,
+   "bitsA": 38
+  },
+  "width": 612.0,
+  "encodedCenterPath": [
+   132,
+   136,
+   140,
+   144,
+   148
+  ],
+  "encodedCustomPath": [
+   147,
+   151,
+   155,
+   159,
+   163
+  ],
+  "encodedFillPath": [
+   162,
+   166,
+   170,
+   174,
+   178
+  ],
+  "fillColor": {
+   "bitsR": 157,
+   "bitsG": 164,
+   "bitsB": 171,
+   "bitsA": 178
+  },
+  "styleMap": [
+   {
+    "backingPencilSeed": -1725,
+    "backingPencilReferencePoint": {
+     "x": 0.5,
+     "y": 0.1
+    },
+    "backingDashPhase": -3.25,
+    "backingDashPeriod": 612.0
+   },
+   {
+    "backingPencilSeed": -1740,
+    "backingPencilReferencePoint": {
+     "x": 12345.678,
+     "y": 0.5
+    },
+    "backingDashPhase": 0.1,
+    "backingDashPeriod": -3.25
+   }
+  ],
+  "zIndex": 585000004095,
+  "audioDuration": 58601758,
+  "nibAngle": 11361,
+  "nibFlatness": 11492,
+  "inkEffects": 589000004123
+ },
+ "decoded": {
+  "page": {
+   "site": 5204,
+   "timestamp": 54101623,
+   "index": 54201626
+  },
+  "origin": {
+   "x": 612.0,
+   "y": 0.0010000000474974513
+  },
+  "rotation": 12345.677734375,
+  "scale": {
+   "width": 0.5,
+   "height": 0.10000000149011612
+  },
+  "tool": 1,
+  "style": 2,
+  "tapePattern": -2,
+  "color": {
+   "bitsR": 17,
+   "bitsG": 24,
+   "bitsB": 31,
+   "bitsA": 38
+  },
+  "width": 612.0,
+  "encodedCenterPath": [
+   132,
+   136,
+   140,
+   144,
+   148
+  ],
+  "encodedCustomPath": [
+   147,
+   151,
+   155,
+   159,
+   163
+  ],
+  "encodedFillPath": [
+   162,
+   166,
+   170,
+   174,
+   178
+  ],
+  "fillColor": {
+   "bitsR": 157,
+   "bitsG": 164,
+   "bitsB": 171,
+   "bitsA": 178
+  },
+  "styleMap": [
+   {
+    "backingPencilSeed": -1725,
+    "backingPencilReferencePoint": {
+     "x": 0.5,
+     "y": 0.10000000149011612
+    },
+    "backingDashPhase": -3.25,
+    "backingDashPeriod": 612.0
+   },
+   {
+    "backingPencilSeed": -1740,
+    "backingPencilReferencePoint": {
+     "x": 12345.677734375,
+     "y": 0.5
+    },
+    "backingDashPhase": 0.10000000149011612,
+    "backingDashPeriod": -3.25
+   }
+  ],
+  "zIndex": 585000004095,
+  "audioDuration": 58601758,
+  "nibAngle": 11361,
+  "nibFlatness": 11492,
+  "inkEffects": 589000004123
+ }
+}

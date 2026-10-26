@@ -1,0 +1,111 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 6144,
+   "timestamp": 204906147
+  },
+  "clientTime": 2050000014350,
+  "serverTime": 2051000014357,
+  "audioTime": 2052000014364,
+  "payload": {
+   "type": "ModifyParagraphStyle",
+   "value": {
+    "start": {
+     "site": 6930,
+     "timestamp": 205506165,
+     "index": 205606168
+    },
+    "end": {
+     "site": 7323,
+     "timestamp": 205806174,
+     "index": 205906177
+    },
+    "indentLevel": {
+     "value": 84
+    },
+    "alignment": {
+     "value": -1
+    },
+    "lineSpacing": {
+     "value": 0.001
+    },
+    "decoratorStyle": {
+     "value": 1
+    },
+    "isChecked": true,
+    "textField": {
+     "site": 8371,
+     "timestamp": 206606198
+    },
+    "programmingLanguage": {
+     "value": "日本語テキスト"
+    },
+    "writingDirection": {
+     "value": 1
+    }
+   }
+  },
+  "transientInteraction": {
+   "interactionId": {
+    "site": 8895,
+    "timestamp": 207006210
+   },
+   "timeout": 207106213
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 6144,
+   "timestamp": 204906147
+  },
+  "clientTime": 2050000014350,
+  "serverTime": 2051000014357,
+  "audioTime": 2052000014364,
+  "transientInteraction": {
+   "interactionId": {
+    "site": 8895,
+    "timestamp": 207006210
+   },
+   "timeout": 207106213
+  },
+  "payload": {
+   "type": "ModifyParagraphStyle",
+   "value": {
+    "start": {
+     "site": 6930,
+     "timestamp": 205506165,
+     "index": 205606168
+    },
+    "end": {
+     "site": 7323,
+     "timestamp": 205806174,
+     "index": 205906177
+    },
+    "indentLevel": {
+     "value": 84
+    },
+    "alignment": {
+     "value": -1
+    },
+    "lineSpacing": {
+     "value": 0.0010000000474974513
+    },
+    "decoratorStyle": {
+     "value": 1
+    },
+    "isChecked": true,
+    "textField": {
+     "site": 8371,
+     "timestamp": 206606198
+    },
+    "programmingLanguage": {
+     "value": "日本語テキスト"
+    },
+    "writingDirection": {
+     "value": 1
+    }
+   }
+  }
+ }
+}

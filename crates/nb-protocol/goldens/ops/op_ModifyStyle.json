@@ -1,0 +1,159 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 2,
+   "timestamp": 111
+  },
+  "clientTime": 1700000000011,
+  "payload": {
+   "type": "ModifyStyle",
+   "value": {
+    "start": {
+     "location": {
+      "site": 17302,
+      "timestamp": 363510905,
+      "index": 363610908
+     },
+     "type": 0
+    },
+    "end": {
+     "location": {
+      "site": 17826,
+      "timestamp": 363910917,
+      "index": 364010920
+     },
+     "type": -1
+    },
+    "textField": {
+     "site": 18350,
+     "timestamp": 364310929
+    },
+    "bold": {
+     "value": true
+    },
+    "italic": {
+     "value": false
+    },
+    "underline": {
+     "value": true
+    },
+    "highlight": {
+     "value": {
+      "bitsR": 185,
+      "bitsG": 192,
+      "bitsB": 199,
+      "bitsA": 206
+     }
+    },
+    "familyName": {
+     "value": "日本語テキスト"
+    },
+    "size": {
+     "value": 0.001
+    },
+    "foregroundColor": {
+     "value": {
+      "bitsR": 227,
+      "bitsG": 234,
+      "bitsB": 241,
+      "bitsA": 248
+     }
+    },
+    "link": {
+     "value": "日本語テキスト"
+    },
+    "superscript": {
+     "value": true
+    },
+    "subscript": {
+     "value": false
+    },
+    "strikethrough": {
+     "value": true
+    },
+    "code": {
+     "value": false
+    }
+   }
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 2,
+   "timestamp": 111
+  },
+  "clientTime": 1700000000011,
+  "payload": {
+   "type": "ModifyStyle",
+   "value": {
+    "start": {
+     "location": {
+      "site": 17302,
+      "timestamp": 363510905,
+      "index": 363610908
+     },
+     "type": 0
+    },
+    "end": {
+     "location": {
+      "site": 17826,
+      "timestamp": 363910917,
+      "index": 364010920
+     },
+     "type": -1
+    },
+    "textField": {
+     "site": 18350,
+     "timestamp": 364310929
+    },
+    "bold": {
+     "value": true
+    },
+    "italic": {
+     "value": false
+    },
+    "underline": {
+     "value": true
+    },
+    "highlight": {
+     "value": {
+      "bitsR": 185,
+      "bitsG": 192,
+      "bitsB": 199,
+      "bitsA": 206
+     }
+    },
+    "familyName": {
+     "value": "日本語テキスト"
+    },
+    "size": {
+     "value": 0.0010000000474974513
+    },
+    "foregroundColor": {
+     "value": {
+      "bitsR": 227,
+      "bitsG": 234,
+      "bitsB": 241,
+      "bitsA": 248
+     }
+    },
+    "link": {
+     "value": "日本語テキスト"
+    },
+    "superscript": {
+     "value": true
+    },
+    "subscript": {
+     "value": false
+    },
+    "strikethrough": {
+     "value": true
+    },
+    "code": {
+     "value": false
+    }
+   }
+  }
+ }
+}

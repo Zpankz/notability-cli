@@ -1,0 +1,24 @@
+{
+ "name": "update_checkbox",
+ "ack": "ok",
+ "op": {
+  "id": {
+   "site": 0,
+   "timestamp": 5
+  },
+  "clientTime": 0,
+  "payload": {
+   "type": "UpdateCheckbox",
+   "value": {
+    "location": {
+     "site": 0,
+     "timestamp": 2,
+     "index": 0
+    },
+    "isChecked": false
+   }
+  }
+ },
+ "append_ops_event_hex": "0c00000006000800040000000800000004000000010000001800000010001d0010000800000000001c00180000000000140000000000000000000000000000000000000005000000100000001c000a0011000000040010000a00000000000000020000000000000000000000",
+ "note": ""
+}

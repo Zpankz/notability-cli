@@ -1,0 +1,3053 @@
+{
+ "table": "AppendOpsEvent",
+ "spec": {
+  "ops": [
+   {
+    "id": {
+     "site": 0,
+     "timestamp": 100
+    },
+    "clientTime": 1700000000000,
+    "payload": {
+     "type": "SetMetadata",
+     "value": {
+      "title": {
+       "value": "Hello, wörld"
+      },
+      "pageBackground": {
+       "value": {
+        "paper": {},
+        "pdf": {},
+        "rotation": 612.0,
+        "size": {
+         "width": 0.001,
+         "height": 12345.678
+        },
+        "margins": {
+         "top": 0.5,
+         "bottom": 0.1,
+         "left": -3.25,
+         "right": 612.0
+        }
+       }
+      },
+      "handwritingLanguage": {
+       "value": "emoji 🗒️✓"
+      },
+      "alignTextToLines": false,
+      "defaultFontFamily": "",
+      "defaultFontSize": 0.1,
+      "layoutMode": 2,
+      "blockWrapSupport": -2,
+      "coverPageId": {
+       "value": {
+        "site": 52970,
+        "timestamp": 340710221,
+        "index": 340810224
+       }
+      },
+      "measurementScale": {
+       "scaleFactor": 0.1,
+       "unit": -2
+      },
+      "measurementsShown": false
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 1,
+     "timestamp": 101
+    },
+    "clientTime": 1700000000001,
+    "payload": {
+     "type": "AssetCloudPersisted",
+     "value": {
+      "assetHash": "5456585a5c5e60626466686a6c6e70727476787a7c7e80828486888a8c8e90929496989a9c9ea0a2a4a6a8aaacaeb0b2b4b6b8babcbec0c2c4c6c8caccced0d2"
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 2,
+     "timestamp": 102
+    },
+    "clientTime": 1700000000002,
+    "payload": {
+     "type": "CreatePage",
+     "value": {
+      "location": {
+       "site": 62140,
+       "timestamp": 347710431,
+       "index": 347810434
+      },
+      "background": {
+       "paper": {
+        "flair": 2,
+        "flairSpacing": 0.5,
+        "flairBleeds": false,
+        "flairCentered": true,
+        "backgroundColor": {
+         "bitsR": 61,
+         "bitsG": 68,
+         "bitsB": 75,
+         "bitsA": 82
+        },
+        "legacyPaperIndex": 89
+       },
+       "pdf": {
+        "metadata": {},
+        "layoutBehavior": 1,
+        "totalPageCount": 348910467,
+        "pagesConsumed": 349010470,
+        "pageOffset": 349110473,
+        "cropBoxes": []
+       },
+       "rotation": 0.5,
+       "size": {
+        "width": 0.1,
+        "height": -3.25
+       },
+       "margins": {
+        "top": 612.0,
+        "bottom": 0.001,
+        "left": 12345.678,
+        "right": 0.5
+       }
+      },
+      "pageCount": 349910497,
+      "bookmarked": -2
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 0,
+     "timestamp": 103
+    },
+    "clientTime": 1700000000003,
+    "payload": {
+     "type": "ModifyPage",
+     "value": {
+      "pages": [
+       {
+        "site": 65415,
+        "timestamp": 350210506,
+        "index": 350310509
+       },
+       {
+        "site": 272,
+        "timestamp": 350510515,
+        "index": 350610518
+       }
+      ],
+      "moveTo": {
+       "toId": {
+        "site": 665,
+        "timestamp": 350810524,
+        "index": 350910527
+       }
+      },
+      "background": {
+       "value": {
+        "paper": {},
+        "pdf": {},
+        "rotation": 0.5,
+        "size": {
+         "width": 0.1,
+         "height": -3.25
+        },
+        "margins": {
+         "top": 612.0,
+         "bottom": 0.001,
+         "left": 12345.678,
+         "right": 0.5
+        }
+       }
+      },
+      "bookmarked": 0
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 1,
+     "timestamp": 104
+    },
+    "clientTime": 1700000000004,
+    "payload": {
+     "type": "CreateRecording",
+     "value": {
+      "recording": {
+       "metadata": {
+        "assetHash": "bec0c2c4c6c8caccced0d2d4d6d8dadcdee0e2e4e6e8eaeceef0f2f4f6f8fafcfe00020406080a0c0e10121416181a1c1e20222426282a2c2e30323436383a3c",
+        "fileName": "",
+        "mimeType": "a",
+        "fileSize": 358410752
+       }
+      },
+      "startTime": 3585000025095,
+      "endTime": 3586000025102,
+      "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "segmentation": [
+       {
+        "startTime": 3588000025116,
+        "endTime": 3589000025123
+       },
+       {
+        "startTime": 3590000025130,
+        "endTime": 3591000025137
+       }
+      ],
+      "zIndex": 3592000025144
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 2,
+     "timestamp": 105
+    },
+    "clientTime": 1700000000005,
+    "payload": {
+     "type": "ModifyRecording",
+     "value": {
+      "recording": {
+       "site": 11931,
+       "timestamp": 359410782
+      },
+      "name": "a",
+      "segmentation": [
+       {
+        "startTime": 3596000025172,
+        "endTime": 3597000025179
+       },
+       {
+        "startTime": 3598000025186,
+        "endTime": 3599000025193
+       }
+      ],
+      "zIndex": 3600000025200
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 0,
+     "timestamp": 106
+    },
+    "clientTime": 1700000000006,
+    "payload": {
+     "type": "InsertChar",
+     "value": {
+      "location": {
+       "site": 12979,
+       "timestamp": 360210806,
+       "index": 360310809
+      },
+      "unicodeScalar": 360410812,
+      "textField": {
+       "site": 13503,
+       "timestamp": 360610818
+      }
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 1,
+     "timestamp": 107
+    },
+    "clientTime": 1700000000007,
+    "payload": {
+     "type": "InsertString",
+     "value": {
+      "location": {
+       "site": 13765,
+       "timestamp": 360810824,
+       "index": 360910827
+      },
+      "string": "emoji 🗒️✓",
+      "textField": {
+       "site": 14289,
+       "timestamp": 361210836
+      }
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 2,
+     "timestamp": 108
+    },
+    "clientTime": 1700000000008,
+    "payload": {
+     "type": "RemoveChar",
+     "value": {
+      "location": {
+       "site": 14551,
+       "timestamp": 361410842,
+       "index": 361510845
+      },
+      "textField": {
+       "site": 14944,
+       "timestamp": 361710851
+      }
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 0,
+     "timestamp": 109
+    },
+    "clientTime": 1700000000009,
+    "payload": {
+     "type": "RemoveChars",
+     "value": {
+      "locations": [
+       {
+        "site": 15206,
+        "timestamp": 361910857,
+        "index": 362010860
+       },
+       {
+        "site": 15599,
+        "timestamp": 362210866,
+        "index": 362310869
+       }
+      ],
+      "textField": {
+       "site": 15992,
+       "timestamp": 362510875
+      }
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 1,
+     "timestamp": 110
+    },
+    "clientTime": 1700000000010,
+    "payload": {
+     "type": "ReviveChars",
+     "value": {
+      "locations": [
+       {
+        "site": 16254,
+        "timestamp": 362710881,
+        "index": 362810884
+       },
+       {
+        "site": 16647,
+        "timestamp": 363010890,
+        "index": 363110893
+       }
+      ],
+      "textField": {
+       "site": 17040,
+       "timestamp": 363310899
+      }
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 2,
+     "timestamp": 111
+    },
+    "clientTime": 1700000000011,
+    "payload": {
+     "type": "ModifyStyle",
+     "value": {
+      "start": {
+       "location": {
+        "site": 17302,
+        "timestamp": 363510905,
+        "index": 363610908
+       },
+       "type": 0
+      },
+      "end": {
+       "location": {
+        "site": 17826,
+        "timestamp": 363910917,
+        "index": 364010920
+       },
+       "type": -1
+      },
+      "textField": {
+       "site": 18350,
+       "timestamp": 364310929
+      },
+      "bold": {
+       "value": true
+      },
+      "italic": {
+       "value": false
+      },
+      "underline": {
+       "value": true
+      },
+      "highlight": {
+       "value": {
+        "bitsR": 185,
+        "bitsG": 192,
+        "bitsB": 199,
+        "bitsA": 206
+       }
+      },
+      "familyName": {
+       "value": "日本語テキスト"
+      },
+      "size": {
+       "value": 0.001
+      },
+      "foregroundColor": {
+       "value": {
+        "bitsR": 227,
+        "bitsG": 234,
+        "bitsB": 241,
+        "bitsA": 248
+       }
+      },
+      "link": {
+       "value": "日本語テキスト"
+      },
+      "superscript": {
+       "value": true
+      },
+      "subscript": {
+       "value": false
+      },
+      "strikethrough": {
+       "value": true
+      },
+      "code": {
+       "value": false
+      }
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 0,
+     "timestamp": 112
+    },
+    "clientTime": 1700000000012,
+    "payload": {
+     "type": "ModifyParagraphStyle",
+     "value": {
+      "start": {
+       "site": 20970,
+       "timestamp": 366310989,
+       "index": 366410992
+      },
+      "end": {
+       "site": 21363,
+       "timestamp": 366610998,
+       "index": 366711001
+      },
+      "indentLevel": {
+       "value": 76
+      },
+      "alignment": {
+       "value": 2
+      },
+      "lineSpacing": {
+       "value": 0.001
+      },
+      "decoratorStyle": {
+       "value": -1
+      },
+      "isChecked": true,
+      "textField": {
+       "site": 22411,
+       "timestamp": 367411022
+      },
+      "programmingLanguage": {
+       "value": "日本語テキスト"
+      },
+      "writingDirection": {
+       "value": -1
+      }
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 1,
+     "timestamp": 113
+    },
+    "clientTime": 1700000000013,
+    "payload": {
+     "type": "ClearStyle",
+     "value": {
+      "start": {
+       "location": {
+        "site": 22935,
+        "timestamp": 367811034,
+        "index": 367911037
+       },
+       "type": -2
+      },
+      "end": {
+       "location": {
+        "site": 23459,
+        "timestamp": 368211046,
+        "index": 368311049
+       },
+       "type": 2
+      },
+      "paragraph": false,
+      "textField": {
+       "site": 24114,
+       "timestamp": 368711061
+      }
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 2,
+     "timestamp": 114
+    },
+    "clientTime": 1700000000014,
+    "payload": {
+     "type": "CreateInk",
+     "value": {
+      "page": {
+       "site": 24376,
+       "timestamp": 368911067,
+       "index": 369011070
+      },
+      "origin": {
+       "x": 0.1,
+       "y": -3.25
+      },
+      "rotation": 612.0,
+      "scale": {
+       "width": 0.001,
+       "height": 12345.678
+      },
+      "tool": -1,
+      "style": 0,
+      "tapePattern": 1,
+      "color": {
+       "bitsR": 37,
+       "bitsG": 44,
+       "bitsB": 51,
+       "bitsA": 58
+      },
+      "width": 0.1,
+      "encodedCenterPath": [
+       104,
+       108,
+       112,
+       116,
+       120
+      ],
+      "encodedCustomPath": [
+       119,
+       123,
+       127,
+       131,
+       135
+      ],
+      "encodedFillPath": [
+       134,
+       138,
+       142,
+       146,
+       150
+      ],
+      "fillColor": {
+       "bitsR": 177,
+       "bitsG": 184,
+       "bitsB": 191,
+       "bitsA": 198
+      },
+      "styleMap": [
+       {
+        "backingPencilSeed": -11169,
+        "backingPencilReferencePoint": {
+         "x": 0.001,
+         "y": 12345.678
+        },
+        "backingDashPhase": 0.5,
+        "backingDashPeriod": 0.1
+       },
+       {
+        "backingPencilSeed": -11184,
+        "backingPencilReferencePoint": {
+         "x": 612.0,
+         "y": 0.001
+        },
+        "backingDashPhase": 12345.678,
+        "backingDashPeriod": 0.5
+       }
+      ],
+      "zIndex": 3733000026131,
+      "audioDuration": 373411202,
+      "nibAngle": 30533,
+      "nibFlatness": 30664,
+      "inkEffects": 3737000026159
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 0,
+     "timestamp": 115
+    },
+    "clientTime": 1700000000015,
+    "payload": {
+     "type": "AddPathElements",
+     "value": {
+      "ink": {
+       "site": 30926,
+       "timestamp": 373911217
+      },
+      "encodedCenterPathElements": [
+       212,
+       216,
+       220,
+       224,
+       228
+      ],
+      "encodedCenterPathEstimatedElements": [
+       227,
+       231,
+       235,
+       239,
+       243
+      ]
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 1,
+     "timestamp": 116
+    },
+    "clientTime": 1700000000016,
+    "payload": {
+     "type": "ModifyInk",
+     "value": {
+      "inks": [
+       {
+        "site": 32498,
+        "timestamp": 375111253
+       },
+       {
+        "site": 32760,
+        "timestamp": 375311259
+       }
+      ],
+      "page": {
+       "site": 33022,
+       "timestamp": 375511265,
+       "index": 375611268
+      },
+      "origin": {
+       "x": 0.1,
+       "y": -3.25
+      },
+      "rotation": {
+       "value": 612.0
+      },
+      "scale": {
+       "value": {
+        "width": 0.001,
+        "height": 12345.678
+       }
+      },
+      "style": 0,
+      "color": {
+       "bitsR": 229,
+       "bitsG": 236,
+       "bitsB": 243,
+       "bitsA": 250
+      },
+      "width": 12345.678,
+      "encodedCenterPath": [
+       40,
+       44,
+       48,
+       52,
+       56
+      ],
+      "encodedCustomPath": [
+       55,
+       59,
+       63,
+       67,
+       71
+      ],
+      "encodedFillPath": [
+       70,
+       74,
+       78,
+       82,
+       86
+      ],
+      "fillColor": {
+       "value": {
+        "bitsR": 113,
+        "bitsG": 120,
+        "bitsB": 127,
+        "bitsA": 134
+       }
+      },
+      "styleMap": [
+       {
+        "backingPencilSeed": -11361,
+        "backingPencilReferencePoint": {
+         "x": -3.25,
+         "y": 612.0
+        },
+        "backingDashPhase": 0.001,
+        "backingDashPeriod": 12345.678
+       },
+       {
+        "backingPencilSeed": -11376,
+        "backingPencilReferencePoint": {
+         "x": 0.1,
+         "y": -3.25
+        },
+        "backingDashPhase": 612.0,
+        "backingDashPeriod": 0.001
+       }
+      ],
+      "zIndex": 3797000026579,
+      "nibAngle": 38786,
+      "nibFlatness": 38917,
+      "tapePattern": -2,
+      "inkEffects": 3801000026607,
+      "inkEffectsTinted": true
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 2,
+     "timestamp": 117
+    },
+    "clientTime": 1700000000017,
+    "payload": {
+     "type": "CreateShape",
+     "value": {
+      "page": {
+       "site": 39441,
+       "timestamp": 380411412,
+       "index": 380511415
+      },
+      "origin": {
+       "x": -3.25,
+       "y": 612.0
+      },
+      "rotation": 0.001,
+      "scale": {
+       "width": 12345.678,
+       "height": 0.5
+      },
+      "definition": {
+       "type": "Polygon",
+       "value": {
+        "points": [
+         {
+          "x": -3.25,
+          "y": 612.0
+         },
+         {
+          "x": 0.001,
+          "y": 12345.678
+         }
+        ]
+       }
+      },
+      "tool": -1,
+      "style": 0,
+      "tapePattern": 1,
+      "color": {
+       "bitsR": 109,
+       "bitsG": 116,
+       "bitsB": 123,
+       "bitsA": 130
+      },
+      "borderWidth": 0.1,
+      "fillColor": {
+       "bitsR": 144,
+       "bitsG": 151,
+       "bitsB": 158,
+       "bitsA": 165
+      },
+      "zIndex": 3828000026796,
+      "smartHighlight": false,
+      "force": -3.25,
+      "positionLocked": false,
+      "inkEffects": 3832000026824,
+      "measurementUnit": 1
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 0,
+     "timestamp": 118
+    },
+    "clientTime": 1700000000018,
+    "payload": {
+     "type": "ModifyShape",
+     "value": {
+      "shapes": [
+       {
+        "site": 43502,
+        "timestamp": 383511505
+       },
+       {
+        "site": 43764,
+        "timestamp": 383711511
+       }
+      ],
+      "page": {
+       "site": 44026,
+       "timestamp": 383911517,
+       "index": 384011520
+      },
+      "origin": {
+       "x": 0.1,
+       "y": -3.25
+      },
+      "rotation": {
+       "value": 612.0
+      },
+      "scale": {
+       "value": {
+        "width": 0.001,
+        "height": 12345.678
+       }
+      },
+      "definition": {
+       "type": "Line",
+       "value": {
+        "start": {
+         "x": 0.1,
+         "y": -3.25
+        },
+        "controlPoint1": {
+         "x": 612.0,
+         "y": 0.001
+        },
+        "controlPoint2": {
+         "x": 12345.678,
+         "y": 0.5
+        },
+        "end": {
+         "x": 0.1,
+         "y": -3.25
+        },
+        "arrowHead": -2
+       }
+      },
+      "tool": -1,
+      "style": 0,
+      "tapePattern": 1,
+      "color": {
+       "bitsR": 133,
+       "bitsG": 140,
+       "bitsB": 147,
+       "bitsA": 154
+      },
+      "borderWidth": 12345.678,
+      "fillColor": {
+       "value": {
+        "bitsR": 168,
+        "bitsG": 175,
+        "bitsB": 182,
+        "bitsA": 189
+       }
+      },
+      "zIndex": 3868000027076,
+      "positionLocked": false,
+      "inkEffects": 3870000027090,
+      "inkEffectsTinted": false,
+      "measurementUnit": 0
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 1,
+     "timestamp": 119
+    },
+    "clientTime": 1700000000019,
+    "payload": {
+     "type": "CreateGroup",
+     "value": {
+      "members": [
+       {
+        "site": 48611,
+        "timestamp": 387411622
+       },
+       {
+        "site": 48873,
+        "timestamp": 387611628
+       }
+      ]
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 2,
+     "timestamp": 120
+    },
+    "clientTime": 1700000000020,
+    "payload": {
+     "type": "ModifyGroup",
+     "value": {
+      "group": {
+       "site": 49135,
+       "timestamp": 387811634
+      },
+      "members": [
+       {
+        "site": 49397,
+        "timestamp": 388011640
+       },
+       {
+        "site": 49659,
+        "timestamp": 388211646
+       }
+      ]
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 0,
+     "timestamp": 121
+    },
+    "clientTime": 1700000000021,
+    "payload": {
+     "type": "CreateBlock",
+     "value": {
+      "type": 1,
+      "corner": 2,
+      "page": {
+       "site": 50183,
+       "timestamp": 388611658,
+       "index": 388711661
+      },
+      "origin": {
+       "x": 0.5,
+       "y": 0.1
+      },
+      "rotation": -3.25,
+      "scale": {
+       "width": 612.0,
+       "height": 0.001
+      },
+      "size": {
+       "width": 12345.678,
+       "height": 0.5
+      },
+      "textWrap": -2,
+      "enableCaption": true,
+      "zIndex": 3897000027279,
+      "image": {
+       "metadata": {
+        "assetHash": "3a3c3e40424446484a4c4e50525456585a5c5e60626466686a6c6e70727476787a7c7e80828486888a8c8e90929496989a9c9ea0a2a4a6a8aaacaeb0b2b4b6b8",
+        "fileName": "Hello, wörld",
+        "mimeType": "日本語テキスト",
+        "fileSize": 396411892
+       },
+       "size": {
+        "width": 12345.678,
+        "height": 0.5
+       }
+      },
+      "cropRect": {
+       "origin": {
+        "x": 0.1,
+        "y": -3.25
+       },
+       "size": {
+        "width": 612.0,
+        "height": 0.001
+       }
+      },
+      "webUrl": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "mathLatex": "",
+      "mathColor": {
+       "bitsR": 163,
+       "bitsG": 170,
+       "bitsB": 177,
+       "bitsA": 184
+      },
+      "paper": {
+       "flair": 0,
+       "flairSpacing": 0.5,
+       "flairBleeds": false,
+       "flairCentered": true,
+       "backgroundColor": {
+        "bitsR": 219,
+        "bitsG": 226,
+        "bitsB": 233,
+        "bitsA": 240
+       },
+       "legacyPaperIndex": 247
+      },
+      "imageFlippedHorizontally": true,
+      "imageFlippedVertically": false,
+      "resizesWidthToFitText": true,
+      "margins": {
+       "top": 12345.678,
+       "bottom": 0.5,
+       "left": 0.1,
+       "right": -3.25
+      },
+      "positionLocked": false
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 1,
+     "timestamp": 122
+    },
+    "clientTime": 1700000000022,
+    "payload": {
+     "type": "ModifyBlock",
+     "value": {
+      "blocks": [
+       {
+        "site": 64462,
+        "timestamp": 399511985
+       },
+       {
+        "site": 64724,
+        "timestamp": 399711991
+       }
+      ],
+      "corner": 1,
+      "page": {
+       "site": 65117,
+       "timestamp": 400012000,
+       "index": 400112003
+      },
+      "origin": {
+       "x": 0.5,
+       "y": 0.1
+      },
+      "rotation": {
+       "value": -3.25
+      },
+      "scale": {
+       "value": {
+        "width": 612.0,
+        "height": 0.001
+       }
+      },
+      "size": {
+       "width": 12345.678,
+       "height": 0.5
+      },
+      "textWrap": 2,
+      "enableCaption": true,
+      "zIndex": 4011000028077,
+      "mathLatex": {
+       "value": "emoji 🗒️✓"
+      },
+      "mathColor": {
+       "value": {
+        "bitsR": 187,
+        "bitsG": 194,
+        "bitsB": 201,
+        "bitsA": 208
+       }
+      },
+      "cropRect": {
+       "value": {
+        "origin": {
+         "x": 612.0,
+         "y": 0.001
+        },
+        "size": {
+         "width": 12345.678,
+         "height": 0.5
+        }
+       }
+      },
+      "paper": {
+       "value": {
+        "flair": -1,
+        "flairSpacing": -3.25,
+        "flairBleeds": false,
+        "flairCentered": true,
+        "backgroundColor": {
+         "bitsR": 15,
+         "bitsG": 22,
+         "bitsB": 29,
+         "bitsA": 36
+        },
+        "legacyPaperIndex": 43
+       }
+      },
+      "imageFlippedHorizontally": true,
+      "imageFlippedVertically": false,
+      "resizesWidthToFitText": true,
+      "positionLocked": false
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 2,
+     "timestamp": 123
+    },
+    "clientTime": 1700000000023,
+    "payload": {
+     "type": "ModifyPositions",
+     "value": {
+      "modifications": [
+       {
+        "target": {
+         "site": 4166,
+         "timestamp": 403512105
+        },
+        "page": {
+         "site": 4428,
+         "timestamp": 403712111,
+         "index": 403812114
+        },
+        "origin": {
+         "x": 0.1,
+         "y": -3.25
+        },
+        "rotation": {
+         "value": 612.0
+        },
+        "scale": {
+         "value": {
+          "width": 0.001,
+          "height": 12345.678
+         }
+        },
+        "zIndex": 4044000028308
+       },
+       {
+        "target": {
+         "site": 5607,
+         "timestamp": 404612138
+        },
+        "page": {
+         "site": 5869,
+         "timestamp": 404812144,
+         "index": 404912147
+        },
+        "origin": {
+         "x": 0.5,
+         "y": 0.1
+        },
+        "rotation": {
+         "value": -3.25
+        },
+        "scale": {
+         "value": {
+          "width": 612.0,
+          "height": 0.001
+         }
+        },
+        "zIndex": 4055000028385
+       }
+      ]
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 0,
+     "timestamp": 124
+    },
+    "clientTime": 1700000000024,
+    "payload": {
+     "type": "DeleteEntities",
+     "value": {
+      "entityDeletes": [
+       {
+        "site": 7048,
+        "timestamp": 405712171
+       },
+       {
+        "site": 7310,
+        "timestamp": 405912177
+       }
+      ],
+      "entityUndeletes": [
+       {
+        "site": 7572,
+        "timestamp": 406112183
+       },
+       {
+        "site": 7834,
+        "timestamp": 406312189
+       }
+      ],
+      "pageDeletes": [
+       {
+        "site": 8096,
+        "timestamp": 406512195,
+        "index": 406612198
+       },
+       {
+        "site": 8489,
+        "timestamp": 406812204,
+        "index": 406912207
+       }
+      ],
+      "pageUndeletes": [
+       {
+        "site": 8882,
+        "timestamp": 407112213,
+        "index": 407212216
+       },
+       {
+        "site": 9275,
+        "timestamp": 407412222,
+        "index": 407512225
+       }
+      ]
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 1,
+     "timestamp": 125
+    },
+    "clientTime": 1700000000025,
+    "payload": {
+     "type": "TransientInteractionEnded",
+     "value": {
+      "interactionId": {
+       "site": 9668,
+       "timestamp": 407712231
+      },
+      "replacedByOp": {
+       "site": 9930,
+       "timestamp": 407912237
+      }
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 2,
+     "timestamp": 126
+    },
+    "clientTime": 1700000000026,
+    "payload": {
+     "type": "ModifyPDFField",
+     "value": {
+      "assetHash": "f0f2f4f6f8fafcfe00020406080a0c0e10121416181a1c1e20222426282a2c2e30323436383a3c3e40424446484a4c4e50525456585a5c5e60626466686a6c6e",
+      "key": "emoji 🗒️✓",
+      "valueType": 87,
+      "valueString": "",
+      "valueBoolean": false
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 0,
+     "timestamp": 127
+    },
+    "clientTime": 1700000000027,
+    "payload": {
+     "type": "UpdateCheckbox",
+     "value": {
+      "textField": {
+       "site": 19100,
+       "timestamp": 414912447
+      },
+      "location": {
+       "site": 19362,
+       "timestamp": 415112453,
+       "index": 415212456
+      },
+      "isChecked": false
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 1,
+     "timestamp": 128
+    },
+    "clientTime": 1700000000028,
+    "payload": {
+     "type": "PeerInteraction",
+     "value": {
+      "cursorPosition": {
+       "x": -3.25,
+       "y": 612.0
+      },
+      "selectedEntities": [
+       {
+        "site": 20148,
+        "timestamp": 415712471
+       },
+       {
+        "site": 20410,
+        "timestamp": 415912477
+       }
+      ],
+      "tool": -2,
+      "textSelection": {
+       "anchor": {
+        "site": 20803,
+        "timestamp": 416212486,
+        "index": 416312489
+       },
+       "focus": {
+        "site": 21196,
+        "timestamp": 416512495,
+        "index": 416612498
+       }
+      },
+      "recordingInProgress": false
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 2,
+     "timestamp": 129
+    },
+    "clientTime": 1700000000029,
+    "payload": {
+     "type": "CreateComment",
+     "value": {
+      "anchor": {
+       "type": "CanvasAnchor",
+       "value": {
+        "page": {
+         "site": 21851,
+         "timestamp": 417012510,
+         "index": 417112513
+        },
+        "origin": {
+         "x": -3.25,
+         "y": 612.0
+        }
+       }
+      },
+      "text": "emoji 🗒️✓"
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 0,
+     "timestamp": 130
+    },
+    "clientTime": 1700000000030,
+    "payload": {
+     "type": "ModifyComment",
+     "value": {
+      "comment": {
+       "site": 22637,
+       "timestamp": 417612528
+      },
+      "anchor": {
+       "page": {
+        "site": 22899,
+        "timestamp": 417812534,
+        "index": 417912537
+       },
+       "origin": {
+        "x": 0.001,
+        "y": 12345.678
+       }
+      },
+      "text": {
+       "value": ""
+      },
+      "resolved": {
+       "value": false
+      }
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 1,
+     "timestamp": 131
+    },
+    "clientTime": 1700000000031,
+    "payload": {
+     "type": "CreateConnector",
+     "value": {
+      "start": {
+       "type": "FractionalAttachedEndpoint",
+       "value": {
+        "entity": {
+         "site": 23947,
+         "timestamp": 418612558
+        },
+        "fraction": {
+         "x": 12345.678,
+         "y": 0.5
+        }
+       }
+      },
+      "end": {
+       "type": "FreeEndpoint",
+       "value": {
+        "page": {
+         "site": 24602,
+         "timestamp": 419112573,
+         "index": 419212576
+        },
+        "position": {
+         "x": 12345.678,
+         "y": 0.5
+        }
+       }
+      },
+      "pathStyle": -2,
+      "bends": [
+       {
+        "pin": -1,
+        "offset": 612.0
+       },
+       {
+        "pin": 1,
+        "offset": 12345.678
+       }
+      ],
+      "startCap": -2,
+      "endCap": -1,
+      "tool": 0,
+      "style": 1,
+      "color": {
+       "bitsR": 244,
+       "bitsG": 251,
+       "bitsB": 2,
+       "bitsA": 9
+      },
+      "borderWidth": -3.25,
+      "zIndex": 4209000029463,
+      "positionLocked": true,
+      "labelPosition": 12345.678
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 2,
+     "timestamp": 132
+    },
+    "clientTime": 1700000000032,
+    "payload": {
+     "type": "ModifyConnector",
+     "value": {
+      "connectors": [
+       {
+        "site": 27484,
+        "timestamp": 421312639
+       },
+       {
+        "site": 27746,
+        "timestamp": 421512645
+       }
+      ],
+      "start": {
+       "type": "FreeEndpoint",
+       "value": {
+        "page": {
+         "site": 28139,
+         "timestamp": 421812654,
+         "index": 421912657
+        },
+        "position": {
+         "x": -3.25,
+         "y": 612.0
+        }
+       }
+      },
+      "end": {
+       "type": "FreeEndpoint",
+       "value": {
+        "page": {
+         "site": 28925,
+         "timestamp": 422412672,
+         "index": 422512675
+        },
+        "position": {
+         "x": -3.25,
+         "y": 612.0
+        }
+       }
+      },
+      "pathStyle": 1,
+      "bends": [
+       {
+        "pin": 2,
+        "offset": 0.5
+       },
+       {
+        "pin": -1,
+        "offset": -3.25
+       }
+      ],
+      "startCap": 1,
+      "endCap": 2,
+      "tool": -2,
+      "style": -1,
+      "color": {
+       "bitsR": 219,
+       "bitsG": 226,
+       "bitsB": 233,
+       "bitsA": 240
+      },
+      "borderWidth": 12345.678,
+      "zIndex": 4242000029694,
+      "positionLocked": false,
+      "labelPosition": {
+       "value": -3.25
+      }
+     }
+    }
+   }
+  ]
+ },
+ "decoded": {
+  "ops": [
+   {
+    "id": {
+     "site": 0,
+     "timestamp": 100
+    },
+    "clientTime": 1700000000000,
+    "payload": {
+     "type": "SetMetadata",
+     "value": {
+      "title": {
+       "value": "Hello, wörld"
+      },
+      "pageBackground": {
+       "value": {
+        "paper": {},
+        "pdf": {},
+        "rotation": 612.0,
+        "size": {
+         "width": 0.0010000000474974513,
+         "height": 12345.677734375
+        },
+        "margins": {
+         "top": 0.5,
+         "bottom": 0.10000000149011612,
+         "left": -3.25,
+         "right": 612.0
+        }
+       }
+      },
+      "handwritingLanguage": {
+       "value": "emoji 🗒️✓"
+      },
+      "alignTextToLines": false,
+      "defaultFontFamily": "",
+      "defaultFontSize": 0.10000000149011612,
+      "layoutMode": 2,
+      "blockWrapSupport": -2,
+      "coverPageId": {
+       "value": {
+        "site": 52970,
+        "timestamp": 340710221,
+        "index": 340810224
+       }
+      },
+      "measurementScale": {
+       "scaleFactor": 0.10000000149011612,
+       "unit": -2
+      },
+      "measurementsShown": false
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 1,
+     "timestamp": 101
+    },
+    "clientTime": 1700000000001,
+    "payload": {
+     "type": "AssetCloudPersisted",
+     "value": {
+      "assetHash": "5456585a5c5e60626466686a6c6e70727476787a7c7e80828486888a8c8e90929496989a9c9ea0a2a4a6a8aaacaeb0b2b4b6b8babcbec0c2c4c6c8caccced0d2"
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 2,
+     "timestamp": 102
+    },
+    "clientTime": 1700000000002,
+    "payload": {
+     "type": "CreatePage",
+     "value": {
+      "location": {
+       "site": 62140,
+       "timestamp": 347710431,
+       "index": 347810434
+      },
+      "background": {
+       "paper": {
+        "flair": 2,
+        "flairSpacing": 0.5,
+        "flairBleeds": false,
+        "flairCentered": true,
+        "backgroundColor": {
+         "bitsR": 61,
+         "bitsG": 68,
+         "bitsB": 75,
+         "bitsA": 82
+        },
+        "legacyPaperIndex": 89
+       },
+       "pdf": {
+        "metadata": {},
+        "layoutBehavior": 1,
+        "totalPageCount": 348910467,
+        "pagesConsumed": 349010470,
+        "pageOffset": 349110473,
+        "cropBoxes": []
+       },
+       "rotation": 0.5,
+       "size": {
+        "width": 0.10000000149011612,
+        "height": -3.25
+       },
+       "margins": {
+        "top": 612.0,
+        "bottom": 0.0010000000474974513,
+        "left": 12345.677734375,
+        "right": 0.5
+       }
+      },
+      "pageCount": 349910497,
+      "bookmarked": -2
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 0,
+     "timestamp": 103
+    },
+    "clientTime": 1700000000003,
+    "payload": {
+     "type": "ModifyPage",
+     "value": {
+      "pages": [
+       {
+        "site": 65415,
+        "timestamp": 350210506,
+        "index": 350310509
+       },
+       {
+        "site": 272,
+        "timestamp": 350510515,
+        "index": 350610518
+       }
+      ],
+      "moveTo": {
+       "toId": {
+        "site": 665,
+        "timestamp": 350810524,
+        "index": 350910527
+       }
+      },
+      "background": {
+       "value": {
+        "paper": {},
+        "pdf": {},
+        "rotation": 0.5,
+        "size": {
+         "width": 0.10000000149011612,
+         "height": -3.25
+        },
+        "margins": {
+         "top": 612.0,
+         "bottom": 0.0010000000474974513,
+         "left": 12345.677734375,
+         "right": 0.5
+        }
+       }
+      },
+      "bookmarked": 0
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 1,
+     "timestamp": 104
+    },
+    "clientTime": 1700000000004,
+    "payload": {
+     "type": "CreateRecording",
+     "value": {
+      "recording": {
+       "metadata": {
+        "assetHash": "bec0c2c4c6c8caccced0d2d4d6d8dadcdee0e2e4e6e8eaeceef0f2f4f6f8fafcfe00020406080a0c0e10121416181a1c1e20222426282a2c2e30323436383a3c",
+        "fileName": "",
+        "mimeType": "a",
+        "fileSize": 358410752
+       }
+      },
+      "startTime": 3585000025095,
+      "endTime": 3586000025102,
+      "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "segmentation": [
+       {
+        "startTime": 3588000025116,
+        "endTime": 3589000025123
+       },
+       {
+        "startTime": 3590000025130,
+        "endTime": 3591000025137
+       }
+      ],
+      "zIndex": 3592000025144
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 2,
+     "timestamp": 105
+    },
+    "clientTime": 1700000000005,
+    "payload": {
+     "type": "ModifyRecording",
+     "value": {
+      "recording": {
+       "site": 11931,
+       "timestamp": 359410782
+      },
+      "name": "a",
+      "segmentation": [
+       {
+        "startTime": 3596000025172,
+        "endTime": 3597000025179
+       },
+       {
+        "startTime": 3598000025186,
+        "endTime": 3599000025193
+       }
+      ],
+      "zIndex": 3600000025200
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 0,
+     "timestamp": 106
+    },
+    "clientTime": 1700000000006,
+    "payload": {
+     "type": "InsertChar",
+     "value": {
+      "location": {
+       "site": 12979,
+       "timestamp": 360210806,
+       "index": 360310809
+      },
+      "unicodeScalar": 360410812,
+      "textField": {
+       "site": 13503,
+       "timestamp": 360610818
+      }
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 1,
+     "timestamp": 107
+    },
+    "clientTime": 1700000000007,
+    "payload": {
+     "type": "InsertString",
+     "value": {
+      "location": {
+       "site": 13765,
+       "timestamp": 360810824,
+       "index": 360910827
+      },
+      "string": "emoji 🗒️✓",
+      "textField": {
+       "site": 14289,
+       "timestamp": 361210836
+      }
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 2,
+     "timestamp": 108
+    },
+    "clientTime": 1700000000008,
+    "payload": {
+     "type": "RemoveChar",
+     "value": {
+      "location": {
+       "site": 14551,
+       "timestamp": 361410842,
+       "index": 361510845
+      },
+      "textField": {
+       "site": 14944,
+       "timestamp": 361710851
+      }
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 0,
+     "timestamp": 109
+    },
+    "clientTime": 1700000000009,
+    "payload": {
+     "type": "RemoveChars",
+     "value": {
+      "locations": [
+       {
+        "site": 15206,
+        "timestamp": 361910857,
+        "index": 362010860
+       },
+       {
+        "site": 15599,
+        "timestamp": 362210866,
+        "index": 362310869
+       }
+      ],
+      "textField": {
+       "site": 15992,
+       "timestamp": 362510875
+      }
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 1,
+     "timestamp": 110
+    },
+    "clientTime": 1700000000010,
+    "payload": {
+     "type": "ReviveChars",
+     "value": {
+      "locations": [
+       {
+        "site": 16254,
+        "timestamp": 362710881,
+        "index": 362810884
+       },
+       {
+        "site": 16647,
+        "timestamp": 363010890,
+        "index": 363110893
+       }
+      ],
+      "textField": {
+       "site": 17040,
+       "timestamp": 363310899
+      }
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 2,
+     "timestamp": 111
+    },
+    "clientTime": 1700000000011,
+    "payload": {
+     "type": "ModifyStyle",
+     "value": {
+      "start": {
+       "location": {
+        "site": 17302,
+        "timestamp": 363510905,
+        "index": 363610908
+       },
+       "type": 0
+      },
+      "end": {
+       "location": {
+        "site": 17826,
+        "timestamp": 363910917,
+        "index": 364010920
+       },
+       "type": -1
+      },
+      "textField": {
+       "site": 18350,
+       "timestamp": 364310929
+      },
+      "bold": {
+       "value": true
+      },
+      "italic": {
+       "value": false
+      },
+      "underline": {
+       "value": true
+      },
+      "highlight": {
+       "value": {
+        "bitsR": 185,
+        "bitsG": 192,
+        "bitsB": 199,
+        "bitsA": 206
+       }
+      },
+      "familyName": {
+       "value": "日本語テキスト"
+      },
+      "size": {
+       "value": 0.0010000000474974513
+      },
+      "foregroundColor": {
+       "value": {
+        "bitsR": 227,
+        "bitsG": 234,
+        "bitsB": 241,
+        "bitsA": 248
+       }
+      },
+      "link": {
+       "value": "日本語テキスト"
+      },
+      "superscript": {
+       "value": true
+      },
+      "subscript": {
+       "value": false
+      },
+      "strikethrough": {
+       "value": true
+      },
+      "code": {
+       "value": false
+      }
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 0,
+     "timestamp": 112
+    },
+    "clientTime": 1700000000012,
+    "payload": {
+     "type": "ModifyParagraphStyle",
+     "value": {
+      "start": {
+       "site": 20970,
+       "timestamp": 366310989,
+       "index": 366410992
+      },
+      "end": {
+       "site": 21363,
+       "timestamp": 366610998,
+       "index": 366711001
+      },
+      "indentLevel": {
+       "value": 76
+      },
+      "alignment": {
+       "value": 2
+      },
+      "lineSpacing": {
+       "value": 0.0010000000474974513
+      },
+      "decoratorStyle": {
+       "value": -1
+      },
+      "isChecked": true,
+      "textField": {
+       "site": 22411,
+       "timestamp": 367411022
+      },
+      "programmingLanguage": {
+       "value": "日本語テキスト"
+      },
+      "writingDirection": {
+       "value": -1
+      }
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 1,
+     "timestamp": 113
+    },
+    "clientTime": 1700000000013,
+    "payload": {
+     "type": "ClearStyle",
+     "value": {
+      "start": {
+       "location": {
+        "site": 22935,
+        "timestamp": 367811034,
+        "index": 367911037
+       },
+       "type": -2
+      },
+      "end": {
+       "location": {
+        "site": 23459,
+        "timestamp": 368211046,
+        "index": 368311049
+       },
+       "type": 2
+      },
+      "paragraph": false,
+      "textField": {
+       "site": 24114,
+       "timestamp": 368711061
+      }
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 2,
+     "timestamp": 114
+    },
+    "clientTime": 1700000000014,
+    "payload": {
+     "type": "CreateInk",
+     "value": {
+      "page": {
+       "site": 24376,
+       "timestamp": 368911067,
+       "index": 369011070
+      },
+      "origin": {
+       "x": 0.10000000149011612,
+       "y": -3.25
+      },
+      "rotation": 612.0,
+      "scale": {
+       "width": 0.0010000000474974513,
+       "height": 12345.677734375
+      },
+      "tool": -1,
+      "style": 0,
+      "tapePattern": 1,
+      "color": {
+       "bitsR": 37,
+       "bitsG": 44,
+       "bitsB": 51,
+       "bitsA": 58
+      },
+      "width": 0.10000000149011612,
+      "encodedCenterPath": [
+       104,
+       108,
+       112,
+       116,
+       120
+      ],
+      "encodedCustomPath": [
+       119,
+       123,
+       127,
+       131,
+       135
+      ],
+      "encodedFillPath": [
+       134,
+       138,
+       142,
+       146,
+       150
+      ],
+      "fillColor": {
+       "bitsR": 177,
+       "bitsG": 184,
+       "bitsB": 191,
+       "bitsA": 198
+      },
+      "styleMap": [
+       {
+        "backingPencilSeed": -11169,
+        "backingPencilReferencePoint": {
+         "x": 0.0010000000474974513,
+         "y": 12345.677734375
+        },
+        "backingDashPhase": 0.5,
+        "backingDashPeriod": 0.10000000149011612
+       },
+       {
+        "backingPencilSeed": -11184,
+        "backingPencilReferencePoint": {
+         "x": 612.0,
+         "y": 0.0010000000474974513
+        },
+        "backingDashPhase": 12345.677734375,
+        "backingDashPeriod": 0.5
+       }
+      ],
+      "zIndex": 3733000026131,
+      "audioDuration": 373411202,
+      "nibAngle": 30533,
+      "nibFlatness": 30664,
+      "inkEffects": 3737000026159
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 0,
+     "timestamp": 115
+    },
+    "clientTime": 1700000000015,
+    "payload": {
+     "type": "AddPathElements",
+     "value": {
+      "ink": {
+       "site": 30926,
+       "timestamp": 373911217
+      },
+      "encodedCenterPathElements": [
+       212,
+       216,
+       220,
+       224,
+       228
+      ],
+      "encodedCenterPathEstimatedElements": [
+       227,
+       231,
+       235,
+       239,
+       243
+      ]
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 1,
+     "timestamp": 116
+    },
+    "clientTime": 1700000000016,
+    "payload": {
+     "type": "ModifyInk",
+     "value": {
+      "inks": [
+       {
+        "site": 32498,
+        "timestamp": 375111253
+       },
+       {
+        "site": 32760,
+        "timestamp": 375311259
+       }
+      ],
+      "page": {
+       "site": 33022,
+       "timestamp": 375511265,
+       "index": 375611268
+      },
+      "origin": {
+       "x": 0.10000000149011612,
+       "y": -3.25
+      },
+      "rotation": {
+       "value": 612.0
+      },
+      "scale": {
+       "value": {
+        "width": 0.0010000000474974513,
+        "height": 12345.677734375
+       }
+      },
+      "style": 0,
+      "color": {
+       "bitsR": 229,
+       "bitsG": 236,
+       "bitsB": 243,
+       "bitsA": 250
+      },
+      "width": 12345.677734375,
+      "encodedCenterPath": [
+       40,
+       44,
+       48,
+       52,
+       56
+      ],
+      "encodedCustomPath": [
+       55,
+       59,
+       63,
+       67,
+       71
+      ],
+      "encodedFillPath": [
+       70,
+       74,
+       78,
+       82,
+       86
+      ],
+      "fillColor": {
+       "value": {
+        "bitsR": 113,
+        "bitsG": 120,
+        "bitsB": 127,
+        "bitsA": 134
+       }
+      },
+      "styleMap": [
+       {
+        "backingPencilSeed": -11361,
+        "backingPencilReferencePoint": {
+         "x": -3.25,
+         "y": 612.0
+        },
+        "backingDashPhase": 0.0010000000474974513,
+        "backingDashPeriod": 12345.677734375
+       },
+       {
+        "backingPencilSeed": -11376,
+        "backingPencilReferencePoint": {
+         "x": 0.10000000149011612,
+         "y": -3.25
+        },
+        "backingDashPhase": 612.0,
+        "backingDashPeriod": 0.0010000000474974513
+       }
+      ],
+      "zIndex": 3797000026579,
+      "nibAngle": 38786,
+      "nibFlatness": 38917,
+      "tapePattern": -2,
+      "inkEffects": 3801000026607,
+      "inkEffectsTinted": true
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 2,
+     "timestamp": 117
+    },
+    "clientTime": 1700000000017,
+    "payload": {
+     "type": "CreateShape",
+     "value": {
+      "page": {
+       "site": 39441,
+       "timestamp": 380411412,
+       "index": 380511415
+      },
+      "origin": {
+       "x": -3.25,
+       "y": 612.0
+      },
+      "rotation": 0.0010000000474974513,
+      "scale": {
+       "width": 12345.677734375,
+       "height": 0.5
+      },
+      "tool": -1,
+      "style": 0,
+      "tapePattern": 1,
+      "color": {
+       "bitsR": 109,
+       "bitsG": 116,
+       "bitsB": 123,
+       "bitsA": 130
+      },
+      "borderWidth": 0.10000000149011612,
+      "fillColor": {
+       "bitsR": 144,
+       "bitsG": 151,
+       "bitsB": 158,
+       "bitsA": 165
+      },
+      "zIndex": 3828000026796,
+      "smartHighlight": false,
+      "force": -3.25,
+      "positionLocked": false,
+      "inkEffects": 3832000026824,
+      "measurementUnit": 1,
+      "definition": {
+       "type": "Polygon",
+       "value": {
+        "points": [
+         {
+          "x": -3.25,
+          "y": 612.0
+         },
+         {
+          "x": 0.0010000000474974513,
+          "y": 12345.677734375
+         }
+        ]
+       }
+      }
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 0,
+     "timestamp": 118
+    },
+    "clientTime": 1700000000018,
+    "payload": {
+     "type": "ModifyShape",
+     "value": {
+      "shapes": [
+       {
+        "site": 43502,
+        "timestamp": 383511505
+       },
+       {
+        "site": 43764,
+        "timestamp": 383711511
+       }
+      ],
+      "page": {
+       "site": 44026,
+       "timestamp": 383911517,
+       "index": 384011520
+      },
+      "origin": {
+       "x": 0.10000000149011612,
+       "y": -3.25
+      },
+      "rotation": {
+       "value": 612.0
+      },
+      "scale": {
+       "value": {
+        "width": 0.0010000000474974513,
+        "height": 12345.677734375
+       }
+      },
+      "tool": -1,
+      "style": 0,
+      "tapePattern": 1,
+      "color": {
+       "bitsR": 133,
+       "bitsG": 140,
+       "bitsB": 147,
+       "bitsA": 154
+      },
+      "borderWidth": 12345.677734375,
+      "fillColor": {
+       "value": {
+        "bitsR": 168,
+        "bitsG": 175,
+        "bitsB": 182,
+        "bitsA": 189
+       }
+      },
+      "zIndex": 3868000027076,
+      "positionLocked": false,
+      "inkEffects": 3870000027090,
+      "inkEffectsTinted": false,
+      "measurementUnit": 0,
+      "definition": {
+       "type": "Line",
+       "value": {
+        "start": {
+         "x": 0.10000000149011612,
+         "y": -3.25
+        },
+        "controlPoint1": {
+         "x": 612.0,
+         "y": 0.0010000000474974513
+        },
+        "controlPoint2": {
+         "x": 12345.677734375,
+         "y": 0.5
+        },
+        "end": {
+         "x": 0.10000000149011612,
+         "y": -3.25
+        },
+        "arrowHead": -2
+       }
+      }
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 1,
+     "timestamp": 119
+    },
+    "clientTime": 1700000000019,
+    "payload": {
+     "type": "CreateGroup",
+     "value": {
+      "members": [
+       {
+        "site": 48611,
+        "timestamp": 387411622
+       },
+       {
+        "site": 48873,
+        "timestamp": 387611628
+       }
+      ]
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 2,
+     "timestamp": 120
+    },
+    "clientTime": 1700000000020,
+    "payload": {
+     "type": "ModifyGroup",
+     "value": {
+      "group": {
+       "site": 49135,
+       "timestamp": 387811634
+      },
+      "members": [
+       {
+        "site": 49397,
+        "timestamp": 388011640
+       },
+       {
+        "site": 49659,
+        "timestamp": 388211646
+       }
+      ]
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 0,
+     "timestamp": 121
+    },
+    "clientTime": 1700000000021,
+    "payload": {
+     "type": "CreateBlock",
+     "value": {
+      "type": 1,
+      "corner": 2,
+      "page": {
+       "site": 50183,
+       "timestamp": 388611658,
+       "index": 388711661
+      },
+      "origin": {
+       "x": 0.5,
+       "y": 0.10000000149011612
+      },
+      "rotation": -3.25,
+      "scale": {
+       "width": 612.0,
+       "height": 0.0010000000474974513
+      },
+      "size": {
+       "width": 12345.677734375,
+       "height": 0.5
+      },
+      "textWrap": -2,
+      "enableCaption": true,
+      "zIndex": 3897000027279,
+      "image": {
+       "metadata": {
+        "assetHash": "3a3c3e40424446484a4c4e50525456585a5c5e60626466686a6c6e70727476787a7c7e80828486888a8c8e90929496989a9c9ea0a2a4a6a8aaacaeb0b2b4b6b8",
+        "fileName": "Hello, wörld",
+        "mimeType": "日本語テキスト",
+        "fileSize": 396411892
+       },
+       "size": {
+        "width": 12345.677734375,
+        "height": 0.5
+       }
+      },
+      "cropRect": {
+       "origin": {
+        "x": 0.10000000149011612,
+        "y": -3.25
+       },
+       "size": {
+        "width": 612.0,
+        "height": 0.0010000000474974513
+       }
+      },
+      "webUrl": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "mathLatex": "",
+      "mathColor": {
+       "bitsR": 163,
+       "bitsG": 170,
+       "bitsB": 177,
+       "bitsA": 184
+      },
+      "paper": {
+       "flair": 0,
+       "flairSpacing": 0.5,
+       "flairBleeds": false,
+       "flairCentered": true,
+       "backgroundColor": {
+        "bitsR": 219,
+        "bitsG": 226,
+        "bitsB": 233,
+        "bitsA": 240
+       },
+       "legacyPaperIndex": 247
+      },
+      "imageFlippedHorizontally": true,
+      "imageFlippedVertically": false,
+      "resizesWidthToFitText": true,
+      "margins": {
+       "top": 12345.677734375,
+       "bottom": 0.5,
+       "left": 0.10000000149011612,
+       "right": -3.25
+      },
+      "positionLocked": false
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 1,
+     "timestamp": 122
+    },
+    "clientTime": 1700000000022,
+    "payload": {
+     "type": "ModifyBlock",
+     "value": {
+      "blocks": [
+       {
+        "site": 64462,
+        "timestamp": 399511985
+       },
+       {
+        "site": 64724,
+        "timestamp": 399711991
+       }
+      ],
+      "corner": 1,
+      "page": {
+       "site": 65117,
+       "timestamp": 400012000,
+       "index": 400112003
+      },
+      "origin": {
+       "x": 0.5,
+       "y": 0.10000000149011612
+      },
+      "rotation": {
+       "value": -3.25
+      },
+      "scale": {
+       "value": {
+        "width": 612.0,
+        "height": 0.0010000000474974513
+       }
+      },
+      "size": {
+       "width": 12345.677734375,
+       "height": 0.5
+      },
+      "textWrap": 2,
+      "enableCaption": true,
+      "zIndex": 4011000028077,
+      "mathLatex": {
+       "value": "emoji 🗒️✓"
+      },
+      "mathColor": {
+       "value": {
+        "bitsR": 187,
+        "bitsG": 194,
+        "bitsB": 201,
+        "bitsA": 208
+       }
+      },
+      "cropRect": {
+       "value": {
+        "origin": {
+         "x": 612.0,
+         "y": 0.0010000000474974513
+        },
+        "size": {
+         "width": 12345.677734375,
+         "height": 0.5
+        }
+       }
+      },
+      "paper": {
+       "value": {
+        "flair": -1,
+        "flairSpacing": -3.25,
+        "flairBleeds": false,
+        "flairCentered": true,
+        "backgroundColor": {
+         "bitsR": 15,
+         "bitsG": 22,
+         "bitsB": 29,
+         "bitsA": 36
+        },
+        "legacyPaperIndex": 43
+       }
+      },
+      "imageFlippedHorizontally": true,
+      "imageFlippedVertically": false,
+      "resizesWidthToFitText": true,
+      "positionLocked": false
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 2,
+     "timestamp": 123
+    },
+    "clientTime": 1700000000023,
+    "payload": {
+     "type": "ModifyPositions",
+     "value": {
+      "modifications": [
+       {
+        "target": {
+         "site": 4166,
+         "timestamp": 403512105
+        },
+        "page": {
+         "site": 4428,
+         "timestamp": 403712111,
+         "index": 403812114
+        },
+        "origin": {
+         "x": 0.10000000149011612,
+         "y": -3.25
+        },
+        "rotation": {
+         "value": 612.0
+        },
+        "scale": {
+         "value": {
+          "width": 0.0010000000474974513,
+          "height": 12345.677734375
+         }
+        },
+        "zIndex": 4044000028308
+       },
+       {
+        "target": {
+         "site": 5607,
+         "timestamp": 404612138
+        },
+        "page": {
+         "site": 5869,
+         "timestamp": 404812144,
+         "index": 404912147
+        },
+        "origin": {
+         "x": 0.5,
+         "y": 0.10000000149011612
+        },
+        "rotation": {
+         "value": -3.25
+        },
+        "scale": {
+         "value": {
+          "width": 612.0,
+          "height": 0.0010000000474974513
+         }
+        },
+        "zIndex": 4055000028385
+       }
+      ]
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 0,
+     "timestamp": 124
+    },
+    "clientTime": 1700000000024,
+    "payload": {
+     "type": "DeleteEntities",
+     "value": {
+      "entityDeletes": [
+       {
+        "site": 7048,
+        "timestamp": 405712171
+       },
+       {
+        "site": 7310,
+        "timestamp": 405912177
+       }
+      ],
+      "entityUndeletes": [
+       {
+        "site": 7572,
+        "timestamp": 406112183
+       },
+       {
+        "site": 7834,
+        "timestamp": 406312189
+       }
+      ],
+      "pageDeletes": [
+       {
+        "site": 8096,
+        "timestamp": 406512195,
+        "index": 406612198
+       },
+       {
+        "site": 8489,
+        "timestamp": 406812204,
+        "index": 406912207
+       }
+      ],
+      "pageUndeletes": [
+       {
+        "site": 8882,
+        "timestamp": 407112213,
+        "index": 407212216
+       },
+       {
+        "site": 9275,
+        "timestamp": 407412222,
+        "index": 407512225
+       }
+      ]
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 1,
+     "timestamp": 125
+    },
+    "clientTime": 1700000000025,
+    "payload": {
+     "type": "TransientInteractionEnded",
+     "value": {
+      "interactionId": {
+       "site": 9668,
+       "timestamp": 407712231
+      },
+      "replacedByOp": {
+       "site": 9930,
+       "timestamp": 407912237
+      }
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 2,
+     "timestamp": 126
+    },
+    "clientTime": 1700000000026,
+    "payload": {
+     "type": "ModifyPDFField",
+     "value": {
+      "assetHash": "f0f2f4f6f8fafcfe00020406080a0c0e10121416181a1c1e20222426282a2c2e30323436383a3c3e40424446484a4c4e50525456585a5c5e60626466686a6c6e",
+      "key": "emoji 🗒️✓",
+      "valueType": 87,
+      "valueString": "",
+      "valueBoolean": false
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 0,
+     "timestamp": 127
+    },
+    "clientTime": 1700000000027,
+    "payload": {
+     "type": "UpdateCheckbox",
+     "value": {
+      "textField": {
+       "site": 19100,
+       "timestamp": 414912447
+      },
+      "location": {
+       "site": 19362,
+       "timestamp": 415112453,
+       "index": 415212456
+      },
+      "isChecked": false
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 1,
+     "timestamp": 128
+    },
+    "clientTime": 1700000000028,
+    "payload": {
+     "type": "PeerInteraction",
+     "value": {
+      "cursorPosition": {
+       "x": -3.25,
+       "y": 612.0
+      },
+      "selectedEntities": [
+       {
+        "site": 20148,
+        "timestamp": 415712471
+       },
+       {
+        "site": 20410,
+        "timestamp": 415912477
+       }
+      ],
+      "tool": -2,
+      "textSelection": {
+       "anchor": {
+        "site": 20803,
+        "timestamp": 416212486,
+        "index": 416312489
+       },
+       "focus": {
+        "site": 21196,
+        "timestamp": 416512495,
+        "index": 416612498
+       }
+      },
+      "recordingInProgress": false
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 2,
+     "timestamp": 129
+    },
+    "clientTime": 1700000000029,
+    "payload": {
+     "type": "CreateComment",
+     "value": {
+      "text": "emoji 🗒️✓",
+      "anchor": {
+       "type": "CanvasAnchor",
+       "value": {
+        "page": {
+         "site": 21851,
+         "timestamp": 417012510,
+         "index": 417112513
+        },
+        "origin": {
+         "x": -3.25,
+         "y": 612.0
+        }
+       }
+      }
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 0,
+     "timestamp": 130
+    },
+    "clientTime": 1700000000030,
+    "payload": {
+     "type": "ModifyComment",
+     "value": {
+      "comment": {
+       "site": 22637,
+       "timestamp": 417612528
+      },
+      "anchor": {
+       "page": {
+        "site": 22899,
+        "timestamp": 417812534,
+        "index": 417912537
+       },
+       "origin": {
+        "x": 0.0010000000474974513,
+        "y": 12345.677734375
+       }
+      },
+      "text": {
+       "value": ""
+      },
+      "resolved": {
+       "value": false
+      }
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 1,
+     "timestamp": 131
+    },
+    "clientTime": 1700000000031,
+    "payload": {
+     "type": "CreateConnector",
+     "value": {
+      "pathStyle": -2,
+      "bends": [
+       {
+        "pin": -1,
+        "offset": 612.0
+       },
+       {
+        "pin": 1,
+        "offset": 12345.677734375
+       }
+      ],
+      "startCap": -2,
+      "endCap": -1,
+      "tool": 0,
+      "style": 1,
+      "color": {
+       "bitsR": 244,
+       "bitsG": 251,
+       "bitsB": 2,
+       "bitsA": 9
+      },
+      "borderWidth": -3.25,
+      "zIndex": 4209000029463,
+      "positionLocked": true,
+      "labelPosition": 12345.677734375,
+      "start": {
+       "type": "FractionalAttachedEndpoint",
+       "value": {
+        "entity": {
+         "site": 23947,
+         "timestamp": 418612558
+        },
+        "fraction": {
+         "x": 12345.677734375,
+         "y": 0.5
+        }
+       }
+      },
+      "end": {
+       "type": "FreeEndpoint",
+       "value": {
+        "page": {
+         "site": 24602,
+         "timestamp": 419112573,
+         "index": 419212576
+        },
+        "position": {
+         "x": 12345.677734375,
+         "y": 0.5
+        }
+       }
+      }
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 2,
+     "timestamp": 132
+    },
+    "clientTime": 1700000000032,
+    "payload": {
+     "type": "ModifyConnector",
+     "value": {
+      "connectors": [
+       {
+        "site": 27484,
+        "timestamp": 421312639
+       },
+       {
+        "site": 27746,
+        "timestamp": 421512645
+       }
+      ],
+      "pathStyle": 1,
+      "bends": [
+       {
+        "pin": 2,
+        "offset": 0.5
+       },
+       {
+        "pin": -1,
+        "offset": -3.25
+       }
+      ],
+      "startCap": 1,
+      "endCap": 2,
+      "tool": -2,
+      "style": -1,
+      "color": {
+       "bitsR": 219,
+       "bitsG": 226,
+       "bitsB": 233,
+       "bitsA": 240
+      },
+      "borderWidth": 12345.677734375,
+      "zIndex": 4242000029694,
+      "positionLocked": false,
+      "labelPosition": {
+       "value": -3.25
+      },
+      "start": {
+       "type": "FreeEndpoint",
+       "value": {
+        "page": {
+         "site": 28139,
+         "timestamp": 421812654,
+         "index": 421912657
+        },
+        "position": {
+         "x": -3.25,
+         "y": 612.0
+        }
+       }
+      },
+      "end": {
+       "type": "FreeEndpoint",
+       "value": {
+        "page": {
+         "site": 28925,
+         "timestamp": 422412672,
+         "index": 422512675
+        },
+        "position": {
+         "x": -3.25,
+         "y": 612.0
+        }
+       }
+      }
+     }
+    }
+   }
+  ]
+ }
+}

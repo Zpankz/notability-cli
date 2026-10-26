@@ -1,0 +1,23 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 0,
+   "timestamp": 8
+  },
+  "payload": {
+   "type": "RemoveChar",
+   "value": {}
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 0,
+   "timestamp": 8
+  },
+  "payload": {
+   "type": "RemoveChar",
+   "value": {}
+  }
+ }
+}

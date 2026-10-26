@@ -1,0 +1,209 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 1,
+   "timestamp": 116
+  },
+  "clientTime": 1700000000016,
+  "payload": {
+   "type": "ModifyInk",
+   "value": {
+    "inks": [
+     {
+      "site": 32498,
+      "timestamp": 375111253
+     },
+     {
+      "site": 32760,
+      "timestamp": 375311259
+     }
+    ],
+    "page": {
+     "site": 33022,
+     "timestamp": 375511265,
+     "index": 375611268
+    },
+    "origin": {
+     "x": 0.1,
+     "y": -3.25
+    },
+    "rotation": {
+     "value": 612.0
+    },
+    "scale": {
+     "value": {
+      "width": 0.001,
+      "height": 12345.678
+     }
+    },
+    "style": 0,
+    "color": {
+     "bitsR": 229,
+     "bitsG": 236,
+     "bitsB": 243,
+     "bitsA": 250
+    },
+    "width": 12345.678,
+    "encodedCenterPath": [
+     40,
+     44,
+     48,
+     52,
+     56
+    ],
+    "encodedCustomPath": [
+     55,
+     59,
+     63,
+     67,
+     71
+    ],
+    "encodedFillPath": [
+     70,
+     74,
+     78,
+     82,
+     86
+    ],
+    "fillColor": {
+     "value": {
+      "bitsR": 113,
+      "bitsG": 120,
+      "bitsB": 127,
+      "bitsA": 134
+     }
+    },
+    "styleMap": [
+     {
+      "backingPencilSeed": -11361,
+      "backingPencilReferencePoint": {
+       "x": -3.25,
+       "y": 612.0
+      },
+      "backingDashPhase": 0.001,
+      "backingDashPeriod": 12345.678
+     },
+     {
+      "backingPencilSeed": -11376,
+      "backingPencilReferencePoint": {
+       "x": 0.1,
+       "y": -3.25
+      },
+      "backingDashPhase": 612.0,
+      "backingDashPeriod": 0.001
+     }
+    ],
+    "zIndex": 3797000026579,
+    "nibAngle": 38786,
+    "nibFlatness": 38917,
+    "tapePattern": -2,
+    "inkEffects": 3801000026607,
+    "inkEffectsTinted": true
+   }
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 1,
+   "timestamp": 116
+  },
+  "clientTime": 1700000000016,
+  "payload": {
+   "type": "ModifyInk",
+   "value": {
+    "inks": [
+     {
+      "site": 32498,
+      "timestamp": 375111253
+     },
+     {
+      "site": 32760,
+      "timestamp": 375311259
+     }
+    ],
+    "page": {
+     "site": 33022,
+     "timestamp": 375511265,
+     "index": 375611268
+    },
+    "origin": {
+     "x": 0.10000000149011612,
+     "y": -3.25
+    },
+    "rotation": {
+     "value": 612.0
+    },
+    "scale": {
+     "value": {
+      "width": 0.0010000000474974513,
+      "height": 12345.677734375
+     }
+    },
+    "style": 0,
+    "color": {
+     "bitsR": 229,
+     "bitsG": 236,
+     "bitsB": 243,
+     "bitsA": 250
+    },
+    "width": 12345.677734375,
+    "encodedCenterPath": [
+     40,
+     44,
+     48,
+     52,
+     56
+    ],
+    "encodedCustomPath": [
+     55,
+     59,
+     63,
+     67,
+     71
+    ],
+    "encodedFillPath": [
+     70,
+     74,
+     78,
+     82,
+     86
+    ],
+    "fillColor": {
+     "value": {
+      "bitsR": 113,
+      "bitsG": 120,
+      "bitsB": 127,
+      "bitsA": 134
+     }
+    },
+    "styleMap": [
+     {
+      "backingPencilSeed": -11361,
+      "backingPencilReferencePoint": {
+       "x": -3.25,
+       "y": 612.0
+      },
+      "backingDashPhase": 0.0010000000474974513,
+      "backingDashPeriod": 12345.677734375
+     },
+     {
+      "backingPencilSeed": -11376,
+      "backingPencilReferencePoint": {
+       "x": 0.10000000149011612,
+       "y": -3.25
+      },
+      "backingDashPhase": 612.0,
+      "backingDashPeriod": 0.0010000000474974513
+     }
+    ],
+    "zIndex": 3797000026579,
+    "nibAngle": 38786,
+    "nibFlatness": 38917,
+    "tapePattern": -2,
+    "inkEffects": 3801000026607,
+    "inkEffectsTinted": true
+   }
+  }
+ }
+}

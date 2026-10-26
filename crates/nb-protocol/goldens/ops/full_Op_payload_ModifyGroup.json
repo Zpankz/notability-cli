@@ -1,0 +1,73 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 43741,
+   "timestamp": 233607008
+  },
+  "clientTime": 2337000016359,
+  "serverTime": 2338000016366,
+  "audioTime": 2339000016373,
+  "payload": {
+   "type": "ModifyGroup",
+   "value": {
+    "group": {
+     "site": 44527,
+     "timestamp": 234207026
+    },
+    "members": [
+     {
+      "site": 44789,
+      "timestamp": 234407032
+     },
+     {
+      "site": 45051,
+      "timestamp": 234607038
+     }
+    ]
+   }
+  },
+  "transientInteraction": {
+   "interactionId": {
+    "site": 45313,
+    "timestamp": 234807044
+   },
+   "timeout": 234907047
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 43741,
+   "timestamp": 233607008
+  },
+  "clientTime": 2337000016359,
+  "serverTime": 2338000016366,
+  "audioTime": 2339000016373,
+  "transientInteraction": {
+   "interactionId": {
+    "site": 45313,
+    "timestamp": 234807044
+   },
+   "timeout": 234907047
+  },
+  "payload": {
+   "type": "ModifyGroup",
+   "value": {
+    "group": {
+     "site": 44527,
+     "timestamp": 234207026
+    },
+    "members": [
+     {
+      "site": 44789,
+      "timestamp": 234407032
+     },
+     {
+      "site": 45051,
+      "timestamp": 234607038
+     }
+    ]
+   }
+  }
+ }
+}

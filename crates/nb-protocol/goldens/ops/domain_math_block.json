@@ -1,0 +1,71 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 3,
+   "timestamp": 41
+  },
+  "clientTime": 1,
+  "payload": {
+   "type": "CreateBlock",
+   "value": {
+    "type": 2,
+    "page": {
+     "site": 0,
+     "timestamp": 0,
+     "index": 0
+    },
+    "origin": {
+     "x": 72.0,
+     "y": 96.5
+    },
+    "size": {
+     "width": 200.0,
+     "height": 40.0
+    },
+    "zIndex": 5,
+    "mathLatex": "\\int_0^1 x^2\\,dx = \\frac{1}{3}",
+    "mathColor": {
+     "bitsR": 10,
+     "bitsG": 20,
+     "bitsB": 30,
+     "bitsA": 255
+    }
+   }
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 3,
+   "timestamp": 41
+  },
+  "clientTime": 1,
+  "payload": {
+   "type": "CreateBlock",
+   "value": {
+    "type": 2,
+    "page": {
+     "site": 0,
+     "timestamp": 0,
+     "index": 0
+    },
+    "origin": {
+     "x": 72.0,
+     "y": 96.5
+    },
+    "size": {
+     "width": 200.0,
+     "height": 40.0
+    },
+    "zIndex": 5,
+    "mathLatex": "\\int_0^1 x^2\\,dx = \\frac{1}{3}",
+    "mathColor": {
+     "bitsR": 10,
+     "bitsG": 20,
+     "bitsB": 30,
+     "bitsA": 255
+    }
+   }
+  }
+ }
+}

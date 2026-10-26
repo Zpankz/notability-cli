@@ -1,0 +1,19 @@
+{
+ "table": "SetColor",
+ "spec": {
+  "value": {
+   "bitsR": 219,
+   "bitsG": 226,
+   "bitsB": 233,
+   "bitsA": 240
+  }
+ },
+ "decoded": {
+  "value": {
+   "bitsR": 219,
+   "bitsG": 226,
+   "bitsB": 233,
+   "bitsA": 240
+  }
+ }
+}

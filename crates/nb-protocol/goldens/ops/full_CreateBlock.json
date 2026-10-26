@@ -1,0 +1,159 @@
+{
+ "table": "CreateBlock",
+ "spec": {
+  "type": 1,
+  "corner": 2,
+  "page": {
+   "site": 31440,
+   "timestamp": 24100723,
+   "index": 24200726
+  },
+  "origin": {
+   "x": 612.0,
+   "y": 0.001
+  },
+  "rotation": 12345.678,
+  "scale": {
+   "width": 0.5,
+   "height": 0.1
+  },
+  "size": {
+   "width": -3.25,
+   "height": 612.0
+  },
+  "textWrap": -2,
+  "enableCaption": false,
+  "zIndex": 252000001764,
+  "image": {
+   "metadata": {
+    "assetHash": "fdff01030507090b0d0f11131517191b1d1f21232527292b2d2f31333537393b3d3f41434547494b4d4f51535557595b5d5f61636567696b6d6f71737577797b",
+    "fileName": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "mimeType": "",
+    "fileSize": 31900957
+   },
+   "size": {
+    "width": -3.25,
+    "height": 612.0
+   }
+  },
+  "cropRect": {
+   "origin": {
+    "x": 0.001,
+    "y": 12345.678
+   },
+   "size": {
+    "width": 0.5,
+    "height": 0.1
+   }
+  },
+  "webUrl": "Hello, wörld",
+  "mathLatex": "日本語テキスト",
+  "mathColor": {
+   "bitsR": 248,
+   "bitsG": 255,
+   "bitsB": 6,
+   "bitsA": 13
+  },
+  "paper": {
+   "flair": 0,
+   "flairSpacing": 612.0,
+   "flairBleeds": true,
+   "flairCentered": false,
+   "backgroundColor": {
+    "bitsR": 48,
+    "bitsG": 55,
+    "bitsB": 62,
+    "bitsA": 69
+   },
+   "legacyPaperIndex": 76
+  },
+  "imageFlippedHorizontally": false,
+  "imageFlippedVertically": true,
+  "resizesWidthToFitText": false,
+  "margins": {
+   "top": -3.25,
+   "bottom": 612.0,
+   "left": 0.001,
+   "right": 12345.678
+  },
+  "positionLocked": true
+ },
+ "decoded": {
+  "type": 1,
+  "corner": 2,
+  "page": {
+   "site": 31440,
+   "timestamp": 24100723,
+   "index": 24200726
+  },
+  "origin": {
+   "x": 612.0,
+   "y": 0.0010000000474974513
+  },
+  "rotation": 12345.677734375,
+  "scale": {
+   "width": 0.5,
+   "height": 0.10000000149011612
+  },
+  "size": {
+   "width": -3.25,
+   "height": 612.0
+  },
+  "textWrap": -2,
+  "enableCaption": false,
+  "zIndex": 252000001764,
+  "image": {
+   "metadata": {
+    "assetHash": "fdff01030507090b0d0f11131517191b1d1f21232527292b2d2f31333537393b3d3f41434547494b4d4f51535557595b5d5f61636567696b6d6f71737577797b",
+    "fileName": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "mimeType": "",
+    "fileSize": 31900957
+   },
+   "size": {
+    "width": -3.25,
+    "height": 612.0
+   }
+  },
+  "cropRect": {
+   "origin": {
+    "x": 0.0010000000474974513,
+    "y": 12345.677734375
+   },
+   "size": {
+    "width": 0.5,
+    "height": 0.10000000149011612
+   }
+  },
+  "webUrl": "Hello, wörld",
+  "mathLatex": "日本語テキスト",
+  "mathColor": {
+   "bitsR": 248,
+   "bitsG": 255,
+   "bitsB": 6,
+   "bitsA": 13
+  },
+  "paper": {
+   "flair": 0,
+   "flairSpacing": 612.0,
+   "flairBleeds": true,
+   "flairCentered": false,
+   "backgroundColor": {
+    "bitsR": 48,
+    "bitsG": 55,
+    "bitsB": 62,
+    "bitsA": 69
+   },
+   "legacyPaperIndex": 76
+  },
+  "imageFlippedHorizontally": false,
+  "imageFlippedVertically": true,
+  "resizesWidthToFitText": false,
+  "margins": {
+   "top": -3.25,
+   "bottom": 612.0,
+   "left": 0.0010000000474974513,
+   "right": 12345.677734375
+  },
+  "positionLocked": true
+ }
+}

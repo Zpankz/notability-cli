@@ -1,0 +1,175 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 36631,
+   "timestamp": 278208346
+  },
+  "clientTime": 2783000019481,
+  "serverTime": 2784000019488,
+  "audioTime": 2785000019495,
+  "payload": {
+   "type": "ModifyConnector",
+   "value": {
+    "connectors": [
+     {
+      "site": 37417,
+      "timestamp": 278808364
+     },
+     {
+      "site": 37679,
+      "timestamp": 279008370
+     }
+    ],
+    "start": {
+     "type": "FreeEndpoint",
+     "value": {
+      "page": {
+       "site": 38072,
+       "timestamp": 279308379,
+       "index": 279408382
+      },
+      "position": {
+       "x": 12345.678,
+       "y": 0.5
+      }
+     }
+    },
+    "end": {
+     "type": "FreeEndpoint",
+     "value": {
+      "page": {
+       "site": 38858,
+       "timestamp": 279908397,
+       "index": 280008400
+      },
+      "position": {
+       "x": 12345.678,
+       "y": 0.5
+      }
+     }
+    },
+    "pathStyle": 1,
+    "bends": [
+     {
+      "pin": 2,
+      "offset": 612.0
+     },
+     {
+      "pin": -1,
+      "offset": 12345.678
+     }
+    ],
+    "startCap": 1,
+    "endCap": 2,
+    "tool": -2,
+    "style": -1,
+    "color": {
+     "bitsR": 228,
+     "bitsG": 235,
+     "bitsB": 242,
+     "bitsA": 249
+    },
+    "borderWidth": -3.25,
+    "zIndex": 2817000019719,
+    "positionLocked": true,
+    "labelPosition": {
+     "value": 12345.678
+    }
+   }
+  },
+  "transientInteraction": {
+   "interactionId": {
+    "site": 41740,
+    "timestamp": 282108463
+   },
+   "timeout": 282208466
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 36631,
+   "timestamp": 278208346
+  },
+  "clientTime": 2783000019481,
+  "serverTime": 2784000019488,
+  "audioTime": 2785000019495,
+  "transientInteraction": {
+   "interactionId": {
+    "site": 41740,
+    "timestamp": 282108463
+   },
+   "timeout": 282208466
+  },
+  "payload": {
+   "type": "ModifyConnector",
+   "value": {
+    "connectors": [
+     {
+      "site": 37417,
+      "timestamp": 278808364
+     },
+     {
+      "site": 37679,
+      "timestamp": 279008370
+     }
+    ],
+    "pathStyle": 1,
+    "bends": [
+     {
+      "pin": 2,
+      "offset": 612.0
+     },
+     {
+      "pin": -1,
+      "offset": 12345.677734375
+     }
+    ],
+    "startCap": 1,
+    "endCap": 2,
+    "tool": -2,
+    "style": -1,
+    "color": {
+     "bitsR": 228,
+     "bitsG": 235,
+     "bitsB": 242,
+     "bitsA": 249
+    },
+    "borderWidth": -3.25,
+    "zIndex": 2817000019719,
+    "positionLocked": true,
+    "labelPosition": {
+     "value": 12345.677734375
+    },
+    "start": {
+     "type": "FreeEndpoint",
+     "value": {
+      "page": {
+       "site": 38072,
+       "timestamp": 279308379,
+       "index": 279408382
+      },
+      "position": {
+       "x": 12345.677734375,
+       "y": 0.5
+      }
+     }
+    },
+    "end": {
+     "type": "FreeEndpoint",
+     "value": {
+      "page": {
+       "site": 38858,
+       "timestamp": 279908397,
+       "index": 280008400
+      },
+      "position": {
+       "x": 12345.677734375,
+       "y": 0.5
+      }
+     }
+    }
+   }
+  }
+ }
+}

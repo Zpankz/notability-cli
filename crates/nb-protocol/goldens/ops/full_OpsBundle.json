@@ -1,0 +1,247 @@
+{
+ "table": "OpsBundle",
+ "spec": {
+  "ops": [
+   {
+    "id": {
+     "site": 44491,
+     "timestamp": 284208526
+    },
+    "clientTime": 2843000019901,
+    "serverTime": 2844000019908,
+    "audioTime": 2845000019915,
+    "payload": {
+     "type": "RemoveChar",
+     "value": {
+      "location": {
+       "site": 45277,
+       "timestamp": 284808544,
+       "index": 284908547
+      },
+      "textField": {
+       "site": 45670,
+       "timestamp": 285108553
+      }
+     }
+    },
+    "transientInteraction": {
+     "interactionId": {
+      "site": 45932,
+      "timestamp": 285308559
+     },
+     "timeout": 285408562
+    }
+   },
+   {
+    "id": {
+     "site": 46325,
+     "timestamp": 285608568
+    },
+    "clientTime": 2857000019999,
+    "serverTime": 2858000020006,
+    "audioTime": 2859000020013,
+    "payload": {
+     "type": "ModifyBlock",
+     "value": {
+      "blocks": [
+       {
+        "site": 47111,
+        "timestamp": 286208586
+       },
+       {
+        "site": 47373,
+        "timestamp": 286408592
+       }
+      ],
+      "corner": -2,
+      "page": {
+       "site": 47766,
+       "timestamp": 286708601,
+       "index": 286808604
+      },
+      "origin": {
+       "x": 0.1,
+       "y": -3.25
+      },
+      "rotation": {
+       "value": 612.0
+      },
+      "scale": {
+       "value": {
+        "width": 0.001,
+        "height": 12345.678
+       }
+      },
+      "size": {
+       "width": 0.5,
+       "height": 0.1
+      },
+      "textWrap": -1,
+      "enableCaption": false,
+      "zIndex": 2878000020146,
+      "mathLatex": {
+       "value": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+      },
+      "mathColor": {
+       "value": {
+        "bitsR": 192,
+        "bitsG": 199,
+        "bitsB": 206,
+        "bitsA": 213
+       }
+      },
+      "cropRect": {
+       "value": {
+        "origin": {
+         "x": 0.001,
+         "y": 12345.678
+        },
+        "size": {
+         "width": 0.5,
+         "height": 0.1
+        }
+       }
+      },
+      "paper": {
+       "value": {}
+      },
+      "imageFlippedHorizontally": true,
+      "imageFlippedVertically": false,
+      "resizesWidthToFitText": true,
+      "positionLocked": false
+     }
+    },
+    "transientInteraction": {
+     "interactionId": {
+      "site": 51172,
+      "timestamp": 289308679
+     },
+     "timeout": 289408682
+    }
+   }
+  ],
+  "schemaVersion": 51565
+ },
+ "decoded": {
+  "ops": [
+   {
+    "id": {
+     "site": 44491,
+     "timestamp": 284208526
+    },
+    "clientTime": 2843000019901,
+    "serverTime": 2844000019908,
+    "audioTime": 2845000019915,
+    "transientInteraction": {
+     "interactionId": {
+      "site": 45932,
+      "timestamp": 285308559
+     },
+     "timeout": 285408562
+    },
+    "payload": {
+     "type": "RemoveChar",
+     "value": {
+      "location": {
+       "site": 45277,
+       "timestamp": 284808544,
+       "index": 284908547
+      },
+      "textField": {
+       "site": 45670,
+       "timestamp": 285108553
+      }
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 46325,
+     "timestamp": 285608568
+    },
+    "clientTime": 2857000019999,
+    "serverTime": 2858000020006,
+    "audioTime": 2859000020013,
+    "transientInteraction": {
+     "interactionId": {
+      "site": 51172,
+      "timestamp": 289308679
+     },
+     "timeout": 289408682
+    },
+    "payload": {
+     "type": "ModifyBlock",
+     "value": {
+      "blocks": [
+       {
+        "site": 47111,
+        "timestamp": 286208586
+       },
+       {
+        "site": 47373,
+        "timestamp": 286408592
+       }
+      ],
+      "corner": -2,
+      "page": {
+       "site": 47766,
+       "timestamp": 286708601,
+       "index": 286808604
+      },
+      "origin": {
+       "x": 0.10000000149011612,
+       "y": -3.25
+      },
+      "rotation": {
+       "value": 612.0
+      },
+      "scale": {
+       "value": {
+        "width": 0.0010000000474974513,
+        "height": 12345.677734375
+       }
+      },
+      "size": {
+       "width": 0.5,
+       "height": 0.10000000149011612
+      },
+      "textWrap": -1,
+      "enableCaption": false,
+      "zIndex": 2878000020146,
+      "mathLatex": {
+       "value": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+      },
+      "mathColor": {
+       "value": {
+        "bitsR": 192,
+        "bitsG": 199,
+        "bitsB": 206,
+        "bitsA": 213
+       }
+      },
+      "cropRect": {
+       "value": {
+        "origin": {
+         "x": 0.0010000000474974513,
+         "y": 12345.677734375
+        },
+        "size": {
+         "width": 0.5,
+         "height": 0.10000000149011612
+        }
+       }
+      },
+      "paper": {
+       "value": {}
+      },
+      "imageFlippedHorizontally": true,
+      "imageFlippedVertically": false,
+      "resizesWidthToFitText": true,
+      "positionLocked": false
+     }
+    }
+   }
+  ],
+  "schemaVersion": 51565
+ }
+}

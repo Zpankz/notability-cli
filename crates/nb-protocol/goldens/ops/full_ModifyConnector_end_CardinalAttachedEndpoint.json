@@ -1,0 +1,129 @@
+{
+ "table": "ModifyConnector",
+ "spec": {
+  "connectors": [
+   {
+    "site": 15910,
+    "timestamp": 112303369
+   },
+   {
+    "site": 16172,
+    "timestamp": 112503375
+   }
+  ],
+  "start": {
+   "type": "FreeEndpoint",
+   "value": {
+    "page": {
+     "site": 16565,
+     "timestamp": 112803384,
+     "index": 112903387
+    },
+    "position": {
+     "x": -3.25,
+     "y": 612.0
+    }
+   }
+  },
+  "end": {
+   "type": "CardinalAttachedEndpoint",
+   "value": {
+    "entity": {
+     "site": 17351,
+     "timestamp": 113403402
+    },
+    "side": -2
+   }
+  },
+  "pathStyle": -1,
+  "bends": [
+   {
+    "pin": 0,
+    "offset": 0.001
+   },
+   {
+    "pin": 2,
+    "offset": 0.5
+   }
+  ],
+  "startCap": -1,
+  "endCap": 0,
+  "tool": 1,
+  "style": 2,
+  "color": {
+   "bitsR": 79,
+   "bitsG": 86,
+   "bitsB": 93,
+   "bitsA": 100
+  },
+  "borderWidth": 612.0,
+  "zIndex": 1150000008050,
+  "positionLocked": false,
+  "labelPosition": {
+   "value": 0.5
+  }
+ },
+ "decoded": {
+  "connectors": [
+   {
+    "site": 15910,
+    "timestamp": 112303369
+   },
+   {
+    "site": 16172,
+    "timestamp": 112503375
+   }
+  ],
+  "pathStyle": -1,
+  "bends": [
+   {
+    "pin": 0,
+    "offset": 0.0010000000474974513
+   },
+   {
+    "pin": 2,
+    "offset": 0.5
+   }
+  ],
+  "startCap": -1,
+  "endCap": 0,
+  "tool": 1,
+  "style": 2,
+  "color": {
+   "bitsR": 79,
+   "bitsG": 86,
+   "bitsB": 93,
+   "bitsA": 100
+  },
+  "borderWidth": 612.0,
+  "zIndex": 1150000008050,
+  "positionLocked": false,
+  "labelPosition": {
+   "value": 0.5
+  },
+  "start": {
+   "type": "FreeEndpoint",
+   "value": {
+    "page": {
+     "site": 16565,
+     "timestamp": 112803384,
+     "index": 112903387
+    },
+    "position": {
+     "x": -3.25,
+     "y": 612.0
+    }
+   }
+  },
+  "end": {
+   "type": "CardinalAttachedEndpoint",
+   "value": {
+    "entity": {
+     "site": 17351,
+     "timestamp": 113403402
+    },
+    "side": -2
+   }
+  }
+ }
+}

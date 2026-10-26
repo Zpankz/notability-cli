@@ -1,0 +1,51 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 3,
+   "timestamp": 43
+  },
+  "payload": {
+   "type": "ModifyParagraphStyle",
+   "value": {
+    "start": {
+     "site": 3,
+     "timestamp": 40,
+     "index": 0
+    },
+    "end": {
+     "site": 3,
+     "timestamp": 40,
+     "index": 9
+    },
+    "programmingLanguage": {
+     "value": "Rust"
+    }
+   }
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 3,
+   "timestamp": 43
+  },
+  "payload": {
+   "type": "ModifyParagraphStyle",
+   "value": {
+    "start": {
+     "site": 3,
+     "timestamp": 40,
+     "index": 0
+    },
+    "end": {
+     "site": 3,
+     "timestamp": 40,
+     "index": 9
+    },
+    "programmingLanguage": {
+     "value": "Rust"
+    }
+   }
+  }
+ }
+}

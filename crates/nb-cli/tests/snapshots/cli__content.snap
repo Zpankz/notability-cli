@@ -1,0 +1,29 @@
+---
+source: crates/nb-cli/tests/cli.rs
+expression: help
+---
+notability content — Read and edit what is inside a note: text, math, code, ink, shapes, comments, pages
+
+Usage: notability content <command>
+
+Commands:
+  comments  Page comments and replies
+  images    Images placed on pages
+  ink       Handwriting: pen and highlighter strokes, eraser
+  math      Math blocks (LaTeX)
+  move      Move a selection of ink, shapes, images or blocks
+  pages     Pages: list, add, delete, reorder, paper templates
+  shapes    Shapes: rectangle, ellipse, triangle, arrow, line
+  show      Decoded edit log: pages, text boxes, math, code, ink, shapes, comments, images
+  text      Typed text and text boxes: styles, paragraphs, checklists, code blocks
+
+Global Options:
+  --filter-output <keys>              Filter output by key paths (e.g. foo,bar.baz,a[0,3])
+  --format <toon|json|yaml|md|jsonl>  Output format
+  --full-output                       Show full output envelope
+  --help                              Show help
+  --llms, --llms-full                 Print LLM-readable manifest
+  --schema                            Show JSON Schema for command
+  --token-count                       Print token count of output (instead of output)
+  --token-limit <n>                   Limit output to n tokens
+  --token-offset <n>                  Skip first n tokens of output

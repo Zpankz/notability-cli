@@ -1,0 +1,13 @@
+{
+ "table": "CreateBlock",
+ "spec": {
+  "type": -128,
+  "corner": 127,
+  "rotation": -0.0
+ },
+ "decoded": {
+  "type": -128,
+  "corner": 127,
+  "rotation": -0.0
+ }
+}

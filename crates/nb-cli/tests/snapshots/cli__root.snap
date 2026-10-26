@@ -1,0 +1,36 @@
+---
+source: crates/nb-cli/tests/cli.rs
+expression: root
+---
+notability@0.2.0 — Notability from the terminal and over MCP: notes, folders, content, files, audio, sharing, Learn, chat, account
+
+Usage: notability <command>
+
+Commands:
+  account  Sign-in session, profile, quotas, settings, calendar, raw GraphQL
+  audio    Recordings and transcripts
+  chat     Notability AI chat threads about your notes
+  content  Read and edit what is inside a note: text, math, code, ink, shapes, comments, pages
+  files    Import and export: PDF, images, audio, .ntb, markdown, text, JSON, transcripts; page previews
+  folders  Organise the library: folders, subjects and dividers
+  learn    Study tools: summaries, quizzes, flashcards, study-material generation
+  notes    Find, open and manage notes in your library (incl. trash)
+  share    Who can see a note: links, collaborators, access requests
+
+Integrations:
+  completions  Generate shell completion script
+  mcp          Register as MCP server (add, doctor)
+  skills       Sync skill files to agents (add, list)
+
+Global Options:
+  --filter-output <keys>              Filter output by key paths (e.g. foo,bar.baz,a[0,3])
+  --format <toon|json|yaml|md|jsonl>  Output format
+  --full-output                       Show full output envelope
+  --help                              Show help
+  --llms, --llms-full                 Print LLM-readable manifest
+  --mcp                               Start as MCP stdio server
+  --schema                            Show JSON Schema for command
+  --token-count                       Print token count of output (instead of output)
+  --token-limit <n>                   Limit output to n tokens
+  --token-offset <n>                  Skip first n tokens of output
+  --version                           Show version

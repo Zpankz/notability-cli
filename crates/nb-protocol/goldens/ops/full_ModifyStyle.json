@@ -1,0 +1,139 @@
+{
+ "table": "ModifyStyle",
+ "spec": {
+  "start": {
+   "location": {
+    "site": 4608,
+    "timestamp": 153704611,
+    "index": 153804614
+   },
+   "type": 2
+  },
+  "end": {
+   "location": {
+    "site": 5132,
+    "timestamp": 154104623,
+    "index": 154204626
+   },
+   "type": 1
+  },
+  "textField": {
+   "site": 5656,
+   "timestamp": 154504635
+  },
+  "bold": {
+   "value": true
+  },
+  "italic": {
+   "value": false
+  },
+  "underline": {
+   "value": true
+  },
+  "highlight": {
+   "value": {
+    "bitsR": 91,
+    "bitsG": 98,
+    "bitsB": 105,
+    "bitsA": 112
+   }
+  },
+  "familyName": {
+   "value": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "size": {
+   "value": 0.5
+  },
+  "foregroundColor": {
+   "value": {
+    "bitsR": 133,
+    "bitsG": 140,
+    "bitsB": 147,
+    "bitsA": 154
+   }
+  },
+  "link": {
+   "value": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "superscript": {
+   "value": true
+  },
+  "subscript": {
+   "value": false
+  },
+  "strikethrough": {
+   "value": true
+  },
+  "code": {
+   "value": false
+  }
+ },
+ "decoded": {
+  "start": {
+   "location": {
+    "site": 4608,
+    "timestamp": 153704611,
+    "index": 153804614
+   },
+   "type": 2
+  },
+  "end": {
+   "location": {
+    "site": 5132,
+    "timestamp": 154104623,
+    "index": 154204626
+   },
+   "type": 1
+  },
+  "textField": {
+   "site": 5656,
+   "timestamp": 154504635
+  },
+  "bold": {
+   "value": true
+  },
+  "italic": {
+   "value": false
+  },
+  "underline": {
+   "value": true
+  },
+  "highlight": {
+   "value": {
+    "bitsR": 91,
+    "bitsG": 98,
+    "bitsB": 105,
+    "bitsA": 112
+   }
+  },
+  "familyName": {
+   "value": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "size": {
+   "value": 0.5
+  },
+  "foregroundColor": {
+   "value": {
+    "bitsR": 133,
+    "bitsG": 140,
+    "bitsB": 147,
+    "bitsA": 154
+   }
+  },
+  "link": {
+   "value": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "superscript": {
+   "value": true
+  },
+  "subscript": {
+   "value": false
+  },
+  "strikethrough": {
+   "value": true
+  },
+  "code": {
+   "value": false
+  }
+ }
+}

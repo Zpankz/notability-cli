@@ -1,0 +1,53 @@
+{
+ "table": "ModifyPosition",
+ "spec": {
+  "target": {
+   "site": 50887,
+   "timestamp": 139004170
+  },
+  "page": {
+   "site": 51149,
+   "timestamp": 139204176,
+   "index": 139304179
+  },
+  "origin": {
+   "x": -3.25,
+   "y": 612.0
+  },
+  "rotation": {
+   "value": 0.001
+  },
+  "scale": {
+   "value": {
+    "width": 12345.678,
+    "height": 0.5
+   }
+  },
+  "zIndex": 1399000009793
+ },
+ "decoded": {
+  "target": {
+   "site": 50887,
+   "timestamp": 139004170
+  },
+  "page": {
+   "site": 51149,
+   "timestamp": 139204176,
+   "index": 139304179
+  },
+  "origin": {
+   "x": -3.25,
+   "y": 612.0
+  },
+  "rotation": {
+   "value": 0.0010000000474974513
+  },
+  "scale": {
+   "value": {
+    "width": 12345.677734375,
+    "height": 0.5
+   }
+  },
+  "zIndex": 1399000009793
+ }
+}

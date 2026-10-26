@@ -1,0 +1,19 @@
+{
+ "table": "RecordingAsset",
+ "spec": {
+  "metadata": {
+   "assetHash": "31333537393b3d3f41434547494b4d4f51535557595b5d5f61636567696b6d6f71737577797b7d7f81838587898b8d8f91939597999b9d9fa1a3a5a7a9abadaf",
+   "fileName": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "mimeType": "",
+   "fileSize": 318709561
+  }
+ },
+ "decoded": {
+  "metadata": {
+   "assetHash": "31333537393b3d3f41434547494b4d4f51535557595b5d5f61636567696b6d6f71737577797b7d7f81838587898b8d8f91939597999b9d9fa1a3a5a7a9abadaf",
+   "fileName": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "mimeType": "",
+   "fileSize": 318709561
+  }
+ }
+}

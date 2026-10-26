@@ -1,0 +1,9 @@
+{
+ "table": "SetFloat",
+ "spec": {
+  "value": -3.25
+ },
+ "decoded": {
+  "value": -3.25
+ }
+}

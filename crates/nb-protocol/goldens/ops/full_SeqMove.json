@@ -1,0 +1,17 @@
+{
+ "table": "SeqMove",
+ "spec": {
+  "toId": {
+   "site": 27163,
+   "timestamp": 321009630,
+   "index": 321109633
+  }
+ },
+ "decoded": {
+  "toId": {
+   "site": 27163,
+   "timestamp": 321009630,
+   "index": 321109633
+  }
+ }
+}

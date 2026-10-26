@@ -1,0 +1,139 @@
+{
+ "table": "ModifyShape",
+ "spec": {
+  "shapes": [
+   {
+    "site": 61367,
+    "timestamp": 147004410
+   },
+   {
+    "site": 61629,
+    "timestamp": 147204416
+   }
+  ],
+  "page": {
+   "site": 61891,
+   "timestamp": 147404422,
+   "index": 147504425
+  },
+  "origin": {
+   "x": 0.5,
+   "y": 0.1
+  },
+  "rotation": {
+   "value": -3.25
+  },
+  "scale": {
+   "value": {
+    "width": 612.0,
+    "height": 0.001
+   }
+  },
+  "definition": {
+   "type": "Polygon",
+   "value": {
+    "points": [
+     {
+      "x": 0.5,
+      "y": 0.1
+     },
+     {
+      "x": -3.25,
+      "y": 612.0
+     }
+    ]
+   }
+  },
+  "tool": -1,
+  "style": 0,
+  "tapePattern": 1,
+  "color": {
+   "bitsR": 183,
+   "bitsG": 190,
+   "bitsB": 197,
+   "bitsA": 204
+  },
+  "borderWidth": 12345.678,
+  "fillColor": {
+   "value": {
+    "bitsR": 218,
+    "bitsG": 225,
+    "bitsB": 232,
+    "bitsA": 239
+   }
+  },
+  "zIndex": 1498000010486,
+  "positionLocked": false,
+  "inkEffects": 1500000010500,
+  "inkEffectsTinted": false,
+  "measurementUnit": 0
+ },
+ "decoded": {
+  "shapes": [
+   {
+    "site": 61367,
+    "timestamp": 147004410
+   },
+   {
+    "site": 61629,
+    "timestamp": 147204416
+   }
+  ],
+  "page": {
+   "site": 61891,
+   "timestamp": 147404422,
+   "index": 147504425
+  },
+  "origin": {
+   "x": 0.5,
+   "y": 0.10000000149011612
+  },
+  "rotation": {
+   "value": -3.25
+  },
+  "scale": {
+   "value": {
+    "width": 612.0,
+    "height": 0.0010000000474974513
+   }
+  },
+  "tool": -1,
+  "style": 0,
+  "tapePattern": 1,
+  "color": {
+   "bitsR": 183,
+   "bitsG": 190,
+   "bitsB": 197,
+   "bitsA": 204
+  },
+  "borderWidth": 12345.677734375,
+  "fillColor": {
+   "value": {
+    "bitsR": 218,
+    "bitsG": 225,
+    "bitsB": 232,
+    "bitsA": 239
+   }
+  },
+  "zIndex": 1498000010486,
+  "positionLocked": false,
+  "inkEffects": 1500000010500,
+  "inkEffectsTinted": false,
+  "measurementUnit": 0,
+  "definition": {
+   "type": "Polygon",
+   "value": {
+    "points": [
+     {
+      "x": 0.5,
+      "y": 0.10000000149011612
+     },
+     {
+      "x": -3.25,
+      "y": 612.0
+     }
+    ]
+   }
+  }
+ }
+}

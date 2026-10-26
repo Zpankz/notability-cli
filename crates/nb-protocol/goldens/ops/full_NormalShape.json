@@ -1,0 +1,17 @@
+{
+ "table": "NormalShape",
+ "spec": {
+  "type": 2,
+  "size": {
+   "width": 12345.678,
+   "height": 0.5
+  }
+ },
+ "decoded": {
+  "type": 2,
+  "size": {
+   "width": 12345.677734375,
+   "height": 0.5
+  }
+ }
+}

@@ -1,0 +1,328 @@
+{
+ "table": "NoteBundle",
+ "spec": {
+  "noteId": "11112222-3333-4444-5555-666677778888",
+  "createdAt": 1700000000000,
+  "creatorUserId": "00000000-0000-4000-8000-000000000001",
+  "ops": [
+   {
+    "id": {
+     "site": 1,
+     "timestamp": 5
+    },
+    "clientTime": 5000,
+    "payloadType": 3
+   },
+   {
+    "id": {
+     "site": 1,
+     "timestamp": 10
+    },
+    "clientTime": 10000,
+    "payload": {
+     "type": "InsertString",
+     "value": {
+      "string": "Helo"
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 1,
+     "timestamp": 20
+    },
+    "clientTime": 20000,
+    "payload": {
+     "type": "InsertChar",
+     "value": {
+      "location": {
+       "site": 1,
+       "timestamp": 10,
+       "index": 2
+      },
+      "unicodeScalar": 108
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 1,
+     "timestamp": 30
+    },
+    "clientTime": 30000,
+    "payload": {
+     "type": "InsertString",
+     "value": {
+      "location": {
+       "site": 1,
+       "timestamp": 10,
+       "index": 3
+      },
+      "string": " world"
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 1,
+     "timestamp": 40
+    },
+    "clientTime": 40000,
+    "payload": {
+     "type": "InsertString",
+     "value": {
+      "location": {
+       "site": 1,
+       "timestamp": 30,
+       "index": 5
+      },
+      "string": "!?"
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 1,
+     "timestamp": 50
+    },
+    "clientTime": 50000,
+    "payload": {
+     "type": "RemoveChar",
+     "value": {
+      "location": {
+       "site": 1,
+       "timestamp": 40,
+       "index": 1
+      }
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 2,
+     "timestamp": 60
+    },
+    "clientTime": 60000,
+    "payload": {
+     "type": "InsertString",
+     "value": {
+      "string": "XYbox",
+      "textField": {
+       "site": 2,
+       "timestamp": 55
+      }
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 2,
+     "timestamp": 70
+    },
+    "clientTime": 70000,
+    "payload": {
+     "type": "RemoveChars",
+     "value": {
+      "locations": [
+       {
+        "site": 2,
+        "timestamp": 60,
+        "index": 0
+       },
+       {
+        "site": 2,
+        "timestamp": 60,
+        "index": 1
+       }
+      ]
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 1,
+     "timestamp": 80
+    },
+    "clientTime": 80000,
+    "payload": {
+     "type": "AssetCloudPersisted",
+     "value": {
+      "assetHash": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f"
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 1,
+     "timestamp": 90
+    },
+    "clientTime": 90000,
+    "payloadType": 15
+   }
+  ],
+  "schemaVersion": 3
+ },
+ "decoded": {
+  "noteId": "11112222-3333-4444-5555-666677778888",
+  "createdAt": 1700000000000,
+  "creatorUserId": "00000000-0000-4000-8000-000000000001",
+  "ops": [
+   {
+    "id": {
+     "site": 1,
+     "timestamp": 5
+    },
+    "clientTime": 5000,
+    "payloadType": 3
+   },
+   {
+    "id": {
+     "site": 1,
+     "timestamp": 10
+    },
+    "clientTime": 10000,
+    "payload": {
+     "type": "InsertString",
+     "value": {
+      "string": "Helo"
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 1,
+     "timestamp": 20
+    },
+    "clientTime": 20000,
+    "payload": {
+     "type": "InsertChar",
+     "value": {
+      "location": {
+       "site": 1,
+       "timestamp": 10,
+       "index": 2
+      },
+      "unicodeScalar": 108
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 1,
+     "timestamp": 30
+    },
+    "clientTime": 30000,
+    "payload": {
+     "type": "InsertString",
+     "value": {
+      "location": {
+       "site": 1,
+       "timestamp": 10,
+       "index": 3
+      },
+      "string": " world"
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 1,
+     "timestamp": 40
+    },
+    "clientTime": 40000,
+    "payload": {
+     "type": "InsertString",
+     "value": {
+      "location": {
+       "site": 1,
+       "timestamp": 30,
+       "index": 5
+      },
+      "string": "!?"
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 1,
+     "timestamp": 50
+    },
+    "clientTime": 50000,
+    "payload": {
+     "type": "RemoveChar",
+     "value": {
+      "location": {
+       "site": 1,
+       "timestamp": 40,
+       "index": 1
+      }
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 2,
+     "timestamp": 60
+    },
+    "clientTime": 60000,
+    "payload": {
+     "type": "InsertString",
+     "value": {
+      "string": "XYbox",
+      "textField": {
+       "site": 2,
+       "timestamp": 55
+      }
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 2,
+     "timestamp": 70
+    },
+    "clientTime": 70000,
+    "payload": {
+     "type": "RemoveChars",
+     "value": {
+      "locations": [
+       {
+        "site": 2,
+        "timestamp": 60,
+        "index": 0
+       },
+       {
+        "site": 2,
+        "timestamp": 60,
+        "index": 1
+       }
+      ]
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 1,
+     "timestamp": 80
+    },
+    "clientTime": 80000,
+    "payload": {
+     "type": "AssetCloudPersisted",
+     "value": {
+      "assetHash": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f"
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 1,
+     "timestamp": 90
+    },
+    "clientTime": 90000,
+    "payloadType": 15
+   }
+  ],
+  "schemaVersion": 3
+ },
+ "source_hex": "1c0000000000000014002c0004000000000000001400200024002a0014000000888877776666555544443333222211110068e5cf8b010000000000000c00000034000000000003002400000030303030303030302d303030302d343030302d383030302d303030303030303030303031000000000a000000b80200007002000024020000e00100009401000058010000fc000000b0000000340000001400000000000e001c0004001000000000000f000e000000010000005a0000000000000f905f0100000000000000000098ffffff010000005000000000000002140000008038010000000000000006004400040006000000000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f10001e0004001400000000000f0010001000000002000000460000000000000a1400000070110100000000000000060008000400060000000400000002000000020000003c00000000000000020000003c00000001000000b8ffffff020000003c000000000000081c00000060ea0000000000000000000000000a00100000000c0004000a000000020000003700000004000000050000005859626f780000001000220004001400000000000f001000100000000100000032000000000000091800000050c30000000000000000000000000600100004000600000001000000280000000100000040ffffff0100000028000000000000080c000000409c00000000000078ffffff010000001e000000050000000400000002000000213f00001000200004001400000000000f00100010000000010000001e0000000000000810000000307500000000000000000000c4ffffff010000000a00000003000000040000000600000020776f726c640000c8ffffff01000000140000000000000714000000204e000000000000080014000400100008000000010000000a000000020000006c00000010001c0004001400000000000f00100010000000010000000a00000000000008140000001027000000000000080008000000040008000000040000000400000048656c6f00000e00180004001000000000000f000e0000000100000005000000000000038813000000000000"
+}

@@ -1,0 +1,23 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 0,
+   "timestamp": 2
+  },
+  "payload": {
+   "type": "CreatePage",
+   "value": {}
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 0,
+   "timestamp": 2
+  },
+  "payload": {
+   "type": "CreatePage",
+   "value": {}
+  }
+ }
+}

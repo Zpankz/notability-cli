@@ -1,0 +1,127 @@
+{
+ "table": "ModifyConnector",
+ "spec": {
+  "connectors": [
+   {
+    "site": 11980,
+    "timestamp": 109303279
+   },
+   {
+    "site": 12242,
+    "timestamp": 109503285
+   }
+  ],
+  "start": {
+   "type": "FractionalAttachedEndpoint",
+   "value": {
+    "entity": {
+     "site": 12635,
+     "timestamp": 109803294
+    },
+    "fraction": {
+     "x": 0.1,
+     "y": -3.25
+    }
+   }
+  },
+  "end": {
+   "type": "CardinalAttachedEndpoint",
+   "value": {
+    "entity": {
+     "site": 13290,
+     "timestamp": 110303309
+    },
+    "side": 2
+   }
+  },
+  "pathStyle": -2,
+  "bends": [
+   {
+    "pin": -1,
+    "offset": 612.0
+   },
+   {
+    "pin": 1,
+    "offset": 12345.678
+   }
+  ],
+  "startCap": -2,
+  "endCap": -1,
+  "tool": 0,
+  "style": 1,
+  "color": {
+   "bitsR": 118,
+   "bitsG": 125,
+   "bitsB": 132,
+   "bitsA": 139
+  },
+  "borderWidth": -3.25,
+  "zIndex": 1119000007833,
+  "positionLocked": true,
+  "labelPosition": {
+   "value": 12345.678
+  }
+ },
+ "decoded": {
+  "connectors": [
+   {
+    "site": 11980,
+    "timestamp": 109303279
+   },
+   {
+    "site": 12242,
+    "timestamp": 109503285
+   }
+  ],
+  "pathStyle": -2,
+  "bends": [
+   {
+    "pin": -1,
+    "offset": 612.0
+   },
+   {
+    "pin": 1,
+    "offset": 12345.677734375
+   }
+  ],
+  "startCap": -2,
+  "endCap": -1,
+  "tool": 0,
+  "style": 1,
+  "color": {
+   "bitsR": 118,
+   "bitsG": 125,
+   "bitsB": 132,
+   "bitsA": 139
+  },
+  "borderWidth": -3.25,
+  "zIndex": 1119000007833,
+  "positionLocked": true,
+  "labelPosition": {
+   "value": 12345.677734375
+  },
+  "start": {
+   "type": "FractionalAttachedEndpoint",
+   "value": {
+    "entity": {
+     "site": 12635,
+     "timestamp": 109803294
+    },
+    "fraction": {
+     "x": 0.10000000149011612,
+     "y": -3.25
+    }
+   }
+  },
+  "end": {
+   "type": "CardinalAttachedEndpoint",
+   "value": {
+    "entity": {
+     "site": 13290,
+     "timestamp": 110303309
+    },
+    "side": 2
+   }
+  }
+ }
+}

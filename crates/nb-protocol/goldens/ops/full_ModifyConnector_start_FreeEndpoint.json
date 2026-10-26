@@ -1,0 +1,137 @@
+{
+ "table": "ModifyConnector",
+ "spec": {
+  "connectors": [
+   {
+    "site": 7657,
+    "timestamp": 106003180
+   },
+   {
+    "site": 7919,
+    "timestamp": 106203186
+   }
+  ],
+  "start": {
+   "type": "FreeEndpoint",
+   "value": {
+    "page": {
+     "site": 8312,
+     "timestamp": 106503195,
+     "index": 106603198
+    },
+    "position": {
+     "x": 12345.678,
+     "y": 0.5
+    }
+   }
+  },
+  "end": {
+   "type": "FreeEndpoint",
+   "value": {
+    "page": {
+     "site": 9098,
+     "timestamp": 107103213,
+     "index": 107203216
+    },
+    "position": {
+     "x": 12345.678,
+     "y": 0.5
+    }
+   }
+  },
+  "pathStyle": -2,
+  "bends": [
+   {
+    "pin": -1,
+    "offset": 612.0
+   },
+   {
+    "pin": 1,
+    "offset": 12345.678
+   }
+  ],
+  "startCap": -2,
+  "endCap": -1,
+  "tool": 0,
+  "style": 1,
+  "color": {
+   "bitsR": 164,
+   "bitsG": 171,
+   "bitsB": 178,
+   "bitsA": 185
+  },
+  "borderWidth": -3.25,
+  "zIndex": 1089000007623,
+  "positionLocked": true,
+  "labelPosition": {
+   "value": 12345.678
+  }
+ },
+ "decoded": {
+  "connectors": [
+   {
+    "site": 7657,
+    "timestamp": 106003180
+   },
+   {
+    "site": 7919,
+    "timestamp": 106203186
+   }
+  ],
+  "pathStyle": -2,
+  "bends": [
+   {
+    "pin": -1,
+    "offset": 612.0
+   },
+   {
+    "pin": 1,
+    "offset": 12345.677734375
+   }
+  ],
+  "startCap": -2,
+  "endCap": -1,
+  "tool": 0,
+  "style": 1,
+  "color": {
+   "bitsR": 164,
+   "bitsG": 171,
+   "bitsB": 178,
+   "bitsA": 185
+  },
+  "borderWidth": -3.25,
+  "zIndex": 1089000007623,
+  "positionLocked": true,
+  "labelPosition": {
+   "value": 12345.677734375
+  },
+  "start": {
+   "type": "FreeEndpoint",
+   "value": {
+    "page": {
+     "site": 8312,
+     "timestamp": 106503195,
+     "index": 106603198
+    },
+    "position": {
+     "x": 12345.677734375,
+     "y": 0.5
+    }
+   }
+  },
+  "end": {
+   "type": "FreeEndpoint",
+   "value": {
+    "page": {
+     "site": 9098,
+     "timestamp": 107103213,
+     "index": 107203216
+    },
+    "position": {
+     "x": 12345.677734375,
+     "y": 0.5
+    }
+   }
+  }
+ }
+}

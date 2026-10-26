@@ -1,0 +1,109 @@
+{
+ "table": "CreateShape",
+ "spec": {
+  "page": {
+   "site": 38871,
+   "timestamp": 79802394,
+   "index": 79902397
+  },
+  "origin": {
+   "x": -3.25,
+   "y": 612.0
+  },
+  "rotation": 0.001,
+  "scale": {
+   "width": 12345.678,
+   "height": 0.5
+  },
+  "definition": {
+   "type": "Polygon",
+   "value": {
+    "points": [
+     {
+      "x": -3.25,
+      "y": 612.0
+     },
+     {
+      "x": 0.001,
+      "y": 12345.678
+     }
+    ]
+   }
+  },
+  "tool": -2,
+  "style": -1,
+  "tapePattern": 0,
+  "color": {
+   "bitsR": 59,
+   "bitsG": 66,
+   "bitsB": 73,
+   "bitsA": 80
+  },
+  "borderWidth": 0.1,
+  "fillColor": {
+   "bitsR": 94,
+   "bitsG": 101,
+   "bitsB": 108,
+   "bitsA": 115
+  },
+  "zIndex": 822000005754,
+  "smartHighlight": false,
+  "force": -3.25,
+  "positionLocked": false,
+  "inkEffects": 826000005782,
+  "measurementUnit": 0
+ },
+ "decoded": {
+  "page": {
+   "site": 38871,
+   "timestamp": 79802394,
+   "index": 79902397
+  },
+  "origin": {
+   "x": -3.25,
+   "y": 612.0
+  },
+  "rotation": 0.0010000000474974513,
+  "scale": {
+   "width": 12345.677734375,
+   "height": 0.5
+  },
+  "tool": -2,
+  "style": -1,
+  "tapePattern": 0,
+  "color": {
+   "bitsR": 59,
+   "bitsG": 66,
+   "bitsB": 73,
+   "bitsA": 80
+  },
+  "borderWidth": 0.10000000149011612,
+  "fillColor": {
+   "bitsR": 94,
+   "bitsG": 101,
+   "bitsB": 108,
+   "bitsA": 115
+  },
+  "zIndex": 822000005754,
+  "smartHighlight": false,
+  "force": -3.25,
+  "positionLocked": false,
+  "inkEffects": 826000005782,
+  "measurementUnit": 0,
+  "definition": {
+   "type": "Polygon",
+   "value": {
+    "points": [
+     {
+      "x": -3.25,
+      "y": 612.0
+     },
+     {
+      "x": 0.0010000000474974513,
+      "y": 12345.677734375
+     }
+    ]
+   }
+  }
+ }
+}

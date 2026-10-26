@@ -1,0 +1,129 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 2,
+   "timestamp": 117
+  },
+  "clientTime": 1700000000017,
+  "payload": {
+   "type": "CreateShape",
+   "value": {
+    "page": {
+     "site": 39441,
+     "timestamp": 380411412,
+     "index": 380511415
+    },
+    "origin": {
+     "x": -3.25,
+     "y": 612.0
+    },
+    "rotation": 0.001,
+    "scale": {
+     "width": 12345.678,
+     "height": 0.5
+    },
+    "definition": {
+     "type": "Polygon",
+     "value": {
+      "points": [
+       {
+        "x": -3.25,
+        "y": 612.0
+       },
+       {
+        "x": 0.001,
+        "y": 12345.678
+       }
+      ]
+     }
+    },
+    "tool": -1,
+    "style": 0,
+    "tapePattern": 1,
+    "color": {
+     "bitsR": 109,
+     "bitsG": 116,
+     "bitsB": 123,
+     "bitsA": 130
+    },
+    "borderWidth": 0.1,
+    "fillColor": {
+     "bitsR": 144,
+     "bitsG": 151,
+     "bitsB": 158,
+     "bitsA": 165
+    },
+    "zIndex": 3828000026796,
+    "smartHighlight": false,
+    "force": -3.25,
+    "positionLocked": false,
+    "inkEffects": 3832000026824,
+    "measurementUnit": 1
+   }
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 2,
+   "timestamp": 117
+  },
+  "clientTime": 1700000000017,
+  "payload": {
+   "type": "CreateShape",
+   "value": {
+    "page": {
+     "site": 39441,
+     "timestamp": 380411412,
+     "index": 380511415
+    },
+    "origin": {
+     "x": -3.25,
+     "y": 612.0
+    },
+    "rotation": 0.0010000000474974513,
+    "scale": {
+     "width": 12345.677734375,
+     "height": 0.5
+    },
+    "tool": -1,
+    "style": 0,
+    "tapePattern": 1,
+    "color": {
+     "bitsR": 109,
+     "bitsG": 116,
+     "bitsB": 123,
+     "bitsA": 130
+    },
+    "borderWidth": 0.10000000149011612,
+    "fillColor": {
+     "bitsR": 144,
+     "bitsG": 151,
+     "bitsB": 158,
+     "bitsA": 165
+    },
+    "zIndex": 3828000026796,
+    "smartHighlight": false,
+    "force": -3.25,
+    "positionLocked": false,
+    "inkEffects": 3832000026824,
+    "measurementUnit": 1,
+    "definition": {
+     "type": "Polygon",
+     "value": {
+      "points": [
+       {
+        "x": -3.25,
+        "y": 612.0
+       },
+       {
+        "x": 0.0010000000474974513,
+        "y": 12345.677734375
+       }
+      ]
+     }
+    }
+   }
+  }
+ }
+}

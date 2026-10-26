@@ -1,0 +1,9 @@
+{
+ "table": "SetWritingDirection",
+ "spec": {
+  "value": 2
+ },
+ "decoded": {
+  "value": 2
+ }
+}

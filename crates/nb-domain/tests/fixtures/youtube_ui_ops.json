@@ -1,0 +1,188 @@
+[
+ {
+  "id": {
+   "site": 1,
+   "timestamp": 7
+  },
+  "clientTime": 1700001140840,
+  "payload": {
+   "type": "InsertString",
+   "value": {
+    "string": "https://www.youtube.com/watch?v=jNQXAC9IVRw\n\n"
+   }
+  }
+ },
+ {
+  "id": {
+   "site": 1,
+   "timestamp": 8
+  },
+  "clientTime": 1700001140844,
+  "payload": {
+   "type": "ModifyStyle",
+   "value": {
+    "start": {
+     "location": {
+      "site": 1,
+      "timestamp": 7,
+      "index": 0
+     },
+     "type": 0
+    },
+    "end": {
+     "location": {
+      "site": 1,
+      "timestamp": 7,
+      "index": 42
+     },
+     "type": 1
+    },
+    "link": {
+     "value": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
+    }
+   }
+  }
+ },
+ {
+  "id": {
+   "site": 1,
+   "timestamp": 11
+  },
+  "clientTime": 1700001142695,
+  "payload": {
+   "type": "ModifyStyle",
+   "value": {
+    "start": {
+     "location": {
+      "site": 1,
+      "timestamp": 9,
+      "index": 0
+     },
+     "type": 0
+    },
+    "end": {
+     "location": {
+      "site": 1,
+      "timestamp": 10,
+      "index": 13
+     },
+     "type": 0
+    },
+    "size": {
+     "value": 12.0
+    },
+    "foregroundColor": {
+     "value": {
+      "bitsR": 134,
+      "bitsG": 134,
+      "bitsB": 134,
+      "bitsA": 255
+     }
+    }
+   }
+  }
+ },
+ {
+  "id": {
+   "site": 1,
+   "timestamp": 12
+  },
+  "clientTime": 1700001142695,
+  "payload": {
+   "type": "ModifyStyle",
+   "value": {
+    "start": {
+     "location": {
+      "site": 1,
+      "timestamp": 10,
+      "index": 0
+     },
+     "type": 0
+    },
+    "end": {
+     "location": {
+      "site": 1,
+      "timestamp": 10,
+      "index": 13
+     },
+     "type": 0
+    },
+    "bold": {
+     "value": true
+    }
+   }
+  }
+ },
+ {
+  "id": {
+   "site": 1,
+   "timestamp": 9
+  },
+  "clientTime": 1700001142693,
+  "payload": {
+   "type": "InsertString",
+   "value": {
+    "location": {
+     "site": 1,
+     "timestamp": 7,
+     "index": 44
+    },
+    "string": "🗒️ Transcript: "
+   }
+  }
+ },
+ {
+  "id": {
+   "site": 1,
+   "timestamp": 10
+  },
+  "clientTime": 1700001142694,
+  "payload": {
+   "type": "InsertString",
+   "value": {
+    "location": {
+     "site": 1,
+     "timestamp": 9,
+     "index": 14
+    },
+    "string": "Me at the zoo\n\n"
+   }
+  }
+ },
+ {
+  "id": {
+   "site": 1,
+   "timestamp": 13
+  },
+  "clientTime": 1700001142698,
+  "payload": {
+   "type": "InsertString",
+   "value": {
+    "location": {
+     "site": 1,
+     "timestamp": 10,
+     "index": 14
+    },
+    "string": "All right, so here we are, in front of the\nelephants the cool thing about these guys is that they\nhave really... really really long trunks and that's cool (baaaaaaaaaaahhh!!) and that's pretty much all there is to\nsay"
+   }
+  }
+ },
+ {
+  "id": {
+   "site": 1,
+   "timestamp": 14
+  },
+  "clientTime": 1700001142700,
+  "payload": {
+   "type": "InsertString",
+   "value": {
+    "location": {
+     "site": 1,
+     "timestamp": 13,
+     "index": 216
+    },
+    "string": "\n\n"
+   }
+  }
+ }
+]

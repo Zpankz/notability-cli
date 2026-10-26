@@ -1,0 +1,77 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 64606,
+   "timestamp": 199505985
+  },
+  "clientTime": 1996000013972,
+  "serverTime": 1997000013979,
+  "audioTime": 1998000013986,
+  "payload": {
+   "type": "ReviveChars",
+   "value": {
+    "locations": [
+     {
+      "site": 65392,
+      "timestamp": 200106003,
+      "index": 200206006
+     },
+     {
+      "site": 249,
+      "timestamp": 200406012,
+      "index": 200506015
+     }
+    ],
+    "textField": {
+     "site": 642,
+     "timestamp": 200706021
+    }
+   }
+  },
+  "transientInteraction": {
+   "interactionId": {
+    "site": 904,
+    "timestamp": 200906027
+   },
+   "timeout": 201006030
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 64606,
+   "timestamp": 199505985
+  },
+  "clientTime": 1996000013972,
+  "serverTime": 1997000013979,
+  "audioTime": 1998000013986,
+  "transientInteraction": {
+   "interactionId": {
+    "site": 904,
+    "timestamp": 200906027
+   },
+   "timeout": 201006030
+  },
+  "payload": {
+   "type": "ReviveChars",
+   "value": {
+    "locations": [
+     {
+      "site": 65392,
+      "timestamp": 200106003,
+      "index": 200206006
+     },
+     {
+      "site": 249,
+      "timestamp": 200406012,
+      "index": 200506015
+     }
+    ],
+    "textField": {
+     "site": 642,
+     "timestamp": 200706021
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 0,
+   "timestamp": 7
+  },
+  "payload": {
+   "type": "InsertString",
+   "value": {}
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 0,
+   "timestamp": 7
+  },
+  "payload": {
+   "type": "InsertString",
+   "value": {}
+  }
+ }
+}

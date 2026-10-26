@@ -1,0 +1,97 @@
+{
+ "table": "CreateConnector",
+ "spec": {
+  "start": {
+   "type": "CardinalAttachedEndpoint",
+   "value": {
+    "entity": {
+     "site": 59867,
+     "timestamp": 45801374
+    },
+    "side": 2
+   }
+  },
+  "end": {
+   "type": "CardinalAttachedEndpoint",
+   "value": {
+    "entity": {
+     "site": 60391,
+     "timestamp": 46201386
+    },
+    "side": 1
+   }
+  },
+  "pathStyle": 2,
+  "bends": [
+   {
+    "pin": -2,
+    "offset": 0.001
+   },
+   {
+    "pin": 0,
+    "offset": 0.5
+   }
+  ],
+  "startCap": 2,
+  "endCap": -2,
+  "tool": -1,
+  "style": 0,
+  "color": {
+   "bitsR": 239,
+   "bitsG": 246,
+   "bitsB": 253,
+   "bitsA": 4
+  },
+  "borderWidth": 612.0,
+  "zIndex": 478000003346,
+  "positionLocked": false,
+  "labelPosition": 0.5
+ },
+ "decoded": {
+  "pathStyle": 2,
+  "bends": [
+   {
+    "pin": -2,
+    "offset": 0.0010000000474974513
+   },
+   {
+    "pin": 0,
+    "offset": 0.5
+   }
+  ],
+  "startCap": 2,
+  "endCap": -2,
+  "tool": -1,
+  "style": 0,
+  "color": {
+   "bitsR": 239,
+   "bitsG": 246,
+   "bitsB": 253,
+   "bitsA": 4
+  },
+  "borderWidth": 612.0,
+  "zIndex": 478000003346,
+  "positionLocked": false,
+  "labelPosition": 0.5,
+  "start": {
+   "type": "CardinalAttachedEndpoint",
+   "value": {
+    "entity": {
+     "site": 59867,
+     "timestamp": 45801374
+    },
+    "side": 2
+   }
+  },
+  "end": {
+   "type": "CardinalAttachedEndpoint",
+   "value": {
+    "entity": {
+     "site": 60391,
+     "timestamp": 46201386
+    },
+    "side": 1
+   }
+  }
+ }
+}

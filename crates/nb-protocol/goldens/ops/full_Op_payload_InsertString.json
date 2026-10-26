@@ -1,0 +1,65 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 58580,
+   "timestamp": 194905847
+  },
+  "clientTime": 1950000013650,
+  "serverTime": 1951000013657,
+  "audioTime": 1952000013664,
+  "payload": {
+   "type": "InsertString",
+   "value": {
+    "location": {
+     "site": 59366,
+     "timestamp": 195505865,
+     "index": 195605868
+    },
+    "string": "a",
+    "textField": {
+     "site": 59890,
+     "timestamp": 195905877
+    }
+   }
+  },
+  "transientInteraction": {
+   "interactionId": {
+    "site": 60152,
+    "timestamp": 196105883
+   },
+   "timeout": 196205886
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 58580,
+   "timestamp": 194905847
+  },
+  "clientTime": 1950000013650,
+  "serverTime": 1951000013657,
+  "audioTime": 1952000013664,
+  "transientInteraction": {
+   "interactionId": {
+    "site": 60152,
+    "timestamp": 196105883
+   },
+   "timeout": 196205886
+  },
+  "payload": {
+   "type": "InsertString",
+   "value": {
+    "location": {
+     "site": 59366,
+     "timestamp": 195505865,
+     "index": 195605868
+    },
+    "string": "a",
+    "textField": {
+     "site": 59890,
+     "timestamp": 195905877
+    }
+   }
+  }
+ }
+}

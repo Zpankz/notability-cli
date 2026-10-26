@@ -1,0 +1,43 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 1,
+   "timestamp": 125
+  },
+  "clientTime": 1700000000025,
+  "payload": {
+   "type": "TransientInteractionEnded",
+   "value": {
+    "interactionId": {
+     "site": 9668,
+     "timestamp": 407712231
+    },
+    "replacedByOp": {
+     "site": 9930,
+     "timestamp": 407912237
+    }
+   }
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 1,
+   "timestamp": 125
+  },
+  "clientTime": 1700000000025,
+  "payload": {
+   "type": "TransientInteractionEnded",
+   "value": {
+    "interactionId": {
+     "site": 9668,
+     "timestamp": 407712231
+    },
+    "replacedByOp": {
+     "site": 9930,
+     "timestamp": 407912237
+    }
+   }
+  }
+ }
+}

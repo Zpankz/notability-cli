@@ -1,0 +1,93 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 0,
+   "timestamp": 112
+  },
+  "clientTime": 1700000000012,
+  "payload": {
+   "type": "ModifyParagraphStyle",
+   "value": {
+    "start": {
+     "site": 20970,
+     "timestamp": 366310989,
+     "index": 366410992
+    },
+    "end": {
+     "site": 21363,
+     "timestamp": 366610998,
+     "index": 366711001
+    },
+    "indentLevel": {
+     "value": 76
+    },
+    "alignment": {
+     "value": 2
+    },
+    "lineSpacing": {
+     "value": 0.001
+    },
+    "decoratorStyle": {
+     "value": -1
+    },
+    "isChecked": true,
+    "textField": {
+     "site": 22411,
+     "timestamp": 367411022
+    },
+    "programmingLanguage": {
+     "value": "日本語テキスト"
+    },
+    "writingDirection": {
+     "value": -1
+    }
+   }
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 0,
+   "timestamp": 112
+  },
+  "clientTime": 1700000000012,
+  "payload": {
+   "type": "ModifyParagraphStyle",
+   "value": {
+    "start": {
+     "site": 20970,
+     "timestamp": 366310989,
+     "index": 366410992
+    },
+    "end": {
+     "site": 21363,
+     "timestamp": 366610998,
+     "index": 366711001
+    },
+    "indentLevel": {
+     "value": 76
+    },
+    "alignment": {
+     "value": 2
+    },
+    "lineSpacing": {
+     "value": 0.0010000000474974513
+    },
+    "decoratorStyle": {
+     "value": -1
+    },
+    "isChecked": true,
+    "textField": {
+     "site": 22411,
+     "timestamp": 367411022
+    },
+    "programmingLanguage": {
+     "value": "日本語テキスト"
+    },
+    "writingDirection": {
+     "value": -1
+    }
+   }
+  }
+ }
+}

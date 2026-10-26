@@ -1,0 +1,82 @@
+{
+ "elements": [
+  {
+   "type": 7,
+   "points": [
+    [
+     300.5,
+     -700.25
+    ]
+   ],
+   "width": null,
+   "force": null,
+   "altitude": null,
+   "azimuth": null
+  },
+  {
+   "type": 6,
+   "points": [
+    [
+     1000.125,
+     2.5
+    ]
+   ],
+   "width": null,
+   "force": null,
+   "altitude": null,
+   "azimuth": null
+  }
+ ],
+ "bytes": [
+  1,
+  2,
+  0,
+  7,
+  0,
+  64,
+  150,
+  67,
+  0,
+  16,
+  47,
+  196,
+  6,
+  0,
+  8,
+  122,
+  68,
+  0,
+  0,
+  32,
+  64
+ ],
+ "precision": 1,
+ "decoded": [
+  {
+   "type": 7,
+   "points": [
+    [
+     300.5,
+     -700.25
+    ]
+   ],
+   "width": null,
+   "force": null,
+   "altitude": null,
+   "azimuth": null
+  },
+  {
+   "type": 6,
+   "points": [
+    [
+     1000.125,
+     2.5
+    ]
+   ],
+   "width": null,
+   "force": null,
+   "altitude": null,
+   "azimuth": null
+  }
+ ]
+}

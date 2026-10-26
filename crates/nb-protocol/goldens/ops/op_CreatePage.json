@@ -1,0 +1,109 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 2,
+   "timestamp": 102
+  },
+  "clientTime": 1700000000002,
+  "payload": {
+   "type": "CreatePage",
+   "value": {
+    "location": {
+     "site": 62140,
+     "timestamp": 347710431,
+     "index": 347810434
+    },
+    "background": {
+     "paper": {
+      "flair": 2,
+      "flairSpacing": 0.5,
+      "flairBleeds": false,
+      "flairCentered": true,
+      "backgroundColor": {
+       "bitsR": 61,
+       "bitsG": 68,
+       "bitsB": 75,
+       "bitsA": 82
+      },
+      "legacyPaperIndex": 89
+     },
+     "pdf": {
+      "metadata": {},
+      "layoutBehavior": 1,
+      "totalPageCount": 348910467,
+      "pagesConsumed": 349010470,
+      "pageOffset": 349110473,
+      "cropBoxes": []
+     },
+     "rotation": 0.5,
+     "size": {
+      "width": 0.1,
+      "height": -3.25
+     },
+     "margins": {
+      "top": 612.0,
+      "bottom": 0.001,
+      "left": 12345.678,
+      "right": 0.5
+     }
+    },
+    "pageCount": 349910497,
+    "bookmarked": -2
+   }
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 2,
+   "timestamp": 102
+  },
+  "clientTime": 1700000000002,
+  "payload": {
+   "type": "CreatePage",
+   "value": {
+    "location": {
+     "site": 62140,
+     "timestamp": 347710431,
+     "index": 347810434
+    },
+    "background": {
+     "paper": {
+      "flair": 2,
+      "flairSpacing": 0.5,
+      "flairBleeds": false,
+      "flairCentered": true,
+      "backgroundColor": {
+       "bitsR": 61,
+       "bitsG": 68,
+       "bitsB": 75,
+       "bitsA": 82
+      },
+      "legacyPaperIndex": 89
+     },
+     "pdf": {
+      "metadata": {},
+      "layoutBehavior": 1,
+      "totalPageCount": 348910467,
+      "pagesConsumed": 349010470,
+      "pageOffset": 349110473,
+      "cropBoxes": []
+     },
+     "rotation": 0.5,
+     "size": {
+      "width": 0.10000000149011612,
+      "height": -3.25
+     },
+     "margins": {
+      "top": 612.0,
+      "bottom": 0.0010000000474974513,
+      "left": 12345.677734375,
+      "right": 0.5
+     }
+    },
+    "pageCount": 349910497,
+    "bookmarked": -2
+   }
+  }
+ }
+}

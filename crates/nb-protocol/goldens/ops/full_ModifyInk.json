@@ -1,0 +1,189 @@
+{
+ "table": "ModifyInk",
+ "spec": {
+  "inks": [
+   {
+    "site": 29141,
+    "timestamp": 122403672
+   },
+   {
+    "site": 29403,
+    "timestamp": 122603678
+   }
+  ],
+  "page": {
+   "site": 29665,
+   "timestamp": 122803684,
+   "index": 122903687
+  },
+  "origin": {
+   "x": 0.5,
+   "y": 0.1
+  },
+  "rotation": {
+   "value": -3.25
+  },
+  "scale": {
+   "value": {
+    "width": 612.0,
+    "height": 0.001
+   }
+  },
+  "style": -2,
+  "color": {
+   "bitsR": 204,
+   "bitsG": 211,
+   "bitsB": 218,
+   "bitsA": 225
+  },
+  "width": 0.001,
+  "encodedCenterPath": [
+   139,
+   143,
+   147,
+   151,
+   155
+  ],
+  "encodedCustomPath": [
+   154,
+   158,
+   162,
+   166,
+   170
+  ],
+  "encodedFillPath": [
+   169,
+   173,
+   177,
+   181,
+   185
+  ],
+  "fillColor": {
+   "value": {
+    "bitsR": 88,
+    "bitsG": 95,
+    "bitsB": 102,
+    "bitsA": 109
+   }
+  },
+  "styleMap": [
+   {
+    "backingPencilSeed": -3780,
+    "backingPencilReferencePoint": {
+     "x": 0.1,
+     "y": -3.25
+    },
+    "backingDashPhase": 612.0,
+    "backingDashPeriod": 0.001
+   },
+   {
+    "backingPencilSeed": -3795,
+    "backingPencilReferencePoint": {
+     "x": 0.5,
+     "y": 0.1
+    },
+    "backingDashPhase": -3.25,
+    "backingDashPeriod": 612.0
+   }
+  ],
+  "zIndex": 1270000008890,
+  "nibAngle": 35429,
+  "nibFlatness": 35560,
+  "tapePattern": 1,
+  "inkEffects": 1274000008918,
+  "inkEffectsTinted": false
+ },
+ "decoded": {
+  "inks": [
+   {
+    "site": 29141,
+    "timestamp": 122403672
+   },
+   {
+    "site": 29403,
+    "timestamp": 122603678
+   }
+  ],
+  "page": {
+   "site": 29665,
+   "timestamp": 122803684,
+   "index": 122903687
+  },
+  "origin": {
+   "x": 0.5,
+   "y": 0.10000000149011612
+  },
+  "rotation": {
+   "value": -3.25
+  },
+  "scale": {
+   "value": {
+    "width": 612.0,
+    "height": 0.0010000000474974513
+   }
+  },
+  "style": -2,
+  "color": {
+   "bitsR": 204,
+   "bitsG": 211,
+   "bitsB": 218,
+   "bitsA": 225
+  },
+  "width": 0.0010000000474974513,
+  "encodedCenterPath": [
+   139,
+   143,
+   147,
+   151,
+   155
+  ],
+  "encodedCustomPath": [
+   154,
+   158,
+   162,
+   166,
+   170
+  ],
+  "encodedFillPath": [
+   169,
+   173,
+   177,
+   181,
+   185
+  ],
+  "fillColor": {
+   "value": {
+    "bitsR": 88,
+    "bitsG": 95,
+    "bitsB": 102,
+    "bitsA": 109
+   }
+  },
+  "styleMap": [
+   {
+    "backingPencilSeed": -3780,
+    "backingPencilReferencePoint": {
+     "x": 0.10000000149011612,
+     "y": -3.25
+    },
+    "backingDashPhase": 612.0,
+    "backingDashPeriod": 0.0010000000474974513
+   },
+   {
+    "backingPencilSeed": -3795,
+    "backingPencilReferencePoint": {
+     "x": 0.5,
+     "y": 0.10000000149011612
+    },
+    "backingDashPhase": -3.25,
+    "backingDashPeriod": 612.0
+   }
+  ],
+  "zIndex": 1270000008890,
+  "nibAngle": 35429,
+  "nibFlatness": 35560,
+  "tapePattern": 1,
+  "inkEffects": 1274000008918,
+  "inkEffectsTinted": false
+ }
+}

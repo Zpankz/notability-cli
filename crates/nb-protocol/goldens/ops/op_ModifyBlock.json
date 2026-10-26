@@ -1,0 +1,183 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 1,
+   "timestamp": 122
+  },
+  "clientTime": 1700000000022,
+  "payload": {
+   "type": "ModifyBlock",
+   "value": {
+    "blocks": [
+     {
+      "site": 64462,
+      "timestamp": 399511985
+     },
+     {
+      "site": 64724,
+      "timestamp": 399711991
+     }
+    ],
+    "corner": 1,
+    "page": {
+     "site": 65117,
+     "timestamp": 400012000,
+     "index": 400112003
+    },
+    "origin": {
+     "x": 0.5,
+     "y": 0.1
+    },
+    "rotation": {
+     "value": -3.25
+    },
+    "scale": {
+     "value": {
+      "width": 612.0,
+      "height": 0.001
+     }
+    },
+    "size": {
+     "width": 12345.678,
+     "height": 0.5
+    },
+    "textWrap": 2,
+    "enableCaption": true,
+    "zIndex": 4011000028077,
+    "mathLatex": {
+     "value": "emoji 🗒️✓"
+    },
+    "mathColor": {
+     "value": {
+      "bitsR": 187,
+      "bitsG": 194,
+      "bitsB": 201,
+      "bitsA": 208
+     }
+    },
+    "cropRect": {
+     "value": {
+      "origin": {
+       "x": 612.0,
+       "y": 0.001
+      },
+      "size": {
+       "width": 12345.678,
+       "height": 0.5
+      }
+     }
+    },
+    "paper": {
+     "value": {
+      "flair": -1,
+      "flairSpacing": -3.25,
+      "flairBleeds": false,
+      "flairCentered": true,
+      "backgroundColor": {
+       "bitsR": 15,
+       "bitsG": 22,
+       "bitsB": 29,
+       "bitsA": 36
+      },
+      "legacyPaperIndex": 43
+     }
+    },
+    "imageFlippedHorizontally": true,
+    "imageFlippedVertically": false,
+    "resizesWidthToFitText": true,
+    "positionLocked": false
+   }
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 1,
+   "timestamp": 122
+  },
+  "clientTime": 1700000000022,
+  "payload": {
+   "type": "ModifyBlock",
+   "value": {
+    "blocks": [
+     {
+      "site": 64462,
+      "timestamp": 399511985
+     },
+     {
+      "site": 64724,
+      "timestamp": 399711991
+     }
+    ],
+    "corner": 1,
+    "page": {
+     "site": 65117,
+     "timestamp": 400012000,
+     "index": 400112003
+    },
+    "origin": {
+     "x": 0.5,
+     "y": 0.10000000149011612
+    },
+    "rotation": {
+     "value": -3.25
+    },
+    "scale": {
+     "value": {
+      "width": 612.0,
+      "height": 0.0010000000474974513
+     }
+    },
+    "size": {
+     "width": 12345.677734375,
+     "height": 0.5
+    },
+    "textWrap": 2,
+    "enableCaption": true,
+    "zIndex": 4011000028077,
+    "mathLatex": {
+     "value": "emoji 🗒️✓"
+    },
+    "mathColor": {
+     "value": {
+      "bitsR": 187,
+      "bitsG": 194,
+      "bitsB": 201,
+      "bitsA": 208
+     }
+    },
+    "cropRect": {
+     "value": {
+      "origin": {
+       "x": 612.0,
+       "y": 0.0010000000474974513
+      },
+      "size": {
+       "width": 12345.677734375,
+       "height": 0.5
+      }
+     }
+    },
+    "paper": {
+     "value": {
+      "flair": -1,
+      "flairSpacing": -3.25,
+      "flairBleeds": false,
+      "flairCentered": true,
+      "backgroundColor": {
+       "bitsR": 15,
+       "bitsG": 22,
+       "bitsB": 29,
+       "bitsA": 36
+      },
+      "legacyPaperIndex": 43
+     }
+    },
+    "imageFlippedHorizontally": true,
+    "imageFlippedVertically": false,
+    "resizesWidthToFitText": true,
+    "positionLocked": false
+   }
+  }
+ }
+}

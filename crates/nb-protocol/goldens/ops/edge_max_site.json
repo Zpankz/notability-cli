@@ -1,0 +1,29 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 65535,
+   "timestamp": 4294967295
+  },
+  "clientTime": 18446744073709551615,
+  "payload": {
+   "type": "InsertString",
+   "value": {
+    "string": ""
+   }
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 65535,
+   "timestamp": 4294967295
+  },
+  "clientTime": 18446744073709551615,
+  "payload": {
+   "type": "InsertString",
+   "value": {
+    "string": ""
+   }
+  }
+ }
+}

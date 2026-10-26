@@ -1,0 +1,109 @@
+{
+ "table": "CreateConnector",
+ "spec": {
+  "start": {
+   "type": "FractionalAttachedEndpoint",
+   "value": {
+    "entity": {
+     "site": 56330,
+     "timestamp": 43101293
+    },
+    "fraction": {
+     "x": 0.5,
+     "y": 0.1
+    }
+   }
+  },
+  "end": {
+   "type": "FractionalAttachedEndpoint",
+   "value": {
+    "entity": {
+     "site": 56985,
+     "timestamp": 43601308
+    },
+    "fraction": {
+     "x": 12345.678,
+     "y": 0.5
+    }
+   }
+  },
+  "pathStyle": 2,
+  "bends": [
+   {
+    "pin": -2,
+    "offset": 612.0
+   },
+   {
+    "pin": 0,
+    "offset": 12345.678
+   }
+  ],
+  "startCap": 2,
+  "endCap": -2,
+  "tool": -1,
+  "style": 0,
+  "color": {
+   "bitsR": 64,
+   "bitsG": 71,
+   "bitsB": 78,
+   "bitsA": 85
+  },
+  "borderWidth": -3.25,
+  "zIndex": 453000003171,
+  "positionLocked": true,
+  "labelPosition": 12345.678
+ },
+ "decoded": {
+  "pathStyle": 2,
+  "bends": [
+   {
+    "pin": -2,
+    "offset": 612.0
+   },
+   {
+    "pin": 0,
+    "offset": 12345.677734375
+   }
+  ],
+  "startCap": 2,
+  "endCap": -2,
+  "tool": -1,
+  "style": 0,
+  "color": {
+   "bitsR": 64,
+   "bitsG": 71,
+   "bitsB": 78,
+   "bitsA": 85
+  },
+  "borderWidth": -3.25,
+  "zIndex": 453000003171,
+  "positionLocked": true,
+  "labelPosition": 12345.677734375,
+  "start": {
+   "type": "FractionalAttachedEndpoint",
+   "value": {
+    "entity": {
+     "site": 56330,
+     "timestamp": 43101293
+    },
+    "fraction": {
+     "x": 0.5,
+     "y": 0.10000000149011612
+    }
+   }
+  },
+  "end": {
+   "type": "FractionalAttachedEndpoint",
+   "value": {
+    "entity": {
+     "site": 56985,
+     "timestamp": 43601308
+    },
+    "fraction": {
+     "x": 12345.677734375,
+     "y": 0.5
+    }
+   }
+  }
+ }
+}

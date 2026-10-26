@@ -1,0 +1,149 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 2309,
+   "timestamp": 252007560
+  },
+  "clientTime": 2521000017647,
+  "serverTime": 2522000017654,
+  "audioTime": 2523000017661,
+  "payload": {
+   "type": "ModifyPositions",
+   "value": {
+    "modifications": [
+     {
+      "target": {
+       "site": 3095,
+       "timestamp": 252607578
+      },
+      "page": {
+       "site": 3357,
+       "timestamp": 252807584,
+       "index": 252907587
+      },
+      "origin": {
+       "x": 0.001,
+       "y": 12345.678
+      },
+      "rotation": {
+       "value": 0.5
+      },
+      "scale": {
+       "value": {
+        "width": 0.1,
+        "height": -3.25
+       }
+      },
+      "zIndex": 2535000017745
+     },
+     {
+      "target": {
+       "site": 4536,
+       "timestamp": 253707611
+      },
+      "page": {
+       "site": 4798,
+       "timestamp": 253907617,
+       "index": 254007620
+      },
+      "origin": {
+       "x": 612.0,
+       "y": 0.001
+      },
+      "rotation": {
+       "value": 12345.678
+      },
+      "scale": {
+       "value": {
+        "width": 0.5,
+        "height": 0.1
+       }
+      },
+      "zIndex": 2546000017822
+     }
+    ]
+   }
+  },
+  "transientInteraction": {
+   "interactionId": {
+    "site": 5977,
+    "timestamp": 254807644
+   },
+   "timeout": 254907647
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 2309,
+   "timestamp": 252007560
+  },
+  "clientTime": 2521000017647,
+  "serverTime": 2522000017654,
+  "audioTime": 2523000017661,
+  "transientInteraction": {
+   "interactionId": {
+    "site": 5977,
+    "timestamp": 254807644
+   },
+   "timeout": 254907647
+  },
+  "payload": {
+   "type": "ModifyPositions",
+   "value": {
+    "modifications": [
+     {
+      "target": {
+       "site": 3095,
+       "timestamp": 252607578
+      },
+      "page": {
+       "site": 3357,
+       "timestamp": 252807584,
+       "index": 252907587
+      },
+      "origin": {
+       "x": 0.0010000000474974513,
+       "y": 12345.677734375
+      },
+      "rotation": {
+       "value": 0.5
+      },
+      "scale": {
+       "value": {
+        "width": 0.10000000149011612,
+        "height": -3.25
+       }
+      },
+      "zIndex": 2535000017745
+     },
+     {
+      "target": {
+       "site": 4536,
+       "timestamp": 253707611
+      },
+      "page": {
+       "site": 4798,
+       "timestamp": 253907617,
+       "index": 254007620
+      },
+      "origin": {
+       "x": 612.0,
+       "y": 0.0010000000474974513
+      },
+      "rotation": {
+       "value": 12345.677734375
+      },
+      "scale": {
+       "value": {
+        "width": 0.5,
+        "height": 0.10000000149011612
+       }
+      },
+      "zIndex": 2546000017822
+     }
+    ]
+   }
+  }
+ }
+}

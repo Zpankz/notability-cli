@@ -1,0 +1,13 @@
+{
+ "table": "CreateInk",
+ "spec": {
+  "encodedCenterPath": [],
+  "encodedFillPath": [],
+  "styleMap": []
+ },
+ "decoded": {
+  "encodedCenterPath": [],
+  "encodedFillPath": [],
+  "styleMap": []
+ }
+}

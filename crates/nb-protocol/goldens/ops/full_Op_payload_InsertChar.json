@@ -1,0 +1,65 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 56615,
+   "timestamp": 193405802
+  },
+  "clientTime": 1935000013545,
+  "serverTime": 1936000013552,
+  "audioTime": 1937000013559,
+  "payload": {
+   "type": "InsertChar",
+   "value": {
+    "location": {
+     "site": 57401,
+     "timestamp": 194005820,
+     "index": 194105823
+    },
+    "unicodeScalar": 194205826,
+    "textField": {
+     "site": 57925,
+     "timestamp": 194405832
+    }
+   }
+  },
+  "transientInteraction": {
+   "interactionId": {
+    "site": 58187,
+    "timestamp": 194605838
+   },
+   "timeout": 194705841
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 56615,
+   "timestamp": 193405802
+  },
+  "clientTime": 1935000013545,
+  "serverTime": 1936000013552,
+  "audioTime": 1937000013559,
+  "transientInteraction": {
+   "interactionId": {
+    "site": 58187,
+    "timestamp": 194605838
+   },
+   "timeout": 194705841
+  },
+  "payload": {
+   "type": "InsertChar",
+   "value": {
+    "location": {
+     "site": 57401,
+     "timestamp": 194005820,
+     "index": 194105823
+    },
+    "unicodeScalar": 194205826,
+    "textField": {
+     "site": 57925,
+     "timestamp": 194405832
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "table": "ModifyComment",
+ "spec": {
+  "comment": {
+   "site": 2548,
+   "timestamp": 102103063
+  },
+  "anchor": {
+   "page": {
+    "site": 2810,
+    "timestamp": 102303069,
+    "index": 102403072
+   },
+   "origin": {
+    "x": 12345.678,
+    "y": 0.5
+   }
+  },
+  "text": {
+   "value": "a"
+  },
+  "resolved": {
+   "value": true
+  }
+ },
+ "decoded": {
+  "comment": {
+   "site": 2548,
+   "timestamp": 102103063
+  },
+  "anchor": {
+   "page": {
+    "site": 2810,
+    "timestamp": 102303069,
+    "index": 102403072
+   },
+   "origin": {
+    "x": 12345.677734375,
+    "y": 0.5
+   }
+  },
+  "text": {
+   "value": "a"
+  },
+  "resolved": {
+   "value": true
+  }
+ }
+}

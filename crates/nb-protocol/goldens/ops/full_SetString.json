@@ -1,0 +1,9 @@
+{
+ "table": "SetString",
+ "spec": {
+  "value": "Hello, wörld"
+ },
+ "decoded": {
+  "value": "Hello, wörld"
+ }
+}

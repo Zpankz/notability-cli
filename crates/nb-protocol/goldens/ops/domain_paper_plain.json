@@ -1,0 +1,19 @@
+{
+ "table": "Paper",
+ "spec": {
+  "backgroundColor": {
+   "bitsR": 51,
+   "bitsG": 102,
+   "bitsB": 153,
+   "bitsA": 255
+  }
+ },
+ "decoded": {
+  "backgroundColor": {
+   "bitsR": 51,
+   "bitsG": 102,
+   "bitsB": 153,
+   "bitsA": 255
+  }
+ }
+}

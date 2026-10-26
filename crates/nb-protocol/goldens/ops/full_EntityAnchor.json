@@ -1,0 +1,27 @@
+{
+ "table": "EntityAnchor",
+ "spec": {
+  "entities": [
+   {
+    "site": 50530,
+    "timestamp": 88702661
+   },
+   {
+    "site": 50792,
+    "timestamp": 88902667
+   }
+  ]
+ },
+ "decoded": {
+  "entities": [
+   {
+    "site": 50530,
+    "timestamp": 88702661
+   },
+   {
+    "site": 50792,
+    "timestamp": 88902667
+   }
+  ]
+ }
+}

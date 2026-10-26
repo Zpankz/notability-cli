@@ -1,0 +1,23 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 0,
+   "timestamp": 30
+  },
+  "payload": {
+   "type": "ModifyComment",
+   "value": {}
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 0,
+   "timestamp": 30
+  },
+  "payload": {
+   "type": "ModifyComment",
+   "value": {}
+  }
+ }
+}

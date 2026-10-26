@@ -1,0 +1,32 @@
+---
+source: crates/nb-cli/tests/cli.rs
+expression: help
+---
+notability notes — Find, open and manage notes in your library (incl. trash)
+
+Usage: notability notes <command>
+
+Commands:
+  create     Create an empty, seeded note
+  delete     Move to trash, or --permanent
+  duplicate  Copy a note
+  favorite   Star or unstar a note (--off)
+  get        One note: metadata, pages, recordings, Learn status; --format md for markdown
+  index      Build/refresh the local full-text index (cache only)
+  layout     Switch paged / pageless
+  list       List notes (filter by folder, type, favourites; sort; paginate)
+  move       Move a note to a folder (or unfiled)
+  rename     Rename a note
+  search     Search titles, optionally typed/handwritten text
+  trash      Deleted notes: list, restore, purge, empty
+
+Global Options:
+  --filter-output <keys>              Filter output by key paths (e.g. foo,bar.baz,a[0,3])
+  --format <toon|json|yaml|md|jsonl>  Output format
+  --full-output                       Show full output envelope
+  --help                              Show help
+  --llms, --llms-full                 Print LLM-readable manifest
+  --schema                            Show JSON Schema for command
+  --token-count                       Print token count of output (instead of output)
+  --token-limit <n>                   Limit output to n tokens
+  --token-offset <n>                  Skip first n tokens of output

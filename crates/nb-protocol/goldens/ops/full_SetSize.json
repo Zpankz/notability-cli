@@ -1,0 +1,15 @@
+{
+ "table": "SetSize",
+ "spec": {
+  "value": {
+   "width": 0.5,
+   "height": 0.1
+  }
+ },
+ "decoded": {
+  "value": {
+   "width": 0.5,
+   "height": 0.10000000149011612
+  }
+ }
+}

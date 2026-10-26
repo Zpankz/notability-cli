@@ -1,0 +1,129 @@
+{
+ "table": "ModifyShape",
+ "spec": {
+  "shapes": [
+   {
+    "site": 285,
+    "timestamp": 150404512
+   },
+   {
+    "site": 547,
+    "timestamp": 150604518
+   }
+  ],
+  "page": {
+   "site": 809,
+   "timestamp": 150804524,
+   "index": 150904527
+  },
+  "origin": {
+   "x": 0.001,
+   "y": 12345.678
+  },
+  "rotation": {
+   "value": 0.5
+  },
+  "scale": {
+   "value": {
+    "width": 0.1,
+    "height": -3.25
+   }
+  },
+  "definition": {
+   "type": "NormalShape",
+   "value": {
+    "type": -1,
+    "size": {
+     "width": 12345.678,
+     "height": 0.5
+    }
+   }
+  },
+  "tool": 2,
+  "style": -2,
+  "tapePattern": -1,
+  "color": {
+   "bitsR": 158,
+   "bitsG": 165,
+   "bitsB": 172,
+   "bitsA": 179
+  },
+  "borderWidth": -3.25,
+  "fillColor": {
+   "value": {
+    "bitsR": 193,
+    "bitsG": 200,
+    "bitsB": 207,
+    "bitsA": 214
+   }
+  },
+  "zIndex": 1531000010717,
+  "positionLocked": true,
+  "inkEffects": 1533000010731,
+  "inkEffectsTinted": true,
+  "measurementUnit": -2
+ },
+ "decoded": {
+  "shapes": [
+   {
+    "site": 285,
+    "timestamp": 150404512
+   },
+   {
+    "site": 547,
+    "timestamp": 150604518
+   }
+  ],
+  "page": {
+   "site": 809,
+   "timestamp": 150804524,
+   "index": 150904527
+  },
+  "origin": {
+   "x": 0.0010000000474974513,
+   "y": 12345.677734375
+  },
+  "rotation": {
+   "value": 0.5
+  },
+  "scale": {
+   "value": {
+    "width": 0.10000000149011612,
+    "height": -3.25
+   }
+  },
+  "tool": 2,
+  "style": -2,
+  "tapePattern": -1,
+  "color": {
+   "bitsR": 158,
+   "bitsG": 165,
+   "bitsB": 172,
+   "bitsA": 179
+  },
+  "borderWidth": -3.25,
+  "fillColor": {
+   "value": {
+    "bitsR": 193,
+    "bitsG": 200,
+    "bitsB": 207,
+    "bitsA": 214
+   }
+  },
+  "zIndex": 1531000010717,
+  "positionLocked": true,
+  "inkEffects": 1533000010731,
+  "inkEffectsTinted": true,
+  "measurementUnit": -2,
+  "definition": {
+   "type": "NormalShape",
+   "value": {
+    "type": -1,
+    "size": {
+     "width": 12345.677734375,
+     "height": 0.5
+    }
+   }
+  }
+ }
+}

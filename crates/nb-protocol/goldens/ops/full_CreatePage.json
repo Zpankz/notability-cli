@@ -1,0 +1,117 @@
+{
+ "table": "CreatePage",
+ "spec": {
+  "location": {
+   "site": 11754,
+   "timestamp": 59101773,
+   "index": 59201776
+  },
+  "background": {
+   "paper": {
+    "flair": 1,
+    "flairSpacing": 0.5,
+    "flairBleeds": false,
+    "flairCentered": true,
+    "backgroundColor": {
+     "bitsR": 83,
+     "bitsG": 90,
+     "bitsB": 97,
+     "bitsA": 104
+    },
+    "legacyPaperIndex": 111
+   },
+   "pdf": {
+    "metadata": {
+     "assetHash": "5a5c5e60626466686a6c6e70727476787a7c7e80828486888a8c8e90929496989a9c9ea0a2a4a6a8aaacaeb0b2b4b6b8babcbec0c2c4c6c8caccced0d2d4d6d8",
+     "fileName": "",
+     "mimeType": "a",
+     "fileSize": 66802004
+    },
+    "layoutBehavior": 2,
+    "totalPageCount": 67002010,
+    "pagesConsumed": 67102013,
+    "pageOffset": 67202016,
+    "cropBoxes": [
+     {
+      "width": 0.1,
+      "height": -3.25
+     },
+     {
+      "width": 612.0,
+      "height": 0.001
+     }
+    ]
+   },
+   "rotation": 12345.678,
+   "size": {
+    "width": 0.5,
+    "height": 0.1
+   },
+   "margins": {
+    "top": -3.25,
+    "bottom": 612.0,
+    "left": 0.001,
+    "right": 12345.678
+   }
+  },
+  "pageCount": 68402052,
+  "bookmarked": -2
+ },
+ "decoded": {
+  "location": {
+   "site": 11754,
+   "timestamp": 59101773,
+   "index": 59201776
+  },
+  "background": {
+   "paper": {
+    "flair": 1,
+    "flairSpacing": 0.5,
+    "flairBleeds": false,
+    "flairCentered": true,
+    "backgroundColor": {
+     "bitsR": 83,
+     "bitsG": 90,
+     "bitsB": 97,
+     "bitsA": 104
+    },
+    "legacyPaperIndex": 111
+   },
+   "pdf": {
+    "metadata": {
+     "assetHash": "5a5c5e60626466686a6c6e70727476787a7c7e80828486888a8c8e90929496989a9c9ea0a2a4a6a8aaacaeb0b2b4b6b8babcbec0c2c4c6c8caccced0d2d4d6d8",
+     "fileName": "",
+     "mimeType": "a",
+     "fileSize": 66802004
+    },
+    "layoutBehavior": 2,
+    "totalPageCount": 67002010,
+    "pagesConsumed": 67102013,
+    "pageOffset": 67202016,
+    "cropBoxes": [
+     {
+      "width": 0.10000000149011612,
+      "height": -3.25
+     },
+     {
+      "width": 612.0,
+      "height": 0.0010000000474974513
+     }
+    ]
+   },
+   "rotation": 12345.677734375,
+   "size": {
+    "width": 0.5,
+    "height": 0.10000000149011612
+   },
+   "margins": {
+    "top": -3.25,
+    "bottom": 612.0,
+    "left": 0.0010000000474974513,
+    "right": 12345.677734375
+   }
+  },
+  "pageCount": 68402052,
+  "bookmarked": -2
+ }
+}

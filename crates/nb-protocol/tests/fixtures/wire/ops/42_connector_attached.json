@@ -1,0 +1,50 @@
+{
+ "name": "connector_attached",
+ "ack": "ok",
+ "op": {
+  "id": {
+   "site": 0,
+   "timestamp": 43
+  },
+  "clientTime": 0,
+  "payload": {
+   "type": "CreateConnector",
+   "value": {
+    "start": {
+     "type": "FractionalAttachedEndpoint",
+     "value": {
+      "entity": {
+       "site": 0,
+       "timestamp": 34
+      },
+      "fraction": {
+       "x": 1.0,
+       "y": 0.5
+      }
+     }
+    },
+    "end": {
+     "type": "CardinalAttachedEndpoint",
+     "value": {
+      "entity": {
+       "site": 0,
+       "timestamp": 35
+      },
+      "side": 3
+     }
+    },
+    "pathStyle": 0,
+    "endCap": 1,
+    "color": {
+     "bitsR": 23,
+     "bitsG": 26,
+     "bitsB": 32,
+     "bitsA": 255
+    },
+    "borderWidth": 2.0
+   }
+  }
+ },
+ "append_ops_event_hex": "0c00000006000800040000000800000004000000010000001800000010001d0010000800000000001c0018000000000014000000000000000000000000000000000000002b0000002400000020001c001800100004001100080012000000000013000000000014000c0000001e00000014000000200000000000004003010001171a20ff00000000220000000000803f0000003f000000002300000003000000",
+ "note": ""
+}

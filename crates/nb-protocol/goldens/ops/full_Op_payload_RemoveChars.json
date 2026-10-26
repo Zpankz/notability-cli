@@ -1,0 +1,77 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 62379,
+   "timestamp": 197805934
+  },
+  "clientTime": 1979000013853,
+  "serverTime": 1980000013860,
+  "audioTime": 1981000013867,
+  "payload": {
+   "type": "RemoveChars",
+   "value": {
+    "locations": [
+     {
+      "site": 63165,
+      "timestamp": 198405952,
+      "index": 198505955
+     },
+     {
+      "site": 63558,
+      "timestamp": 198705961,
+      "index": 198805964
+     }
+    ],
+    "textField": {
+     "site": 63951,
+     "timestamp": 199005970
+    }
+   }
+  },
+  "transientInteraction": {
+   "interactionId": {
+    "site": 64213,
+    "timestamp": 199205976
+   },
+   "timeout": 199305979
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 62379,
+   "timestamp": 197805934
+  },
+  "clientTime": 1979000013853,
+  "serverTime": 1980000013860,
+  "audioTime": 1981000013867,
+  "transientInteraction": {
+   "interactionId": {
+    "site": 64213,
+    "timestamp": 199205976
+   },
+   "timeout": 199305979
+  },
+  "payload": {
+   "type": "RemoveChars",
+   "value": {
+    "locations": [
+     {
+      "site": 63165,
+      "timestamp": 198405952,
+      "index": 198505955
+     },
+     {
+      "site": 63558,
+      "timestamp": 198705961,
+      "index": 198805964
+     }
+    ],
+    "textField": {
+     "site": 63951,
+     "timestamp": 199005970
+    }
+   }
+  }
+ }
+}

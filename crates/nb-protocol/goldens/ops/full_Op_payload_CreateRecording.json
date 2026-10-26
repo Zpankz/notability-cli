@@ -1,0 +1,89 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 43384,
+   "timestamp": 183305499
+  },
+  "clientTime": 1834000012838,
+  "serverTime": 1835000012845,
+  "audioTime": 1836000012852,
+  "payload": {
+   "type": "CreateRecording",
+   "value": {
+    "recording": {
+     "metadata": {
+      "assetHash": "2e30323436383a3c3e40424446484a4c4e50525456585a5c5e60626466686a6c6e70727476787a7c7e80828486888a8c8e90929496989a9c9ea0a2a4a6a8aaac",
+      "fileName": "",
+      "mimeType": "a",
+      "fileSize": 190405712
+     }
+    },
+    "startTime": 1905000013335,
+    "endTime": 1906000013342,
+    "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "segmentation": [
+     {
+      "startTime": 1908000013356,
+      "endTime": 1909000013363
+     },
+     {
+      "startTime": 1910000013370,
+      "endTime": 1911000013377
+     }
+    ],
+    "zIndex": 1912000013384
+   }
+  },
+  "transientInteraction": {
+   "interactionId": {
+    "site": 53995,
+    "timestamp": 191405742
+   },
+   "timeout": 191505745
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 43384,
+   "timestamp": 183305499
+  },
+  "clientTime": 1834000012838,
+  "serverTime": 1835000012845,
+  "audioTime": 1836000012852,
+  "transientInteraction": {
+   "interactionId": {
+    "site": 53995,
+    "timestamp": 191405742
+   },
+   "timeout": 191505745
+  },
+  "payload": {
+   "type": "CreateRecording",
+   "value": {
+    "recording": {
+     "metadata": {
+      "assetHash": "2e30323436383a3c3e40424446484a4c4e50525456585a5c5e60626466686a6c6e70727476787a7c7e80828486888a8c8e90929496989a9c9ea0a2a4a6a8aaac",
+      "fileName": "",
+      "mimeType": "a",
+      "fileSize": 190405712
+     }
+    },
+    "startTime": 1905000013335,
+    "endTime": 1906000013342,
+    "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "segmentation": [
+     {
+      "startTime": 1908000013356,
+      "endTime": 1909000013363
+     },
+     {
+      "startTime": 1910000013370,
+      "endTime": 1911000013377
+     }
+    ],
+    "zIndex": 1912000013384
+   }
+  }
+ }
+}

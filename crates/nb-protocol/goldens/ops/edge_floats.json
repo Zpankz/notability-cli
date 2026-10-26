@@ -1,0 +1,11 @@
+{
+ "table": "Paper",
+ "spec": {
+  "flairSpacing": 3.4028234663852886e+38,
+  "flair": 0
+ },
+ "decoded": {
+  "flair": 0,
+  "flairSpacing": 3.4028234663852886e+38
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "table": "CreateGroup",
+ "spec": {
+  "members": [
+   {
+    "site": 4680,
+    "timestamp": 53701611
+   },
+   {
+    "site": 4942,
+    "timestamp": 53901617
+   }
+  ]
+ },
+ "decoded": {
+  "members": [
+   {
+    "site": 4680,
+    "timestamp": 53701611
+   },
+   {
+    "site": 4942,
+    "timestamp": 53901617
+   }
+  ]
+ }
+}

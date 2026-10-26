@@ -1,0 +1,23 @@
+{
+ "table": "TransientInteractionEnded",
+ "spec": {
+  "interactionId": {
+   "site": 49826,
+   "timestamp": 338310149
+  },
+  "replacedByOp": {
+   "site": 50088,
+   "timestamp": 338510155
+  }
+ },
+ "decoded": {
+  "interactionId": {
+   "site": 49826,
+   "timestamp": 338310149
+  },
+  "replacedByOp": {
+   "site": 50088,
+   "timestamp": 338510155
+  }
+ }
+}

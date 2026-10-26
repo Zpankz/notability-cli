@@ -1,0 +1,119 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 39978,
+   "timestamp": 180705421
+  },
+  "clientTime": 1808000012656,
+  "serverTime": 1809000012663,
+  "audioTime": 1810000012670,
+  "payload": {
+   "type": "ModifyPage",
+   "value": {
+    "pages": [
+     {
+      "site": 40764,
+      "timestamp": 181305439,
+      "index": 181405442
+     },
+     {
+      "site": 41157,
+      "timestamp": 181605448,
+      "index": 181705451
+     }
+    ],
+    "moveTo": {
+     "toId": {
+      "site": 41550,
+      "timestamp": 181905457,
+      "index": 182005460
+     }
+    },
+    "background": {
+     "value": {
+      "paper": {},
+      "pdf": {},
+      "rotation": 612.0,
+      "size": {
+       "width": 0.001,
+       "height": 12345.678
+      },
+      "margins": {
+       "top": 0.5,
+       "bottom": 0.1,
+       "left": -3.25,
+       "right": 612.0
+      }
+     }
+    },
+    "bookmarked": 1
+   }
+  },
+  "transientInteraction": {
+   "interactionId": {
+    "site": 42991,
+    "timestamp": 183005490
+   },
+   "timeout": 183105493
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 39978,
+   "timestamp": 180705421
+  },
+  "clientTime": 1808000012656,
+  "serverTime": 1809000012663,
+  "audioTime": 1810000012670,
+  "transientInteraction": {
+   "interactionId": {
+    "site": 42991,
+    "timestamp": 183005490
+   },
+   "timeout": 183105493
+  },
+  "payload": {
+   "type": "ModifyPage",
+   "value": {
+    "pages": [
+     {
+      "site": 40764,
+      "timestamp": 181305439,
+      "index": 181405442
+     },
+     {
+      "site": 41157,
+      "timestamp": 181605448,
+      "index": 181705451
+     }
+    ],
+    "moveTo": {
+     "toId": {
+      "site": 41550,
+      "timestamp": 181905457,
+      "index": 182005460
+     }
+    },
+    "background": {
+     "value": {
+      "paper": {},
+      "pdf": {},
+      "rotation": 612.0,
+      "size": {
+       "width": 0.0010000000474974513,
+       "height": 12345.677734375
+      },
+      "margins": {
+       "top": 0.5,
+       "bottom": 0.10000000149011612,
+       "left": -3.25,
+       "right": 612.0
+      }
+     }
+    },
+    "bookmarked": 1
+   }
+  }
+ }
+}

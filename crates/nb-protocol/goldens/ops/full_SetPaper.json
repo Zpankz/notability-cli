@@ -1,0 +1,33 @@
+{
+ "table": "SetPaper",
+ "spec": {
+  "value": {
+   "flair": 1,
+   "flairSpacing": -3.25,
+   "flairBleeds": false,
+   "flairCentered": true,
+   "backgroundColor": {
+    "bitsR": 133,
+    "bitsG": 140,
+    "bitsB": 147,
+    "bitsA": 154
+   },
+   "legacyPaperIndex": 161
+  }
+ },
+ "decoded": {
+  "value": {
+   "flair": 1,
+   "flairSpacing": -3.25,
+   "flairBleeds": false,
+   "flairCentered": true,
+   "backgroundColor": {
+    "bitsR": 133,
+    "bitsG": 140,
+    "bitsB": 147,
+    "bitsA": 154
+   },
+   "legacyPaperIndex": 161
+  }
+ }
+}

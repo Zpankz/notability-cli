@@ -1,0 +1,55 @@
+{
+ "name": "connector_free",
+ "ack": "ok",
+ "op": {
+  "id": {
+   "site": 0,
+   "timestamp": 42
+  },
+  "clientTime": 0,
+  "payload": {
+   "type": "CreateConnector",
+   "value": {
+    "start": {
+     "type": "FreeEndpoint",
+     "value": {
+      "page": {
+       "site": 0,
+       "timestamp": 0,
+       "index": 0
+      },
+      "position": {
+       "x": 300.0,
+       "y": 600.0
+      }
+     }
+    },
+    "end": {
+     "type": "FreeEndpoint",
+     "value": {
+      "page": {
+       "site": 0,
+       "timestamp": 0,
+       "index": 0
+      },
+      "position": {
+       "x": 450.0,
+       "y": 650.0
+      }
+     }
+    },
+    "pathStyle": 2,
+    "endCap": 2,
+    "color": {
+     "bitsR": 23,
+     "bitsG": 26,
+     "bitsB": 32,
+     "bitsA": 255
+    },
+    "borderWidth": 2.0
+   }
+  }
+ },
+ "append_ops_event_hex": "0c00000006000800040000000800000004000000010000001800000010001d0010000800000000001c0018000000000014000000000000000000000000000000000000002a0000002400000020001c001800100004001100080012000000000013000000000014000c0000001e00000014000000240000000000004002020202171a20ff00000000000000000000000000009643000016440000000000000000000000000000e14300802244",
+ "note": "web app never writes connectors"
+}

@@ -1,0 +1,47 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 25961,
+   "timestamp": 170005100
+  },
+  "clientTime": 1701000011907,
+  "serverTime": 1702000011914,
+  "audioTime": 1703000011921,
+  "payload": {
+   "type": "AssetCloudPersisted",
+   "value": {
+    "assetHash": "a9abadafb1b3b5b7b9bbbdbfc1c3c5c7c9cbcdcfd1d3d5d7d9dbdddfe1e3e5e7e9ebedeff1f3f5f7f9fbfdff01030507090b0d0f11131517191b1d1f21232527"
+   }
+  },
+  "transientInteraction": {
+   "interactionId": {
+    "site": 35131,
+    "timestamp": 177005310
+   },
+   "timeout": 177105313
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 25961,
+   "timestamp": 170005100
+  },
+  "clientTime": 1701000011907,
+  "serverTime": 1702000011914,
+  "audioTime": 1703000011921,
+  "transientInteraction": {
+   "interactionId": {
+    "site": 35131,
+    "timestamp": 177005310
+   },
+   "timeout": 177105313
+  },
+  "payload": {
+   "type": "AssetCloudPersisted",
+   "value": {
+    "assetHash": "a9abadafb1b3b5b7b9bbbdbfc1c3c5c7c9cbcdcfd1d3d5d7d9dbdddfe1e3e5e7e9ebedeff1f3f5f7f9fbfdff01030507090b0d0f11131517191b1d1f21232527"
+   }
+  }
+ }
+}

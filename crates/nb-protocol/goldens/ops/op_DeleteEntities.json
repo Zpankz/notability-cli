@@ -1,0 +1,115 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 0,
+   "timestamp": 124
+  },
+  "clientTime": 1700000000024,
+  "payload": {
+   "type": "DeleteEntities",
+   "value": {
+    "entityDeletes": [
+     {
+      "site": 7048,
+      "timestamp": 405712171
+     },
+     {
+      "site": 7310,
+      "timestamp": 405912177
+     }
+    ],
+    "entityUndeletes": [
+     {
+      "site": 7572,
+      "timestamp": 406112183
+     },
+     {
+      "site": 7834,
+      "timestamp": 406312189
+     }
+    ],
+    "pageDeletes": [
+     {
+      "site": 8096,
+      "timestamp": 406512195,
+      "index": 406612198
+     },
+     {
+      "site": 8489,
+      "timestamp": 406812204,
+      "index": 406912207
+     }
+    ],
+    "pageUndeletes": [
+     {
+      "site": 8882,
+      "timestamp": 407112213,
+      "index": 407212216
+     },
+     {
+      "site": 9275,
+      "timestamp": 407412222,
+      "index": 407512225
+     }
+    ]
+   }
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 0,
+   "timestamp": 124
+  },
+  "clientTime": 1700000000024,
+  "payload": {
+   "type": "DeleteEntities",
+   "value": {
+    "entityDeletes": [
+     {
+      "site": 7048,
+      "timestamp": 405712171
+     },
+     {
+      "site": 7310,
+      "timestamp": 405912177
+     }
+    ],
+    "entityUndeletes": [
+     {
+      "site": 7572,
+      "timestamp": 406112183
+     },
+     {
+      "site": 7834,
+      "timestamp": 406312189
+     }
+    ],
+    "pageDeletes": [
+     {
+      "site": 8096,
+      "timestamp": 406512195,
+      "index": 406612198
+     },
+     {
+      "site": 8489,
+      "timestamp": 406812204,
+      "index": 406912207
+     }
+    ],
+    "pageUndeletes": [
+     {
+      "site": 8882,
+      "timestamp": 407112213,
+      "index": 407212216
+     },
+     {
+      "site": 9275,
+      "timestamp": 407412222,
+      "index": 407512225
+     }
+    ]
+   }
+  }
+ }
+}

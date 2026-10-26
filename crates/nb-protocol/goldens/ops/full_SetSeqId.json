@@ -1,0 +1,17 @@
+{
+ "table": "SetSeqId",
+ "spec": {
+  "value": {
+   "site": 46551,
+   "timestamp": 335810074,
+   "index": 335910077
+  }
+ },
+ "decoded": {
+  "value": {
+   "site": 46551,
+   "timestamp": 335810074,
+   "index": 335910077
+  }
+ }
+}

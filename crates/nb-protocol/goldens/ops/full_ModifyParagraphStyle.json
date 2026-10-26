@@ -1,0 +1,73 @@
+{
+ "table": "ModifyParagraphStyle",
+ "spec": {
+  "start": {
+   "site": 48922,
+   "timestamp": 137504125,
+   "index": 137604128
+  },
+  "end": {
+   "site": 49315,
+   "timestamp": 137804134,
+   "index": 137904137
+  },
+  "indentLevel": {
+   "value": 188
+  },
+  "alignment": {
+   "value": -1
+  },
+  "lineSpacing": {
+   "value": -3.25
+  },
+  "decoratorStyle": {
+   "value": 1
+  },
+  "isChecked": true,
+  "textField": {
+   "site": 50363,
+   "timestamp": 138604158
+  },
+  "programmingLanguage": {
+   "value": "a"
+  },
+  "writingDirection": {
+   "value": 1
+  }
+ },
+ "decoded": {
+  "start": {
+   "site": 48922,
+   "timestamp": 137504125,
+   "index": 137604128
+  },
+  "end": {
+   "site": 49315,
+   "timestamp": 137804134,
+   "index": 137904137
+  },
+  "indentLevel": {
+   "value": 188
+  },
+  "alignment": {
+   "value": -1
+  },
+  "lineSpacing": {
+   "value": -3.25
+  },
+  "decoratorStyle": {
+   "value": 1
+  },
+  "isChecked": true,
+  "textField": {
+   "site": 50363,
+   "timestamp": 138604158
+  },
+  "programmingLanguage": {
+   "value": "a"
+  },
+  "writingDirection": {
+   "value": 1
+  }
+ }
+}

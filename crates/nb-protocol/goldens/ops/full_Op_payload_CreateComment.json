@@ -1,0 +1,89 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 26937,
+   "timestamp": 270808124
+  },
+  "clientTime": 2709000018963,
+  "serverTime": 2710000018970,
+  "audioTime": 2711000018977,
+  "payload": {
+   "type": "CreateComment",
+   "value": {
+    "anchor": {
+     "type": "TextAnchor",
+     "value": {
+      "textField": {
+       "site": 27854,
+       "timestamp": 271508145
+      },
+      "selection": {
+       "anchor": {
+        "site": 28116,
+        "timestamp": 271708151,
+        "index": 271808154
+       },
+       "focus": {
+        "site": 28509,
+        "timestamp": 272008160,
+        "index": 272108163
+       }
+      }
+     }
+    },
+    "text": "emoji 🗒️✓"
+   }
+  },
+  "transientInteraction": {
+   "interactionId": {
+    "site": 29033,
+    "timestamp": 272408172
+   },
+   "timeout": 272508175
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 26937,
+   "timestamp": 270808124
+  },
+  "clientTime": 2709000018963,
+  "serverTime": 2710000018970,
+  "audioTime": 2711000018977,
+  "transientInteraction": {
+   "interactionId": {
+    "site": 29033,
+    "timestamp": 272408172
+   },
+   "timeout": 272508175
+  },
+  "payload": {
+   "type": "CreateComment",
+   "value": {
+    "text": "emoji 🗒️✓",
+    "anchor": {
+     "type": "TextAnchor",
+     "value": {
+      "textField": {
+       "site": 27854,
+       "timestamp": 271508145
+      },
+      "selection": {
+       "anchor": {
+        "site": 28116,
+        "timestamp": 271708151,
+        "index": 271808154
+       },
+       "focus": {
+        "site": 28509,
+        "timestamp": 272008160,
+        "index": 272108163
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

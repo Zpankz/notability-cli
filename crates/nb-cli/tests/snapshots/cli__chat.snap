@@ -1,0 +1,26 @@
+---
+source: crates/nb-cli/tests/cli.rs
+expression: help
+---
+notability chat — Notability AI chat threads about your notes
+
+Usage: notability chat <command>
+
+Commands:
+  ask       Ask Notability AI (optionally about a note)
+  backfill  Index recently edited notes for AI chat
+  context   What the assistant's note_read tool receives for a note (typed, PDF and transcript text)
+  delete    Delete a thread
+  read      Read a thread
+  threads   List chat threads
+
+Global Options:
+  --filter-output <keys>              Filter output by key paths (e.g. foo,bar.baz,a[0,3])
+  --format <toon|json|yaml|md|jsonl>  Output format
+  --full-output                       Show full output envelope
+  --help                              Show help
+  --llms, --llms-full                 Print LLM-readable manifest
+  --schema                            Show JSON Schema for command
+  --token-count                       Print token count of output (instead of output)
+  --token-limit <n>                   Limit output to n tokens
+  --token-offset <n>                  Skip first n tokens of output

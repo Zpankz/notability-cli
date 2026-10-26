@@ -1,0 +1,179 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 0,
+   "timestamp": 121
+  },
+  "clientTime": 1700000000021,
+  "payload": {
+   "type": "CreateBlock",
+   "value": {
+    "type": 1,
+    "corner": 2,
+    "page": {
+     "site": 50183,
+     "timestamp": 388611658,
+     "index": 388711661
+    },
+    "origin": {
+     "x": 0.5,
+     "y": 0.1
+    },
+    "rotation": -3.25,
+    "scale": {
+     "width": 612.0,
+     "height": 0.001
+    },
+    "size": {
+     "width": 12345.678,
+     "height": 0.5
+    },
+    "textWrap": -2,
+    "enableCaption": true,
+    "zIndex": 3897000027279,
+    "image": {
+     "metadata": {
+      "assetHash": "3a3c3e40424446484a4c4e50525456585a5c5e60626466686a6c6e70727476787a7c7e80828486888a8c8e90929496989a9c9ea0a2a4a6a8aaacaeb0b2b4b6b8",
+      "fileName": "Hello, wörld",
+      "mimeType": "日本語テキスト",
+      "fileSize": 396411892
+     },
+     "size": {
+      "width": 12345.678,
+      "height": 0.5
+     }
+    },
+    "cropRect": {
+     "origin": {
+      "x": 0.1,
+      "y": -3.25
+     },
+     "size": {
+      "width": 612.0,
+      "height": 0.001
+     }
+    },
+    "webUrl": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "mathLatex": "",
+    "mathColor": {
+     "bitsR": 163,
+     "bitsG": 170,
+     "bitsB": 177,
+     "bitsA": 184
+    },
+    "paper": {
+     "flair": 0,
+     "flairSpacing": 0.5,
+     "flairBleeds": false,
+     "flairCentered": true,
+     "backgroundColor": {
+      "bitsR": 219,
+      "bitsG": 226,
+      "bitsB": 233,
+      "bitsA": 240
+     },
+     "legacyPaperIndex": 247
+    },
+    "imageFlippedHorizontally": true,
+    "imageFlippedVertically": false,
+    "resizesWidthToFitText": true,
+    "margins": {
+     "top": 12345.678,
+     "bottom": 0.5,
+     "left": 0.1,
+     "right": -3.25
+    },
+    "positionLocked": false
+   }
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 0,
+   "timestamp": 121
+  },
+  "clientTime": 1700000000021,
+  "payload": {
+   "type": "CreateBlock",
+   "value": {
+    "type": 1,
+    "corner": 2,
+    "page": {
+     "site": 50183,
+     "timestamp": 388611658,
+     "index": 388711661
+    },
+    "origin": {
+     "x": 0.5,
+     "y": 0.10000000149011612
+    },
+    "rotation": -3.25,
+    "scale": {
+     "width": 612.0,
+     "height": 0.0010000000474974513
+    },
+    "size": {
+     "width": 12345.677734375,
+     "height": 0.5
+    },
+    "textWrap": -2,
+    "enableCaption": true,
+    "zIndex": 3897000027279,
+    "image": {
+     "metadata": {
+      "assetHash": "3a3c3e40424446484a4c4e50525456585a5c5e60626466686a6c6e70727476787a7c7e80828486888a8c8e90929496989a9c9ea0a2a4a6a8aaacaeb0b2b4b6b8",
+      "fileName": "Hello, wörld",
+      "mimeType": "日本語テキスト",
+      "fileSize": 396411892
+     },
+     "size": {
+      "width": 12345.677734375,
+      "height": 0.5
+     }
+    },
+    "cropRect": {
+     "origin": {
+      "x": 0.10000000149011612,
+      "y": -3.25
+     },
+     "size": {
+      "width": 612.0,
+      "height": 0.0010000000474974513
+     }
+    },
+    "webUrl": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "mathLatex": "",
+    "mathColor": {
+     "bitsR": 163,
+     "bitsG": 170,
+     "bitsB": 177,
+     "bitsA": 184
+    },
+    "paper": {
+     "flair": 0,
+     "flairSpacing": 0.5,
+     "flairBleeds": false,
+     "flairCentered": true,
+     "backgroundColor": {
+      "bitsR": 219,
+      "bitsG": 226,
+      "bitsB": 233,
+      "bitsA": 240
+     },
+     "legacyPaperIndex": 247
+    },
+    "imageFlippedHorizontally": true,
+    "imageFlippedVertically": false,
+    "resizesWidthToFitText": true,
+    "margins": {
+     "top": 12345.677734375,
+     "bottom": 0.5,
+     "left": 0.10000000149011612,
+     "right": -3.25
+    },
+    "positionLocked": false
+   }
+  }
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 0,
+   "timestamp": 115
+  },
+  "clientTime": 1700000000015,
+  "payload": {
+   "type": "AddPathElements",
+   "value": {
+    "ink": {
+     "site": 30926,
+     "timestamp": 373911217
+    },
+    "encodedCenterPathElements": [
+     212,
+     216,
+     220,
+     224,
+     228
+    ],
+    "encodedCenterPathEstimatedElements": [
+     227,
+     231,
+     235,
+     239,
+     243
+    ]
+   }
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 0,
+   "timestamp": 115
+  },
+  "clientTime": 1700000000015,
+  "payload": {
+   "type": "AddPathElements",
+   "value": {
+    "ink": {
+     "site": 30926,
+     "timestamp": 373911217
+    },
+    "encodedCenterPathElements": [
+     212,
+     216,
+     220,
+     224,
+     228
+    ],
+    "encodedCenterPathEstimatedElements": [
+     227,
+     231,
+     235,
+     239,
+     243
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 0,
+   "timestamp": 127
+  },
+  "clientTime": 1700000000027,
+  "payload": {
+   "type": "UpdateCheckbox",
+   "value": {
+    "textField": {
+     "site": 19100,
+     "timestamp": 414912447
+    },
+    "location": {
+     "site": 19362,
+     "timestamp": 415112453,
+     "index": 415212456
+    },
+    "isChecked": false
+   }
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 0,
+   "timestamp": 127
+  },
+  "clientTime": 1700000000027,
+  "payload": {
+   "type": "UpdateCheckbox",
+   "value": {
+    "textField": {
+     "site": 19100,
+     "timestamp": 414912447
+    },
+    "location": {
+     "site": 19362,
+     "timestamp": 415112453,
+     "index": 415212456
+    },
+    "isChecked": false
+   }
+  }
+ }
+}

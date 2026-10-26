@@ -1,0 +1,29 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 1,
+   "timestamp": 101
+  },
+  "clientTime": 1700000000001,
+  "payload": {
+   "type": "AssetCloudPersisted",
+   "value": {
+    "assetHash": "5456585a5c5e60626466686a6c6e70727476787a7c7e80828486888a8c8e90929496989a9c9ea0a2a4a6a8aaacaeb0b2b4b6b8babcbec0c2c4c6c8caccced0d2"
+   }
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 1,
+   "timestamp": 101
+  },
+  "clientTime": 1700000000001,
+  "payload": {
+   "type": "AssetCloudPersisted",
+   "value": {
+    "assetHash": "5456585a5c5e60626466686a6c6e70727476787a7c7e80828486888a8c8e90929496989a9c9ea0a2a4a6a8aaacaeb0b2b4b6b8babcbec0c2c4c6c8caccced0d2"
+   }
+  }
+ }
+}

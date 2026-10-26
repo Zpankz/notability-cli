@@ -1,0 +1,32 @@
+---
+source: crates/nb-cli/tests/cli.rs
+expression: help
+---
+notability account — Sign-in session, profile, quotas, settings, calendar, raw GraphQL
+
+Usage: notability account <command>
+
+Commands:
+  calendar  Upcoming calendar events
+  flags     Feature flags
+  graphql   Raw GraphQL query (queries only)
+  login     Import a session (from a browser over CDP, or a token on stdin)
+  logout    Forget the stored session
+  me        Profile of the signed-in user
+  quotas    AI / transcription quotas
+  refresh   Re-import the session cookie
+  settings  Account settings and toggles
+  status    Is the session valid? (--offline)
+  stickers  Sticker packs
+  survey    Onboarding survey answers
+
+Global Options:
+  --filter-output <keys>              Filter output by key paths (e.g. foo,bar.baz,a[0,3])
+  --format <toon|json|yaml|md|jsonl>  Output format
+  --full-output                       Show full output envelope
+  --help                              Show help
+  --llms, --llms-full                 Print LLM-readable manifest
+  --schema                            Show JSON Schema for command
+  --token-count                       Print token count of output (instead of output)
+  --token-limit <n>                   Limit output to n tokens
+  --token-offset <n>                  Skip first n tokens of output

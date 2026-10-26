@@ -1,0 +1,211 @@
+{
+ "table": "AppendOpsEvent",
+ "spec": {
+  "ops": [
+   {
+    "id": {
+     "site": 6812,
+     "timestamp": 5300159
+    },
+    "clientTime": 54000000378,
+    "serverTime": 55000000385,
+    "audioTime": 56000000392,
+    "payload": {
+     "type": "DeleteEntities",
+     "value": {
+      "entityDeletes": [
+       {
+        "site": 7598,
+        "timestamp": 5900177
+       },
+       {
+        "site": 7860,
+        "timestamp": 6100183
+       }
+      ],
+      "entityUndeletes": [
+       {
+        "site": 8122,
+        "timestamp": 6300189
+       },
+       {
+        "site": 8384,
+        "timestamp": 6500195
+       }
+      ],
+      "pageDeletes": [
+       {
+        "site": 8646,
+        "timestamp": 6700201,
+        "index": 6800204
+       },
+       {
+        "site": 9039,
+        "timestamp": 7000210,
+        "index": 7100213
+       }
+      ],
+      "pageUndeletes": [
+       {
+        "site": 9432,
+        "timestamp": 7300219,
+        "index": 7400222
+       },
+       {
+        "site": 9825,
+        "timestamp": 7600228,
+        "index": 7700231
+       }
+      ]
+     }
+    },
+    "transientInteraction": {
+     "interactionId": {
+      "site": 10218,
+      "timestamp": 7900237
+     },
+     "timeout": 8000240
+    }
+   },
+   {
+    "id": {
+     "site": 10611,
+     "timestamp": 8200246
+    },
+    "clientTime": 83000000581,
+    "serverTime": 84000000588,
+    "audioTime": 85000000595,
+    "payload": {
+     "type": "ModifyGroup",
+     "value": {
+      "group": {
+       "site": 11397,
+       "timestamp": 8800264
+      },
+      "members": [
+       {
+        "site": 11659,
+        "timestamp": 9000270
+       },
+       {
+        "site": 11921,
+        "timestamp": 9200276
+       }
+      ]
+     }
+    },
+    "transientInteraction": {
+     "interactionId": {
+      "site": 12183,
+      "timestamp": 9400282
+     },
+     "timeout": 9500285
+    }
+   }
+  ]
+ },
+ "decoded": {
+  "ops": [
+   {
+    "id": {
+     "site": 6812,
+     "timestamp": 5300159
+    },
+    "clientTime": 54000000378,
+    "serverTime": 55000000385,
+    "audioTime": 56000000392,
+    "transientInteraction": {
+     "interactionId": {
+      "site": 10218,
+      "timestamp": 7900237
+     },
+     "timeout": 8000240
+    },
+    "payload": {
+     "type": "DeleteEntities",
+     "value": {
+      "entityDeletes": [
+       {
+        "site": 7598,
+        "timestamp": 5900177
+       },
+       {
+        "site": 7860,
+        "timestamp": 6100183
+       }
+      ],
+      "entityUndeletes": [
+       {
+        "site": 8122,
+        "timestamp": 6300189
+       },
+       {
+        "site": 8384,
+        "timestamp": 6500195
+       }
+      ],
+      "pageDeletes": [
+       {
+        "site": 8646,
+        "timestamp": 6700201,
+        "index": 6800204
+       },
+       {
+        "site": 9039,
+        "timestamp": 7000210,
+        "index": 7100213
+       }
+      ],
+      "pageUndeletes": [
+       {
+        "site": 9432,
+        "timestamp": 7300219,
+        "index": 7400222
+       },
+       {
+        "site": 9825,
+        "timestamp": 7600228,
+        "index": 7700231
+       }
+      ]
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 10611,
+     "timestamp": 8200246
+    },
+    "clientTime": 83000000581,
+    "serverTime": 84000000588,
+    "audioTime": 85000000595,
+    "transientInteraction": {
+     "interactionId": {
+      "site": 12183,
+      "timestamp": 9400282
+     },
+     "timeout": 9500285
+    },
+    "payload": {
+     "type": "ModifyGroup",
+     "value": {
+      "group": {
+       "site": 11397,
+       "timestamp": 8800264
+      },
+      "members": [
+       {
+        "site": 11659,
+        "timestamp": 9000270
+       },
+       {
+        "site": 11921,
+        "timestamp": 9200276
+       }
+      ]
+     }
+    }
+   }
+  ]
+ }
+}

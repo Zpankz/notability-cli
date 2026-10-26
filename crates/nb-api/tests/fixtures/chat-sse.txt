@@ -1,0 +1,8 @@
+# POST /learn/chatbotThread/<thread-uuid>  (request body, then streamed response; ids replaced by placeholders)
+{"exchangeIndex":0,"role":"user","text":"Reply with just the word: pong","clientContext":{"entryPoint":{"location":"home"},"clientInfo":{"platform":"web","availableTools":[]}}}
+
+event: text
+data: "pong"
+
+event: exchange_complete
+data: {"nextExchangeIndex":1,"title":"Pong Response"}

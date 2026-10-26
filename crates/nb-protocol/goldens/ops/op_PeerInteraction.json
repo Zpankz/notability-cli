@@ -1,0 +1,83 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 1,
+   "timestamp": 128
+  },
+  "clientTime": 1700000000028,
+  "payload": {
+   "type": "PeerInteraction",
+   "value": {
+    "cursorPosition": {
+     "x": -3.25,
+     "y": 612.0
+    },
+    "selectedEntities": [
+     {
+      "site": 20148,
+      "timestamp": 415712471
+     },
+     {
+      "site": 20410,
+      "timestamp": 415912477
+     }
+    ],
+    "tool": -2,
+    "textSelection": {
+     "anchor": {
+      "site": 20803,
+      "timestamp": 416212486,
+      "index": 416312489
+     },
+     "focus": {
+      "site": 21196,
+      "timestamp": 416512495,
+      "index": 416612498
+     }
+    },
+    "recordingInProgress": false
+   }
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 1,
+   "timestamp": 128
+  },
+  "clientTime": 1700000000028,
+  "payload": {
+   "type": "PeerInteraction",
+   "value": {
+    "cursorPosition": {
+     "x": -3.25,
+     "y": 612.0
+    },
+    "selectedEntities": [
+     {
+      "site": 20148,
+      "timestamp": 415712471
+     },
+     {
+      "site": 20410,
+      "timestamp": 415912477
+     }
+    ],
+    "tool": -2,
+    "textSelection": {
+     "anchor": {
+      "site": 20803,
+      "timestamp": 416212486,
+      "index": 416312489
+     },
+     "focus": {
+      "site": 21196,
+      "timestamp": 416512495,
+      "index": 416612498
+     }
+    },
+    "recordingInProgress": false
+   }
+  }
+ }
+}

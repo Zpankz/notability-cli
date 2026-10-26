@@ -1,0 +1,99 @@
+{
+ "table": "PageBackground",
+ "spec": {
+  "paper": {
+   "flair": -1,
+   "flairSpacing": -3.25,
+   "flairBleeds": false,
+   "flairCentered": true,
+   "backgroundColor": {
+    "bitsR": 89,
+    "bitsG": 96,
+    "bitsB": 103,
+    "bitsA": 110
+   },
+   "legacyPaperIndex": 117
+  },
+  "pdf": {
+   "metadata": {
+    "assetHash": "a4a6a8aaacaeb0b2b4b6b8babcbec0c2c4c6c8caccced0d2d4d6d8dadcdee0e2e4e6e8eaeceef0f2f4f6f8fafcfe00020406080a0c0e10121416181a1c1e2022",
+    "fileName": "Hello, wörld",
+    "mimeType": "日本語テキスト",
+    "fileSize": 304609138
+   },
+   "layoutBehavior": 0,
+   "totalPageCount": 304809144,
+   "pagesConsumed": 304909147,
+   "pageOffset": 305009150,
+   "cropBoxes": [
+    {
+     "width": 612.0,
+     "height": 0.001
+    },
+    {
+     "width": 12345.678,
+     "height": 0.5
+    }
+   ]
+  },
+  "rotation": 0.1,
+  "size": {
+   "width": -3.25,
+   "height": 612.0
+  },
+  "margins": {
+   "top": 0.001,
+   "bottom": 12345.678,
+   "left": 0.5,
+   "right": 0.1
+  }
+ },
+ "decoded": {
+  "paper": {
+   "flair": -1,
+   "flairSpacing": -3.25,
+   "flairBleeds": false,
+   "flairCentered": true,
+   "backgroundColor": {
+    "bitsR": 89,
+    "bitsG": 96,
+    "bitsB": 103,
+    "bitsA": 110
+   },
+   "legacyPaperIndex": 117
+  },
+  "pdf": {
+   "metadata": {
+    "assetHash": "a4a6a8aaacaeb0b2b4b6b8babcbec0c2c4c6c8caccced0d2d4d6d8dadcdee0e2e4e6e8eaeceef0f2f4f6f8fafcfe00020406080a0c0e10121416181a1c1e2022",
+    "fileName": "Hello, wörld",
+    "mimeType": "日本語テキスト",
+    "fileSize": 304609138
+   },
+   "layoutBehavior": 0,
+   "totalPageCount": 304809144,
+   "pagesConsumed": 304909147,
+   "pageOffset": 305009150,
+   "cropBoxes": [
+    {
+     "width": 612.0,
+     "height": 0.0010000000474974513
+    },
+    {
+     "width": 12345.677734375,
+     "height": 0.5
+    }
+   ]
+  },
+  "rotation": 0.10000000149011612,
+  "size": {
+   "width": -3.25,
+   "height": 612.0
+  },
+  "margins": {
+   "top": 0.0010000000474974513,
+   "bottom": 12345.677734375,
+   "left": 0.5,
+   "right": 0.10000000149011612
+  }
+ }
+}

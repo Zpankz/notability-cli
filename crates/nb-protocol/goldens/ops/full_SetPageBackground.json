@@ -1,0 +1,103 @@
+{
+ "table": "SetPageBackground",
+ "spec": {
+  "value": {
+   "paper": {
+    "flair": 0,
+    "flairSpacing": 0.1,
+    "flairBleeds": true,
+    "flairCentered": false,
+    "backgroundColor": {
+     "bitsR": 8,
+     "bitsG": 15,
+     "bitsB": 22,
+     "bitsA": 29
+    },
+    "legacyPaperIndex": 36
+   },
+   "pdf": {
+    "metadata": {
+     "assetHash": "bdbfc1c3c5c7c9cbcdcfd1d3d5d7d9dbdddfe1e3e5e7e9ebedeff1f3f5f7f9fbfdff01030507090b0d0f11131517191b1d1f21232527292b2d2f31333537393b",
+     "fileName": "a",
+     "mimeType": "Hello, wörld",
+     "fileSize": 332709981
+    },
+    "layoutBehavior": 1,
+    "totalPageCount": 332909987,
+    "pagesConsumed": 333009990,
+    "pageOffset": 333109993,
+    "cropBoxes": [
+     {
+      "width": -3.25,
+      "height": 612.0
+     },
+     {
+      "width": 0.001,
+      "height": 12345.678
+     }
+    ]
+   },
+   "rotation": 0.5,
+   "size": {
+    "width": 0.1,
+    "height": -3.25
+   },
+   "margins": {
+    "top": 612.0,
+    "bottom": 0.001,
+    "left": 12345.678,
+    "right": 0.5
+   }
+  }
+ },
+ "decoded": {
+  "value": {
+   "paper": {
+    "flair": 0,
+    "flairSpacing": 0.10000000149011612,
+    "flairBleeds": true,
+    "flairCentered": false,
+    "backgroundColor": {
+     "bitsR": 8,
+     "bitsG": 15,
+     "bitsB": 22,
+     "bitsA": 29
+    },
+    "legacyPaperIndex": 36
+   },
+   "pdf": {
+    "metadata": {
+     "assetHash": "bdbfc1c3c5c7c9cbcdcfd1d3d5d7d9dbdddfe1e3e5e7e9ebedeff1f3f5f7f9fbfdff01030507090b0d0f11131517191b1d1f21232527292b2d2f31333537393b",
+     "fileName": "a",
+     "mimeType": "Hello, wörld",
+     "fileSize": 332709981
+    },
+    "layoutBehavior": 1,
+    "totalPageCount": 332909987,
+    "pagesConsumed": 333009990,
+    "pageOffset": 333109993,
+    "cropBoxes": [
+     {
+      "width": -3.25,
+      "height": 612.0
+     },
+     {
+      "width": 0.0010000000474974513,
+      "height": 12345.677734375
+     }
+    ]
+   },
+   "rotation": 0.5,
+   "size": {
+    "width": 0.10000000149011612,
+    "height": -3.25
+   },
+   "margins": {
+    "top": 612.0,
+    "bottom": 0.0010000000474974513,
+    "left": 12345.677734375,
+    "right": 0.5
+   }
+  }
+ }
+}

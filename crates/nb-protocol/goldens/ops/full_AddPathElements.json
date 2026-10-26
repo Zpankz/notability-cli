@@ -1,0 +1,43 @@
+{
+ "table": "AddPathElements",
+ "spec": {
+  "ink": {
+   "site": 5240,
+   "timestamp": 4100123
+  },
+  "encodedCenterPathElements": [
+   126,
+   130,
+   134,
+   138,
+   142
+  ],
+  "encodedCenterPathEstimatedElements": [
+   141,
+   145,
+   149,
+   153,
+   157
+  ]
+ },
+ "decoded": {
+  "ink": {
+   "site": 5240,
+   "timestamp": 4100123
+  },
+  "encodedCenterPathElements": [
+   126,
+   130,
+   134,
+   138,
+   142
+  ],
+  "encodedCenterPathEstimatedElements": [
+   141,
+   145,
+   149,
+   153,
+   157
+  ]
+ }
+}

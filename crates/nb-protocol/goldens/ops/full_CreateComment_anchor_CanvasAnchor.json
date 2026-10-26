@@ -1,0 +1,37 @@
+{
+ "table": "CreateComment",
+ "spec": {
+  "anchor": {
+   "type": "CanvasAnchor",
+   "value": {
+    "page": {
+     "site": 45850,
+     "timestamp": 35101053,
+     "index": 35201056
+    },
+    "origin": {
+     "x": 12345.678,
+     "y": 0.5
+    }
+   }
+  },
+  "text": "a"
+ },
+ "decoded": {
+  "text": "a",
+  "anchor": {
+   "type": "CanvasAnchor",
+   "value": {
+    "page": {
+     "site": 45850,
+     "timestamp": 35101053,
+     "index": 35201056
+    },
+    "origin": {
+     "x": 12345.677734375,
+     "y": 0.5
+    }
+   }
+  }
+ }
+}

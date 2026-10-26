@@ -1,0 +1,55 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 2,
+   "timestamp": 120
+  },
+  "clientTime": 1700000000020,
+  "payload": {
+   "type": "ModifyGroup",
+   "value": {
+    "group": {
+     "site": 49135,
+     "timestamp": 387811634
+    },
+    "members": [
+     {
+      "site": 49397,
+      "timestamp": 388011640
+     },
+     {
+      "site": 49659,
+      "timestamp": 388211646
+     }
+    ]
+   }
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 2,
+   "timestamp": 120
+  },
+  "clientTime": 1700000000020,
+  "payload": {
+   "type": "ModifyGroup",
+   "value": {
+    "group": {
+     "site": 49135,
+     "timestamp": 387811634
+    },
+    "members": [
+     {
+      "site": 49397,
+      "timestamp": 388011640
+     },
+     {
+      "site": 49659,
+      "timestamp": 388211646
+     }
+    ]
+   }
+  }
+ }
+}

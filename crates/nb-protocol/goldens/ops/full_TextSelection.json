@@ -1,0 +1,27 @@
+{
+ "table": "TextSelection",
+ "spec": {
+  "anchor": {
+   "site": 48647,
+   "timestamp": 337410122,
+   "index": 337510125
+  },
+  "focus": {
+   "site": 49040,
+   "timestamp": 337710131,
+   "index": 337810134
+  }
+ },
+ "decoded": {
+  "anchor": {
+   "site": 48647,
+   "timestamp": 337410122,
+   "index": 337510125
+  },
+  "focus": {
+   "site": 49040,
+   "timestamp": 337710131,
+   "index": 337810134
+  }
+ }
+}

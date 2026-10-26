@@ -1,0 +1,667 @@
+// Notability edit-log wire schema (FlatBuffers).
+// Reconstructed from the web client's FlatBuffers code. Field ids are wire vtable slots; missing
+// slots are kept as deprecated placeholders so ids stay contiguous. Enums are raw integers here;
+// docs/notability-ops.annotated.fbs has the named enums and field notes.
+
+namespace nb;
+
+struct AssetHash {
+  bits0: uint64;
+  bits1: uint64;
+  bits2: uint64;
+  bits3: uint64;
+  bits4: uint64;
+  bits5: uint64;
+  bits6: uint64;
+  bits7: uint64;
+}
+
+struct Bend {
+  pin: int8;
+  offset: float32;
+}
+
+struct Boundary {
+  location: SeqId;
+  type: int8;
+}
+
+struct CanvasAnchor {
+  page: SeqId;
+  origin: Point;
+}
+
+struct CardinalAttachedEndpoint {
+  entity: Id;
+  side: int8;
+}
+
+struct Color {
+  bitsR: uint8;
+  bitsG: uint8;
+  bitsB: uint8;
+  bitsA: uint8;
+}
+
+struct DuplicateOp {
+  opId: Id;
+  originalServerTime: uint64;
+  duplicateServerTime: uint64;
+}
+
+struct FractionalAttachedEndpoint {
+  entity: Id;
+  fraction: Point;
+}
+
+struct FreeEndpoint {
+  page: SeqId;
+  position: Point;
+}
+
+struct Id {
+  site: uint16;
+  timestamp: uint32;
+}
+
+struct Margins {
+  top: float32;
+  bottom: float32;
+  left: float32;
+  right: float32;
+}
+
+struct MeasurementScale {
+  scaleFactor: float32;
+  unit: int8;
+}
+
+struct Point {
+  x: float32;
+  y: float32;
+}
+
+struct RecordingSegment {
+  startTime: uint64;
+  endTime: uint64;
+}
+
+struct Rect {
+  origin: Point;
+  size: Size;
+}
+
+struct ReplyAnchor {
+  root: Id;
+}
+
+struct SeqId {
+  site: uint16;
+  timestamp: uint32;
+  index: uint32;
+}
+
+struct Size {
+  width: float32;
+  height: float32;
+}
+
+struct StyleMap {
+  backingPencilSeed: int32;
+  backingPencilReferencePoint: Point;
+  backingDashPhase: float32;
+  backingDashPeriod: float32;
+}
+
+struct Uuid {
+  bitsLow: uint64;
+  bitsHigh: uint64;
+}
+
+union AnchorUnion { CanvasAnchor, TextAnchor, EntityAnchor, ReplyAnchor }
+union DefinitionUnion { Line, Polygon, NormalShape }
+union EndUnion { CardinalAttachedEndpoint, FreeEndpoint, FractionalAttachedEndpoint }
+union PayloadUnion { SetMetadata, AssetCloudPersisted, CreatePage, ModifyPage, CreateRecording, ModifyRecording, InsertChar, InsertString, RemoveChar, RemoveChars, ReviveChars, ModifyStyle, ModifyParagraphStyle, ClearStyle, CreateInk, AddPathElements, ModifyInk, CreateShape, ModifyShape, CreateGroup, ModifyGroup, CreateBlock, ModifyBlock, ModifyPositions, DeleteEntities, TransientInteractionEnded, ModifyPDFField, UpdateCheckbox, PeerInteraction, CreateComment, ModifyComment, CreateConnector, ModifyConnector }
+union StartUnion { CardinalAttachedEndpoint, FreeEndpoint, FractionalAttachedEndpoint }
+
+table AcknowledgeAppendedOpsEvent {
+  acks: [OpAck] (id: 0);
+}
+
+table AddPathElements {
+  ink: Id (id: 0);
+  encodedCenterPathElements: [uint8] (id: 1);
+  encodedCenterPathEstimatedElements: [uint8] (id: 2);
+}
+
+table AppendOpsEvent {
+  ops: [Op] (id: 0);
+}
+
+table AssetCloudPersisted {
+  assetHash: AssetHash (id: 0);
+}
+
+table AssetMetadata {
+  assetHash: AssetHash (id: 0);
+  fileName: string (id: 1);
+  mimeType: string (id: 2);
+  fileSize: uint32 (id: 3);
+}
+
+table ClearStyle {
+  start: Boundary (id: 0);
+  end: Boundary (id: 1);
+  paragraph: bool (id: 2);
+  textField: Id (id: 3);
+}
+
+table CreateBlock {
+  type: int8 (id: 0);
+  corner: int8 (id: 1);
+  page: SeqId (id: 2);
+  origin: Point (id: 3);
+  rotation: float32 (id: 4);
+  scale: Size (id: 5);
+  size: Size (id: 6);
+  textWrap: int8 (id: 7);
+  enableCaption: bool (id: 8);
+  zIndex: uint64 (id: 9);
+  image: ImageAsset (id: 10);
+  cropRect: Rect (id: 11);
+  webUrl: string (id: 12);
+  mathLatex: string (id: 13);
+  mathColor: Color (id: 14);
+  paper: Paper (id: 15);
+  imageFlippedHorizontally: bool (id: 16);
+  imageFlippedVertically: bool (id: 17);
+  resizesWidthToFitText: bool (id: 18);
+  margins: Margins (id: 19);
+  positionLocked: bool (id: 20);
+}
+
+table CreateComment {
+  anchor: AnchorUnion (id: 1);
+  text: string (id: 2);
+}
+
+table CreateConnector {
+  start: StartUnion (id: 1);
+  end: EndUnion (id: 3);
+  pathStyle: int8 (id: 4);
+  bends: [Bend] (id: 5);
+  startCap: int8 (id: 6);
+  endCap: int8 (id: 7);
+  tool: int8 (id: 8);
+  style: int8 (id: 9);
+  color: Color (id: 10);
+  borderWidth: float32 (id: 11);
+  zIndex: uint64 (id: 12);
+  positionLocked: bool (id: 13);
+  labelPosition: float32 (id: 14);
+}
+
+table CreateGroup {
+  members: [Id] (id: 0);
+}
+
+table CreateInk {
+  page: SeqId (id: 0);
+  origin: Point (id: 1);
+  rotation: float32 (id: 2);
+  scale: Size (id: 3);
+  tool: int8 (id: 4);
+  style: int8 (id: 5);
+  tapePattern: int8 (id: 6);
+  color: Color (id: 7);
+  width: float32 (id: 8);
+  encodedCenterPath: [uint8] (id: 9);
+  encodedCustomPath: [uint8] (id: 10);
+  encodedFillPath: [uint8] (id: 11);
+  fillColor: Color (id: 12);
+  styleMap: [StyleMap] (id: 13);
+  zIndex: uint64 (id: 14);
+  audioDuration: uint32 (id: 15);
+  nibAngle: uint16 (id: 16);
+  nibFlatness: uint16 (id: 17);
+  inkEffects: uint64 (id: 18);
+}
+
+table CreatePage {
+  location: SeqId (id: 0);
+  background: PageBackground (id: 1);
+  pageCount: uint32 (id: 2);
+  bookmarked: int8 (id: 3);
+}
+
+table CreateRecording {
+  recording: RecordingAsset (id: 0);
+  startTime: uint64 (id: 1);
+  endTime: uint64 (id: 2);
+  name: string (id: 3);
+  segmentation: [RecordingSegment] (id: 4);
+  zIndex: uint64 (id: 5);
+}
+
+table CreateShape {
+  page: SeqId (id: 0);
+  origin: Point (id: 1);
+  rotation: float32 (id: 2);
+  scale: Size (id: 3);
+  definition: DefinitionUnion (id: 5);
+  tool: int8 (id: 6);
+  style: int8 (id: 7);
+  tapePattern: int8 (id: 8);
+  color: Color (id: 9);
+  borderWidth: float32 (id: 10);
+  fillColor: Color (id: 11);
+  zIndex: uint64 (id: 12);
+  smartHighlight: bool (id: 13);
+  force: float32 (id: 14);
+  positionLocked: bool (id: 15);
+  inkEffects: uint64 (id: 16);
+  reserved17: uint8 (id: 17, deprecated);
+  measurementUnit: int8 (id: 18);
+}
+
+table DeleteEntities {
+  entityDeletes: [Id] (id: 0);
+  entityUndeletes: [Id] (id: 1);
+  pageDeletes: [SeqId] (id: 2);
+  pageUndeletes: [SeqId] (id: 3);
+}
+
+table DuplicateOpReport {
+  duplicates: [DuplicateOp] (id: 0);
+}
+
+table EntityAnchor {
+  entities: [Id] (id: 0);
+}
+
+table ImageAsset {
+  metadata: AssetMetadata (id: 0);
+  size: Size (id: 1);
+}
+
+table InsertChar {
+  location: SeqId (id: 0);
+  unicodeScalar: uint32 (id: 1);
+  textField: Id (id: 2);
+}
+
+table InsertString {
+  location: SeqId (id: 0);
+  string: string (id: 1);
+  textField: Id (id: 2);
+}
+
+table Line {
+  start: Point (id: 0);
+  controlPoint1: Point (id: 1);
+  controlPoint2: Point (id: 2);
+  end: Point (id: 3);
+  arrowHead: int8 (id: 4);
+}
+
+table ModifyBlock {
+  blocks: [Id] (id: 0);
+  corner: int8 (id: 1);
+  page: SeqId (id: 2);
+  origin: Point (id: 3);
+  rotation: SetFloat (id: 4);
+  scale: SetSize (id: 5);
+  size: Size (id: 6);
+  textWrap: int8 (id: 7);
+  enableCaption: bool (id: 8);
+  zIndex: uint64 (id: 9);
+  mathLatex: SetString (id: 10);
+  mathColor: SetColor (id: 11);
+  cropRect: SetRect (id: 12);
+  paper: SetPaper (id: 13);
+  imageFlippedHorizontally: bool (id: 14);
+  imageFlippedVertically: bool (id: 15);
+  resizesWidthToFitText: bool (id: 16);
+  positionLocked: bool (id: 17);
+}
+
+table ModifyComment {
+  comment: Id (id: 0);
+  anchor: CanvasAnchor (id: 1);
+  text: SetString (id: 2);
+  resolved: SetBool (id: 3);
+}
+
+table ModifyConnector {
+  connectors: [Id] (id: 0);
+  start: StartUnion (id: 2);
+  end: EndUnion (id: 4);
+  pathStyle: int8 (id: 5);
+  bends: [Bend] (id: 6);
+  startCap: int8 (id: 7);
+  endCap: int8 (id: 8);
+  tool: int8 (id: 9);
+  style: int8 (id: 10);
+  color: Color (id: 11);
+  borderWidth: float32 (id: 12);
+  zIndex: uint64 (id: 13);
+  positionLocked: bool (id: 14);
+  labelPosition: SetFloat (id: 15);
+}
+
+table ModifyGroup {
+  group: Id (id: 0);
+  members: [Id] (id: 1);
+}
+
+table ModifyInk {
+  inks: [Id] (id: 0);
+  page: SeqId (id: 1);
+  origin: Point (id: 2);
+  rotation: SetFloat (id: 3);
+  scale: SetSize (id: 4);
+  style: int8 (id: 5);
+  color: Color (id: 6);
+  width: float32 (id: 7);
+  encodedCenterPath: [uint8] (id: 8);
+  encodedCustomPath: [uint8] (id: 9);
+  encodedFillPath: [uint8] (id: 10);
+  fillColor: SetColor (id: 11);
+  styleMap: [StyleMap] (id: 12);
+  zIndex: uint64 (id: 13);
+  nibAngle: uint16 (id: 14);
+  nibFlatness: uint16 (id: 15);
+  tapePattern: int8 (id: 16);
+  inkEffects: uint64 (id: 17);
+  inkEffectsTinted: bool (id: 18);
+}
+
+table ModifyPDFField {
+  assetHash: AssetHash (id: 0);
+  key: string (id: 1);
+  valueType: uint8 (id: 2);
+  valueString: string (id: 3);
+  valueBoolean: bool (id: 4);
+}
+
+table ModifyPage {
+  pages: [SeqId] (id: 0);
+  moveTo: SeqMove (id: 1);
+  background: SetPageBackground (id: 2);
+  bookmarked: int8 (id: 3);
+}
+
+table ModifyParagraphStyle {
+  start: SeqId (id: 0);
+  end: SeqId (id: 1);
+  indentLevel: SetUInt8 (id: 2);
+  alignment: SetParagraphAlignment (id: 3);
+  lineSpacing: SetFloat (id: 4);
+  decoratorStyle: SetDecoratorStyle (id: 5);
+  isChecked: bool (id: 6);
+  textField: Id (id: 7);
+  programmingLanguage: SetString (id: 8);
+  writingDirection: SetWritingDirection (id: 9);
+}
+
+table ModifyPosition {
+  target: Id (id: 0);
+  page: SeqId (id: 1);
+  origin: Point (id: 2);
+  rotation: SetFloat (id: 3);
+  scale: SetSize (id: 4);
+  zIndex: uint64 (id: 5);
+}
+
+table ModifyPositions {
+  modifications: [ModifyPosition] (id: 0);
+}
+
+table ModifyRecording {
+  recording: Id (id: 0);
+  name: string (id: 1);
+  segmentation: [RecordingSegment] (id: 2);
+  zIndex: uint64 (id: 3);
+}
+
+table ModifyShape {
+  shapes: [Id] (id: 0);
+  page: SeqId (id: 1);
+  origin: Point (id: 2);
+  rotation: SetFloat (id: 3);
+  scale: SetSize (id: 4);
+  definition: DefinitionUnion (id: 6);
+  tool: int8 (id: 7);
+  style: int8 (id: 8);
+  tapePattern: int8 (id: 9);
+  color: Color (id: 10);
+  borderWidth: float32 (id: 11);
+  fillColor: SetColor (id: 12);
+  zIndex: uint64 (id: 13);
+  positionLocked: bool (id: 14);
+  inkEffects: uint64 (id: 15);
+  inkEffectsTinted: bool (id: 16);
+  measurementUnit: int8 (id: 17);
+}
+
+table ModifyStyle {
+  start: Boundary (id: 0);
+  end: Boundary (id: 1);
+  textField: Id (id: 2);
+  bold: SetBool (id: 3);
+  italic: SetBool (id: 4);
+  underline: SetBool (id: 5);
+  highlight: SetColor (id: 6);
+  familyName: SetString (id: 7);
+  size: SetFloat (id: 8);
+  foregroundColor: SetColor (id: 9);
+  link: SetString (id: 10);
+  superscript: SetBool (id: 11);
+  subscript: SetBool (id: 12);
+  strikethrough: SetBool (id: 13);
+  code: SetBool (id: 14);
+}
+
+table NormalShape {
+  type: int8 (id: 0);
+  size: Size (id: 1);
+}
+
+table NoteBundle {
+  noteId: Uuid (id: 0);
+  legacyNoteId: Uuid (id: 1);
+  editorSite: uint16 (id: 2);
+  editorUserId: string (id: 3);
+  createdAt: uint64 (id: 4);
+  creatorUserId: string (id: 5);
+  ops: [Op] (id: 6);
+  schemaVersion: uint16 (id: 7);
+}
+
+table NoteMutationResponse {
+  noteId: Uuid (id: 0);
+  acks: [OpAck] (id: 1);
+}
+
+table Op {
+  id: Id (id: 0);
+  clientTime: uint64 (id: 1);
+  serverTime: uint64 (id: 2);
+  audioTime: uint64 (id: 3);
+  payload: PayloadUnion (id: 5);
+  transientInteraction: TransientInteraction (id: 6);
+}
+
+table OpAck {
+  id: Id (id: 0);
+  timestampedOp: Op (id: 1);
+  nakError: string (id: 2);
+  duplicate: bool (id: 3);
+  retryable: bool (id: 4);
+}
+
+table OpsBundle {
+  ops: [Op] (id: 0);
+  schemaVersion: uint16 (id: 1);
+}
+
+table PDFAsset {
+  metadata: AssetMetadata (id: 0);
+  layoutBehavior: int8 (id: 1);
+  totalPageCount: uint32 (id: 2);
+  pagesConsumed: uint32 (id: 3);
+  pageOffset: uint32 (id: 4);
+  cropBoxes: [Size] (id: 5);
+}
+
+table PageBackground {
+  paper: Paper (id: 0);
+  pdf: PDFAsset (id: 1);
+  rotation: float32 (id: 2);
+  size: Size (id: 3);
+  margins: Margins (id: 4);
+}
+
+table Paper {
+  flair: int8 (id: 0);
+  flairSpacing: float32 (id: 1);
+  flairBleeds: bool (id: 2);
+  flairCentered: bool (id: 3);
+  backgroundColor: Color (id: 4);
+  legacyPaperIndex: uint8 (id: 5);
+}
+
+table PeerInteraction {
+  cursorPosition: Point (id: 0);
+  reserved1: uint8 (id: 1, deprecated);
+  reserved2: uint8 (id: 2, deprecated);
+  selectedEntities: [Id] (id: 3);
+  tool: int8 (id: 4);
+  textSelection: TextSelection (id: 5);
+  recordingInProgress: bool (id: 6);
+}
+
+table Polygon {
+  points: [Point] (id: 0);
+}
+
+table ReceiveOpsEvent {
+  ops: [Op] (id: 0);
+  expectedAckReply: string (id: 1);
+  schemaVersion: uint16 (id: 2);
+}
+
+table RecordingAsset {
+  metadata: AssetMetadata (id: 0);
+}
+
+table RemoveChar {
+  location: SeqId (id: 0);
+  textField: Id (id: 1);
+}
+
+table RemoveChars {
+  locations: [SeqId] (id: 0);
+  textField: Id (id: 1);
+}
+
+table ReviveChars {
+  locations: [SeqId] (id: 0);
+  textField: Id (id: 1);
+}
+
+table SeqMove {
+  toId: SeqId (id: 0);
+}
+
+table SetBool {
+  value: bool (id: 0);
+}
+
+table SetColor {
+  value: Color (id: 0);
+}
+
+table SetDecoratorStyle {
+  value: int8 (id: 0);
+}
+
+table SetFloat {
+  value: float32 (id: 0);
+}
+
+table SetMetadata {
+  title: SetString (id: 0);
+  pageBackground: SetPageBackground (id: 1);
+  handwritingLanguage: SetString (id: 2);
+  alignTextToLines: bool (id: 3);
+  defaultFontFamily: string (id: 4);
+  defaultFontSize: float32 (id: 5);
+  layoutMode: int8 (id: 6);
+  blockWrapSupport: int8 (id: 7);
+  coverPageId: SetSeqId (id: 8);
+  measurementScale: MeasurementScale (id: 9);
+  measurementsShown: bool (id: 10);
+}
+
+table SetPageBackground {
+  value: PageBackground (id: 0);
+}
+
+table SetPaper {
+  value: Paper (id: 0);
+}
+
+table SetParagraphAlignment {
+  value: int8 (id: 0);
+}
+
+table SetRect {
+  value: Rect (id: 0);
+}
+
+table SetSeqId {
+  value: SeqId (id: 0);
+}
+
+table SetSize {
+  value: Size (id: 0);
+}
+
+table SetString {
+  value: string (id: 0);
+}
+
+table SetUInt8 {
+  value: uint8 (id: 0);
+}
+
+table SetWritingDirection {
+  value: int8 (id: 0);
+}
+
+table TextAnchor {
+  textField: Id (id: 0);
+  selection: TextSelection (id: 1);
+}
+
+table TextSelection {
+  anchor: SeqId (id: 0);
+  focus: SeqId (id: 1);
+}
+
+table TransientInteraction {
+  interactionId: Id (id: 0);
+  timeout: uint32 (id: 1);
+}
+
+table TransientInteractionEnded {
+  interactionId: Id (id: 0);
+  replacedByOp: Id (id: 1);
+}
+
+table UpdateCheckbox {
+  textField: Id (id: 0);
+  location: SeqId (id: 1);
+  isChecked: bool (id: 2);
+}

@@ -1,0 +1,47 @@
+{
+ "table": "PDFAsset",
+ "spec": {
+  "metadata": {
+   "assetHash": "50525456585a5c5e60626466686a6c6e70727476787a7c7e80828486888a8c8e90929496989a9c9ea0a2a4a6a8aaacaeb0b2b4b6b8babcbec0c2c4c6c8caccce",
+   "fileName": "Hello, wörld",
+   "mimeType": "日本語テキスト",
+   "fileSize": 296208886
+  },
+  "layoutBehavior": 1,
+  "totalPageCount": 296408892,
+  "pagesConsumed": 296508895,
+  "pageOffset": 296608898,
+  "cropBoxes": [
+   {
+    "width": 612.0,
+    "height": 0.001
+   },
+   {
+    "width": 12345.678,
+    "height": 0.5
+   }
+  ]
+ },
+ "decoded": {
+  "metadata": {
+   "assetHash": "50525456585a5c5e60626466686a6c6e70727476787a7c7e80828486888a8c8e90929496989a9c9ea0a2a4a6a8aaacaeb0b2b4b6b8babcbec0c2c4c6c8caccce",
+   "fileName": "Hello, wörld",
+   "mimeType": "日本語テキスト",
+   "fileSize": 296208886
+  },
+  "layoutBehavior": 1,
+  "totalPageCount": 296408892,
+  "pagesConsumed": 296508895,
+  "pageOffset": 296608898,
+  "cropBoxes": [
+   {
+    "width": 612.0,
+    "height": 0.0010000000474974513
+   },
+   {
+    "width": 12345.677734375,
+    "height": 0.5
+   }
+  ]
+ }
+}

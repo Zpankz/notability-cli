@@ -1,0 +1,117 @@
+{
+ "table": "AppendOpsEvent",
+ "spec": {
+  "ops": [
+   {
+    "id": {
+     "site": 0,
+     "timestamp": 0
+    },
+    "clientTime": 1761436800000,
+    "payload": {
+     "type": "CreatePage",
+     "value": {
+      "pageCount": 2
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 0,
+     "timestamp": 1
+    },
+    "clientTime": 1761436800000,
+    "payload": {
+     "type": "SetMetadata",
+     "value": {
+      "title": {
+       "value": "Sample note RS golden"
+      },
+      "pageBackground": {
+       "value": {
+        "paper": {
+         "backgroundColor": {
+          "bitsR": 255,
+          "bitsG": 255,
+          "bitsB": 255,
+          "bitsA": 255
+         }
+        },
+        "size": {
+         "width": 612.0,
+         "height": 792.0
+        },
+        "margins": {
+         "top": 36.0,
+         "bottom": 36.0,
+         "left": 36.0,
+         "right": 36.0
+        }
+       }
+      },
+      "defaultFontFamily": "Inter",
+      "defaultFontSize": 14.0,
+      "layoutMode": 1
+     }
+    }
+   }
+  ]
+ },
+ "decoded": {
+  "ops": [
+   {
+    "id": {
+     "site": 0,
+     "timestamp": 0
+    },
+    "clientTime": 1761436800000,
+    "payload": {
+     "type": "CreatePage",
+     "value": {
+      "pageCount": 2
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 0,
+     "timestamp": 1
+    },
+    "clientTime": 1761436800000,
+    "payload": {
+     "type": "SetMetadata",
+     "value": {
+      "title": {
+       "value": "Sample note RS golden"
+      },
+      "pageBackground": {
+       "value": {
+        "paper": {
+         "backgroundColor": {
+          "bitsR": 255,
+          "bitsG": 255,
+          "bitsB": 255,
+          "bitsA": 255
+         }
+        },
+        "size": {
+         "width": 612.0,
+         "height": 792.0
+        },
+        "margins": {
+         "top": 36.0,
+         "bottom": 36.0,
+         "left": 36.0,
+         "right": 36.0
+        }
+       }
+      },
+      "defaultFontFamily": "Inter",
+      "defaultFontSize": 14.0,
+      "layoutMode": 1
+     }
+    }
+   }
+  ]
+ }
+}

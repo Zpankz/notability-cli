@@ -1,0 +1,26 @@
+{
+  "sequenceId": 42,
+  "privateSpace": {
+    "id": "ws-0000",
+    "title": "Private",
+    "folders": [
+      {"id": "f-root", "title": "Work", "parentId": null, "siblingOrder": 1.0, "updatedAt": 1700000000000},
+      {"id": "f-child", "title": "Projects", "parentId": "f-root", "siblingOrder": 1.0, "updatedAt": 1700000000000},
+      {"id": "f-other", "title": "Planning", "parentId": null, "siblingOrder": 2.0, "updatedAt": 1700000000000},
+      {"id": "f-empty", "title": "Empty", "parentId": null, "siblingOrder": 3.0}
+    ],
+    "notes": [
+      {"id": "aaaaaaaa-1111-4000-8000-000000000001", "title": "Kickoff meeting", "folderId": "f-child",
+       "createdAt": 1700000000000, "updatedAt": 1700000500000, "hasRecordings": true,
+       "indexTimestamps": [{"type": "HANDWRITING", "lastUpdated": 1}, {"type": "RECORDING", "lastUpdated": 1}]},
+      {"id": "bbbbbbbb-2222-4000-8000-000000000002", "title": "Weekly plan", "folderId": "f-other",
+       "createdAt": 1700000000000, "updatedAt": 1700000900000, "isFavorited": true,
+       "indexTimestamps": [{"type": "TEXT", "lastUpdated": 1}]},
+      {"id": "cccccccc-3333-4000-8000-000000000003", "title": "Loose page", "folderId": null,
+       "createdAt": 1700000000000, "updatedAt": 1700000100000, "indexTimestamps": []}
+    ]
+  },
+  "sharedSpaces": [],
+  "sharedNotes": [],
+  "permanentlyDeletedNotes": []
+}

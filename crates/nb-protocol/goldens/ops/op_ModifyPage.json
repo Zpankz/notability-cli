@@ -1,0 +1,101 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 0,
+   "timestamp": 103
+  },
+  "clientTime": 1700000000003,
+  "payload": {
+   "type": "ModifyPage",
+   "value": {
+    "pages": [
+     {
+      "site": 65415,
+      "timestamp": 350210506,
+      "index": 350310509
+     },
+     {
+      "site": 272,
+      "timestamp": 350510515,
+      "index": 350610518
+     }
+    ],
+    "moveTo": {
+     "toId": {
+      "site": 665,
+      "timestamp": 350810524,
+      "index": 350910527
+     }
+    },
+    "background": {
+     "value": {
+      "paper": {},
+      "pdf": {},
+      "rotation": 0.5,
+      "size": {
+       "width": 0.1,
+       "height": -3.25
+      },
+      "margins": {
+       "top": 612.0,
+       "bottom": 0.001,
+       "left": 12345.678,
+       "right": 0.5
+      }
+     }
+    },
+    "bookmarked": 0
+   }
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 0,
+   "timestamp": 103
+  },
+  "clientTime": 1700000000003,
+  "payload": {
+   "type": "ModifyPage",
+   "value": {
+    "pages": [
+     {
+      "site": 65415,
+      "timestamp": 350210506,
+      "index": 350310509
+     },
+     {
+      "site": 272,
+      "timestamp": 350510515,
+      "index": 350610518
+     }
+    ],
+    "moveTo": {
+     "toId": {
+      "site": 665,
+      "timestamp": 350810524,
+      "index": 350910527
+     }
+    },
+    "background": {
+     "value": {
+      "paper": {},
+      "pdf": {},
+      "rotation": 0.5,
+      "size": {
+       "width": 0.10000000149011612,
+       "height": -3.25
+      },
+      "margins": {
+       "top": 612.0,
+       "bottom": 0.0010000000474974513,
+       "left": 12345.677734375,
+       "right": 0.5
+      }
+     }
+    },
+    "bookmarked": 0
+   }
+  }
+ }
+}

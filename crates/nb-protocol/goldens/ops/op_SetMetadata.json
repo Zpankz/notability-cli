@@ -1,0 +1,107 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 0,
+   "timestamp": 100
+  },
+  "clientTime": 1700000000000,
+  "payload": {
+   "type": "SetMetadata",
+   "value": {
+    "title": {
+     "value": "Hello, wörld"
+    },
+    "pageBackground": {
+     "value": {
+      "paper": {},
+      "pdf": {},
+      "rotation": 612.0,
+      "size": {
+       "width": 0.001,
+       "height": 12345.678
+      },
+      "margins": {
+       "top": 0.5,
+       "bottom": 0.1,
+       "left": -3.25,
+       "right": 612.0
+      }
+     }
+    },
+    "handwritingLanguage": {
+     "value": "emoji 🗒️✓"
+    },
+    "alignTextToLines": false,
+    "defaultFontFamily": "",
+    "defaultFontSize": 0.1,
+    "layoutMode": 2,
+    "blockWrapSupport": -2,
+    "coverPageId": {
+     "value": {
+      "site": 52970,
+      "timestamp": 340710221,
+      "index": 340810224
+     }
+    },
+    "measurementScale": {
+     "scaleFactor": 0.1,
+     "unit": -2
+    },
+    "measurementsShown": false
+   }
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 0,
+   "timestamp": 100
+  },
+  "clientTime": 1700000000000,
+  "payload": {
+   "type": "SetMetadata",
+   "value": {
+    "title": {
+     "value": "Hello, wörld"
+    },
+    "pageBackground": {
+     "value": {
+      "paper": {},
+      "pdf": {},
+      "rotation": 612.0,
+      "size": {
+       "width": 0.0010000000474974513,
+       "height": 12345.677734375
+      },
+      "margins": {
+       "top": 0.5,
+       "bottom": 0.10000000149011612,
+       "left": -3.25,
+       "right": 612.0
+      }
+     }
+    },
+    "handwritingLanguage": {
+     "value": "emoji 🗒️✓"
+    },
+    "alignTextToLines": false,
+    "defaultFontFamily": "",
+    "defaultFontSize": 0.10000000149011612,
+    "layoutMode": 2,
+    "blockWrapSupport": -2,
+    "coverPageId": {
+     "value": {
+      "site": 52970,
+      "timestamp": 340710221,
+      "index": 340810224
+     }
+    },
+    "measurementScale": {
+     "scaleFactor": 0.10000000149011612,
+     "unit": -2
+    },
+    "measurementsShown": false
+   }
+  }
+ }
+}

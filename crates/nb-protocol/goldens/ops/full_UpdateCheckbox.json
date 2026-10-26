@@ -1,0 +1,27 @@
+{
+ "table": "UpdateCheckbox",
+ "spec": {
+  "textField": {
+   "site": 50350,
+   "timestamp": 338710161
+  },
+  "location": {
+   "site": 50612,
+   "timestamp": 338910167,
+   "index": 339010170
+  },
+  "isChecked": false
+ },
+ "decoded": {
+  "textField": {
+   "site": 50350,
+   "timestamp": 338710161
+  },
+  "location": {
+   "site": 50612,
+   "timestamp": 338910167,
+   "index": 339010170
+  },
+  "isChecked": false
+ }
+}

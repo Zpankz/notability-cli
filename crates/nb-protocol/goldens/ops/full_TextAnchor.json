@@ -1,0 +1,39 @@
+{
+ "table": "TextAnchor",
+ "spec": {
+  "textField": {
+   "site": 47599,
+   "timestamp": 336610098
+  },
+  "selection": {
+   "anchor": {
+    "site": 47861,
+    "timestamp": 336810104,
+    "index": 336910107
+   },
+   "focus": {
+    "site": 48254,
+    "timestamp": 337110113,
+    "index": 337210116
+   }
+  }
+ },
+ "decoded": {
+  "textField": {
+   "site": 47599,
+   "timestamp": 336610098
+  },
+  "selection": {
+   "anchor": {
+    "site": 47861,
+    "timestamp": 336810104,
+    "index": 336910107
+   },
+   "focus": {
+    "site": 48254,
+    "timestamp": 337110113,
+    "index": 337210116
+   }
+  }
+ }
+}

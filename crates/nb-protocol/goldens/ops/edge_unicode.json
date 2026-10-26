@@ -1,0 +1,9 @@
+{
+ "table": "InsertString",
+ "spec": {
+  "string": "a\u0000b 😀 é́ ‍"
+ },
+ "decoded": {
+  "string": "a\u0000b 😀 é́ ‍"
+ }
+}

@@ -1,0 +1,169 @@
+{
+ "table": "AcknowledgeAppendedOpsEvent",
+ "spec": {
+  "acks": [
+   {
+    "id": {
+     "site": 131,
+     "timestamp": 200006
+    },
+    "timestampedOp": {
+     "id": {
+      "site": 393,
+      "timestamp": 400012
+     },
+     "clientTime": 5000000035,
+     "serverTime": 6000000042,
+     "audioTime": 7000000049,
+     "payload": {
+      "type": "RemoveChar",
+      "value": {
+       "location": {
+        "site": 1179,
+        "timestamp": 1000030,
+        "index": 1100033
+       },
+       "textField": {
+        "site": 1572,
+        "timestamp": 1300039
+       }
+      }
+     },
+     "transientInteraction": {
+      "interactionId": {
+       "site": 1834,
+       "timestamp": 1500045
+      },
+      "timeout": 1600048
+     }
+    },
+    "nakError": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "duplicate": true,
+    "retryable": false
+   },
+   {
+    "id": {
+     "site": 2620,
+     "timestamp": 2100063
+    },
+    "timestampedOp": {
+     "id": {
+      "site": 2882,
+      "timestamp": 2300069
+     },
+     "clientTime": 24000000168,
+     "serverTime": 25000000175,
+     "audioTime": 26000000182,
+     "payload": {
+      "type": "UpdateCheckbox",
+      "value": {
+       "textField": {
+        "site": 3668,
+        "timestamp": 2900087
+       },
+       "location": {
+        "site": 3930,
+        "timestamp": 3100093,
+        "index": 3200096
+       },
+       "isChecked": false
+      }
+     },
+     "transientInteraction": {
+      "interactionId": {
+       "site": 4454,
+       "timestamp": 3500105
+      },
+      "timeout": 3600108
+     }
+    },
+    "nakError": "a",
+    "duplicate": true,
+    "retryable": false
+   }
+  ]
+ },
+ "decoded": {
+  "acks": [
+   {
+    "id": {
+     "site": 131,
+     "timestamp": 200006
+    },
+    "timestampedOp": {
+     "id": {
+      "site": 393,
+      "timestamp": 400012
+     },
+     "clientTime": 5000000035,
+     "serverTime": 6000000042,
+     "audioTime": 7000000049,
+     "transientInteraction": {
+      "interactionId": {
+       "site": 1834,
+       "timestamp": 1500045
+      },
+      "timeout": 1600048
+     },
+     "payload": {
+      "type": "RemoveChar",
+      "value": {
+       "location": {
+        "site": 1179,
+        "timestamp": 1000030,
+        "index": 1100033
+       },
+       "textField": {
+        "site": 1572,
+        "timestamp": 1300039
+       }
+      }
+     }
+    },
+    "nakError": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "duplicate": true,
+    "retryable": false
+   },
+   {
+    "id": {
+     "site": 2620,
+     "timestamp": 2100063
+    },
+    "timestampedOp": {
+     "id": {
+      "site": 2882,
+      "timestamp": 2300069
+     },
+     "clientTime": 24000000168,
+     "serverTime": 25000000175,
+     "audioTime": 26000000182,
+     "transientInteraction": {
+      "interactionId": {
+       "site": 4454,
+       "timestamp": 3500105
+      },
+      "timeout": 3600108
+     },
+     "payload": {
+      "type": "UpdateCheckbox",
+      "value": {
+       "textField": {
+        "site": 3668,
+        "timestamp": 2900087
+       },
+       "location": {
+        "site": 3930,
+        "timestamp": 3100093,
+        "index": 3200096
+       },
+       "isChecked": false
+      }
+     }
+    },
+    "nakError": "a",
+    "duplicate": true,
+    "retryable": false
+   }
+  ]
+ }
+}

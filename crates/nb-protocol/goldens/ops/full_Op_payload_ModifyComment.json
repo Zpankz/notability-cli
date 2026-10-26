@@ -1,0 +1,87 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 29426,
+   "timestamp": 272708181
+  },
+  "clientTime": 2728000019096,
+  "serverTime": 2729000019103,
+  "audioTime": 2730000019110,
+  "payload": {
+   "type": "ModifyComment",
+   "value": {
+    "comment": {
+     "site": 30212,
+     "timestamp": 273308199
+    },
+    "anchor": {
+     "page": {
+      "site": 30474,
+      "timestamp": 273508205,
+      "index": 273608208
+     },
+     "origin": {
+      "x": 0.1,
+      "y": -3.25
+     }
+    },
+    "text": {
+     "value": "日本語テキスト"
+    },
+    "resolved": {
+     "value": true
+    }
+   }
+  },
+  "transientInteraction": {
+   "interactionId": {
+    "site": 31391,
+    "timestamp": 274208226
+   },
+   "timeout": 274308229
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 29426,
+   "timestamp": 272708181
+  },
+  "clientTime": 2728000019096,
+  "serverTime": 2729000019103,
+  "audioTime": 2730000019110,
+  "transientInteraction": {
+   "interactionId": {
+    "site": 31391,
+    "timestamp": 274208226
+   },
+   "timeout": 274308229
+  },
+  "payload": {
+   "type": "ModifyComment",
+   "value": {
+    "comment": {
+     "site": 30212,
+     "timestamp": 273308199
+    },
+    "anchor": {
+     "page": {
+      "site": 30474,
+      "timestamp": 273508205,
+      "index": 273608208
+     },
+     "origin": {
+      "x": 0.10000000149011612,
+      "y": -3.25
+     }
+    },
+    "text": {
+     "value": "日本語テキスト"
+    },
+    "resolved": {
+     "value": true
+    }
+   }
+  }
+ }
+}

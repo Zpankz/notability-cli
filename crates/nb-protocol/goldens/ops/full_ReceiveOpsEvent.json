@@ -1,0 +1,147 @@
+{
+ "table": "ReceiveOpsEvent",
+ "spec": {
+  "ops": [
+   {
+    "id": {
+     "site": 11443,
+     "timestamp": 309009270
+    },
+    "clientTime": 3091000021637,
+    "serverTime": 3092000021644,
+    "audioTime": 3093000021651,
+    "payload": {
+     "type": "TransientInteractionEnded",
+     "value": {
+      "interactionId": {
+       "site": 12229,
+       "timestamp": 309609288
+      },
+      "replacedByOp": {
+       "site": 12491,
+       "timestamp": 309809294
+      }
+     }
+    },
+    "transientInteraction": {
+     "interactionId": {
+      "site": 12753,
+      "timestamp": 310009300
+     },
+     "timeout": 310109303
+    }
+   },
+   {
+    "id": {
+     "site": 13146,
+     "timestamp": 310309309
+    },
+    "clientTime": 3104000021728,
+    "serverTime": 3105000021735,
+    "audioTime": 3106000021742,
+    "payload": {
+     "type": "ModifyRecording",
+     "value": {
+      "recording": {
+       "site": 13932,
+       "timestamp": 310909327
+      },
+      "name": "Hello, wörld",
+      "segmentation": [
+       {
+        "startTime": 3111000021777,
+        "endTime": 3112000021784
+       },
+       {
+        "startTime": 3113000021791,
+        "endTime": 3114000021798
+       }
+      ],
+      "zIndex": 3115000021805
+     }
+    },
+    "transientInteraction": {
+     "interactionId": {
+      "site": 14980,
+      "timestamp": 311709351
+     },
+     "timeout": 311809354
+    }
+   }
+  ],
+  "expectedAckReply": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "schemaVersion": 15504
+ },
+ "decoded": {
+  "ops": [
+   {
+    "id": {
+     "site": 11443,
+     "timestamp": 309009270
+    },
+    "clientTime": 3091000021637,
+    "serverTime": 3092000021644,
+    "audioTime": 3093000021651,
+    "transientInteraction": {
+     "interactionId": {
+      "site": 12753,
+      "timestamp": 310009300
+     },
+     "timeout": 310109303
+    },
+    "payload": {
+     "type": "TransientInteractionEnded",
+     "value": {
+      "interactionId": {
+       "site": 12229,
+       "timestamp": 309609288
+      },
+      "replacedByOp": {
+       "site": 12491,
+       "timestamp": 309809294
+      }
+     }
+    }
+   },
+   {
+    "id": {
+     "site": 13146,
+     "timestamp": 310309309
+    },
+    "clientTime": 3104000021728,
+    "serverTime": 3105000021735,
+    "audioTime": 3106000021742,
+    "transientInteraction": {
+     "interactionId": {
+      "site": 14980,
+      "timestamp": 311709351
+     },
+     "timeout": 311809354
+    },
+    "payload": {
+     "type": "ModifyRecording",
+     "value": {
+      "recording": {
+       "site": 13932,
+       "timestamp": 310909327
+      },
+      "name": "Hello, wörld",
+      "segmentation": [
+       {
+        "startTime": 3111000021777,
+        "endTime": 3112000021784
+       },
+       {
+        "startTime": 3113000021791,
+        "endTime": 3114000021798
+       }
+      ],
+      "zIndex": 3115000021805
+     }
+    }
+   }
+  ],
+  "expectedAckReply": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "schemaVersion": 15504
+ }
+}

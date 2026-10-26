@@ -1,0 +1,26 @@
+{
+ "name": "para_rtl",
+ "ack": "ok",
+ "op": {
+  "id": {
+   "site": 0,
+   "timestamp": 10
+  },
+  "clientTime": 0,
+  "payload": {
+   "type": "ModifyParagraphStyle",
+   "value": {
+    "start": {
+     "site": 0,
+     "timestamp": 2,
+     "index": 32
+    },
+    "writingDirection": {
+     "value": 1
+    }
+   }
+  }
+ },
+ "append_ops_event_hex": "0c00000006000800040000000800000004000000010000001800000010001d0010000800000000001c0018000000000014000000000000000000000000000000000000000a000000200000000d0018001400040000000000000000000000000000000000100000001a0000000000000002000000200000000c00000006000500040000000800000001000000",
+ "note": "writingDirection: not emitted by the web app"
+}

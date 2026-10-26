@@ -1,0 +1,9 @@
+{
+ "table": "AssetCloudPersisted",
+ "spec": {
+  "assetHash": "60626466686a6c6e70727476787a7c7e80828486888a8c8e90929496989a9c9ea0a2a4a6a8aaacaeb0b2b4b6b8babcbec0c2c4c6c8caccced0d2d4d6d8dadcde"
+ },
+ "decoded": {
+  "assetHash": "60626466686a6c6e70727476787a7c7e80828486888a8c8e90929496989a9c9ea0a2a4a6a8aaacaeb0b2b4b6b8babcbec0c2c4c6c8caccced0d2d4d6d8dadcde"
+ }
+}

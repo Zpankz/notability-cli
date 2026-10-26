@@ -1,0 +1,111 @@
+{
+ "table": "ModifyPositions",
+ "spec": {
+  "modifications": [
+   {
+    "target": {
+     "site": 52328,
+     "timestamp": 140104203
+    },
+    "page": {
+     "site": 52590,
+     "timestamp": 140304209,
+     "index": 140404212
+    },
+    "origin": {
+     "x": 0.1,
+     "y": -3.25
+    },
+    "rotation": {
+     "value": 612.0
+    },
+    "scale": {
+     "value": {
+      "width": 0.001,
+      "height": 12345.678
+     }
+    },
+    "zIndex": 1410000009870
+   },
+   {
+    "target": {
+     "site": 53769,
+     "timestamp": 141204236
+    },
+    "page": {
+     "site": 54031,
+     "timestamp": 141404242,
+     "index": 141504245
+    },
+    "origin": {
+     "x": 0.5,
+     "y": 0.1
+    },
+    "rotation": {
+     "value": -3.25
+    },
+    "scale": {
+     "value": {
+      "width": 612.0,
+      "height": 0.001
+     }
+    },
+    "zIndex": 1421000009947
+   }
+  ]
+ },
+ "decoded": {
+  "modifications": [
+   {
+    "target": {
+     "site": 52328,
+     "timestamp": 140104203
+    },
+    "page": {
+     "site": 52590,
+     "timestamp": 140304209,
+     "index": 140404212
+    },
+    "origin": {
+     "x": 0.10000000149011612,
+     "y": -3.25
+    },
+    "rotation": {
+     "value": 612.0
+    },
+    "scale": {
+     "value": {
+      "width": 0.0010000000474974513,
+      "height": 12345.677734375
+     }
+    },
+    "zIndex": 1410000009870
+   },
+   {
+    "target": {
+     "site": 53769,
+     "timestamp": 141204236
+    },
+    "page": {
+     "site": 54031,
+     "timestamp": 141404242,
+     "index": 141504245
+    },
+    "origin": {
+     "x": 0.5,
+     "y": 0.10000000149011612
+    },
+    "rotation": {
+     "value": -3.25
+    },
+    "scale": {
+     "value": {
+      "width": 612.0,
+      "height": 0.0010000000474974513
+     }
+    },
+    "zIndex": 1421000009947
+   }
+  ]
+ }
+}

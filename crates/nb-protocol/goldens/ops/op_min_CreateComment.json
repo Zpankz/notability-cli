@@ -1,0 +1,23 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 0,
+   "timestamp": 29
+  },
+  "payload": {
+   "type": "CreateComment",
+   "value": {}
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 0,
+   "timestamp": 29
+  },
+  "payload": {
+   "type": "CreateComment",
+   "value": {}
+  }
+ }
+}

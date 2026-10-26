@@ -1,0 +1,201 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 61426,
+   "timestamp": 247107413
+  },
+  "clientTime": 2472000017304,
+  "serverTime": 2473000017311,
+  "audioTime": 2474000017318,
+  "payload": {
+   "type": "ModifyBlock",
+   "value": {
+    "blocks": [
+     {
+      "site": 62212,
+      "timestamp": 247707431
+     },
+     {
+      "site": 62474,
+      "timestamp": 247907437
+     }
+    ],
+    "corner": -2,
+    "page": {
+     "site": 62867,
+     "timestamp": 248207446,
+     "index": 248307449
+    },
+    "origin": {
+     "x": 0.5,
+     "y": 0.1
+    },
+    "rotation": {
+     "value": -3.25
+    },
+    "scale": {
+     "value": {
+      "width": 612.0,
+      "height": 0.001
+     }
+    },
+    "size": {
+     "width": 12345.678,
+     "height": 0.5
+    },
+    "textWrap": -1,
+    "enableCaption": true,
+    "zIndex": 2493000017451,
+    "mathLatex": {
+     "value": "emoji 🗒️✓"
+    },
+    "mathColor": {
+     "value": {
+      "bitsR": 57,
+      "bitsG": 64,
+      "bitsB": 71,
+      "bitsA": 78
+     }
+    },
+    "cropRect": {
+     "value": {
+      "origin": {
+       "x": 612.0,
+       "y": 0.001
+      },
+      "size": {
+       "width": 12345.678,
+       "height": 0.5
+      }
+     }
+    },
+    "paper": {
+     "value": {
+      "flair": 1,
+      "flairSpacing": -3.25,
+      "flairBleeds": false,
+      "flairCentered": true,
+      "backgroundColor": {
+       "bitsR": 141,
+       "bitsG": 148,
+       "bitsB": 155,
+       "bitsA": 162
+      },
+      "legacyPaperIndex": 169
+     }
+    },
+    "imageFlippedHorizontally": true,
+    "imageFlippedVertically": false,
+    "resizesWidthToFitText": true,
+    "positionLocked": false
+   }
+  },
+  "transientInteraction": {
+   "interactionId": {
+    "site": 1916,
+    "timestamp": 251707551
+   },
+   "timeout": 251807554
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 61426,
+   "timestamp": 247107413
+  },
+  "clientTime": 2472000017304,
+  "serverTime": 2473000017311,
+  "audioTime": 2474000017318,
+  "transientInteraction": {
+   "interactionId": {
+    "site": 1916,
+    "timestamp": 251707551
+   },
+   "timeout": 251807554
+  },
+  "payload": {
+   "type": "ModifyBlock",
+   "value": {
+    "blocks": [
+     {
+      "site": 62212,
+      "timestamp": 247707431
+     },
+     {
+      "site": 62474,
+      "timestamp": 247907437
+     }
+    ],
+    "corner": -2,
+    "page": {
+     "site": 62867,
+     "timestamp": 248207446,
+     "index": 248307449
+    },
+    "origin": {
+     "x": 0.5,
+     "y": 0.10000000149011612
+    },
+    "rotation": {
+     "value": -3.25
+    },
+    "scale": {
+     "value": {
+      "width": 612.0,
+      "height": 0.0010000000474974513
+     }
+    },
+    "size": {
+     "width": 12345.677734375,
+     "height": 0.5
+    },
+    "textWrap": -1,
+    "enableCaption": true,
+    "zIndex": 2493000017451,
+    "mathLatex": {
+     "value": "emoji 🗒️✓"
+    },
+    "mathColor": {
+     "value": {
+      "bitsR": 57,
+      "bitsG": 64,
+      "bitsB": 71,
+      "bitsA": 78
+     }
+    },
+    "cropRect": {
+     "value": {
+      "origin": {
+       "x": 612.0,
+       "y": 0.0010000000474974513
+      },
+      "size": {
+       "width": 12345.677734375,
+       "height": 0.5
+      }
+     }
+    },
+    "paper": {
+     "value": {
+      "flair": 1,
+      "flairSpacing": -3.25,
+      "flairBleeds": false,
+      "flairCentered": true,
+      "backgroundColor": {
+       "bitsR": 141,
+       "bitsG": 148,
+       "bitsB": 155,
+       "bitsA": 162
+      },
+      "legacyPaperIndex": 169
+     }
+    },
+    "imageFlippedHorizontally": true,
+    "imageFlippedVertically": false,
+    "resizesWidthToFitText": true,
+    "positionLocked": false
+   }
+  }
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 1,
+   "timestamp": 113
+  },
+  "clientTime": 1700000000013,
+  "payload": {
+   "type": "ClearStyle",
+   "value": {
+    "start": {
+     "location": {
+      "site": 22935,
+      "timestamp": 367811034,
+      "index": 367911037
+     },
+     "type": -2
+    },
+    "end": {
+     "location": {
+      "site": 23459,
+      "timestamp": 368211046,
+      "index": 368311049
+     },
+     "type": 2
+    },
+    "paragraph": false,
+    "textField": {
+     "site": 24114,
+     "timestamp": 368711061
+    }
+   }
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 1,
+   "timestamp": 113
+  },
+  "clientTime": 1700000000013,
+  "payload": {
+   "type": "ClearStyle",
+   "value": {
+    "start": {
+     "location": {
+      "site": 22935,
+      "timestamp": 367811034,
+      "index": 367911037
+     },
+     "type": -2
+    },
+    "end": {
+     "location": {
+      "site": 23459,
+      "timestamp": 368211046,
+      "index": 368311049
+     },
+     "type": 2
+    },
+    "paragraph": false,
+    "textField": {
+     "site": 24114,
+     "timestamp": 368711061
+    }
+   }
+  }
+ }
+}

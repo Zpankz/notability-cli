@@ -1,0 +1,149 @@
+{
+ "table": "Op",
+ "spec": {
+  "id": {
+   "site": 31784,
+   "timestamp": 274508235
+  },
+  "clientTime": 2746000019222,
+  "serverTime": 2747000019229,
+  "audioTime": 2748000019236,
+  "payload": {
+   "type": "CreateConnector",
+   "value": {
+    "start": {
+     "type": "FractionalAttachedEndpoint",
+     "value": {
+      "entity": {
+       "site": 32701,
+       "timestamp": 275208256
+      },
+      "fraction": {
+       "x": 12345.678,
+       "y": 0.5
+      }
+     }
+    },
+    "end": {
+     "type": "FreeEndpoint",
+     "value": {
+      "page": {
+       "site": 33356,
+       "timestamp": 275708271,
+       "index": 275808274
+      },
+      "position": {
+       "x": 12345.678,
+       "y": 0.5
+      }
+     }
+    },
+    "pathStyle": -1,
+    "bends": [
+     {
+      "pin": 0,
+      "offset": 612.0
+     },
+     {
+      "pin": 2,
+      "offset": 12345.678
+     }
+    ],
+    "startCap": -1,
+    "endCap": 0,
+    "tool": 1,
+    "style": 2,
+    "color": {
+     "bitsR": 190,
+     "bitsG": 197,
+     "bitsB": 204,
+     "bitsA": 211
+    },
+    "borderWidth": -3.25,
+    "zIndex": 2775000019425,
+    "positionLocked": true,
+    "labelPosition": 12345.678
+   }
+  },
+  "transientInteraction": {
+   "interactionId": {
+    "site": 36238,
+    "timestamp": 277908337
+   },
+   "timeout": 278008340
+  }
+ },
+ "decoded": {
+  "id": {
+   "site": 31784,
+   "timestamp": 274508235
+  },
+  "clientTime": 2746000019222,
+  "serverTime": 2747000019229,
+  "audioTime": 2748000019236,
+  "transientInteraction": {
+   "interactionId": {
+    "site": 36238,
+    "timestamp": 277908337
+   },
+   "timeout": 278008340
+  },
+  "payload": {
+   "type": "CreateConnector",
+   "value": {
+    "pathStyle": -1,
+    "bends": [
+     {
+      "pin": 0,
+      "offset": 612.0
+     },
+     {
+      "pin": 2,
+      "offset": 12345.677734375
+     }
+    ],
+    "startCap": -1,
+    "endCap": 0,
+    "tool": 1,
+    "style": 2,
+    "color": {
+     "bitsR": 190,
+     "bitsG": 197,
+     "bitsB": 204,
+     "bitsA": 211
+    },
+    "borderWidth": -3.25,
+    "zIndex": 2775000019425,
+    "positionLocked": true,
+    "labelPosition": 12345.677734375,
+    "start": {
+     "type": "FractionalAttachedEndpoint",
+     "value": {
+      "entity": {
+       "site": 32701,
+       "timestamp": 275208256
+      },
+      "fraction": {
+       "x": 12345.677734375,
+       "y": 0.5
+      }
+     }
+    },
+    "end": {
+     "type": "FreeEndpoint",
+     "value": {
+      "page": {
+       "site": 33356,
+       "timestamp": 275708271,
+       "index": 275808274
+      },
+      "position": {
+       "x": 12345.677734375,
+       "y": 0.5
+      }
+     }
+    }
+   }
+  }
+ }
+}
